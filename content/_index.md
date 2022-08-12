@@ -1,5 +1,5 @@
 ---
-title: "Course Title"
+title: "DAD 422: Audio Production III"
 ---
 
 ![placeholder.png](https://loremflickr.com/320/240)

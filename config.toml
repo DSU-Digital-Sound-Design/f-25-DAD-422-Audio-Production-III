@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://dsu-digital-sound-design.github.io/f-22-DAD-422-Audio-Production-III-/"
 languageCode = "en-us"
 theme = ["terminal", "reveal-hugo"]
 paginate = 5
@@ -36,7 +36,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Course Name"
+    title = "DAD 422: Audio Production III"
     subtitle = "A simple, retro theme for Hugo"
     owner = "Tate Carson"
     keywords = ""
@@ -50,8 +50,8 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Course name"
-      logoHomeLink = "/"
+      logoText = " DAD 422: Audio Production III"
+      logoHomeLink = "https://dsu-digital-sound-design.github.io/f-22-DAD-422-Audio-Production-III-/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
