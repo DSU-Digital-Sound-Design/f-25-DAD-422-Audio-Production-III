@@ -2,6 +2,6 @@
 title: "DAD 422: Audio Production III"
 ---
 
-![placeholder.png](https://loremflickr.com/320/240)
+![placeholder.png](dolby-atmos-music-facilities-banner.jpg)
 
-Veniam anim eiusmod culpa sunt incididunt sint. Anim ex non ad labore ut in velit in non culpa aliquip. Fugiat incididunt esse eu labore ipsum officia. Tempor proident velit duis nostrud laborum reprehenderit laboris ullamco aliqua commodo sint. Nisi laborum sint ex est minim mollit irure veniam commodo ad. Cupidatat id pariatur id veniam non qui elit voluptate non officia.
+Builds upon Audio Production II; Instructs in advanced multi-track editing techniques, including advanced audio mixing, signal processing, and critical listening. Also covers business practices for the music industry and career preparation, including copyright law, resume building, and online music marketing and promotion.
