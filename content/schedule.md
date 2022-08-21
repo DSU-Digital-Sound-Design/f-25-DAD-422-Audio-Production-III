@@ -8,10 +8,25 @@ author: ""
 
 # Week 1 (8/23)
 
-- Look at syllabus
-- An introduction to space and spatialization
-- [Space and Time](https://github.com/tambien/SoundInSpace/blob/master/modules/space_and_time.md) - [notes](Modules/Space-and-time)
+## Monday
+
+- Look at [syllabus](../syllabus)
 - Listen to some surround in the immersive room?
+  - Atmos demos
+  - Some 5.1 surround
+- Getting access to the studio?
+
+<!--
+
+## Wednesday
+
+TOOD: read this paper on space and time
+
+- [Space and Time](https://github.com/tambien/SoundInSpace/blob/master/modules/space_and_time.md) - [notes](../lectures/week-1/space-and-time/)
+- An introduction to space and spatialization
+
+## Friday
+
 - Why space
   - [examples from experimental music](https://github.com/tambien/SoundInSpace/blob/master/modules/why_space.md)
   - [Historical Context - audio](x-devonthink-item://C2578D62-1CD5-45F7-AEA8-88F7C7AE19BE?page=1) - [notes](Modules/historical-context)
@@ -20,10 +35,10 @@ author: ""
 - [Encoding/decoding](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/encoding_decoding.md)
 - Assignment: [Mono](../projects/mono)
 
-<!-- # Week 2 (8/28)
+# Week 2 (8/28)
 
 - [Spatial listening](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/3d_sound_perception.md) [# [SPATIAL LISTENING AND ITS COMPUTER SIMULATION ON ELECTRONIC MUSIC](Texts/spatial-listening.pdf)]
-- Spatial Hearing[# [The Art and Science of Surround and Stereo Recording  
+- Spatial Hearing[# [The Art and Science of Surround and Stereo Recording
   ](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=23)]
 - [Spatial audio psychoacoustics](x-devonthink-item://2B021C8E-B6CB-47C8-84E4-3388C1BD5ABA?page=33)
 - [Binaural Hearing and acoustic space](Modules/binaural-hearing-and-acoustic-space) - Truax
@@ -73,9 +88,9 @@ Assignment: [5.1](../projects/quad)
 - Stereo micing techniques - [Edwin Pfanzagl-Cardone - The Art and Science of Surround and Stereo Recording\_ Including 3D Audio Techniques-Springer \(2021\)](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=78)
 - Surround micing techniques - [Edwin Pfanzagl-Cardone - The Art and Science of Surround and Stereo Recording\_ Including 3D Audio Techniques-Springer \(2021\)](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=117)
 
-# Thursday 
+# Thursday
 
-Class canceled  - DSU Day of Service (afternoon classes canceled).
+Class canceled - DSU Day of Service (afternoon classes canceled).
 
 # Week 6 (9/26)
 
