@@ -20,11 +20,14 @@ author: ""
 
 - [Space and Time in music and sound art](../lectures/week-1/space-and-time/)
 
+## Friday
+
+- [Historical Context - audio](../lectures/week-1/historical-context/)
+
 <!--
 
 ## Friday
 
-- [Historical Context - audio](x-devonthink-item://C2578D62-1CD5-45F7-AEA8-88F7C7AE19BE?page=1) - [notes](Modules/historical-context)
 - Why space
   - [Introduction to spatial audio](x-devonthink-item://2B021C8E-B6CB-47C8-84E4-3388C1BD5ABA?page=13)
 - [Encoding/decoding](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/encoding_decoding.md)
