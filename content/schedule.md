@@ -24,16 +24,17 @@ author: ""
 
 - [Historical Context - audio](../lectures/week-1/historical-context/)
 
-<!--
+# Week 2 (8/28)
 
-## Friday
+## Monday
 
 - Why space
-  - [Introduction to spatial audio](x-devonthink-item://2B021C8E-B6CB-47C8-84E4-3388C1BD5ABA?page=13)
+  - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
 - [Encoding/decoding](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/encoding_decoding.md)
 - Assignment: [Mono](../projects/mono)
 
-# Week 2 (8/28)
+<!--
+
 
 - [Spatial listening](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/3d_sound_perception.md) [# [SPATIAL LISTENING AND ITS COMPUTER SIMULATION ON ELECTRONIC MUSIC](Texts/spatial-listening.pdf)]
 - Spatial Hearing[# [The Art and Science of Surround and Stereo Recording
