@@ -30,8 +30,8 @@ author: ""
 
 - Why space
   - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
-- [Encoding/decoding](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/encoding_decoding.md)
-- Assignment: [Mono](../projects/mono)
+    <!-- - [Encoding/decoding](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/encoding_decoding.md) -->
+    <!-- - Assignment: [Mono](../projects/mono) -->
 
 <!--
 

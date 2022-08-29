@@ -164,68 +164,147 @@ In enclosed spaces a proportion of the radiated sound energy from sources is abs
 
 ---
 
-## Introduction to effects of reflections and reverberation
-
----
-
 # Introduction to the spatial dimension in reproduced sound
 
 ---
 
 ## What is the aim of sound reproduction?
 
+{{% note %}}
+Is the point of sound recording and reproduction to represent the natural environment as believably as possible? Or to create a virtual environment that could never exist in another medium? Both have their place I think.
+
+Do we want to place the listener in the concert hall environment or bring the musicians into the living room?
+
+What if the music or film represents a non natural environment or artificial creation? What is the concept of spatial reproduction that should be taken up then?
+
+How far from what is natural is it possible to go and still interest the listener?
+{{%/ note %}}
+
 ---
 
-## Spatial attributes in sound reproduction
+![](liking.png)
+
+{{% note %}}
+he typical arched curve that comes from these studies, suggesting that beyond a certain point increased complexity in music results in a drop off in liking.
+{{%/ note %}}
 
 ---
 
-# From mono to surround sound and 3D audio – a brief resumé
+# From mono to surround sound and 3D audio
+
+{{% note %}}
+A short summary of some of the major developments in spatial audio systems is given here.
+{{%/ note %}}
 
 ---
 
 ## Early sound reproducing equipment
 
+![](phonograph.jpg)
+
+{{% note %}}
+The first gramophone and phonograph recording systems from the late 1800s and early 1900s were monophonic (one channel only).
+
+The only ‘spatial’ cues possible in monophonic reproduction were hints at distance and depth provided by reverberation.
+{{%/ note %}}
+
 ---
 
 ## The first stereo transmission?
+
+![](Theatrophone_-_Affiche_de_Jules_Cheret.jpg)
+
+{{% note %}}
+Clement Ader’s early experiment at the Paris exhibition of 1881 is often documented as the first known example of a stereo- phonic transmission of music (Hertz, 1981). He placed telephone pickups (microphones) in the footlights at the Paris Opera (spaced across the stage) and relayed the outputs of these to pairs of telephone receiver earpieces at the exhibition, where delighted visitors could listen to the opera live and with some spatial realism. Unfortunately it was not until many years after- wards that stereophonic reproduction became a commercial reality.
+{{%/ note %}}
 
 ---
 
 ## Bell Labs in the 1930s
 
+![](ideal.png)
+
+{{% note %}}
+Early work on directional reproduction at Bell Labs in the 1930s involved attempts to approximate the sound wavefront that would result from an infinite number of microphone/ loudspeaker channels by using a smaller number of channels, as shown in Figure 1.7. Spaced pressure (omnidirectional) microphones were used, each connected by a single amplifier to the appropriate loudspeaker in a listening room. Snow (1934) found that three channels gave quite convincing results, and that when reducing the number of channels from three to two, central sources appeared to recede towards the rear of the stage and that the width of the reproduced sound stage appeared to be increased.
+
+{{%/ note %}}
+
 ---
 
-## Blumlein’s patent
+![](comprimise.png)
+
+{{% note %}}
+Steinberg and Snow’s work was principally intended for large auditorium sound reproduction with wide screen pictures, rather than small rooms or consumer equipment. It is interest- ing to note that three front channels, although not used much in consumer reproduction until recently, are the norm in cinema sound reproduction, partly because of the wide range of seating positions and size of the image. The centre channel has the effect of stabilising the important central image for off-centre listeners, and has been used increasingly since the Disney film Fantasia in 1939 (Fantasia used a special control track to automate the panning of three sound tracks to a number of loudspeakers, including some rear channels).
+{{%/ note %}}
 
 ---
 
 ## Early consumer stereo
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VtXl8xAPAtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{% note %}}
+Methods for cutting two channel stereo sound onto vinyl disks, in a manner similar to that proposed by Blumlein, were introduced commercially in the late 1950s, and stereo records became widely available to the public in the 1960s
+
+The Beatles’ album, Sergeant Pepper, from the mid ’60s, was the first multitrack pop recording (four track!) and was issued in both stereo and mono versions (the stereo being the more common, but some say the poorer mix).
+{{%/ note %}}
+
 ---
 
 ## Binaural stereo
+
+![](binaural-head.jpg)
+
+{{% note %}}
+It could well be argued that all sound reproduction is ultimately binaural because it is auditioned by the two ears of a listener. Nonetheless the term binaural stereo is usually reserved for signals that have been recorded or processed to represent the amplitude and timing characteristics of the sound pressures present at two human ears
+
+Documented examples of interest in this approach go back over much of the twentieth century. When reproduced over headphones such recordings can recreate a remarkable sense of realism, including height cues and front–back discrimination. Unfortunately the variables in such signal chains, particularly the differences between the recording head/ears and the listener’s, the headphone response and coupling to the ears, and any distortions in the signal path, can easily destroy the subtle spectral and timing cues required for success.
+{{%/ note %}}
 
 ---
 
 ## Cinema stereo
 
----
-
-## Ambiophony and similar techniques
+{{% note %}}
+Everything we covered last class
+{{%/ note %}}
 
 ---
 
 ## Quadraphonic sound
 
+![](quadraphonic.jpg)
+
+{{% note %}}
+Quadraphonic sound is remembered with mixed feelings by many in the industry, as it represents a failed attempt to intro- duce surround sound to the consumer.
+
+Unlike Dolby Stereo, quadraphonic sound used no centre channel, but was normally configured for a square arrangement of loudspeakers, two at the front and two behind the listener. The 90° angle of the front loudspeakers proved problematic because of lack of compatibility with ideal two channel reproduction, and gave poor front images, often with a hole in the middle.
+{{%/ note %}}
+
 ---
 
 ## Ambisonics
+
+[History](https://intothesoundfield.music.ox.ac.uk/ambisonics)
+
+{{% note %}}
+Ambisonic sound was developed in the 1970s by a number of people including Gerzon, Fellgett and Barton, and many others influenced its development both in the early days and since. Much of the work was supported by the NRDC (National Research and Development Council) and the intellectual property was subsequently managed by the British Technology Group (this was eventually transferred to the British record company, Nimbus). It was intended as a comprehensive approach to directional sound reproduction, involving any number of reproduction channels, based partly on an extension of the Blumlein principle to a larger number of channels. The system can be adapted for a wide variety of loudspeaker arrangements, including (more recently) the ITU-standard five- channel configuration. Enabling fully three-dimensional sound fields to be represented in an efficient form, including a height component, it remains an elegant technical toolbox for the sound engineer who believes that accurate localisation vector recon- struction at the listening position is the key to high quality spatial sound reproduction.
+{{%/ note %}}
 
 ---
 
 ## The home cinema and ITU-standard surround sound
 
+{{% note %}}
+Where music reproduction alone appeared to be insufficient justification for reconfiguring the furniture in the living room, movie watching is regarded as an enjoyable experience for all the family, removing some of the traditional barriers to the installation of hi-fi equipment.
+{{%/ note %}}
+
 ---
 
 # Applications of spatial audio
+
+![](applications.png)
+
+{{% note %}}
+A number of potential applications of spatial audio have been implied or stated above. In Table 1.1 applications are categorised in terms of the primary aim or purpose of spatial sound repro- duction – in other words whether the application requires accurate rendering of sound sources and reflections over a 360° sphere, or whether the aim is primarily to deal in artistic/creative illusion. Sometimes the distinction is not completely clear, and in such cases both have been shown.
+{{%/ note %}}
