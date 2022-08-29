@@ -93,6 +93,7 @@ Class canceled - DSU Day of Service (afternoon classes canceled).
 
 # Week 6 (9/26)
 
+https://intothesoundfield.music.ox.ac.uk/
 - Listen to ambisonics recordings
   - [Rode ambisonic recordings](https://library.soundfield.com/)
   - Listen to other experimental ambisonic works
