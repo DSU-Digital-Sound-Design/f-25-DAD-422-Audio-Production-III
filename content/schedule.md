@@ -30,16 +30,8 @@ author: ""
 
 - Why space
   - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
-    <!-- - [Encoding/decoding](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/encoding_decoding.md) -->
 
 ## Wednesday
-
-<!--
-TODO: summarize spatial listening
-TODO: make assignment for mono project - add sound to silent film in mono
- -->
-
-- [Spatial listening](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/3d_sound_perception.md) [# [SPATIAL LISTENING AND ITS COMPUTER SIMULATION ON ELECTRONIC MUSIC](Texts/spatial-listening.pdf)]
 
 - Assignment: [Project 1: Mono](../projects/mono)
 
