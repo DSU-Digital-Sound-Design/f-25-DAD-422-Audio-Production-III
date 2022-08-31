@@ -31,20 +31,33 @@ author: ""
 - Why space
   - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
     <!-- - [Encoding/decoding](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/encoding_decoding.md) -->
-    <!-- - Assignment: [Mono](../projects/mono) -->
+
+## Wednesday
 
 <!--
-
+TODO: summarize spatial listening
+TODO: make assignment for mono project - add sound to silent film in mono
+ -->
 
 - [Spatial listening](https://github.com/tambien/SoundInSpace/blob/a330999cdb7febcf9d45c93a1d082482ad292506/modules/3d_sound_perception.md) [# [SPATIAL LISTENING AND ITS COMPUTER SIMULATION ON ELECTRONIC MUSIC](Texts/spatial-listening.pdf)]
-- Spatial Hearing[# [The Art and Science of Surround and Stereo Recording
+
+- Assignment: [Project 1: Mono](../projects/mono)
+
+## Friday
+
+<!-- TODO: summarize this article by Friday -->
+
+<!-- - Spatial Hearing[# [The Art and Science of Surround and Stereo Recording
   ](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=23)]
 - [Spatial audio psychoacoustics](x-devonthink-item://2B021C8E-B6CB-47C8-84E4-3388C1BD5ABA?page=33)
+
 - [Binaural Hearing and acoustic space](Modules/binaural-hearing-and-acoustic-space) - Truax
 - binaural recording with the Zoom H3-VR and my sound professionals ear buds
 - Assignment: [Stereo/binaural](../projects/stereo)
 
-> Watch: Star Wars - Dolby Stereo
+> Watch: Star Wars - Dolby Stereo -->
+
+<!--
 
 # Week 3 (9/5)
 
