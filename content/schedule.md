@@ -37,17 +37,8 @@ author: ""
 
 ## Friday
 
-<!-- TODO: summarize this article by Friday -->
-
-<!-- - Spatial Hearing[# [The Art and Science of Surround and Stereo Recording
-  ](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=23)]
-- [Spatial audio psychoacoustics](x-devonthink-item://2B021C8E-B6CB-47C8-84E4-3388C1BD5ABA?page=33)
-
-- [Binaural Hearing and acoustic space](Modules/binaural-hearing-and-acoustic-space) - Truax
-- binaural recording with the Zoom H3-VR and my sound professionals ear buds
-- Assignment: [Stereo/binaural](../projects/stereo)
-
-> Watch: Star Wars - Dolby Stereo -->
+- [Spatial audio psychoacoustics](../lectures/week-2/spatial-audio-psychoacoustics/)
+- Mono project check-in
 
 <!--
 
@@ -56,6 +47,13 @@ author: ""
 # Monday
 
 Labor Day - No class
+
+- [Binaural Hearing and acoustic space](Modules/binaural-hearing-and-acoustic-space) - show the truax binaural recordings from SOUND-ENVIRONMENT INTERACTION
+- binaural recording with the Zoom H3-VR and my sound professionals ear buds
+- Assignment: [Stereo/binaural](../projects/stereo)
+
+> Watch: Star Wars - Dolby Stereo
+
 
 **Beyond Dolby (Stereo) - Kerins**
 
