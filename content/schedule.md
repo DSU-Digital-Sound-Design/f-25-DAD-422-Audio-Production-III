@@ -40,23 +40,35 @@ author: ""
 - [Spatial audio psychoacoustics](../lectures/week-2/spatial-audio-psychoacoustics/)
 - Mono project check-in
 
-<!--
-
 # Week 3 (9/5)
 
-# Monday
+## Monday
 
 Labor Day - No class
 
+## Wednesday
+
+- Watch mono projects
+- [Stereo reproduction](../lectures/week-3/stereo/)
+- Show [sound particles](https://soundparticles.com/products/soundparticles/plans) templates for automated panning
+
+## Friday
+
+<!-- TODO: should we do stereo recording on Friday and binaural on Monday?  -->
+
+- Stereo microphone techniques - theory and practice
+
+<!--
+
+TODO: read binaural audio from Rumsey
+
+# Week 4 (9/12)
+
 - [Binaural Hearing and acoustic space](Modules/binaural-hearing-and-acoustic-space) - show the truax binaural recordings from SOUND-ENVIRONMENT INTERACTION
 - binaural recording with the Zoom H3-VR and my sound professionals ear buds
-- Assignment: [Stereo/binaural](../projects/stereo)
 
-> Watch: Star Wars - Dolby Stereo
-
-
-**Beyond Dolby (Stereo) - Kerins**
-
+> Assignment: [Stereo/binaural](../projects/stereo)
+- Short part on Qaad craze in the 70s and why it failed
 - Production and Style
   - Cinema's HIdden Multi-channel history and the origins of digital surround
   - The Sound of 5.1: Aura Aesthetics
@@ -71,12 +83,11 @@ Labor Day - No class
   - Apparatus Theory
   - The real and the symbolic
 
+
 Assignment: [5.1](../projects/quad)
 
+**Beyond Dolby (Stereo) - Kerins**
 > Watch: Disney's Fantasia - the first movie released in Surround, Jurrasic Park (5.1 Surround DTS), Batman Returns (First Dolby Digital 5.1), Last Action hero (7.1 Surround)
-
-# Week 4 (9/12)
-
 - [Multichannel stereo and surround sound systems](x-devonthink-item://2B021C8E-B6CB-47C8-84E4-3388C1BD5ABA?page=94)
 - 5.1 mixing in Logic X
   - Listen to 5.1 mixes and
@@ -120,6 +131,7 @@ Assignment: Ambisonics - record and produce something
 
 [What is Dolby Atmos](x-devonthink-item://C0053DA0-7721-439A-B23C-2250929ADA34?page=13)
 
+- REad: Atmos Now: Dolby Laboratories, Mixing Ideology and Hollywood Sound Production1 Benjamin Wright from Living Stereo
 - What is Dolby Atmos?
   - History
   - Key Aspects of Dolby Atmos
