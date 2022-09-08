@@ -54,9 +54,9 @@ Labor Day - No class
 
 ## Friday
 
-<!-- TODO: read stereo section from mic it and do some tests  -->
-
 - Stereo microphone techniques - [theory and practice](../lectures/week-3/recording-stereo/)
+- Try some of these in the studio - time permitting
+  - Do the descriptions match what we hear?
 
 <!--
 
