@@ -54,9 +54,9 @@ Labor Day - No class
 
 ## Friday
 
-<!-- TODO: should we do stereo recording on Friday and binaural on Monday?  -->
+<!-- TODO: read stereo section from mic it and do some tests  -->
 
-- Stereo microphone techniques - theory and practice
+- Stereo microphone techniques - [theory and practice](../lectures/week-3/recording-stereo/)
 
 <!--
 
