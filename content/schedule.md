@@ -60,15 +60,20 @@ Labor Day - No class
 
 # Week 4 (9/12)
 
+> Assignment: [Stereo/binaural](../projects/stereo) - Due 9/19
+
 ## Monday
 
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
 - binaural recording with the Zoom H3-VR and my sound professionals ear buds
-- Mixing binaural audio
 
 <!-- TODO: create this assignment  -->
 
-> Assignment: [Stereo/binaural](../projects/stereo) - Due 9/19
+> Homework: record something in binaural to mix in class on Wednesday
+
+## Wednesday
+
+- [Mixing binaural audio]()
 
 <!--
 - Short part on Qaad craze in the 70s and why it failed
