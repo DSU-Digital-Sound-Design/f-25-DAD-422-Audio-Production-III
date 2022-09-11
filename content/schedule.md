@@ -58,16 +58,19 @@ Labor Day - No class
 - Try some of these in the studio - time permitting
   - Do the descriptions match what we hear?
 
-<!--
-
-TODO: read binaural audio from Rumsey
-
 # Week 4 (9/12)
 
-- [Binaural Hearing and acoustic space](Modules/binaural-hearing-and-acoustic-space) - show the truax binaural recordings from SOUND-ENVIRONMENT INTERACTION
-- binaural recording with the Zoom H3-VR and my sound professionals ear buds
+## Monday
 
-> Assignment: [Stereo/binaural](../projects/stereo)
+- [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
+- binaural recording with the Zoom H3-VR and my sound professionals ear buds
+- Mixing binaural audio
+
+<!-- TODO: create this assignment  -->
+
+> Assignment: [Stereo/binaural](../projects/stereo) - Due 9/19
+
+<!--
 - Short part on Qaad craze in the 70s and why it failed
 - Production and Style
   - Cinema's HIdden Multi-channel history and the origins of digital surround
