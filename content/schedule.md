@@ -90,6 +90,7 @@ Labor Day - No class
 https://intothesoundfield.music.ox.ac.uk/
 - Listen to ambisonics recordings
   - [Rode ambisonic recordings](https://library.soundfield.com/)
+  - https://www.ambisonia.com/
   - Listen to other experimental ambisonic works
 - How do ambisonics work? Theory..
 - Look at common tools for working with ambisoncis recordings
