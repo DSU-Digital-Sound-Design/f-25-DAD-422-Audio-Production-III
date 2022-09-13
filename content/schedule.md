@@ -73,7 +73,36 @@ Labor Day - No class
 
 ## Wednesday
 
-- [Mixing binaural audio]()
+- [Mixing binaural audio](../lectures/week-4/mixing-binaural/) - mono sources
+
+## Friday
+
+- Mixing with stereo and Binaural sources in Reaper
+- Automation of pans + parameter modulation
+
+<!-- NOTE: should we go directly to ambisonics from here, then into 5.1 and atmos? I think that makes more sense -->
+
+<!--
+
+# Week 5 (9/18)
+
+- Listen to binaural mix projects
+https://intothesoundfield.music.ox.ac.uk/
+- Listen to ambisonics recordings
+  - [Rode ambisonic recordings](https://library.soundfield.com/)
+  - Listen to other experimental ambisonic works
+- How do ambisonics work? Theory..
+- Look at common tools for working with ambisoncis recordings
+  - [Sparta](https://leomccormack.github.io/sparta-site/)
+  - [Ambisonic Toolkit](https://www.ambisonictoolkit.net/)
+  - [EAR Production Suite](https://ear-production-suite.ebu.io/)
+  - [O3a](https://www.blueripplesound.com/o3a_core)
+  - [Reaper Surround](https://github.com/junh1024/Reaper-Surround#introduction)
+- Record ambisonics with the Zoom H3-VR
+
+Assignment: Ambisonics - record and produce something
+
+> Read: [Surround Sound Explained: Ambisonics](https://www.soundonsound.com/techniques/surround-sound-explained-part-3) -->
 
 <!--
 - Short part on Qaad craze in the 70s and why it failed
@@ -104,9 +133,8 @@ Assignment: [5.1](../projects/quad)
 
 > Read: [Surround Sound Explained: Foundations](https://www.soundonsound.com/techniques/surround-sound-explained-part-1), [Mixing in surround](https://www.soundonsound.com/techniques/surround-sound-explained-part-7), [Surround Production](https://www.soundonsound.com/techniques/surround-sound-explained-part-8)
 
-# Week 5 (9/18) -
 
-- Stereo micing techniques - [Edwin Pfanzagl-Cardone - The Art and Science of Surround and Stereo Recording\_ Including 3D Audio Techniques-Springer \(2021\)](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=78)
+
 - Surround micing techniques - [Edwin Pfanzagl-Cardone - The Art and Science of Surround and Stereo Recording\_ Including 3D Audio Techniques-Springer \(2021\)](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=117)
 
 # Thursday
@@ -115,21 +143,7 @@ Class canceled - DSU Day of Service (afternoon classes canceled).
 
 # Week 6 (9/26)
 
-https://intothesoundfield.music.ox.ac.uk/
-- Listen to ambisonics recordings
-  - [Rode ambisonic recordings](https://library.soundfield.com/)
-  - Listen to other experimental ambisonic works
-- How do ambisonics work? Theory..
-- Look at common tools for working with ambisoncis recordings
-  - [Sparta](https://leomccormack.github.io/sparta-site/)
-  - [Ambisonic Toolkit](https://www.ambisonictoolkit.net/)
-  - [EAR Production Suite](https://ear-production-suite.ebu.io/)
-  - [O3a](https://www.blueripplesound.com/o3a_core)
-  - [Reaper Surround](https://github.com/junh1024/Reaper-Surround#introduction)
 
-Assignment: Ambisonics - record and produce something
-
-> Read: [Surround Sound Explained: Ambisonics](https://www.soundonsound.com/techniques/surround-sound-explained-part-3)
 
 # Week 7 (10/3) -
 
