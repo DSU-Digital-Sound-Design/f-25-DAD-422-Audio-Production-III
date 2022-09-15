@@ -77,7 +77,7 @@ Labor Day - No class
 
 ## Friday
 
-- Mixing with stereo and Binaural sources in Reaper
+- Mixing with [stereo and Binaural](../lectures/week-4/atk-stereo/) sources in Reaper
 - Automation of pans + parameter modulation
 
 <!-- NOTE: should we go directly to ambisonics from here, then into 5.1 and atmos? I think that makes more sense -->
