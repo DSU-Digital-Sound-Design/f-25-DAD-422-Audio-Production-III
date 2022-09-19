@@ -82,26 +82,32 @@ Labor Day - No class
 
 <!-- NOTE: should we go directly to ambisonics from here, then into 5.1 and atmos? I think that makes more sense -->
 
-<!--
-
 # Week 5 (9/18)
 
-- Listen to binaural mix projects
-https://intothesoundfield.music.ox.ac.uk/
-- Listen to ambisonics recordings
-  - [Rode ambisonic recordings](https://library.soundfield.com/)
-  - https://www.ambisonia.com/
-  - Listen to other experimental ambisonic works
+## Monday
+
+- Listen to binaural mix projectsam
+- Listen to ambisonics recordings in the immersive studio
+  - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
+  - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
+
+## Wednsday
+
+- https://intothesoundfield.music.ox.ac.uk/
 - How do ambisonics work? Theory..
-- Look at common tools for working with ambisoncis recordings
-  - [Sparta](https://leomccormack.github.io/sparta-site/)
-  - [Ambisonic Toolkit](https://www.ambisonictoolkit.net/)
-  - [EAR Production Suite](https://ear-production-suite.ebu.io/)
-  - [O3a](https://www.blueripplesound.com/o3a_core)
-  - [Reaper Surround](https://github.com/junh1024/Reaper-Surround#introduction)
+
+## Friday
+
 - Record ambisonics with the Zoom H3-VR
+- Mixing with Ambisonic Toolkit in Reaper
 
 Assignment: Ambisonics - record and produce something
+
+<!--
+
+
+
+# Week 6 (9/26)
 
 > Read: [Surround Sound Explained: Ambisonics](https://www.soundonsound.com/techniques/surround-sound-explained-part-3) -->
 
@@ -124,6 +130,9 @@ Assignment: Ambisonics - record and produce something
 
 Assignment: [5.1](../projects/quad)
 
+# Week 7 (10/3) -
+
+
 **Beyond Dolby (Stereo) - Kerins**
 > Watch: Disney's Fantasia - the first movie released in Surround, Jurrasic Park (5.1 Surround DTS), Batman Returns (First Dolby Digital 5.1), Last Action hero (7.1 Surround)
 - [Multichannel stereo and surround sound systems](x-devonthink-item://2B021C8E-B6CB-47C8-84E4-3388C1BD5ABA?page=94)
@@ -137,18 +146,6 @@ Assignment: [5.1](../projects/quad)
 
 
 - Surround micing techniques - [Edwin Pfanzagl-Cardone - The Art and Science of Surround and Stereo Recording\_ Including 3D Audio Techniques-Springer \(2021\)](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=117)
-
-# Thursday
-
-Class canceled - DSU Day of Service (afternoon classes canceled).
-
-# Week 6 (9/26)
-
-
-
-# Week 7 (10/3) -
-
-- Recording ambisonics with the Zoom H3-VR
 
 # Week 8 (10/10) - Introduction to Dolby Atmos
 
