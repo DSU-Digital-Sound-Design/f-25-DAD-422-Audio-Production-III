@@ -86,7 +86,8 @@ Labor Day - No class
 
 ## Monday
 
-- Listen to binaural mix projectsam
+- Listen to binaural mix project
+  - Answer questions for people that had trouble finishing project
 - Listen to ambisonics recordings in the immersive studio
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
   - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
