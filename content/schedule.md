@@ -101,8 +101,8 @@ Rumsey_Spatial Audio 4.8 Ambisonics
 Ambisonic recording techniques: Mic it
  -->
 
-- https://intothesoundfield.music.ox.ac.uk/
-- How do ambisonics work? Theory..
+- [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
+- Demo of the project setup - how to open a Reaper template to start your project.
 
 > Assignment: [Ambisonics](../projects/ambisonics/) - Due 9/28
 
@@ -110,7 +110,9 @@ Ambisonic recording techniques: Mic it
 
 <!-- Do whatever we didn't get to on wednesday -->
 
+- FuMa vs AmbiX?
 - A bit of history into HOA recording devices - EigenMike, Octomic, and ZM-1
+- Some details on creating ambisonics recordings without specialized ambisonics microphones source: ZotterFrank
 <!-- - Source: Pfanzagl-Cardone -->
 - Record ambisonics with the Zoom H3-VR
 - Mixing with Ambisonic Toolkit in Reaper
