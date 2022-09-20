@@ -94,15 +94,26 @@ Labor Day - No class
 
 ## Wednsday
 
+<!--
+start with the video introduction - https://intothesoundfield.music.ox.ac.uk/
+Sources: ZotterFrank_Ambisonics
+Rumsey_Spatial Audio 4.8 Ambisonics
+Ambisonic recording techniques: Mic it
+ -->
+
 - https://intothesoundfield.music.ox.ac.uk/
 - How do ambisonics work? Theory..
 
+> Assignment: [Ambisonics](../projects/ambisonics/) - Due 9/28
+
 ## Friday
 
+<!-- Do whatever we didn't get to on wednesday -->
+
+- A bit of history into HOA recording devices - EigenMike, Octomic, and ZM-1
+<!-- - Source: Pfanzagl-Cardone -->
 - Record ambisonics with the Zoom H3-VR
 - Mixing with Ambisonic Toolkit in Reaper
-
-Assignment: Ambisonics - record and produce something
 
 <!--
 
