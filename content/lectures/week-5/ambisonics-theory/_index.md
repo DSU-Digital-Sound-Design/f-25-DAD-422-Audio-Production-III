@@ -16,6 +16,12 @@ margin = 0.2
 
 ---
 
+### BBC R&D Ambisonics Intro
+
+[Ambisonics and Periphony](https://www.bbc.co.uk/rd/blog/2010-03-ambisonics-periphony-audio-sound)
+
+---
+
 ## Principles
 
 - Gerzon, Barton, Fellgett - main theoretical basis
@@ -144,3 +150,24 @@ The incorporation of additional directional components into the Ambisonic signal
 
 Visual representation of the Ambisonic B-format components up to third order. Dark portions represent regions where the polarity is inverted. Note how the first two rows correspond to omnidirectional and figure-of-eight microphone polar patterns.
 {{%/ note %}}
+
+---
+
+## Current Developments
+
+- Open Source Output format - [Opus 1.3](https://jmvalin.ca/opus/opus-1.3/)
+- Corporate interest
+  - Google - [Spatial Audio RPC](https://github.com/google/spatial-media/blob/master/docs/spatial-audio-rfc.md)
+  - Youtube - [180 or 360 degree videos](https://support.google.com/youtube/answer/6178631?hl=en-GB) with [spatial audio](https://support.google.com/youtube/answer/6395969)
+  - [Occulus audio](https://developer.oculus.com/documentation/native/audio-intro/)
+  - Microphones - [Sennheiser Ambeo VR Mic](https://en-us.sennheiser.com/microphone-3d-audio-ambeo-vr-mic), [Zoom H3-VR](https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h3-vr-360-audio-recorder/)
+  - BBC Research on [ambisonics](https://www.bbc.co.uk/rd/search?query=Ambisonics&Type=All&=2020)
+
+---
+
+### Gaming
+
+- [Unity](https://docs.unity3d.com/Manual/AmbisonicAudio.html), [Unreal](https://docs.unrealengine.com/5.0/en-US/native-soundfield-ambisonics-rendering-in-unreal-engine/)
+- [Resonance Audio](https://resonance-audio.github.io/resonance-audio/discover/overview.html)
+- [Steam Audio](https://valvesoftware.github.io/steam-audio/#learn-more)
+- Battlefield 1 & Battlefield V - [Dev Talks video](https://www.youtube.com/watch?v=84EDwVHY2BY)
