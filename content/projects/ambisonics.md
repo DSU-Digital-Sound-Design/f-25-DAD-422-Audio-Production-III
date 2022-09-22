@@ -1,5 +1,5 @@
 ---
-title: "Ambisonics"
+title: "Project 3: Ambisonics"
 ---
 
 To start your ambisonics mix open Reaper. Then in the file menu go to Project Templates -> Ambisonics-TCB-208. This will open a project template that you can use to start your project. Read the details of the project to get started.
@@ -9,6 +9,10 @@ Create a ambisonic music, sound design, or narrative fiction that uses ambisonic
 Use [Ambisonic Toolkit for Reaper](https://www.ambisonictoolkit.net/download/reaper/) plugins to mix your project. Use the HO-DirAC Decoder to hear your mix in our surround studio. Make sure the prest is set to "7.1 Room 208". The decoding format should be FuMa.
 
 The rest of the requirements are similar to the binaural project. If you want, you can remix that project, adding an ambisonic recording and altering your transforms for loudspeaker playback instead of headphones.
+
+> Note: make sure when rendering your file to render an 8 channel multichannel file:
+
+![](../render-ambisonics.png)
 
 Submit to D2L:
 

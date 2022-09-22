@@ -108,14 +108,15 @@ Ambisonic recording techniques: Mic it
 
 ## Friday
 
-<!-- Do whatever we didn't get to on wednesday -->
-
-- FuMa vs AmbiX?
-- A bit of history into HOA recording devices - EigenMike, Octomic, and ZM-1
-- Some details on creating ambisonics recordings without specialized ambisonics microphones source: ZotterFrank
-<!-- - Source: Pfanzagl-Cardone -->
+- [Recording Ambisonics](../lectures/week-5/ambisonics-recording/)
+- Demo decoding various ATK example recordings
+- Listen to Eigenmike recordings
+  - linearDecodingLoudspeakersFOA
+  - linearDecodingLoudspeakersEigenmike
+  - parametricDecodingLoudspeakersEigenmike
+  - AmbiPanningVBAPComparison
 - Record ambisonics with the Zoom H3-VR
-- Mixing with Ambisonic Toolkit in Reaper
+  - make recordings with FumA, AmbiX, and raw A-Format
 
 <!--
 
