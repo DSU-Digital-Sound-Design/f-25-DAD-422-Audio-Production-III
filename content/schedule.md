@@ -118,33 +118,30 @@ Ambisonic recording techniques: Mic it
 - Record ambisonics with the Zoom H3-VR
   - make recordings with FumA, AmbiX, and raw A-Format
 
-<!--
-
-
-
 # Week 6 (9/26)
 
-> Read: [Surround Sound Explained: Ambisonics](https://www.soundonsound.com/techniques/surround-sound-explained-part-3) -->
+<!-- We're going to spend the week talking about some theory and history as to why 5.1 became the most common
+configuration for surround sound. -->
 
-<!--
-- Short part on Qaad craze in the 70s and why it failed
-- Production and Style
+## Monday
+
+- [Production and Style](../lectures/week-6/production-and-style/)
   - Cinema's HIdden Multi-channel history and the origins of digital surround
-  - The Sound of 5.1: Aura Aesthetics
-  - The look of 5.1: Visual aesthetics
-  - Decoding the digital surround style
-  - Using the digital surround style
-- Analysis
-  - Studying multi-channel soundtracks
-  - Studying image/sound interaCtions
-- Theory
-  - Body and voice
-  - Apparatus Theory
-  - The real and the symbolic
 
+## Wednesday
+
+- Listen to Ambisonics projects
+- The Sound of 5.1: Aura Aesthetics
+- The look of 5.1: Visual aesthetics
+
+## Friday
+
+- Decoding the digital surround style
+- Using the digital surround style
 
 Assignment: [5.1](../projects/quad)
 
+<!--
 # Week 7 (10/3) -
 
 
