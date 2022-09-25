@@ -2,7 +2,7 @@
 title = "Production and Style"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
+theme = "serif"
 margin = 0.2
 +++
 
@@ -294,14 +294,74 @@ This trend was not lost on the creators and marketers of DSS systems. Shortly af
 
 ---
 
-<!-- TODO: 45-52 -->
+**Surround Sound Moves to the Home**
 
-### Surround Sound Moves to the Home
+![](RP-Atmos-Lifestyle-Social-1-4168578467.jpg)
+
+{{% note %}}
+Digital surround was established as a norm by the early 2000s. The vast majority of the 35,361 indoor screens in the United states had either SDSS, DTS or Dolby Digital.
+
+But, moving watching at home had risen a considerable amount. Sound mixers had to reckon with the fact that more people would view their movies in a home environment than at the theater.
+
+> As an example, the makers of Jurassic Park knew they could use the 5.1 DTS soundtrack to place sounds very specifically—for instance, a particular sound could be mixed to the right surround speaker only. What they could not do, though, was make it crucial to know that particular sound came from the right surround speaker, as viewers watching Jurassic Park later on video or television would not receive this piece of information. For filmmakers to freely exploit all the capabilities of digital surround, 5.1 sound systems would have to spread from theaters into the home.
+
+{{%/ note %}}
+
+---
+
+### History of home surround
+
+- **late 1970s - early 1980s** - consumers create stereo system using existing music systems
+- **1982** - Dolby Surround decoding
+- **1987** - Dolby Pro Logic
+- **Mid 1990s** - 5.1: DTS and Dolby Digital
+
+{{% note %}}
+
+- **1982** Dolby introduced Dolby Surround decoding, which allowed audiences to watch their video cassettes in a simplified version (L/R/S) of Dolby Stereo. Dolby Surround cleverly took advantage of a fact of which consumers had been largely ignorant—that to save the costs of remixing soundtracks, film studios simply dumped their films’ existing Dolby Stereo soundtracks into the two audio tracks available on hi-fi VHS and laserdisc. This cost-cutting method had inadvertently created large libraries of “stereo” VHS tapes that were already Dolby Stereo–encoded, and Dolby Surround offered the technology to decode them. Thanks in part to this ready supply of surround-encoded soundtracks, Dolby Surround was a rousing success.
+- **1987** - Dolby Pro Logic debuted, adding to the Dolby Surround format the center channel and steering effects of theatrical Dolby Stereo.Those willing to invest in a Pro Logic processor and two or three more speakers (in addition to the two most people already had for their home stereos) could, in theory, experience sound equal to that of their local theater. By 1998 over thirty-one million homes—about a third of all U.S. households—had Dolby Surround or Pro Logic decoders, and almost all prime-time television was broadcast with some form of Dolby Surround encoding.
+
+DTS broke into the home first, simultaneously introducing a home version of DTS for laserdisc and compact disc; Dolby quickly followed suit with a consumer version of Dolby Digital.109 Despite technical differences from their theatrical counterparts, the DTS and Dolby home DSS systems kept the same name and logos to encourage the perception that consumers could literally bring the theatrical experience home.
+
+{{%/ note %}}
+
+---
+
+### Laserdics
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xrbhZDwXC1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{% note %}}
+Not a format that ever achieved wide success but is an important precursor to DVD.
+{{%/ note %}}
+
+---
+
+### DVD (1997)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z8-xjTFVlC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{% note %}}
+In 1997, however, the consumer market was transformed by the introduction and rapid spread of DVD, which quickly became the most quickly adopted home electronics product ever. For comparison, at the height of its popularity about 1 percent of U.S. households had laserdisc players, while only five years after its U.S. debut DVD already had household penetration of over 25 percent.
+
+Sales of DVD players drove a massive increase in sales of home theater products such as receivers and speakers, as home cinephiles endeavored to take full advantage of the 5.1 soundtracks on their DVDs.
+
+Between 2000 and the end of 2005 the number of American homes with home theater systems went up by over 70 percent,115 and this rate of increase shows no signs of slow- ing down.
+{{%/ note %}}
 
 ---
 
 ### Variations in 5.1 Configurations
 
----
+![](AMC_2-56a900d15f9b58b7d0f73269-1421493058.jpg)
 
-### The Future of Digital Surround Technologies
+{{% note %}}
+Differences between home and movie theater configurations:
+
+- Movie theaters, for instance, spread the three front channels of a 5.1-channel configuration behind the screen, while in home setups the left and right speakers are generally placed some distance outside the width of the screen. Using the same mix in both cases can quickly become troublesome—a sound originating from an onscreen source near the left edge of the frame may be mixed to the left front channel for theatrical release, but if the same mix is used in a home setup most viewers would perceive the difference between the onscreen source and its offscreen sonic source.
+- Most theatrical setups use an “array” of surround speak- ers, meaning that multiple speakers are placed along the side walls and back of the theater, with those to the left of the theater’s centerline receiving the soundtrack’s left surround signal and those to the right receiving its right surround signal.
+- Most 5.1-channel home systems, for logistical and economic reasons, instead employ only two “point source” surround speakers, one for each rear channel. In many cases the home and theatrical setups behave similarly, especially when the surround effects in question are of a subtle nature, such as reverb effects or ambiences—in the case of quiet ambience effects a surround array becomes almost necessary in a large theater, while two point sources are more than adequate in a home environment.
+- cinematic installations need to have a wider range of “acceptable” seating than home theaters. Home systems generally need to sound good only from a few listening positions, while for a large theater it may be necessary to have acceptable sound from several hundred positions that vary in horizontal placement, distance from the screen, and even vertical relationship to the screen.
+
+Given all of these differences it is not surprising that most studios remix some or all of their films for DVD release.
+{{%/ note %}}

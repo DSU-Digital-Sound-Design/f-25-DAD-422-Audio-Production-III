@@ -67,8 +67,6 @@ Labor Day - No class
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
 - binaural recording with the Zoom H3-VR and my sound professionals ear buds
 
-<!-- TODO: create this assignment  -->
-
 > Homework: record something in binaural to mix in class on Wednesday
 
 ## Wednesday
@@ -79,8 +77,6 @@ Labor Day - No class
 
 - Mixing with [stereo and Binaural](../lectures/week-4/atk-stereo/) sources in Reaper
 - Automation of pans + parameter modulation
-
-<!-- NOTE: should we go directly to ambisonics from here, then into 5.1 and atmos? I think that makes more sense -->
 
 # Week 5 (9/18)
 
@@ -93,13 +89,6 @@ Labor Day - No class
   - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
 
 ## Wednsday
-
-<!--
-start with the video introduction - https://intothesoundfield.music.ox.ac.uk/
-Sources: ZotterFrank_Ambisonics
-Rumsey_Spatial Audio 4.8 Ambisonics
-Ambisonic recording techniques: Mic it
- -->
 
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
 - Demo of the project setup - how to open a Reaper template to start your project.
@@ -125,14 +114,17 @@ configuration for surround sound. -->
 
 ## Monday
 
-- [Production and Style](../lectures/week-6/production-and-style/)
-  - Cinema's HIdden Multi-channel history and the origins of digital surround
+- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/production-and-style/)
+- Any questions about setup of the ambisonic project
 
 ## Wednesday
 
+<!-- - TODO: Rumsey 4.3 5.1-channel surround (3-2 stereo)-->
+
 - Listen to Ambisonics projects
+- A short technical introduction to 5.1
 - The Sound of 5.1: Aura Aesthetics
-- The look of 5.1: Visual aesthetics
+- The Look of 5.1: Visual aesthetics
 
 ## Friday
 
