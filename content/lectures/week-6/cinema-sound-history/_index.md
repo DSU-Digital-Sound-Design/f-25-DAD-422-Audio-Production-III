@@ -1,5 +1,5 @@
 +++
-title = "Production and Style"
+title = "Cinema's Hidden Multi-Channel History and the Origins of Digital Surround"
 outputs = ["Reveal"]
 [reveal_hugo]
 theme = "serif"

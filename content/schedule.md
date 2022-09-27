@@ -114,20 +114,27 @@ configuration for surround sound. -->
 
 ## Monday
 
-- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/production-and-style/)
+- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 - Any questions about setup of the ambisonic project
 
 ## Wednesday
 
 <!-- - TODO: Rumsey 4.3 5.1-channel surround (3-2 stereo)-->
+<!-- 5.1 Sources:
+- Apple TV works!!
+- Netflix isn't working
+ -->
 
-- Listen to Ambisonics projects
-- A short technical introduction to 5.1
-- The Sound of 5.1: Aura Aesthetics
-- The Look of 5.1: Visual aesthetics
+- In Studio B
+  - Listen to Ambisonics projects
+  - A short technical introduction to 5.1
+- Back in classroom
+  - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
 
 ## Friday
 
+- The Sound of 5.1: Aural Aesthetics - discrete channels and complexity
+- The Look of 5.1: Visual aesthetics
 - Decoding the digital surround style
 - Using the digital surround style
 
