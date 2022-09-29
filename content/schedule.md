@@ -133,12 +133,9 @@ configuration for surround sound. -->
 
 ## Friday
 
-- The Sound of 5.1: Aural Aesthetics - discrete channels and complexity
-- The Look of 5.1: Visual aesthetics
-- Decoding the digital surround style
-- Using the digital surround style
+- [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 
-Assignment: [5.1](../projects/quad)
+<!-- Assignment: [5.1](../projects/quad) -->
 
 <!--
 # Week 7 (10/3) -
