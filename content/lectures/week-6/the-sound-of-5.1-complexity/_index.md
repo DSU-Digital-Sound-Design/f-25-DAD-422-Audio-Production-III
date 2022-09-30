@@ -108,7 +108,7 @@ Rewatch opening scene in 5.1
 The film opens on earth, then the camera begins tracking backward away from our planet through the outer reaches of the solar system all the way into deep space. As the camera pulls back, the soundtrack conveys that earth’s radio and television signals are traveling out into space by moving recognizable music and news clips from the back of the theater to the front. In other words, as the camera moves away from the earth, the sounds of history whiz by the audience—the effect is that of traveling backward both spatially and temporally. A similar sound effect (that of moving back into history) could possibly be created in a monophonic or Dolby Stereo environment—but this would not have the same psychological and narrative power as actually hearing history fly by.
 {{%/ note %}}
 
-<!-- ---
+---
 
 ## Master and Commander: The Far Side of the World
 
@@ -116,7 +116,7 @@ places sounds all throughout the soundscape but carefully avoids putting effects
 
 {{% note %}}
 For a lot of the background sounds and the walking on deck and such from a below-deck perspective, it worked very well to be all around us in the surrounds and in the front . . . there is nothing percussive only in the back that would draw you away from the front. It all worked together. . . . if you are looking at a ship scene from a deck perspective and you suddenly hear a rope crinkle, or some specific mast crack, or something behind you, it is distracting to the point where you are pulling people away from the story -- Paul Massey
-{{%/ note %}} -->
+{{%/ note %}}
 
 <!-- ---
 
