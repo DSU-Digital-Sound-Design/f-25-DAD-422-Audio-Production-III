@@ -119,12 +119,6 @@ configuration for surround sound. -->
 
 ## Wednesday
 
-<!-- - TODO: Rumsey 4.3 5.1-channel surround (3-2 stereo)-->
-<!-- 5.1 Sources:
-- Apple TV works!!
-- Netflix isn't working
- -->
-
 - In Studio B
   - Listen to Ambisonics projects
   - A short technical introduction to 5.1
@@ -135,27 +129,34 @@ configuration for surround sound. -->
 
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 
-<!-- Assignment: [5.1](../projects/quad) -->
+Assignment: [5.1](../projects/5.1/)
 
+# Week 7 (10/3) - Mixing in Surround
+
+> Project 4: [Surround Mix film scene](../projects/5.1/)
+
+## Monday
+
+- [Reaper surround mixing](../lectures/week-7/reasurround/)
+
+## Wednesday
+
+- Mixing music in 5.1 or 7.1
+  - Listen to some more mixes
+  - Mix something from Mike Senior's collection
+
+## Friday
+
+- Using Sound Particles to create multichannel audio
 <!--
-# Week 7 (10/3) -
-
-
-**Beyond Dolby (Stereo) - Kerins**
-> Watch: Disney's Fantasia - the first movie released in Surround, Jurrasic Park (5.1 Surround DTS), Batman Returns (First Dolby Digital 5.1), Last Action hero (7.1 Surround)
-- [Multichannel stereo and surround sound systems](x-devonthink-item://2B021C8E-B6CB-47C8-84E4-3388C1BD5ABA?page=94)
-- 5.1 mixing in Logic X
-  - Listen to 5.1 mixes and
-  - Check out a few movies from the library to compare their 5.1 mixes and test whether the surround works without a receiver.
-  - make our own
 
 > Read: [Surround Sound Explained: Foundations](https://www.soundonsound.com/techniques/surround-sound-explained-part-1), [Mixing in surround](https://www.soundonsound.com/techniques/surround-sound-explained-part-7), [Surround Production](https://www.soundonsound.com/techniques/surround-sound-explained-part-8)
-
-
 
 - Surround micing techniques - [Edwin Pfanzagl-Cardone - The Art and Science of Surround and Stereo Recording\_ Including 3D Audio Techniques-Springer \(2021\)](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=117)
 
 # Week 8 (10/10) - Introduction to Dolby Atmos
+
+## Monday - no class for Native America Day
 
 [What is Dolby Atmos](x-devonthink-item://C0053DA0-7721-439A-B23C-2250929ADA34?page=13)
 
