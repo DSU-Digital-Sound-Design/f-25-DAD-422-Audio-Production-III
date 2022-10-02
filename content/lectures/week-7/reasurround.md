@@ -18,6 +18,20 @@ Sound Particles is a really great too for producing audio files that have spatia
 
 I have also created an immersive fire soundscape with a recording of fire and the immersive fire preset in sound particles.
 
+## Extending channel mapping with user mix and automation items
+
+This simple idea can be expanded using the user mix feature of the channel mapper and Reaper's automation items. Take the track that you would like to automate and duplicate it until it numbers the outputs you want to use. I'm using a stereo loop, so I duplicated the track once.
+
+Now create a send track then add the channel mapper to it. Send the tracks you want to pan into that new track. Make sure to send each new track into a different track channel. Think of this as a temporary way of creating a multi track media item.
+
+Now you can automate the user mix volumes of the send track. I do this with automation items because they allow for easy copying and also modulations
+
+To find the correct parameter to automate, move the volume of the user mix then param -> select "show in track envelope". Do this for the other volumes that you want to automate.
+
+Right click where you want to add an automation item and Automation item -> insert new automation item. Double click on the item to open its properties. You can now set an lfo shape. Copy this shape to the other volumes and change the phase slightly.
+
+Once you get the hang of it experiment with different lfo shapes, amp skew, pulse width, cycles etc.
+
 ## Point Source
 
 We can create point sources and pan mono, stereo, or multi track files to different speakers with ReaSurroundPan. You should use the 5.1 studio b or 7.1 studio b presets to make sure the sounds are going to the correct speakers. If you don't you need to remap the outputs yourself.
@@ -44,6 +58,12 @@ This section provides preset pan moves:
 For example _to left front_ will move both pucks to the left front speaker when turned up from where they were before. This is a helpful way to only have to automate one parameter.
 
 Check out Z shapes if you have height channels.
+
+## Panning multiple point sources
+
+Try the trick from earlier and send multiple sources to one track, making sure to send each one to a different track channel. You can now automate and pan these sources around as if they were part of the same multichannel track. You can also rename these tracks in ReaSurroundPan to keep things organized.
+
+![](surroundpanmix.png)
 
 ## Rendering video
 
