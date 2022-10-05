@@ -141,13 +141,14 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Wednesday
 
+- Using [Sound Particles](../lectures/week-7/sound-particles/) to create multichannel audio
+
+## Friday
+
 - Mixing music in 5.1 or 7.1
   - Listen to some more mixes
   - Mix something from Mike Senior's collection
 
-## Friday
-
-- Using Sound Particles to create multichannel audio
 <!--
 
 > Read: [Surround Sound Explained: Foundations](https://www.soundonsound.com/techniques/surround-sound-explained-part-1), [Mixing in surround](https://www.soundonsound.com/techniques/surround-sound-explained-part-7), [Surround Production](https://www.soundonsound.com/techniques/surround-sound-explained-part-8)
