@@ -147,6 +147,16 @@ Assignment: [5.1](../projects/5.1/)
 
 - Mixing music in 5.1 or 7.1
   - Listen to some more mixes
+    - VLC
+      - Bowie - Young American
+    - Reaper
+      - Nirvana - MTV Unplugged
+      - Jimi Hendrix - Live
+      - Leonard Cohen
+      - Joni Mitchell - mostly reverb in the surrounds
+      - Steve Wilson - Luminol - putting solos in the surrounds?
+      - Beach Boys
+      - Flaming Lips
   - Mix something from Mike Senior's collection
 
 <!--
