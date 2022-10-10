@@ -159,15 +159,15 @@ Assignment: [5.1](../projects/5.1/)
       - Flaming Lips
   - Mix something from Mike Senior's collection
 
-<!--
-
-> Read: [Surround Sound Explained: Foundations](https://www.soundonsound.com/techniques/surround-sound-explained-part-1), [Mixing in surround](https://www.soundonsound.com/techniques/surround-sound-explained-part-7), [Surround Production](https://www.soundonsound.com/techniques/surround-sound-explained-part-8)
-
-- Surround micing techniques - [Edwin Pfanzagl-Cardone - The Art and Science of Surround and Stereo Recording\_ Including 3D Audio Techniques-Springer \(2021\)](x-devonthink-item://740930CB-441D-4BA8-9D4B-0BC1147C9A52?page=117)
-
 # Week 8 (10/10) - Introduction to Dolby Atmos
 
-## Monday - no class for Native America Day
+## Monday
+
+- No class for Native America Day
+
+## Wednesday
+
+<!-- TODO: finish this lecture  -->
 
 [What is Dolby Atmos](x-devonthink-item://C0053DA0-7721-439A-B23C-2250929ADA34?page=13)
 
@@ -182,6 +182,9 @@ Assignment: [5.1](../projects/5.1/)
 - Mixing
   - Panning
   - Metering
+
+<!-- ## Friday
+
 - Recording - Master File
   - Concepts
   - Transport and Timecode
@@ -193,11 +196,10 @@ Assignment: [5.1](../projects/5.1/)
   - Media File Formats
   - Conversion tool
   - Delivery Codecs
-  - Production - Delivery - Playback
+  - Production - Delivery - Playback -->
 
-> Watch: [Mixing in Dolby Atmos - How it Works](https://www.amazon.com/Mixing-Dolby-Atmos-different-approach/dp/B09PK4F6XV/135-8860982-5856651?content-id=amzn1.sym.7757a8b5-874e-4a67-9d85-54ed32f01737&psc=1), Brave (first movie in Dolby Atmos)
+<!--
 
-Assignment: do something with atmos
 
 # Week 9 (10/17) -
 
@@ -213,14 +215,10 @@ Assignment: do something with atmos
 
 # Week 10 (10/24) - Atmos Movies
 
+- watch some atos movies
 - Theatrical
 - TV/Series
-- Broadcast
-- Games
 
-# Monday
-
-Native America Day - No Class
 
 > Watch: [Bob Clearmountain on Immersive Audio](https://www.youtube.com/watch?v=qgTy6geufds)
 
