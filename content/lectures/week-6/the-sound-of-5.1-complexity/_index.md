@@ -167,6 +167,8 @@ Transitory panning is another way for filmmakers to “bend” the rule that dia
 
 ---
 
+<!-- NOTE: see also Parasite for spatial dialogue -->
+
 ## Natural soundscape - Strange Days (1995)
 
 {{% note %}}
