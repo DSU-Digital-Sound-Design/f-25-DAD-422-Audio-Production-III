@@ -167,21 +167,28 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Wednesday
 
-<!-- TODO: finish this lecture  -->
+**Technical introduction to Dolby Atmos**
 
-[What is Dolby Atmos](x-devonthink-item://C0053DA0-7721-439A-B23C-2250929ADA34?page=13)
+- Watch the Atmos demo - how different does it sound from the 5.1/7.1 we have been using?
+- [What is Dolby Atmos](../lectures/week-8/what-is-dolby-atmos/)
 
-- REad: Atmos Now: Dolby Laboratories, Mixing Ideology and Hollywood Sound Production1 Benjamin Wright from Living Stereo
-- What is Dolby Atmos?
-  - History
-  - Key Aspects of Dolby Atmos
-  - Understanding the Playing Field
-  - New terminology
+## Friday
+
 - Software & Hardware
 - Configuration
 - Mixing
   - Panning
   - Metering
+
+<!-- TODO: get the trail to show in class: https://connect.avid.com/Download-the-Free-Dolby-Atmos-Music-Trial-Package.html -->
+
+<!-- [What is Dolby Atmos](x-devonthink-item://C0053DA0-7721-439A-B23C-2250929ADA34?page=13)
+
+- Software & Hardware
+- Configuration
+- Mixing
+  - Panning
+  - Metering -->
 
 <!-- ## Friday
 
@@ -215,6 +222,7 @@ Assignment: [5.1](../projects/5.1/)
 
 # Week 10 (10/24) - Atmos Movies
 
+- Read: Atmos Now: Dolby Laboratories, Mixing Ideology and Hollywood Sound Production1 Benjamin Wright from Living Stereo
 - watch some atos movies
 - Theatrical
 - TV/Series
