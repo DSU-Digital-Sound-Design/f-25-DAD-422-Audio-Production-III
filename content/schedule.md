@@ -174,11 +174,13 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Friday
 
-- Software & Hardware
+- [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
+
+<!-- - Software & Hardware
 - Configuration
 - Mixing
   - Panning
-  - Metering
+  - Metering -->
 
 <!-- TODO: get the trail to show in class: https://connect.avid.com/Download-the-Free-Dolby-Atmos-Music-Trial-Package.html -->
 
