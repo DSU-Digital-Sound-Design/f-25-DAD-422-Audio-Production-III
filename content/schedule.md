@@ -176,73 +176,51 @@ Assignment: [5.1](../projects/5.1/)
 
 - [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
 
-<!-- - Software & Hardware
-- Configuration
-- Mixing
-  - Panning
-  - Metering -->
-
-<!-- TODO: get the trail to show in class: https://connect.avid.com/Download-the-Free-Dolby-Atmos-Music-Trial-Package.html -->
-
-<!-- [What is Dolby Atmos](x-devonthink-item://C0053DA0-7721-439A-B23C-2250929ADA34?page=13)
-
-- Software & Hardware
-- Configuration
-- Mixing
-  - Panning
-  - Metering -->
-
-<!-- ## Friday
-
-- Recording - Master File
-  - Concepts
-  - Transport and Timecode
-  - Recording
-  - Setting and Configuration
-- Media Files and Codecs
-  - Dolby Atmos Master File
-  - Re-renders
-  - Media File Formats
-  - Conversion tool
-  - Delivery Codecs
-  - Production - Delivery - Playback -->
-
-<!--
-
-
 # Week 9 (10/17) -
+
+## Monday
 
 - Atmos with Logic X
   - Introduction
   - External Renderer
   - Internal Renderer
-  - 3D Panning
-  - Surround Plugins
+
+## Wednesday
+
+- Music
+  - Mixing with Binaural
+  - Content Delivery
+  - Consumer Playback challenges
 - [Dolby atmos: music creation 101](https://professional.dolby.com/music/dolby-atmos-music-creation-101/)
 
+<!-- TODO: define this project -->
+
+> Project: create a atmos surround mix of ocean eyes
+
+<!--
 > [Logic Pro - What's new in 10.7 (With in-depth Dolby Atmos Explanations)](https://www.youtube.com/watch?v=-WWhJQNo2zU), [Logic Pro update 10.7.3 (now monitor Dolby Atmos with the Apple Renderer)](https://www.youtube.com/watch?v=PwxXc-J_9R4)
 
 # Week 10 (10/24) - Atmos Movies
 
 - Read: Atmos Now: Dolby Laboratories, Mixing Ideology and Hollywood Sound Production1 Benjamin Wright from Living Stereo
-- watch some atos movies
+- watch some atmos movies
 - Theatrical
 - TV/Series
 
 
 > Watch: [Bob Clearmountain on Immersive Audio](https://www.youtube.com/watch?v=qgTy6geufds)
 
-# Week 11 (10/31) - Atmos Games
+# Week 11 (10/31) - Atmos Movies
+
+- more stuff on movies
+
+
+# Week 12 (11/7) - Atmos Games
 
 - [Atmos with games](https://www.dolby.com/experience/games/)
 - [Dolby Atmos and Wwise](https://games.dolby.com/atmos/wwise/)
 - This may not work on mac, maybe just play some games?
 
-# Week 12 (11/7) - Atmos Music
-
-- Mixing with Binaural
-- Content Delivery
-- Consumer Playback challenges
 
 # Friday
 
