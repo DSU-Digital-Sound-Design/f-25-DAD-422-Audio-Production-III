@@ -195,7 +195,7 @@ Assignment: [5.1](../projects/5.1/)
 
 <!-- TODO: define this project -->
 
-> Project: create a atmos surround mix of ocean eyes
+> Project: [create a atmos surround mix of ocean eyes](../projects/atmos/)
 
 <!--
 > [Logic Pro - What's new in 10.7 (With in-depth Dolby Atmos Explanations)](https://www.youtube.com/watch?v=-WWhJQNo2zU), [Logic Pro update 10.7.3 (now monitor Dolby Atmos with the Apple Renderer)](https://www.youtube.com/watch?v=PwxXc-J_9R4)
