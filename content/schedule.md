@@ -180,18 +180,17 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Monday
 
-- Atmos with Logic X
-  - Introduction
-  - External Renderer
-  - Internal Renderer
+- [Atmos with Logic X](../lectures/week-9/atmos-logic/)
+- Setting up a new mix?
+- Step sequencer?
 
 ## Wednesday
 
 - Music
-  - Mixing with Binaural
-  - Content Delivery
-  - Consumer Playback challenges
+  - Lil Nas X Mix
 - [Dolby atmos: music creation 101](https://professional.dolby.com/music/dolby-atmos-music-creation-101/)
+
+<!-- See: https://www.youtube.com/watch?v=-WWhJQNo2zU&list=PL7wdwvsh3pOiap-YltSwamGRENdmQRqt5&index=2 -->
 
 <!-- TODO: define this project -->
 
