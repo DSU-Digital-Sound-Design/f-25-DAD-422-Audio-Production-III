@@ -186,15 +186,19 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Wednesday
 
-- Music
-  - Lil Nas X Mix
+- In depth listening session
+  - Atmos Demo
+  - Lil Nas X demo
+
+## Friday
+
 - [Dolby atmos: music creation 101](https://professional.dolby.com/music/dolby-atmos-music-creation-101/)
 
 <!-- See: https://www.youtube.com/watch?v=-WWhJQNo2zU&list=PL7wdwvsh3pOiap-YltSwamGRENdmQRqt5&index=2 -->
 
 <!-- TODO: define this project -->
 
-> Project: [create a atmos surround mix of ocean eyes](../projects/atmos/)
+> Project: [create a atmos surround mix of ocean eyes](../projects/atmos/) - DUE October 26
 
 <!--
 > [Logic Pro - What's new in 10.7 (With in-depth Dolby Atmos Explanations)](https://www.youtube.com/watch?v=-WWhJQNo2zU), [Logic Pro update 10.7.3 (now monitor Dolby Atmos with the Apple Renderer)](https://www.youtube.com/watch?v=PwxXc-J_9R4)
