@@ -196,12 +196,24 @@ Assignment: [5.1](../projects/5.1/)
 - _Ocean Eyes_ tips
   - A/B between your mix and the stereo mix to hear if you're loosing an important part.
 - Setting up a mix from scratch
-  - Mix a project from the MT multichannel projects database
+  - Mix Major Lazer
   - More diffs between bed and object tracks
   - Bed tracks are 7.1.2, object tracks are 7.1.4, this is why object tracks are much more precise for spatial location. We can see this with a meter before and after the renderer.
-- [Dolby atmos: music creation 101](https://professional.dolby.com/music/dolby-atmos-music-creation-101/)
+  - Let's try to use some height modes, using automation, or sphere mode
+- Requests for a mix for Monday?
 
 > Project: [create a atmos surround mix of ocean eyes](../projects/atmos/) - DUE October 26
+
+# Week 10 (10/24)
+
+## Monday
+
+- One more Atmos music mix
+- Use Logic's Modulators to do cool stuff
+
+## Wednesday
+
+- Listen to some projects
 
 <!--
 > [Logic Pro - What's new in 10.7 (With in-depth Dolby Atmos Explanations)](https://www.youtube.com/watch?v=-WWhJQNo2zU), [Logic Pro update 10.7.3 (now monitor Dolby Atmos with the Apple Renderer)](https://www.youtube.com/watch?v=PwxXc-J_9R4)
