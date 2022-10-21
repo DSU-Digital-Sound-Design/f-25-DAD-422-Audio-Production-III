@@ -208,8 +208,11 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Monday
 
-- One more Atmos music mix
+- One more Atmos music mix - Kangoro - King Rascal
 - Use Logic's Modulators to do cool stuff
+  - Route Modulator using IAC Bus
+    - Automate the MIDI effect on and off
+  - Use this to write automation that you can edit.
 
 ## Wednesday
 
