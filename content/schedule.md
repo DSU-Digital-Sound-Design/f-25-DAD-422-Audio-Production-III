@@ -192,11 +192,14 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Friday
 
+- Watch [this video](https://www.youtube.com/watch?v=-WWhJQNo2zU&list=PL7wdwvsh3pOiap-YltSwamGRENdmQRqt5&index=3) for a great overview of Atmos and routing.
+- _Ocean Eyes_ tips
+  - A/B between your mix and the stereo mix to hear if you're loosing an important part.
+- Setting up a mix from scratch
+  - Mix a project from the MT multichannel projects database
+  - More diffs between bed and object tracks
+  - Bed tracks are 7.1.2, object tracks are 7.1.4, this is why object tracks are much more precise for spatial location. We can see this with a meter before and after the renderer.
 - [Dolby atmos: music creation 101](https://professional.dolby.com/music/dolby-atmos-music-creation-101/)
-
-<!-- See: https://www.youtube.com/watch?v=-WWhJQNo2zU&list=PL7wdwvsh3pOiap-YltSwamGRENdmQRqt5&index=2 -->
-
-<!-- TODO: define this project -->
 
 > Project: [create a atmos surround mix of ocean eyes](../projects/atmos/) - DUE October 26
 
