@@ -209,14 +209,15 @@ Assignment: [5.1](../projects/5.1/)
 ## Monday
 
 - One more Atmos music mix - Kangoro - King Rascal
-- Use Logic's Modulators to do cool stuff
-  - Route Modulator using IAC Bus
-    - Automate the MIDI effect on and off
-  - Use this to write automation that you can edit.
 
 ## Wednesday
 
 - Listen to some projects
+- Use Logic's Modulators to do cool stuff (look at project on lab computer)
+  - Route Modulator using IAC Bus
+    - Automate the MIDI effect on and off
+  - Use this to write automation that you can edit.
+- Listen to some Atmos Music - from Music playlist
 
 <!--
 > [Logic Pro - What's new in 10.7 (With in-depth Dolby Atmos Explanations)](https://www.youtube.com/watch?v=-WWhJQNo2zU), [Logic Pro update 10.7.3 (now monitor Dolby Atmos with the Apple Renderer)](https://www.youtube.com/watch?v=PwxXc-J_9R4)
