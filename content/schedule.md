@@ -212,6 +212,7 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Wednesday
 
+- [Smart TV Survey](../survey.pdf)
 - Listen to some projects
 - Use Logic's Modulators to do cool stuff (look at project on lab computer)
   - Route Modulator using IAC Bus
