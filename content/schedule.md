@@ -218,6 +218,9 @@ Assignment: [5.1](../projects/5.1/)
   - Route Modulator using IAC Bus
     - Automate the MIDI effect on and off
   - Use this to write automation that you can edit.
+
+## Friday
+
 - Listen to some Atmos Music - from Music playlist
 
 <!--
