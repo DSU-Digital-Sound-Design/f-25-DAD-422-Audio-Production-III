@@ -212,7 +212,6 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Wednesday
 
-- [Smart TV Survey](../survey.pdf)
 - Listen to some projects
 - Use Logic's Modulators to do cool stuff (look at project on lab computer)
   - Route Modulator using IAC Bus
@@ -221,32 +220,33 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Friday
 
+- [Smart TV Survey](../survey.pdf)
 - Listen to some Atmos Music - from Music playlist
 
-<!--
-> [Logic Pro - What's new in 10.7 (With in-depth Dolby Atmos Explanations)](https://www.youtube.com/watch?v=-WWhJQNo2zU), [Logic Pro update 10.7.3 (now monitor Dolby Atmos with the Apple Renderer)](https://www.youtube.com/watch?v=PwxXc-J_9R4)
+# Week 11 (10/31)
 
-# Week 10 (10/24) - Atmos Movies
+## Monday
 
-- Read: Atmos Now: Dolby Laboratories, Mixing Ideology and Hollywood Sound Production1 Benjamin Wright from Living Stereo
+- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
+
+## Wednesday
+
 - watch some atmos movies
 - Theatrical
 - TV/Series
 
+## Friday
 
-> Watch: [Bob Clearmountain on Immersive Audio](https://www.youtube.com/watch?v=qgTy6geufds)
+- Watch: [Bob Clearmountain on Immersive Audio](https://www.youtube.com/watch?v=qgTy6geufds)
 
-# Week 11 (10/31) - Atmos Movies
-
-- more stuff on movies
-
+<!--
 
 # Week 12 (11/7) - Atmos Games
 
 - [Atmos with games](https://www.dolby.com/experience/games/)
 - [Dolby Atmos and Wwise](https://games.dolby.com/atmos/wwise/)
 - This may not work on mac, maybe just play some games?
-
+- Read: A Symphony of Sound: Surround Sound in Formula One Racing Games
 
 # Friday
 
