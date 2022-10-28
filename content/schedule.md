@@ -232,25 +232,43 @@ Assignment: [5.1](../projects/5.1/)
 ## Wednesday
 
 - watch some atmos movies
-- Theatrical
-- TV/Series
+  - more experimental point source
+    - Brave - https://www.wired.com/2012/06/dolby-atmos-brave/
+    - Thor: The Dark World (2013)
+  - a more traditional use
+    - Man Of Steel - https://www.youtube.com/watch?v=ewKMOpelgQ0
+- TV/Series - Game of Thrones/House of the dragon
 
 ## Friday
 
-- Watch: [Bob Clearmountain on Immersive Audio](https://www.youtube.com/watch?v=qgTy6geufds)
+- Ear suite
+
+# Week 12 (11/7)
+
+## Monday
+
+- Intro final and proposal - d2l submissions for studio time
+- Other programs - https://www.balticimmersive.net/resources
+  - SpatGRIS
+  - AcousModules - http://acousmodules.free.fr/spatial-mass.htm
+  - SpaceControl - https://github.com/raphaelradna/SpaceControl
+
+## Wednesday
+
+- Computational surround sound - web audio, supercollider, max/msp etc.
+  - https://forum.ircam.fr/projects/detail/spat/
+
+## Friday
+
+Veteran's Day - No Class
 
 <!--
 
-# Week 12 (11/7) - Atmos Games
+OR Ear suite - aka open source Atmos
 
-- [Atmos with games](https://www.dolby.com/experience/games/)
-- [Dolby Atmos and Wwise](https://games.dolby.com/atmos/wwise/)
-- This may not work on mac, maybe just play some games?
-- Read: A Symphony of Sound: Surround Sound in Formula One Racing Games
 
 # Friday
 
-Veteran's Day - No Class
 
 # Week 13 (11/14)
 
