@@ -117,9 +117,9 @@ However, the format’s optimization technology, which automatically renders dif
 ![](automatic.png)
 
 {{% note %}}
-Consequently, the Atmos rendering tool, which automatic- ally derives 5.1 and 7.1 versions from an original Atmos mix, challenges the ways in which mixers author their work and maintain competitive artistic identities. As film sound mixing has become more dependent on the specialized knowledge of digital formats and platforms, and as mixers have been tasked with consolidating and balancing more sound elements in novel ways, Dolby has conflated technical control with creative control.
+Consequently, the Atmos rendering tool, which automatically derives 5.1 and 7.1 versions from an original Atmos mix,** challenges the ways in which mixers author their work and maintain competitive artistic identities.** As film sound mixing has become more dependent on the specialized knowledge of digital formats and platforms, and as mixers have been tasked with consolidating and balancing more sound elements in novel ways, Dolby has conflated technical control with creative control.
 
-Stuart Bowling maintains that Dolby’s rendering algorithm creates a duplicate copy of the mixer’s “true intent” and downsizes it for theaters with different loudspeaker configurations; hence the promotional tagline, “Author Once, Optimize Everywhere” (Dolby Laboratories 2012). In fact, the renderer reworks a mixer’s workflow to create a 5.1/7.1 output by “intelli- gently [using] the surround speakers in the theatre to their best effect” (Dolby Laboratories 2013a: 10). Its algorithm essentially finds a way to position audio objects according to the “speakers that are present, rather than necessarily being output to a physical channel” (8).
+Stuart Bowling maintains that Dolby’s rendering algorithm creates a duplicate copy of the mixer’s “true intent” and downsizes it for theaters with different loudspeaker configurations; hence the promotional tagline, “Author Once, Optimize Everywhere” (Dolby Laboratories 2012). In fact, the renderer reworks a mixer’s workflow to create a 5.1/7.1 output by “intelligently [using] the surround speakers in the theatre to their best effect” (Dolby Laboratories 2013a: 10). Its algorithm essentially finds a way to position audio objects according to the “speakers that are present, rather than necessarily being output to a physical channel” (8).
 
 according to Dolby senior platform manager Nicolas Tsingos, the algorithm “basically selects the most appropriate set of speakers, and plays the sound from those speakers” (quoted in Dayal 2012). **But, given its automated “selection” process, the renderer has the potential to reduce a mixer’s ability to control how his or her work is translated from one format to another.**
 
@@ -127,7 +127,17 @@ according to Dolby senior platform manager Nicolas Tsingos, the algorithm “bas
 
 ---
 
-## Chanel-based vs atmos
+## The Sound of _Flight_
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HZzgvUcAtXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{% note %}}
+Some details about how a film is typically mixed, the sound mix being the "final rewrite."
+{{%/ note %}}
+
+---
+
+## Chanel-based vs Atmos
 
 - channel-based - baked in positional data
 - Atmos - flexible with the render algorithm
@@ -204,6 +214,12 @@ At the same time, Dolby engineers have conceived of Atmos as a format that bring
 
 To suggest that mixers can obtain a “heightened sense of realism” by panning sound to particular speakers at the expense of narrative transparency is at odds with Hollywood mixing conventions. This is largely due to the gap that exists between Atmos as a theoretical concept and as a practical mixing tool.
 {{%/ note %}}
+
+---
+
+## The sound of _Man Of Steel_
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ewKMOpelgQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
