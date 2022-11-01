@@ -231,16 +231,12 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Wednesday
 
-- watch some atmos movies
-  - more experimental point source
-    - Brave - https://www.wired.com/2012/06/dolby-atmos-brave/
-    - Thor: The Dark World (2013)
-  - a more traditional use
-    - Man Of Steel - https://www.youtube.com/watch?v=ewKMOpelgQ0
-- TV/Series - Game of Thrones/House of the dragon
+- [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/)
 
 ## Friday
 
+- Understanding Immersion in the Context of Films with
+  Spatial Audio ?
 - Ear suite
 
 # Week 12 (11/7)
