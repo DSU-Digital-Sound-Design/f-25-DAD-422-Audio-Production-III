@@ -235,9 +235,7 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Friday
 
-- Understanding Immersion in the Context of Films with
-  Spatial Audio ?
-- Ear suite
+- [Ear Production Suite](../lectures/week-11/ear/)
 
 # Week 12 (11/7)
 
