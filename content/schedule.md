@@ -241,14 +241,14 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Monday
 
+- [SpatGRIS](../lectures/week-12/spat-gris/)
 - Intro final and proposal - d2l submissions for studio time
-- Other programs - https://www.balticimmersive.net/resources
-  - SpatGRIS
-  - AcousModules - http://acousmodules.free.fr/spatial-mass.htm
-  - SpaceControl - https://github.com/raphaelradna/SpaceControl
 
 ## Wednesday
 
+- Other programs - https://www.balticimmersive.net/resources
+  - AcousModules - http://acousmodules.free.fr/spatial-mass.htm
+  - SpaceControl - https://github.com/raphaelradna/SpaceControl
 - Computational surround sound - web audio, supercollider, max/msp etc.
   - https://forum.ircam.fr/projects/detail/spat/
 
