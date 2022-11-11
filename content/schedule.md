@@ -247,27 +247,21 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Wednesday
 
-- Other programs - https://www.balticimmersive.net/resources
+- SuperCollider
+
+<!-- - Other programs - https://www.balticimmersive.net/resources
   - AcousModules - http://acousmodules.free.fr/spatial-mass.htm
   - SpaceControl - https://github.com/raphaelradna/SpaceControl
 - Computational surround sound - web audio, supercollider, max/msp etc.
-  - https://forum.ircam.fr/projects/detail/spat/
+  - https://forum.ircam.fr/projects/detail/spat/ -->
 
 ## Friday
 
 Veteran's Day - No Class
 
-<!--
-
-OR Ear suite - aka open source Atmos
-
-
-# Friday
-
-
 # Week 13 (11/14)
 
-- Begin work on final
+- Begin work on final - three hours a week of independent work in Studio B
 
 # Week 14 (11/21)
 
@@ -277,8 +271,10 @@ Thanksgiving - No classes
 
 # Week 15 (11/27)
 
+## Tuesday
+
+- Meet to show progress on project to classmates.
+
 # Week 16 (12/5)
 
-# Thursday
-
-Start of final exams -->
+- Final Exam Presentation: Monday, December 12, 1 pm - 3 pm
