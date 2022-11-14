@@ -271,7 +271,7 @@ Thanksgiving - No classes
 
 # Week 15 (11/27)
 
-## Tuesday - 11/19
+## Tuesday - 11/28
 
 - Fill out course evaluations
 - Meet to show progress on project to classmates.
