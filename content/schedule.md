@@ -265,9 +265,7 @@ Veteran's Day - No Class
 
 # Week 14 (11/21)
 
-# Thursday
-
-Thanksgiving - No classes
+- final work
 
 # Week 15 (11/27)
 
