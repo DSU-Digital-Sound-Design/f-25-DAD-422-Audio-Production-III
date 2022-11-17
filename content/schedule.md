@@ -269,7 +269,7 @@ Veteran's Day - No Class
 
 # Week 15 (11/27)
 
-## Tuesday - 11/28
+## Monday - 11/28
 
 - Fill out course evaluations
 - Meet to show progress on project to classmates.
