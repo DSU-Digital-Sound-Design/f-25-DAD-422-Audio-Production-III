@@ -11,7 +11,7 @@ author: ""
 ## Monday
 
 - Look at [syllabus](../syllabus)
-- Listen to some surround in the immersive room?
+- Listen to some surround in the immersive room.
   - Atmos demos
   - Some 5.1 surround
 - Getting access to the studio?
