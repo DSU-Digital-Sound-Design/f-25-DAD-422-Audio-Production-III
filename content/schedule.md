@@ -6,7 +6,7 @@ author: ""
 
 {{< toc >}}
 
-# Week 1 (8/23)
+# Week 1 (8/21)
 
 ## Monday
 
@@ -20,7 +20,7 @@ author: ""
 
 - [Space and Time in music and sound art](../lectures/week-1/space-and-time/)
 
-## Friday
+<!-- ## Friday
 
 - [Historical Context - audio](../lectures/week-1/historical-context/)
 
@@ -40,7 +40,7 @@ author: ""
 - [Spatial audio psychoacoustics](../lectures/week-2/spatial-audio-psychoacoustics/)
 - Mono project check-in
 
-# Week 3 (9/5)
+# Week 3 (9/4)
 
 ## Monday
 
@@ -58,7 +58,7 @@ Labor Day - No class
 - Try some of these in the studio - time permitting
   - Do the descriptions match what we hear?
 
-# Week 4 (9/12)
+# Week 4 (9/11)
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 9/19
 
@@ -88,7 +88,7 @@ Labor Day - No class
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
   - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
 
-## Wednsday
+## Wednesday
 
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
 - Demo of the project setup - how to open a Reaper template to start your project.
@@ -107,10 +107,7 @@ Labor Day - No class
 - Record ambisonics with the Zoom H3-VR
   - make recordings with FumA, AmbiX, and raw A-Format
 
-# Week 6 (9/26)
-
-<!-- We're going to spend the week talking about some theory and history as to why 5.1 became the most common
-configuration for surround sound. -->
+# Week 6 (9/25)
 
 ## Monday
 
@@ -131,7 +128,7 @@ configuration for surround sound. -->
 
 Assignment: [5.1](../projects/5.1/)
 
-# Week 7 (10/3) - Mixing in Surround
+# Week 7 (10/2) - Mixing in Surround
 
 > Project 4: [Surround Mix film scene](../projects/5.1/)
 
@@ -159,7 +156,7 @@ Assignment: [5.1](../projects/5.1/)
       - Flaming Lips
   - Mix something from Mike Senior's collection
 
-# Week 8 (10/10) - Introduction to Dolby Atmos
+# Week 8 (10/9) - Introduction to Dolby Atmos
 
 ## Monday
 
@@ -176,7 +173,7 @@ Assignment: [5.1](../projects/5.1/)
 
 - [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
 
-# Week 9 (10/17) -
+# Week 9 (10/16) -
 
 ## Monday
 
@@ -204,7 +201,7 @@ Assignment: [5.1](../projects/5.1/)
 
 > Project: [create a atmos surround mix of ocean eyes](../projects/atmos/) - DUE October 26
 
-# Week 10 (10/24)
+# Week 10 (10/23)
 
 ## Monday
 
@@ -223,7 +220,7 @@ Assignment: [5.1](../projects/5.1/)
 - [Smart TV Survey](../survey.pdf)
 - Listen to some Atmos Music - from Music playlist
 
-# Week 11 (10/31)
+# Week 11 (10/30)
 
 ## Monday
 
@@ -237,7 +234,7 @@ Assignment: [5.1](../projects/5.1/)
 
 - [Ear Production Suite](../lectures/week-11/ear/)
 
-# Week 12 (11/7)
+# Week 12 (11/6)
 
 ## Monday
 
@@ -249,21 +246,21 @@ Assignment: [5.1](../projects/5.1/)
 
 - SuperCollider
 
-<!-- - Other programs - https://www.balticimmersive.net/resources
+- Other programs - https://www.balticimmersive.net/resources
   - AcousModules - http://acousmodules.free.fr/spatial-mass.htm
   - SpaceControl - https://github.com/raphaelradna/SpaceControl
 - Computational surround sound - web audio, supercollider, max/msp etc.
-  - https://forum.ircam.fr/projects/detail/spat/ -->
+  - https://forum.ircam.fr/projects/detail/spat/
 
 ## Friday
 
 Veteran's Day - No Class
 
-# Week 13 (11/14)
+# Week 13 (11/13)
 
 - Begin work on final - three hours a week of independent work in Studio B
 
-# Week 14 (11/21)
+# Week 14 (11/20)
 
 - final work
 
@@ -274,6 +271,6 @@ Veteran's Day - No Class
 - Fill out course evaluations
 - Meet to show progress on project to classmates.
 
-# Week 16 (12/5)
+# Week 16 (12/4)
 
-- Final Exam Presentation: Monday, December 12, 1 pm - 3 pm
+- Final Exam Presentation: Monday, December 12, 1 pm - 3 pm -->
