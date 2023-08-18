@@ -13,12 +13,18 @@ author: ""
 - Look at [syllabus](../syllabus)
 - Listen to some surround in the immersive room.
   - Atmos demos
-  - Some 5.1 surround
+  - Some 5.1 surround 
 - Getting access to the studio?
+[Fundamentals of Sound](http://www.acousticslab.org/RECA220/PMFiles/Module01.htm#1a)
+
+> Read: [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
 
 ## Wednesday
 
 - [Space and Time in music and sound art](../lectures/week-1/space-and-time/)
+- Discuss [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
+
+> Read: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
 
 <!-- ## Friday
 
