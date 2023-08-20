@@ -14,8 +14,7 @@ author: ""
 - Listen to some surround in the immersive room.
   - Atmos demos
   - Some 5.1 surround 
-- Getting access to the studio?
-[Fundamentals of Sound](http://www.acousticslab.org/RECA220/PMFiles/Module01.htm#1a)
+- [Fundamentals of Sound](http://www.acousticslab.org/RECA220/PMFiles/Module01.htm#1a)
 
 > Read: [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
 
