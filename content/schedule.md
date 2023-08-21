@@ -20,6 +20,7 @@ author: ""
 
 ## Wednesday
 
+- Announcement: [2024 MOXsonic](https://moxsonic.org/moxsonic-proposal-portal/) - could be a place to have your immersive sound works heard! 
 - [Space and Time in music and sound art](../lectures/week-1/space-and-time/)
 - Discuss [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
 
