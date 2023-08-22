@@ -21,8 +21,11 @@ author: ""
 ## Wednesday
 
 - Announcement: [2024 MOXsonic](https://moxsonic.org/moxsonic-proposal-portal/) - could be a place to have your immersive sound works heard! 
-- [Space and Time in music and sound art](../lectures/week-1/space-and-time/)
+- A look at annotating with 
+  - Join [hypothesis](https://hypothes.is/groups/PBAV8n5v/dad-310)
+  - [annotations for reading assignment](https://hyp.is/go?url=http%3A%2F%2Fwww.acousticslab.org%2FRECA220%2FPMFiles%2FModule02a.htm&group=PBAV8n5v)
 - Discuss [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
+- [Space and Time in music and sound art](../lectures/week-1/space-and-time/)
 
 > Read: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
 
@@ -215,6 +218,7 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Wednesday
 
+- ATMI conference - move material to next week or assign students work while you're gone
 - Listen to some projects
 - Use Logic's Modulators to do cool stuff (look at project on lab computer)
   - Route Modulator using IAC Bus
