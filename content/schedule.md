@@ -29,10 +29,13 @@ author: ""
 
 > Read: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
 
-<!-- ## Friday
+## Friday
 
+- Discuss: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
+  - [Annotations](https://hyp.is/go?url=http%3A%2F%2Fwww.acousticslab.org%2FRECA220%2FPMFiles%2FModule02a.htm&group=rB3vwk31) 
 - [Historical Context - audio](../lectures/week-1/historical-context/)
 
+<!-- 
 # Week 2 (8/28)
 
 ## Monday
