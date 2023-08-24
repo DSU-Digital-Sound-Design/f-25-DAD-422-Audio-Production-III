@@ -6,7 +6,9 @@ theme = "moon"
 margin = 0.2
 +++
 
-# Historical context: film
+# Historical context
+
+## film
 
 ---
 
@@ -16,7 +18,7 @@ margin = 0.2
 
 {{% note %}}
 
-The first film to feature an original score. This was pre film sound, so the score was performed live with the movie.
+The Assassination of the Duke of Guise is the first film to feature an original score. Charles le Bargy and André Calmettes created it before film sound, so an orchestra performed the score live with the movie.
 
 {{%/ note %}}
 
@@ -28,11 +30,11 @@ The first film to feature an original score. This was pre film sound, so the sco
 
 {{% note %}}
 
-The first sync sound films were in mono, with a single channel of audio played back through a speaker located in the front of the auditorium at the horizontal center of the screen.
+The first sync sound films were in mono, with a single channel of audio played back through a speaker in the front of the auditorium at the horizontal center of the screen.
 
 **King Kong - 1933**
 
-The score was unlike any that came before and marked a significant change in the history of film music. King Kong's score was the first feature-length musical score written for an American "talkie" film, the first major Hollywood film to have a thematic score rather than background music, the first to mark the use of a 46-piece orchestra and the first to be recorded on three separate tracks (sound effects, dialogue, and music). Steiner used a number of new film scoring techniques, such as drawing upon opera conventions for his use of leitmotifs.[61] Over the years, Steiner's score was recorded by multiple record labels and the original motion picture soundtrack has been issued on a compact disc.
+The score was unlike any that came before and marked a significant change in the history of film music. King Kong's score was the first feature-length musical score written for an American "talkie" film, the first major Hollywood film to have a thematic score rather than background music, the first to mark the use of a 46-piece orchestra and the first to be recorded on three separate tracks (sound effects, dialogue, and music). Steiner used several new film scoring techniques, such as drawing upon opera conventions for using leitmotifs. Over the years, multiple record labels recorded Steiner's score, and the original motion picture soundtrack has been issued on a compact disc.
 
 {{%/ note %}}
 
@@ -44,7 +46,7 @@ The score was unlike any that came before and marked a significant change in the
 
 {{% note %}}
 
-Various multi-channel analog formats appeared over the years, starting with Fantasia’s Fantasound in 1940. Some of these multi-channel formats, such as Cin- emaScope, Todd-AO, and Cinerama, enjoyed some success during the wide- screen boom of the 1950s. None, how- ever, supplanted monophonic sound as a widely adopted standard until the 1970s.
+Various multi-channel analog formats appeared over the years, starting with Fantasia’s Fantasound in 1940. Some of these multi-channel formats, such as CinemaScope, Todd-AO, and Cinerama, enjoyed some success during the widescreen boom of the 1950s. None, however, supplanted monophonic sound as a widely adopted standard until the 1970s.
 
 {{%/ note %}}
 
@@ -54,7 +56,7 @@ Various multi-channel analog formats appeared over the years, starting with Fant
 
 ---
 
-### Dolby Stereo - three channel
+### Dolby Stereo - three-channel
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CeglJMCgnuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -72,7 +74,7 @@ Dolby Stereo first appeared as a three-channel format \(L, C, R\) in _Lizstomani
 
 {{% note %}}
 
-the four-channel matrix configuration \(L, C, R, S\) did not appear until 1976’s _A Star is Born._
+The four-channel matrix configuration \(L, C, R, S\) did not appear until 1976’s _A Star is Born._
 
 Its use in blockbuster films such as _Star Wars_ \(1977\) and _Close Encounters of the Third Kind_ \(1978\) encouraged the adoption of Dolby’s sound system across the industry.
 
@@ -92,11 +94,15 @@ Its use in blockbuster films such as _Star Wars_ \(1977\) and _Close Encounters 
 
 ---
 
-# The Digital Surround Era \(the early 1990s to present\)
+# The Digital Surround Era 
+
+## \(the early 1990s to present\)
+
+[The Society of Motion Picture and Television Engineers (SMPTE)](https://www.smpte.org/)
 
 {{% note %}}
 
-The specifications for theatrical digital surround sound systems were created by the Society of Motion Picture and Television Engineers (SMPTE) in 1987. Their specifications included at least three front channels across the width of the screen (left, center, right), at least two surround channels (left surround, right surround), and a separate low-frequencies-only channel (LFE, for low- frequency effects), all of which were to be discrete (rather than matrixed). This configuration would come to be known as 5.1-channel (pronounced “five point one”) sound, with the “.1” being the frequency-limited LFE channel.
+The Society of Motion Picture and Television Engineers (SMPTE) created the specifications for theatrical digital surround sound systems in 1987. Their specifications included at least three front channels across the width of the screen (left, center, right), at least two surround channels (left surround, right surround), and a separate low-frequencies-only channel (LFE, for lowfrequency effects), all of which were to be discrete (rather than matrixed). This configuration would come to be known as 5.1-channel (pronounced “five point one”) sound, with the “.1” being the frequency-limited LFE channel.
 
 {{%/ note %}}
 
