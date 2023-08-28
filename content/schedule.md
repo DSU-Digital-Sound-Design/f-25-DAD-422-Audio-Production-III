@@ -35,17 +35,17 @@ author: ""
   - [Annotations](https://hyp.is/go?url=http%3A%2F%2Fwww.acousticslab.org%2FRECA220%2FPMFiles%2FModule02a.htm&group=rB3vwk31) 
 - [Historical Context - audio](../lectures/week-1/historical-context/)
 
-<!-- 
 # Week 2 (8/28)
 
 ## Monday
 
 - Why space
   - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
+- Assignment: [Project 1: Mono](../projects/mono)
 
+<!-- 
 ## Wednesday
 
-- Assignment: [Project 1: Mono](../projects/mono)
 
 ## Friday
 
