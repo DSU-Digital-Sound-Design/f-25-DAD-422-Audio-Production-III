@@ -41,12 +41,12 @@ author: ""
 
 - Why space
   - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
+
+## Wednesday
+
 - Assignment: [Project 1: Mono](../projects/mono)
 
 <!-- 
-## Wednesday
-
-
 ## Friday
 
 - [Spatial audio psychoacoustics](../lectures/week-2/spatial-audio-psychoacoustics/)
