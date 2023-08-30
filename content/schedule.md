@@ -45,18 +45,17 @@ author: ""
 ## Wednesday
 
 - Discuss [Auditory distance perception in humans: a review of cues, development, neuronal bases, and effects of sensory loss - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744263/) - [notes](../lectures/week-2/auditory-distance-perception/)
+- Assignment: [Project 1: Mono](../projects/mono) - Due next Wednesday
+
+## Friday
+
 - In class - try to create a recording's perceived distance in a specific environment using reverb, volume, and filtering. Use the new field recording microphone. Use the iPhone measure app to measure distances. We could also try a familiar and unfamiliar sound. 
   - Record something with the zoom at several distances 
   - Record something in the studio at several distances 
   - Try to artificially recreate the distance and spatial cues using the close-miced source and audio effects. 
-- Assignment: [Project 1: Mono](../projects/mono) - Due next Wednesday
-
-<!-- 
-## Friday
-
-- [Spatial audio psychoacoustics](../lectures/week-2/spatial-audio-psychoacoustics/)
 - Mono project check-in
 
+<!-- 
 # Week 3 (9/4)
 
 ## Monday
@@ -66,6 +65,7 @@ Labor Day - No class
 ## Wednesday
 
 - Watch mono projects
+- [Spatial audio psychoacoustics](../lectures/week-2/spatial-audio-psychoacoustics/)
 - [Stereo reproduction](../lectures/week-3/stereo/)
 - Show [sound particles](https://soundparticles.com/products/soundparticles/plans) templates for automated panning
 
