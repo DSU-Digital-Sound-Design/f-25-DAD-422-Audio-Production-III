@@ -55,7 +55,6 @@ author: ""
   - Try to artificially recreate the distance and spatial cues using the close-miced source and audio effects. 
 - Mono project check-in
 
-<!-- 
 # Week 3 (9/4)
 
 ## Monday
@@ -64,13 +63,15 @@ Labor Day - No class
 
 ## Wednesday
 
-- Watch mono projects
-- [Spatial audio psychoacoustics](../lectures/week-2/spatial-audio-psychoacoustics/)
-- [Stereo reproduction](../lectures/week-3/stereo/)
-- Show [sound particles](https://soundparticles.com/products/soundparticles/plans) templates for automated panning
+- **20 minutes** Watch mono projects and discuss process
+- **30 minutes** - Experiment with distance recordings 
+- [Spatial audio psychoacoustics](../lectures/week-3/spatial-audio-psychoacoustics/)
 
+<!-- 
 ## Friday
 
+- [Stereo reproduction](../lectures/week-3/stereo/)
+- Show [sound particles](https://soundparticles.com/products/soundparticles/plans) templates for automated panning
 - Stereo microphone techniques - [theory and practice](../lectures/week-3/recording-stereo/)
 - Try some of these in the studio - time permitting
   - Do the descriptions match what we hear?
