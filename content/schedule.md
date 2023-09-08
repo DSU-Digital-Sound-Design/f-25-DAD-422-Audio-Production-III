@@ -63,32 +63,35 @@ Labor Day - No class
 
 ## Wednesday
 
-- **20 minutes** Watch mono projects and discuss process
-- **30 minutes** - Experiment with distance recordings 
-- [Spatial audio psychoacoustics](../lectures/week-3/spatial-audio-psychoacoustics/)
+- Class canceled 
 
-<!-- 
 ## Friday
 
-- [Stereo reproduction](../lectures/week-3/stereo/)
+- Class canceled - students sick 
+
+<!-- 
+# Week 4 (9/11)
+
+
+## Monday
+
+- **20 minutes** Watch mono projects and discuss your process
+- Follow along with headphones 
+  - [Spatial audio psychoacoustics](../lectures/week-3/spatial-audio-psychoacoustics/)
+  - [Stereo reproduction](../lectures/week-3/stereo/)
+
+## Wednesday
+
+> Assignment: [Stereo/binaural](../projects/stereo) - Due 9/19
+
 - Show [sound particles](https://soundparticles.com/products/soundparticles/plans) templates for automated panning
 - Stereo microphone techniques - [theory and practice](../lectures/week-3/recording-stereo/)
 - Try some of these in the studio - time permitting
   - Do the descriptions match what we hear?
-
-# Week 4 (9/11)
-
-> Assignment: [Stereo/binaural](../projects/stereo) - Due 9/19
-
-## Monday
-
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
 - binaural recording with the Zoom H3-VR and my sound professionals ear buds
 
 > Homework: record something in binaural to mix in class on Wednesday
-
-## Wednesday
-
 - [Mixing binaural audio](../lectures/week-4/mixing-binaural/) - mono sources
 
 ## Friday

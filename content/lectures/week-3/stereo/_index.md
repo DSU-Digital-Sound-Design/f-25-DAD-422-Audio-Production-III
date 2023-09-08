@@ -8,10 +8,9 @@ margin = 0.2
 
 # Stereo reproduction and microphone techniques
 
-{{% note %}}
-here we'll describes the principles of conventional two- channel stereo as it relates to both loudspeaker and headphone reproduction.
+{{% note %}} 
 
-This is a useful starting point when moving onto multichannel stereo and surround systems.
+I'll cover the principles of conventional two-channel stereo related to loudspeaker and headphone reproduction.
 
 {{%/ note %}}
 
@@ -24,11 +23,12 @@ This is a useful starting point when moving onto multichannel stereo and surroun
 stereo [source](https://filmandfurniture.com/product/harman-kardon-stereo-music-system-in-american-psycho/)
 
 {{% note %}}
-Two-channel stereophonic reproduction (in international standard terms ‘2-0 stereo’, meaning two front channels and no surround channels) is often called simply ‘stereo’ as it is the most common way that most people know of conveying some spatial content in sound recording and reproduction.
 
-Stereophony - any sound system that conveys three- dimensional sound images, so it is used more generically in this book and includes surround sound.
+Two-channel stereophonic reproduction (in international standard terms, ‘2-0 stereo’, meaning two front channels and no surround channels) or ‘stereo’ is the most common way that most people know of conveying some spatial content in sound recording and reproduction.
 
-The nomenclature is international: ‘n-m stereo’, where n is the number of front channels and m is the number of rear or side channels (the latter only being encountered in surround systems).
+Stereophony - any sound system that conveys three-dimensional sound images, so it is used more generically in this book and includes surround sound.
+
+The terminology is international: ‘n-m stereo’ where n is the number of front channels, and m is the number of rear or side channels (the latter only being encountered in surround systems).
 {{%/ note %}}
 
 ---
@@ -38,18 +38,20 @@ The nomenclature is international: ‘n-m stereo’, where n is the number of fr
 ![](blumelein.png)
 
 {{% note %}}
-The optimum arrangement for two loudspeaker stereo - the equilateral triangle. This was come to from formal research and practical experience of engineers.
 
-The idea of stereo is to create a phantom image - the apparent locations of sound sources in- between the loudspeakers
+The diagram shows the optimum arrangement for two loudspeaker stereo - the equilateral triangle. 
 
-If the listener is a a different point than shown in this diagram phantom images will become less stable
+The idea of stereo is to create a phantom image - the apparent locations of sound sources in between the loudspeakers
 
-Of course there are limits to this configuration due to the lack of rear speakers.
+If the listener is at a different point than shown in this diagram, phantom images will become less stable.
 
-- If you sit too far forwards, the stereo image will appear too wide and tend to have a hole in the center of some stereo sounds. You will compensate for this by not panning aggressively enough and the result will be a mix that is too narrow.
-- If you sit too far away from the loudspeakers the stereo image will appear too narrow to you. You will compensate and create a mix that is too wide with too much extreme panning.
-- If you sit off-center, the law of frst wavefront dictates that the image will steer towards the loudspeaker closest to you and appear asymmetrically balanced and too heavy on that side. Your mix will be too heavy in the opposite loudspeaker when listened to correctly.
-  {{%/ note %}}
+Of course, there are limits to this configuration due to the lack of rear speakers.
+
+- If you sit too far forward, the stereo image will appear too wide, and tend to have a hole in the center of some stereo sounds. You will compensate for this by not panning aggressively enough, and the result will be a mix that is too narrow.
+- The stereo image will appear too narrow if you sit too far away from the loudspeakers. You will compensate and create a mix that is too wide with too much extreme panning.
+- If you sit off-center, the law of the first wavefront dictates that the image will steer towards the loudspeaker closest to you and appear asymmetrically balanced and too heavy on that side. When listened to correctly, your mix will be too heavy on the opposite loudspeaker.
+  
+{{%/ note %}}
 
 ---
 
@@ -58,7 +60,7 @@ Of course there are limits to this configuration due to the lack of rear speaker
 ![](soundstage.png)
 
 {{% note %}}
-An effective stereo soundstage will position sounds within this space. Sounds will seem to come from behind the speakers, between them, and in front of them.
+An effective stereo soundstage will position sounds within this space. Listeners will perceive the sounds from behind the speakers, between them, and in front of them.
 
 Remember, this concept only exists when sitting in the sweet spot listening to loudspeakers, not headphones.
 {{%/ note %}}
@@ -70,18 +72,19 @@ Remember, this concept only exists when sitting in the sweet spot listening to l
 ![](summing-localization.png)
 
 {{% note %}}
-important! - The so-called ‘summing localisation’ model of stereo reproduc- tion suggests that the best illusion of phantom sources between the loudspeakers will be created when the sound signals present at the two ears are as similar as possible to those perceived in natural listening, or at least that a number of natural localisation cues that are non-contradictory are available.
+important! - The so-called ‘summing localisation’ model of stereo reproduction
+  - The best illusion of phantom sources is when the sound signals present at the two ears are as similar as possible to those perceived in natural listening, or at least that several non-contradictory natural localization cues are available.
 
 It is possible to create this illusion for sources in the angle between the loudspeakers using only amplitude differences between the loudspeakers, where the time difference between the signals is very small («1 ms).
 
-This diagram shows stereo listening on speakers, which is different from with headphones because we're hearing the copied signal with both ears at the same time.
+This diagram shows stereo listening on speakers, which is different from headphones because we're hearing the copied signal with both ears simultaneously.
 
-The result of this is that the loudspeaker listener seated in a centre seat (see Figure 3.2) receives at his left ear the signal from the left speaker first followed by that from the right speaker, and at his right ear the signal from the right speaker first followed by that from the left speaker. The time t is the time taken for the sound to travel the extra distance from the more distant speaker.
+The result of this is that the loudspeaker listener seated in a centre seat (see Figure 3.2) receives at his left ear the signal from the left speaker, first followed by that from the right speaker, and at his right ear the signal from the right speaker first followed by that from the left speaker. The time t is when the sound travels the extra distance from the more distant speaker.
 
-If the amplitudes of the two channels are correctly controlled it is possible to produce resultant phase and amplitude differences for continuous sounds that are very close to those experienced with natural sources, thus giving the impression of virtual or ‘phantom’ images anywhere between the left and right loudspeakers.
+Suppose the amplitudes of the two channels are correctly controlled. In that case, it is possible to produce resultant phase and amplitude differences for continuous sounds very close to those experienced with natural sources, thus giving the impression of virtual or ‘phantom’ images anywhere between the left and right loudspeakers.
 
-the sound from each speaker also arrives to the far ear and does so slightly later, while being quieter and having less high frequencies (Figure 13.2b). This late arrival confuses our brain and results in slight smearing of the perceived sound image.
-This smearing effect can be demonstrated in every surround studio by comparing the sound emitted solely from the center speaker (real center) and that emitted at equal level from both the left and right speakers (phantom center). How unfocused the latter mightbe can be quite surprising, especially in poorly tuned surround studios.
+the sound from each speaker also arrives at the far ear and does so slightly later, while being quieter and having less high frequencies (Figure 13.2b). This late arrival confuses our brain and slightly smears the perceived sound image.
+This smearing effect can be demonstrated in every surround studio by comparing the sound emitted solely from the center speaker (real center) and that emitted at equal levels from both the left and right speakers (phantom center). How unfocused the latter might be can be quite surprising, especially in poorly tuned surround studios.
 {{%/ note %}}
 
 ---
@@ -111,15 +114,15 @@ There's some math that I don't understand but you can see here that the phantom 
 {{% note %}}
 What are the properties of this phantom image, this perceived location between the speakers?
 
-- combination of speakers create comb filtering and phase cancellation that can make mixing interesting
+- A combination of speakers creates comb filtering and phase cancellation that can make mixing interesting
 
-Discrete speaker images happen when a sound is panned hard left or right. It can also happen when there is a center speaker that is not panned. With discrete speaker images there is no itd or iad between the speakers. This gives the sound a certain effect different from a phantom image.
+Discrete speaker images happen when a sound is panned hard left or right. It can also occur with a center speaker. With discrete speaker images, there is no ITD or IAD between the speakers. This gives the sound a particular effect different from a phantom image.
 
-special panning circuits can create phantom images that extend a little beyond the loudspeakers, it is essentially limited to reproducing both sources and reverberation from an angle of about 60°.
+special panning circuits can create phantom images that extend a little beyond the loudspeakers, essentially limited to reproducing both sources and reverberation from an angle of about 60°.
 
-For most purposes this is a fine restriction, and most music producers have not been limited by this. We'll typically be facing forwards when listening to music or watching TV.
+This is a fine restriction for most purposes, and this has not limited most music producers. We'll typically be facing forward when listening to music or watching TV.
 
-Phantom images are also subject to some tonal colouration as they are panned across the sound stage, owing to the way that the signals from two loudspeakers sum at the ears of the listener. A phantom central image will have a certain amount of mid- range colouration compared with that of an actual loudspeaker in that position
+Phantom images are also subject to some tonal coloration as they are panned across the sound stage, owing to the way that the signals from two loudspeakers sum at the ears of the listener. A phantom central image will have a certain amount of mid-range colouration compared with that of an actual loudspeaker in that position
 
 {{%/ note %}}
 
@@ -129,12 +132,12 @@ Phantom images are also subject to some tonal colouration as they are panned acr
 
 - Mono point-sources
   - centered
-  - a little off center
+a little off-center
   - almost to one side or the other
   - all the way to one side or the other
 - Spread images
   - Narrow – only a little wider than a point-source mono image.
-  - Wide – taking up nearly, or all of the space between the loudspeakers.
+  - Wide – taking up nearly or all of the space between the loudspeakers.
   - Symmetrically panned
   - Asymmetrically panned
 
