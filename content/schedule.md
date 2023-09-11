@@ -69,7 +69,6 @@ Labor Day - No class
 
 - Class canceled - students sick 
 
-<!-- 
 # Week 4 (9/11)
 
 
@@ -80,6 +79,7 @@ Labor Day - No class
   - [Spatial audio psychoacoustics](../lectures/week-3/spatial-audio-psychoacoustics/)
   - [Stereo reproduction](../lectures/week-3/stereo/)
 
+<!-- 
 ## Wednesday
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 9/19
