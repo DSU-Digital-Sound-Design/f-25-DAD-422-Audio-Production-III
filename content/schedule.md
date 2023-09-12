@@ -88,6 +88,10 @@ Labor Day - No class
 <!-- 
 ## Friday
 
+- Check out: 
+  - [Anaglyph](http://anaglyph.dalembert.upmc.fr/)
+  - [CWBudde/WebSofa: JavaScript port of PasSofa](https://github.com/CWBudde/WebSofa)
+  - [Files - Sofaconventions](https://www.sofaconventions.org/mediawiki/index.php/Files)
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
 - binaural recording with the Zoom H3-VR and my sound professionals ear buds
 - Mixing with [stereo and Binaural](../lectures/week-4/atk-stereo/) sources in Reaper
