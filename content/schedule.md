@@ -81,13 +81,20 @@ Labor Day - No class
 ## Wednesday
 
 - [Stereo reproduction](../lectures/week-3/stereo/)
-- Stereo microphone techniques - [theory and practice](../lectures/week-3/recording-stereo/)
-- Try some of these in the studio recording an instrument with width 
-  - Do the descriptions match what we hear?
 
-<!-- 
 ## Friday
 
+- Stereo microphone techniques - [theory and practice](../lectures/week-3/recording-stereo/)
+- Try some of these in the studio
+  - Do the descriptions match what we hear?
+
+
+<!-- 
+# Week 5 (9/18)
+
+## Monday
+
+- [Mixing binaural audio](../lectures/week-4/mixing-binaural/) - mono sources
 - Check out: 
   - [Anaglyph](http://anaglyph.dalembert.upmc.fr/)
   - [CWBudde/WebSofa: JavaScript port of PasSofa](https://github.com/CWBudde/WebSofa)
@@ -99,11 +106,6 @@ Labor Day - No class
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 9/19
 > Homework: record something in binaural to mix in class on Wednesday
-- [Mixing binaural audio](../lectures/week-4/mixing-binaural/) - mono sources
-- 
-# Week 5 (9/18)
-
-## Monday
 
 - Listen to binaural mix project
   - Answer questions for people that had trouble finishing project
