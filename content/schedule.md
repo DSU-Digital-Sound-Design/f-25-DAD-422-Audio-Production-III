@@ -89,32 +89,32 @@ Labor Day - No class
   - Do the descriptions match what we hear?
 
 
-<!-- 
 # Week 5 (9/18)
 
 ## Monday
+
+- [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
+- Experiment with the Occulus? 
+- binaural recording with the Zoom H3-VR and my sound professionals earbuds
+
+> Assignment: [Stereo/binaural](../projects/stereo) - Due ...
+<!-- 
+
+## Wednesday
 
 - [Mixing binaural audio](../lectures/week-4/mixing-binaural/) - mono sources
 - Check out: 
   - [Anaglyph](http://anaglyph.dalembert.upmc.fr/)
   - [CWBudde/WebSofa: JavaScript port of PasSofa](https://github.com/CWBudde/WebSofa)
   - [Files - Sofaconventions](https://www.sofaconventions.org/mediawiki/index.php/Files)
-- [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
-- binaural recording with the Zoom H3-VR and my sound professionals ear buds
+
 - Mixing with [stereo and Binaural](../lectures/week-4/atk-stereo/) sources in Reaper
 - Automation of pans + parameter modulation
-
-> Assignment: [Stereo/binaural](../projects/stereo) - Due 9/19
-> Homework: record something in binaural to mix in class on Wednesday
-
 - Listen to binaural mix project
   - Answer questions for people that had trouble finishing project
 - Listen to ambisonics recordings in the immersive studio
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
   - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
-
-## Wednesday
-
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
 - Demo of the project setup - how to open a Reaper template to start your project.
 

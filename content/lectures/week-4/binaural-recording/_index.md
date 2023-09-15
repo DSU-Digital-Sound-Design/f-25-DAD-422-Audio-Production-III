@@ -9,14 +9,22 @@ margin = 0.2
 # Binaural Audio
 
 {{% note %}}
-Drawbacks to typical stereo recording practices:
+- Drawbacks to typical stereo recording practices:
+  - Standard microphone recording formats lack binaural cues.
+  - Interaural time differences (ITD) are absent unless microphones are spaced like ears.
+  - Interaural amplitude differences (IAD) for high frequencies are missing due to microphone size.
+  - Pinna coloration is completely absent.
+  - Effects from the head and torso are missing.
 
-Standard microphone recording formats do not include the binaural cues that we have documented in the previous section. The interaural time differences (ITD) will not be present unless the microphones are placed at a similar distance that the ears are apart. The interaural amplitude differences (IAD) for high frequencies will also be absent since microphones are smaller than the size of the head, and any lack of diffraction around the microphone will be at even higher frequencies. And, of course, pinna colouration will be completely absent. Finally, any effects from the head and torso will also be missing.
+- Binaural audio's limited popularity is due to its compatibility primarily with headphones.
 
-One of the reasons that binaural audio is not more popular is because binaural recordings only sound good on headphones, while speaker mixed recordings sound fine on headphones.
-
-It is now possible to create 3D directional sound cues and to synthesise the acoustics of virtual environments quite accurately using digital signal processors (DSP), and it is this area of virtual environment simulation for computer applications that is receiving the most commercial attention for binaural technology today. Flight simulators, computer games, virtual reality applications and architectural auralisation are all areas that are benefiting from these develop- ments. It is also possible to use such technology to synthesise ‘loudspeakers’ where none exist, using binaural cues, as employed in virtual home theatre systems (see below).
-
+- Binaural technology is gaining commercial attention for:
+  - Creating 3D directional sound cues.
+  - Synthesizing accurate virtual environment acoustics using digital signal processors (DSP).
+  - Applications in flight simulators, computer games, virtual reality, and architectural auralization.
+  - Synthesizing 'loudspeakers' in virtual home theatre systems.
+    - [Virtual Home Theater Video Player on Steam](https://store.steampowered.com/app/989060/Virtual_Home_Theater_Video_Player/)
+  
 {{%/ note %}}
 
 ---
@@ -29,20 +37,16 @@ It is now possible to create 3D directional sound cues and to synthesise the aco
 
 ---
 
-[3D Rain](https://www.pluviophile.com/relaxing-rain-sounds-for-sleeping-binaural-audio/)
-
----
-
 ### Problems with binaural systems
 
-- People’s HRTFs are different (to varying degrees), although there are some common features, making it difficult to generalize about the HRTFs that should be used for commercial systems that have to serve lots of people.
-- Head movements that help to resolve directional confusion in natural listening are difficult to incorporate in reproduction situations.
+- People’s HRTFs are different (to varying degrees). However, some standard features make it difficult to generalize the HRTFs that should be used for commercial systems that serve many people.
+- Head movements that help to resolve directional confusion in natural listening are challenging to incorporate in reproduction situations.
 
 ---
 
-- Visual cues are often missing during binaural reproduction and these normally have a strong effect on perception.
+- Visual cues are often missing during binaural reproduction, and these usually have a substantial effect on perception.
 - Headphones differ in their equalization and method of mounting, leading to distortions in the perceived HRTFs on reproduction.
-- Distortions such as phase and frequency response errors in the signal chain can affect the subtle cues required.
+- Distortions such as the signal chain's phase and frequency response errors can affect the subtle cues required.
 
 ---
 
@@ -51,7 +55,11 @@ It is now possible to create 3D directional sound cues and to synthesise the aco
 <img src="Oscar.png" width="400">
 
 {{% note %}}
-Possibly the first example was a mannequin named “Oscar” at Bell Labs which had microphones in the place of ears, but only rudimentary pinnae. Then as now it was tempting to have someone listening via headphones while sounds were made in close proximity to the microphones, just to see how they’d react. However, there was no medium for stereo recording or broadcast at that time, so the experiments didn't lead anywhere.
+- The first example of binaural audio experimentation may have been a mannequin named "Oscar" at Bell Labs.
+- Oscar had microphones instead of ears, but they had rudimentary pinnae (ear structures).
+- Early experiments involved having someone listen via headphones while sounds were made close to the microphones to observe their reactions.
+- However, during that time, there was no medium for stereo recording or broadcast, which limited the progress of these experiments.
+- As a result, these early binaural audio experiments did not lead to significant developments due to the lack of suitable stereo recording and broadcasting technology.
 
 {{%/ note %}}
 
@@ -60,11 +68,15 @@ Possibly the first example was a mannequin named “Oscar” at Bell Labs which 
 ## Neuman Head
 
 <img src="KK1.jpg" width="400">
-
+<br>
 <audio src="Kunstkopf.wav" controls>
 
 {{% note %}}
-In the 1960s, the Neumann microphone company in Germany experimented with what they called a kunstkopf, or "artificial head” (popularly know as a “dummy head” with all of the expected humour attached). It modelled the pinnae fairly accurately, and the microphones were placed at the location of the eardrums inside the ear canal. The listener needed to hear the recording on headphones (not speakers) so that there was no second layer of pinna colouration (by passing over the listener’s pinnae again).
+- In the 1960s, the Neumann microphone company in Germany conducted experiments with a kunstkopf device, which translates to "artificial head" or a "dummy head."
+- This artificial head was designed to model the pinnae (external ear structures) with a high degree of accuracy.
+- Microphones were strategically placed at the location of the eardrums inside the ear canals of the artificial head.
+- Listening to recordings made with this artificial head required headphones, not speakers, to eliminate the influence of the listener's pinnae, ensuring a more accurate representation of sound.
+- This approach aimed to capture and reproduce audio that closely mimicked human auditory perception, leading to the development of binaural recording techniques.
 
 {{%/ note %}}
 
@@ -77,7 +89,12 @@ Left to right trajectory around an artificial head, then front centre to above t
 <audio src="Cook-Elevation.wav" controls>
 
 {{% note %}}
-Neumann researchers experimented with adding a torso which contributed some nuances to the realism, but experiments with adding hair were a predictable failure. The main problem with binaural recording seems to be to get a well-defined frontal image where the pinna colourations need to be precise. Of course, if a trajectory path is suggested, then the listener will likely hear it passing in front, with possibly a slight rise in the middle. Going over the head is also a tricky image to sustain, as in this example, first left to right (quite good) then from centre to above the head (a bit more problematic).
+- Neumann researchers conducted experiments involving the addition of a torso to their binaural recording setup.
+- Including a torso contributed some subtle nuances to the realism of the recordings, enhancing the accuracy of sound reproduction.
+- However, attempts to add hair to the artificial head were unsuccessful and predictable failures, as they did not improve the recording quality.
+- One of the primary challenges in binaural recording was achieving a well-defined frontal sound image that required precise pinna colorations to be captured accurately.
+- When a trajectory path was suggested in a recording, listeners often perceive the sound as passing in front of them, possibly with a slight elevation in the middle of the trajectory.
+- Maintaining a consistent audio image when sounds traveled over the listener's head was also challenging, with variations in perception from left to right (usually quite good) and from the center to above the head (a bit more problematic).
 {{%/ note %}}
 
 ---
@@ -88,7 +105,7 @@ Neumann researchers experimented with adding a torso which contributed some nuan
 ![](KEMAR.Back.gif)
 
 {{% note %}}
-Some of the best binaural recordings are those made by Richard Duda at San Jose State University in California, in his lab equipped with a Kemar artificial head. The Kemar includes a modelled torso, and accurate pinnae.
+Some of the best binaural recordings are those made by Richard Duda at San Jose State University in California, in his lab equipped with a Kemar artificial head. The Kemar includes a modelled torso and accurate pinnae.
 
 {{%/ note %}}
 
@@ -125,7 +142,20 @@ Some of the best binaural recordings are those made by Richard Duda at San Jose 
   - <audio src="Virtual Haircut.wav" controls>
 
 {{% note %}}
-Today, binaural microphones often are designed to be worn in the recordist’s ears, which of course is less obtrusive and more portable (see the Field Recording module). However, it raises the issue of head movement on the part of the recordist, and how it will be interpreted by a listener whose head is presumably stationary. Also, there will likely be differences between listeners as to the degree to which the sound image is localized outside the head, given the tradition of headphone listening producing in-head localization.
+- Binaural microphones in modern times are often designed to be worn in the recordist's ears, offering a less intrusive and more portable recording solution.
+- However, this design introduces challenges related to head movement on the part of the recordist and how it will be perceived by a listener whose head is assumed to be stationary.
+- There can be variations in how listeners perceive the sound image's location outside the head due to the tradition of headphone listening, which tends to produce an in-head localization effect.
 
-Here are two final examples, the first of a fireworks recording using an artificial head, and the second, a famous and very entertaining binaural drama, the Virtual Haircut.
+- Two examples illustrate binaural recording applications:
+  1. A fireworks recording made using an artificial head demonstrates the use of binaural technology in capturing real-world events.
+  2. "Virtual Haircut" is a well-known and highly entertaining binaural audio drama showcasing immersive and spatial qualities of binaural audio recording techniques.
 {{%/ note %}}
+
+---
+
+## Binaural Albums
+
+- [The Best Albums Recorded in Binaural Audio - Hooke Audio](https://hookeaudio.com/blog/music/best-binaural-albums/)
+- [(484) PigPen Theatre Co. "Shailene" : Hooke Live Sessions - Mobile Binaural 3D Audio - YouTube](https://www.youtube.com/watch?v=0PjI5zdunO4&list=PLYp6w6tSgroG5F4GWK6nEIimmZbl0CTai)
+- [AWESOME BINAURAL ALBUMS! | Headphone Reviews and Discussion - Head-Fi.org](https://www.head-fi.org/threads/awesome-binaural-albums.511850/)
+- [10 Binaural Albums That Will Blow Your Mind – Meteorite Sound](https://meteoritesound.com/10-binaural-albums-that-will-blow-your-mind/)
