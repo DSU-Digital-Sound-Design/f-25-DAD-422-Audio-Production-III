@@ -95,19 +95,18 @@ Labor Day - No class
 
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
 - Experiment with the Occulus? 
-- binaural recording with the Zoom H3-VR and my sound professionals earbuds
-
-> Assignment: [Stereo/binaural](../projects/stereo) - Due ...
-<!-- 
-
 ## Wednesday
 
-- [Mixing binaural audio](../lectures/week-4/mixing-binaural/) - mono sources
-- Check out: 
-  - [Anaglyph](http://anaglyph.dalembert.upmc.fr/)
+- binaural recording with the Zoom H3-VR and my sound professionals earbuds
+- [Anaglyph](http://anaglyph.dalembert.upmc.fr/)
   - [CWBudde/WebSofa: JavaScript port of PasSofa](https://github.com/CWBudde/WebSofa)
   - [Files - Sofaconventions](https://www.sofaconventions.org/mediawiki/index.php/Files)
+<!-- - [Mixing binaural audio](../lectures/week-4/mixing-binaural/) - mono sources -->
 
+
+> Assignment: [Stereo/binaural](../projects/stereo) - Due ...
+
+<!-- 
 - Mixing with [stereo and Binaural](../lectures/week-4/atk-stereo/) sources in Reaper
 - Automation of pans + parameter modulation
 - Listen to binaural mix project
