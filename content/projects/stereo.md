@@ -4,7 +4,13 @@ title: "Project 2: Binaural/Stereo"
 
 <!-- TODO: finish describing this -->
 
-Create a piece of binaural music, sound design, or narrative fiction that uses binaural and stereo recording techniques. The piece should be one minute long. It can accompany a visual or stand alone. One of the recordings should use a stereo recording technique we learned in class. Another recording will use the Zoom H3-VR device in binaural mode. Include at least two panning automation moves. This could be to create a “fly-by” effect or another dynamic panning effect. All other sounds can be mono sources, but make sure to put some thought into how they are spatialized.
+Create a piece of binaural music, sound design, or narrative fiction that uses binaural and stereo recording techniques. The piece should be one minute long. It can accompany a visual or stand alone. 
+
+Requirements: 
+- One of the recordings should use a stereo recording technique we learned in class. 
+- Another recording will use the Zoom H3-VR device in binaural mode. 
+- Include at least two panning automation moves. One could be to create a “fly-by” effect or another dynamic panning effect. 
+- All other sounds can be mono sources spatialized with Anaglyph
 
 Use [Anaglyph](http://anaglyph.dalembert.upmc.fr/index.html) for the Binaural spatialization. 
 

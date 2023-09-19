@@ -99,12 +99,13 @@ Labor Day - No class
 
 - binaural recording with the Zoom H3-VR and my sound professionals earbuds
 - [Anaglyph](http://anaglyph.dalembert.upmc.fr/)
-  - [CWBudde/WebSofa: JavaScript port of PasSofa](https://github.com/CWBudde/WebSofa)
-  - [Files - Sofaconventions](https://www.sofaconventions.org/mediawiki/index.php/Files)
+  - Test out a few of these - [Files - Sofaconventions](https://www.sofaconventions.org/mediawiki/index.php/Files)
+  - Add them to the package contents to get them to show up in the VST
+- Anaglyph projects making of - [Anaglyph](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 <!-- - [Mixing binaural audio](../lectures/week-4/mixing-binaural/) - mono sources -->
 
 
-> Assignment: [Stereo/binaural](../projects/stereo) - Due ...
+> Assignment: [Stereo/binaural](../projects/stereo) - Due 9/26
 
 <!-- 
 - Mixing with [stereo and Binaural](../lectures/week-4/atk-stereo/) sources in Reaper
