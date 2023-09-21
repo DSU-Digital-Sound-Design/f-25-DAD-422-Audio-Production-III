@@ -102,26 +102,28 @@ Labor Day - No class
   - Test out a few of these - [Files - Sofaconventions](https://www.sofaconventions.org/mediawiki/index.php/Files)
   - Add them to the package contents to get them to show up in the VST
 - Anaglyph projects making of - [Anaglyph](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
-<!-- - [Mixing binaural audio](../lectures/week-4/mixing-binaural/) - mono sources -->
 
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 9/26
 
-<!-- 
-- Mixing with [stereo and Binaural](../lectures/week-4/atk-stereo/) sources in Reaper
-- Automation of pans + parameter modulation
-- Listen to binaural mix project
-  - Answer questions for people that had trouble finishing project
+## Friday
+
+- Meet in the immersive room 
 - Listen to ambisonics recordings in the immersive studio
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
   - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
 - Demo of the project setup - how to open a Reaper template to start your project.
 
-> Assignment: [Ambisonics](../projects/ambisonics/) - Due 9/28
+<!-- 
 
-## Friday
+# Week 6 (9/25)
 
+## Monday
+
+- Automation of pans + parameter modulation
+- Listen to binaural mix project
+  - Answer questions for people that had trouble finishing project
 - [Recording Ambisonics](../lectures/week-5/ambisonics-recording/)
 - Demo decoding various ATK example recordings
 - Listen to Eigenmike recordings
@@ -131,13 +133,10 @@ Labor Day - No class
   - AmbiPanningVBAPComparison
 - Record ambisonics with the Zoom H3-VR
   - make recordings with FumA, AmbiX, and raw A-Format
-
-# Week 6 (9/25)
-
-## Monday
-
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 - Any questions about setup of the ambisonic project
+
+> Assignment: [Ambisonics](../projects/ambisonics/) - Due 9/28
 
 ## Wednesday
 
