@@ -8,17 +8,31 @@ margin = 0.2
 
 # First-Order Ambisonics (FOA)
 
+ref: [The Double Mid-Sides Array](https://www.soundonsound.com/techniques/double-mid-sides-array)
+
 {{% note %}}
 Essentially based on similar considerations as MS, one can define first-order Ambisonic recording. For 2D recordings, a Double-MS microphone arrangement is suitable and only requires one more microphone than MS recording: a front-back oriented figure-of-eight microphone. The scheme is extended to 3D first-order Ambisonics by a third figure-of-eight microphone of up-down aiming.
+
+The Double Mid-Sides (DMS) microphone array is a versatile technique for recording spatial information in a sound field. It is an extension of the Mid-Sides (MS) microphone array, which uses two microphones: a cardioid microphone for the mid channel and a figure-8 microphone for the side channel. The mid microphone captures the sound pressure directly in front of it, while the side microphone captures the difference in sound pressure between the left and right sides.
+
+The DMS array adds a third figure-8 microphone, which is oriented in an up-down direction. This allows the DMS array to capture the difference in sound pressure between the front and back, left and right, and up and down directions. This information can then be used to reproduce the sound field over a variety of speaker configurations, including stereo, surround sound, and binaural audio.
+
+The DMS array is a good choice for recording a variety of sound sources, including music, vocals, and sound effects. It is also a good choice for recording in a variety of environments, including studios, concert halls, and outdoor locations.
+
+**Advantages of using the DMS array:**
+
+* It is a versatile microphone array that can be used in a variety of situations.
+* It is a good choice for recording stereo sound.
+* It can be used to create immersive audio experiences for a variety of applications, including music production, film and television production, and virtual reality.
+
+**Disadvantages of using the DMS array:**
+
+* It is more complex to set up and use than the MS microphone array.
+* It requires three microphones, which can be more expensive than the two microphones required for the MS microphone array.
+
+**Overall, the DMS microphone array is a versatile and powerful tool for recording spatial sound. It is a good choice for a wide range of applications, and it is widely supported by audio software and hardware.**
 {{%/ note %}}
 
----
-
-### 2D First-Order Ambisonic Recording and Playback
-
-{{% note %}}
-The first-order Ambisonic format in 2D consists of one signal corresponding to an omnidirectional pickup pattern (called W), and two signals corresponding to the figure-of-eight pickup patterns aligned with the Cartesian axes (X and Y).
-{{%/ note %}}
 
 ---
 

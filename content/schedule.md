@@ -115,15 +115,14 @@ Labor Day - No class
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
 - Demo of the project setup - how to open a Reaper template to start your project.
 
-<!-- 
 
 # Week 6 (9/25)
 
 ## Monday
 
 - Automation of pans + parameter modulation
-- Listen to binaural mix project
-  - Answer questions for people that had trouble finishing project
+- **Listen to binaural mix project**
+- Do an MS recording to compare with Ambisonics 
 - [Recording Ambisonics](../lectures/week-5/ambisonics-recording/)
 - Demo decoding various ATK example recordings
 - Listen to Eigenmike recordings
@@ -133,13 +132,14 @@ Labor Day - No class
   - AmbiPanningVBAPComparison
 - Record ambisonics with the Zoom H3-VR
   - make recordings with FumA, AmbiX, and raw A-Format
-- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 - Any questions about setup of the ambisonic project
 
-> Assignment: [Ambisonics](../projects/ambisonics/) - Due 9/28
+> Assignment: [Ambisonics](../projects/ambisonics/) - Due later
 
+<!-- 
 ## Wednesday
 
+- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 - In Studio B
   - Listen to Ambisonics projects
   - A short technical introduction to 5.1
