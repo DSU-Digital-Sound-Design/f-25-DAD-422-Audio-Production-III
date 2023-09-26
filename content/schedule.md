@@ -122,22 +122,25 @@ Labor Day - No class
 
 - Automation of pans + parameter modulation
 - **Listen to binaural mix project**
-- Do an MS recording to compare with Ambisonics 
 - [Recording Ambisonics](../lectures/week-5/ambisonics-recording/)
 - Demo decoding various ATK example recordings
-- Listen to Eigenmike recordings
-  - linearDecodingLoudspeakersFOA
-  - linearDecodingLoudspeakersEigenmike
-  - parametricDecodingLoudspeakersEigenmike
-  - AmbiPanningVBAPComparison
-- Record ambisonics with the Zoom H3-VR
-  - make recordings with FumA, AmbiX, and raw A-Format
 - Any questions about setup of the ambisonic project
 
-> Assignment: [Ambisonics](../projects/ambisonics/) - Due later
+> Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/4
+
+## Wednesday
+
+- MS vs DMS vs Ambisonics; decode all to 5.1 or 7.1
+  - **Guide:**
+    - [Mid-Side Mic Technique Explained - Stereo Recording 101](https://musicproductionnerds.com/mid-side-mic-technique-explained)
+    - [Double Midside Technique](https://www.youtube.com/watch?v=R0og6zGwXFY)
+- Record ambisonics with the Zoom H3-VR
+  - make recordings with FumA, AmbiX, and raw A-Format
+  - compare the difference of these formats 
+- One student setup the project in Reaper with these recordings. 
 
 <!-- 
-## Wednesday
+## Friday
 
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 - In Studio B
@@ -145,9 +148,6 @@ Labor Day - No class
   - A short technical introduction to 5.1
 - Back in classroom
   - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
-
-## Friday
-
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 
 Assignment: [5.1](../projects/5.1/)
