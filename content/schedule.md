@@ -134,6 +134,8 @@ Labor Day - No class
   - **Guide:**
     - [Mid-Side Mic Technique Explained - Stereo Recording 101](https://musicproductionnerds.com/mid-side-mic-technique-explained)
     - [Double Midside Technique](https://www.youtube.com/watch?v=R0og6zGwXFY)
+      - Routing: FL = side + mid, FR = phase inverted side + mid, C = mid, SL = side + rear, SR = phase inverted side + rear; map to correct channels with JS: Channel Mapper-Downmixer
+      - Do the routing, then try to encode to ambisonics with the 5 channel encoder. 
 - Record ambisonics with the Zoom H3-VR
   - make recordings with FumA, AmbiX, and raw A-Format
   - compare the difference of these formats 
