@@ -132,6 +132,7 @@ Labor Day - No class
 
 - MS vs DMS vs Ambisonics; decode all to 5.1 or 7.1
   - **Guide:**
+    - Record tests - walk around the mic array and talk so we can hear how it picks up each direction. 
     - [Mid-Side Mic Technique Explained - Stereo Recording 101](https://musicproductionnerds.com/mid-side-mic-technique-explained)
     - [Double Midside Technique](https://www.youtube.com/watch?v=R0og6zGwXFY)
       - Routing: FL = side + mid, FR = phase inverted side + mid, C = mid, SL = side + rear, SR = phase inverted side + rear; map to correct channels with JS: Channel Mapper-Downmixer
