@@ -142,21 +142,23 @@ Labor Day - No class
   - compare the difference of these formats 
 - One student setup the project in Reaper with these recordings. 
 
-<!-- 
 ## Friday
 
+- Listen to binaural project
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
+
+
+
+<!-- 
+# Week 7 (10/2) - Mixing in Surround
+
 - In Studio B
   - Listen to Ambisonics projects
   - A short technical introduction to 5.1
 - Back in classroom
   - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
-
 Assignment: [5.1](../projects/5.1/)
-
-# Week 7 (10/2) - Mixing in Surround
-
 > Project 4: [Surround Mix film scene](../projects/5.1/)
 
 ## Monday
