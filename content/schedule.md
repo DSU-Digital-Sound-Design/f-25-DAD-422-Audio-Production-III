@@ -137,30 +137,31 @@ Labor Day - No class
     - [Double Midside Technique](https://www.youtube.com/watch?v=R0og6zGwXFY)
       - Routing: FL = side + mid, FR = phase inverted side + mid, C = mid, SL = side + rear, SR = phase inverted side + rear; map to correct channels with JS: Channel Mapper-Downmixer
       - Do the routing, then try to encode to ambisonics with the 5 channel encoder. 
-- Record ambisonics with the Zoom H3-VR
-  - make recordings with FumA, AmbiX, and raw A-Format
-  - compare the difference of these formats 
 - One student setup the project in Reaper with these recordings. 
 
 ## Friday
 
 - Listen to binaural project
 - Do an Ambisonics mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
-- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 
 
 
 # Week 7 (10/2) - Mixing in Surround
 ## Monday
 
-- Continue with [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/) lecture
-- [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
+- Listen to binaural projects 
+- Continue with ambisonics mix
+- Record ambisonics with the Zoom H3-VR
+  - Spatialize the recordings in Studio B in different ways 
+- Listen to progress on ambisonics student projects 
 
 <!-- 
 
 ## Wednesday
 
 
+- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
+- [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 > Project 4: [Surround Mix film scene](../projects/5.1/)
 - [Reaper surround mixing](../lectures/week-7/reasurround/)
