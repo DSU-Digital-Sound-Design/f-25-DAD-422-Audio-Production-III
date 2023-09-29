@@ -145,28 +145,28 @@ Labor Day - No class
 ## Friday
 
 - Listen to binaural project
+- Do an Ambisonics mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 
 
 
-<!-- 
 # Week 7 (10/2) - Mixing in Surround
-
-- In Studio B
-  - Listen to Ambisonics projects
-  - A short technical introduction to 5.1
-- Back in classroom
-  - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
-- [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
-Assignment: [5.1](../projects/5.1/)
-> Project 4: [Surround Mix film scene](../projects/5.1/)
-
 ## Monday
 
-- [Reaper surround mixing](../lectures/week-7/reasurround/)
+- Continue with [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/) lecture
+- [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
+
+<!-- 
 
 ## Wednesday
 
+
+- [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
+> Project 4: [Surround Mix film scene](../projects/5.1/)
+- [Reaper surround mixing](../lectures/week-7/reasurround/)
+Assignment: [5.1](../projects/5.1/)
+- In Studio B
+  - Listen to Ambisonics projects
 - Using [Sound Particles](../lectures/week-7/sound-particles/) to create multichannel audio
 
 ## Friday
