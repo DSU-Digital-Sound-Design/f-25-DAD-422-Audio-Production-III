@@ -155,23 +155,22 @@ Labor Day - No class
   - Spatialize the recordings in Studio B in different ways 
 - Listen to progress on ambisonics student projects 
 
-<!-- 
 
 ## Wednesday
 
 
+- Listen to Ambisonics projects
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
+
+<!-- 
+## Friday
+
 - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 > Project 4: [Surround Mix film scene](../projects/5.1/)
 - [Reaper surround mixing](../lectures/week-7/reasurround/)
 Assignment: [5.1](../projects/5.1/)
-- In Studio B
-  - Listen to Ambisonics projects
 - Using [Sound Particles](../lectures/week-7/sound-particles/) to create multichannel audio
-
-## Friday
-
 - Mixing music in 5.1 or 7.1
   - Listen to some more mixes
     - VLC
