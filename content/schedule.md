@@ -162,10 +162,21 @@ Labor Day - No class
 - Listen to Ambisonics projects
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 
-<!-- 
+
 ## Friday
 
+- Continue: [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/#15)
 - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
+
+<!-- 
+# Week 8 (10/9) - Introduction to Dolby Atmos
+
+## Monday
+
+- No class for Native America Day
+
+## Wednesday
+
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 > Project 4: [Surround Mix film scene](../projects/5.1/)
 - [Reaper surround mixing](../lectures/week-7/reasurround/)
@@ -185,13 +196,6 @@ Assignment: [5.1](../projects/5.1/)
       - Flaming Lips
   - Mix something from Mike Senior's collection
 
-# Week 8 (10/9) - Introduction to Dolby Atmos
-
-## Monday
-
-- No class for Native America Day
-
-## Wednesday
 
 **Technical introduction to Dolby Atmos**
 
