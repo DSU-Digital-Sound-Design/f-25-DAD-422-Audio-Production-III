@@ -53,12 +53,17 @@ Because of the standardization of surround in movie theatres and home setups, fi
   - Digital surround formats (Dolby Digital, SDSS, DTS) - over 100 dB
 
 {{% note %}}
-In lay terms, **dynamic range** is the difference between the loudest and softest sounds a system can reproduce. From a technical standpoint, it is measured in decibels (dB) and can be found by adding a format’s headroom (how much louder than a designated reference level a signal can be before it distorts or clips) to its signal-to- noise ratio (the distance between that reference level and the inherent noise of the system).
 
-In the case of a 35mm filmstrip, the Dolby- encoded soundtrack must fit into the narrow gap between image and sprocket holes, which is only about 2mm wide. Because of this limitation, Dolby SR film soundtracks only achieve a dynamic range of about 78 dB—far less than Dolby SR encoding offers in other formats with more space for the soundtrack.
+- Dynamic range is the difference between the loudest and softest sounds a system can reproduce.
+- It is measured in decibels (dB) and can be found by adding a format’s headroom (how much louder than a designated reference level a signal can be before it distorts or clips) to its signal-to- noise ratio (the distance between that reference level and the inherent noise of the system).
+- Dolby SR film soundtracks only achieve a dynamic range of about 78 dB—far less than Dolby SR encoding offers in other formats with more space for the soundtrack.
+- Digital surround’s wide dynamic range means that within any given movie, it can include both very loud sounds and very soft ones, in theory surpassing the capabilities of Dolby Stereo and Dolby SR on both ends.
 
-Digital surround’s wide dynamic range means that within any given movie, it can include both very loud sounds and very soft ones, in theory surpassing the capabilities of Dolby Stereo and Dolby SR on both ends.
+In simpler terms:
 
+- Dynamic range is the difference between the loudest and quietest sound a system can produce.
+- Dolby SR film soundtracks have a dynamic range of about 78 dB, which is less than other formats.
+- Digital surround sound has a wider dynamic range, which means it can produce both very loud and very quiet sounds.
 {{%/ note %}}
 
 ---
@@ -71,12 +76,14 @@ Digital surround’s wide dynamic range means that within any given movie, it ca
 - DSS - 20 dB headroom across entire frequency spectrum
 
 {{% note %}}
-In the late sixties, monophonic sound had headroom of about 6 dB, meaning
 
-> “the loudest sounds in the film could be six decibels over the level of average dialogue.”
+- In the late sixties, monophonic sound had headroom of about 6 dB, meaning “the loudest sounds in the film could be six decibels over the level of average dialogue.”
+- Since a 10 dB difference represents a doubling of perceived loudness, these numbers mean that relative to the “average” volume level of a soundtrack—for instance, the level of most dialogue—a digital soundtrack can make loud sounds that are more than twice as loud as the loudest sounds possible with Dolby SR.
 
-Since a 10 dB difference represents a doubling of perceived loudness, these numbers mean that relative to the “average” volume level of a soundtrack—for instance, the level of most dialogue—a digital soundtrack can make loud sounds that are more than twice as loud as the loudest sounds possible with Dolby SR.
+In simpler terms:
 
+- Digital soundtracks can produce sounds that are more than twice as loud as the loudest sounds possible with Dolby SR.
+- This is because digital soundtracks have more headroom, which is the amount of loudness that is available above the average volume level of a soundtrack.
 {{%/ note %}}
 
 ---
@@ -121,9 +128,15 @@ DSS allows sounds in film to be much quieter as well as louder.
 > -- Randy Thom (Ratatouille, Harry Potter and the Goblet of Fire, Cast Away)
 
 {{% note %}}
-In their defense, theater owners play films at lower volumes than official standards dictate in an effort to provide the best possible movie going experience. The screens in some multiplex theaters are packed so close together, with so little soundproofing between them, that soundtracks played at their full intended volume bleed into neighbor- ing theaters. Turning down the volume prohibits this bleed, though a better solution would be sonically isolating each theater in the first place.
 
-Also, trailers tend to be mixed much louder than features, as they are advertisements meant to get your attention.
+- Movie theaters play movies at lower volumes than official standards to prevent sound from bleeding into neighboring theaters.
+- This is especially important in multiplex theaters with many screens packed close together and little soundproofing.
+- Trailers are mixed much louder than features to get your attention.
+
+**Additional thoughts:**
+
+- It is important to note that there are no official standards for movie theater volume. The National Institute for Occupational Safety and Health (NIOSH) recommends that people not be exposed to noise levels above 85 dB for more than 8 hours per day. However, many movie theaters have sound levels that exceed this recommendation.
+- If you find that the volume at a movie theater is too loud, you can ask the staff to turn it down. You can also bring earplugs or earmuffs to protect your hearing.
 {{%/ note %}}
 
 ---
@@ -137,7 +150,20 @@ Also, trailers tend to be mixed much louder than features, as they are advertise
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qcQouZIPqNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-The opening sequence of Terminator 2: Judgment Day offers the most sig- nificant use of ambience in the film. After the flair of a nuclear explosion, the ambience of wind comes in, and the camera reveals a devastated Los Angeles in 2029 A.D. The ambience is sweetened with the sound of sand and dust playing across various surfaces, metal, and bone. Contrast this with the prior sound effect of a young girl’s laughter and the juxtaposition is telling. The future represented by the child’s voice is wiped away by the impact of a manmade technology, a nuclear weapon. In her voice-over, Sarah Connor invokes the religious prophecy of “Judgment Day” to de- scribe the event. (This also serves as an intertextual reference to the first Terminator film from 1984, which describes the war as a “storm.”) These are the sounds of Armageddon. Vivian Sobchack notes one important aspect of wind in the science fiction genre:
+
+**Terminator 2: Judgment Day (1991)**
+
+- The opening sequence uses ambience to create a sense of dread and foreboding.
+- The sound of wind is used to represent the devastation caused by a nuclear war.
+- The juxtaposition of a young girl's laughter and the nuclear explosion is particularly effective in creating a sense of loss and despair.
+- The sound of sand and dust playing across various surfaces, metal, and bone is used to create a sense of decay and ruin.
+- Sarah Connor's voice-over invocation of the religious prophecy of "Judgment Day" reinforces the sense of Armageddon.
+
+**Vivian Sobchack's observation about wind in science fiction:**
+
+- Wind is often used in science fiction to represent change and upheaval. It can also be used to create a sense of mystery and wonder.
+
+I would also add that the sound of wind in the opening sequence of Terminator 2 can be interpreted as a warning. It is a reminder that the future is not set in stone, and that our actions have consequences.
 {{%/ note %}}
 
 ---
@@ -147,7 +173,16 @@ The opening sequence of Terminator 2: Judgment Day offers the most sig- nificant
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EWwhQB3TKXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-The opening sequence of Contact (1997) similarly uses silence to great effect. The movie begins with a tracking shot that starts at the earth and moves out until it encompasses the entire galaxy. While this scene begins with sound, it ends in the total silence of empty space. Here even the quiet speaker hiss of a Dolby Stereo “silence” would be reassuring, but director Robert Zemeckis refuses to temper the scene with any such aural object. Instead, he uses the total silence made available by DSS to emphasize the feeling of emptiness this scene engenders.
+**The opening sequence of Contact (1997):**
+
+- The sequence begins with a tracking shot that starts at the Earth and moves out until it encompasses the entire galaxy.
+- The scene begins with sound, but ends in the total silence of empty space.
+- Director Robert Zemeckis refuses to temper the scene with any aural object, such as the quiet speaker hiss of a Dolby Stereo "silence."
+- Instead, he uses the total silence made available by DSS to emphasize the feeling of emptiness this scene engenders.
+
+**Additional thoughts:**
+
+The use of silence in the opening of Contact is very effective. It creates a sense of awe and wonder, but also a sense of loneliness and isolation. It is a reminder that we are just a small part of a vast and mysterious universe.
 {{%/ note %}}
 
 ---
@@ -157,7 +192,13 @@ The opening sequence of Contact (1997) similarly uses silence to great effect. T
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vFHYiOfBRng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-Digital surround’s increased dynamic range allows increased flexibility in the use of “relative” silence, since even sounds played at a “normal” volume can be relatively silent in the context of a noticeably louder or busier soundtrack. The climax of the 2008 film Frost/Nixon, for instance, uses relational silence to focus the audience’s ears and emotional attentions on the moment when Frost finally draws an ad- mission of wrongdoing out of the ex-president. In earlier segments of their conversations, the soundtrack included not only Frost and Nixon’s dialogue but also the sounds of the television crew around them, the room tone of the location, and Foley. But for this key moment, every- thing but Nixon’s voice drops out of the soundtrack.
+
+**In the climax of Frost/Nixon:**
+
+- The soundtrack is busy with the sounds of the television crew, the room tone, and Foley.
+- But when Nixon finally admits wrongdoing, everything but his voice drops out of the soundtrack.
+- This creates a sense of focus and emphasis on Nixon's words, and it allows the audience to fully experience the emotional impact of his admission.
+
 {{%/ note %}}
 
 ---
@@ -167,7 +208,24 @@ Digital surround’s increased dynamic range allows increased flexibility in the
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PUq4-3l_XFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-Superman Returns (2006) takes a similar approach when a surgeon is picking shards of kryptonite from the hero’s body: all sounds other than the clank of the shards dropping onto a table disappear. In both cases, while the emphasized sounds (Nixon’s voice and the clinks of shards hitting metal) are actually fairly loud, the soundtrack seems silent due to its relative emptiness.
+**Superman Returns (2006)**
+
+- The scene where a surgeon is picking shards of kryptonite from Superman's body uses silence in a similar way to Frost/Nixon.
+- All sounds other than the clank of the shards dropping onto a table disappear.
+- This creates a sense of focus and emphasis on the sound of the shards, and it allows the audience to fully experience the discomfort and danger of the situation.
+
+**In both cases:**
+
+- The emphasized sounds (Nixon's voice and the clinks of shards hitting metal) are actually fairly loud.
+- However, the soundtrack seems silent due to its relative emptiness.
+
+This is a very effective use of silence, and it is one of the ways that digital surround sound can be used to create a more immersive and impactful cinematic experience.
+
+**Additional thoughts:**
+
+The use of silence in both Frost/Nixon and Superman Returns is a reminder of the power of sound design. By carefully controlling what sounds the audience hears and when, filmmakers can create a wide range of emotional and psychological effects. In these two cases, silence is used to create a sense of focus, emphasis, and suspense.
+
+It is also worth noting that the use of silence in these two scenes is not just a technical feat. It is also a creative choice that is made by the filmmakers in order to achieve a specific effect. This is just one example of how digital surround sound can be used to enhance the storytelling process.
 {{%/ note %}}
 
 ---
@@ -185,13 +243,19 @@ Here we'll look at scenes that make great use of dynamic contrast between loud a
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RLUhwGLJhsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-Even before dolby digital it was really common to have quiet parts right before loud parts to make the audience perceive explosions more loudly. Gary Rydstrom explains:
 
-> Just before an explosion, I like to have a moment of silence or expectation, have an explosion preceded by a sucking in of air, a light high sound, then a rest, and then the explosion coming in as a surprise.”
+- Even before Dolby Digital, filmmakers would often use silence to make explosions seem louder.
+- For example, Gary Rydstrom would use a moment of silence or expectation, followed by a sucking in of air, a light high sound, and then a rest, before the explosion.
+- Digital surround sound (DSS) makes this process even more intense, by having quieter quiets and louder loud parts.
+- Examples of filmmakers pairing true silences with loud transient sounds like explosions to exploit DSS's full dynamic range can be found in a wide variety of films.
 
-DSS makes this process much more intense, by having quieter quiets and louder loud parts.
+**Additional thoughts:**
 
-Examples of filmmakers pairing true silences with loud transient sounds like explosions to exploit digital surround sound’s full dynamic range can be found in a wide variety of films.
+The use of silence to make explosions seem louder is a classic example of sound design. It is a simple but effective technique that can be used to create a more immersive and impactful cinematic experience.
+
+DSS takes this technique to the next level by allowing for quieter quiets and louder loud parts. This means that the silence before an explosion can be even more complete, and the explosion itself can be even louder and more powerful.
+
+This technique is often used in action films, but it can also be used in other genres, such as horror and science fiction. For example, in the horror film "The Quiet Place" (2018), the filmmakers use silence to create a sense of suspense and dread. When the monsters finally appear, they are all the more terrifying because of the silence that precedes them.
 
 {{%/ note %}}
 
@@ -212,7 +276,10 @@ prefaces the sound of a plane crashing into the World Trade Center with a brief 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xvaxI4hK45c?start=785" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-Obi-Wan Kenobi is chasing Jango Fett through an asteroid field. To distract his pursuer, Fett launches a series of bombs that, in keeping with the Star Wars franchise’s tradition of ignoring the laws of physics, cause huge, theater- rattling explosions. The explosions are reasonably loud on their own, but Lucas makes them sound even louder than they actually are by dropping out all other sounds from the soundtrack about a half second before each one.
+
+- Obi-Wan Kenobi is chasing Jango Fett through an asteroid field.
+- To distract his pursuer, Fett launches a series of bombs.
+- The explosions are loud on their own, but Lucas makes them sound even louder by dropping out all other sounds from the soundtrack about a half second before each one.
 {{%/ note %}}
 
 ---

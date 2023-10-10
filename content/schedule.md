@@ -13,15 +13,15 @@ author: ""
 - Look at [syllabus](../syllabus)
 - Listen to some surround in the immersive room.
   - Atmos demos
-  - Some 5.1 surround 
+  - Some 5.1 surround
 - [Fundamentals of Sound](http://www.acousticslab.org/RECA220/PMFiles/Module01.htm#1a)
 
 > Read: [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
 
 ## Wednesday
 
-- Announcement: [2024 MOXsonic](https://moxsonic.org/moxsonic-proposal-portal/) - could be a place to have your immersive sound works heard! 
-- A look at annotating with 
+- Announcement: [2024 MOXsonic](https://moxsonic.org/moxsonic-proposal-portal/) - could be a place to have your immersive sound works heard!
+- A look at annotating with
   - Join [hypothesis](https://hypothes.is/groups/PBAV8n5v/dad-310)
   - [annotations for reading assignment](https://hyp.is/go?url=http%3A%2F%2Fwww.acousticslab.org%2FRECA220%2FPMFiles%2FModule02a.htm&group=PBAV8n5v)
 - Discuss [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
@@ -32,7 +32,7 @@ author: ""
 ## Friday
 
 - Discuss: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
-  - [Annotations](https://hyp.is/go?url=http%3A%2F%2Fwww.acousticslab.org%2FRECA220%2FPMFiles%2FModule02a.htm&group=rB3vwk31) 
+  - [Annotations](https://hyp.is/go?url=http%3A%2F%2Fwww.acousticslab.org%2FRECA220%2FPMFiles%2FModule02a.htm&group=rB3vwk31)
 - [Historical Context - audio](../lectures/week-1/historical-context/)
 
 # Week 2 (8/28)
@@ -49,10 +49,10 @@ author: ""
 
 ## Friday
 
-- In class - try to create a recording's perceived distance in a specific environment using reverb, volume, and filtering. Use the new field recording microphone. Use the iPhone measure app to measure distances. We could also try a familiar and unfamiliar sound. 
-  - Record something with the zoom at several distances 
-  - Record something in the studio at several distances 
-  - Try to artificially recreate the distance and spatial cues using the close-miced source and audio effects. 
+- In class - try to create a recording's perceived distance in a specific environment using reverb, volume, and filtering. Use the new field recording microphone. Use the iPhone measure app to measure distances. We could also try a familiar and unfamiliar sound.
+  - Record something with the zoom at several distances
+  - Record something in the studio at several distances
+  - Try to artificially recreate the distance and spatial cues using the close-miced source and audio effects.
 - Mono project check-in
 
 # Week 3 (9/4)
@@ -63,19 +63,18 @@ Labor Day - No class
 
 ## Wednesday
 
-- Class canceled 
+- Class canceled
 
 ## Friday
 
-- Class canceled - students sick 
+- Class canceled - students sick
 
 # Week 4 (9/11)
-
 
 ## Monday
 
 - **20 minutes** Watch mono projects and discuss your process
-- Follow along with headphones 
+- Follow along with headphones
   - [Spatial audio psychoacoustics](../lectures/week-3/spatial-audio-psychoacoustics/)
 
 ## Wednesday
@@ -88,13 +87,13 @@ Labor Day - No class
 - Try some of these in the studio
   - Do the descriptions match what we hear?
 
-
 # Week 5 (9/18)
 
 ## Monday
 
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
-- Experiment with the Occulus? 
+- Experiment with the Occulus?
+
 ## Wednesday
 
 - binaural recording with the Zoom H3-VR and my sound professionals earbuds
@@ -103,18 +102,16 @@ Labor Day - No class
   - Add them to the package contents to get them to show up in the VST
 - Anaglyph projects making of - [Anaglyph](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 
-
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 9/26
 
 ## Friday
 
-- Meet in the immersive room 
+- Meet in the immersive room
 - Listen to ambisonics recordings in the immersive studio
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
   - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
 - Demo of the project setup - how to open a Reaper template to start your project.
-
 
 # Week 6 (9/25)
 
@@ -132,44 +129,38 @@ Labor Day - No class
 
 - MS vs DMS vs Ambisonics; decode all to 5.1 or 7.1
   - **Guide:**
-    - Record tests - walk around the mic array and talk so we can hear how it picks up each direction. 
+    - Record tests - walk around the mic array and talk so we can hear how it picks up each direction.
     - [Mid-Side Mic Technique Explained - Stereo Recording 101](https://musicproductionnerds.com/mid-side-mic-technique-explained)
     - [Double Midside Technique](https://www.youtube.com/watch?v=R0og6zGwXFY)
       - Routing: FL = side + mid, FR = phase inverted side + mid, C = mid, SL = side + rear, SR = phase inverted side + rear; map to correct channels with JS: Channel Mapper-Downmixer
-      - Do the routing, then try to encode to ambisonics with the 5 channel encoder. 
-- One student setup the project in Reaper with these recordings. 
+      - Do the routing, then try to encode to ambisonics with the 5 channel encoder.
+- One student setup the project in Reaper with these recordings.
 
 ## Friday
 
 - Listen to binaural project
 - Do an Ambisonics mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
 
-
-
 # Week 7 (10/2) - Mixing in Surround
+
 ## Monday
 
-- Listen to binaural projects 
+- Listen to binaural projects
 - Continue with ambisonics mix
 - Record ambisonics with the Zoom H3-VR
-  - Spatialize the recordings in Studio B in different ways 
-- Listen to progress on ambisonics student projects 
-
+  - Spatialize the recordings in Studio B in different ways
+- Listen to progress on ambisonics student projects
 
 ## Wednesday
-
 
 - Listen to Ambisonics projects
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 
-
 ## Friday
 
 - Continue: [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/#15)
-- [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
 
-<!-- 
-# Week 8 (10/9) - Introduction to Dolby Atmos
+# Week 8 (10/9)
 
 ## Monday
 
@@ -177,6 +168,9 @@ Labor Day - No class
 
 ## Wednesday
 
+- [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
+
+<!-- 
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 > Project 4: [Surround Mix film scene](../projects/5.1/)
 - [Reaper surround mixing](../lectures/week-7/reasurround/)
@@ -195,7 +189,6 @@ Assignment: [5.1](../projects/5.1/)
       - Beach Boys
       - Flaming Lips
   - Mix something from Mike Senior's collection
-
 
 **Technical introduction to Dolby Atmos**
 
