@@ -11,12 +11,37 @@ margin = 0.2
 > Why is 5.1 a notable improvement over Dolby Stereo?
 
 {{% note %}}
-When most people think about digital sound, “improved dynamic range” is not the first issue that comes to mind. That honor would go to DSS’s multi-channel capabilities. “5.1” is now a part of everyday language, a fact that speaks not only to digital surround’s ubiquity in contemporary media but to DSS’s fundamental association with multi- channel sound.
+- Digital sound is often associated with improved dynamic range, but it's more commonly recognized for its multi-channel capabilities, such as the "5.1" system that has become part of everyday language [INITIAL_QUERY].
+- Dolby Stereo includes four channels: left, center, and right front plus mono surround. Digital surround systems use a similar setup but split the mono surround channel into stereo [INITIAL_QUERY].
+- Digital surround sound offers completely discrete audio channels, meaning the content in each of its six channels is completely independent of what is in the others [INITIAL_QUERY].
+- Dynamic range in music production is the decibel (dB) difference between the quietest and loudest sounds in a mix or audio file. The dynamic range can also refer to the loudest and quietest sounds hardware or audio systems can properly represent[1].
+- The maximum dynamic range for human hearing is about 120 dB between the softest signal we can detect and when distortion starts to create physical pain. The theoretical dynamic range of undithered 20-bit quantization of digital audio is 120 dB[1].
+- 5.1 surround sound is the most commonly used layout in home theatres. It uses five full bandwidth channels and one low-frequency effects channel. All 5.1 systems use the same speaker channels and configuration, having a Front Left (FL) and Front Right (FR), a Center Channel (CNT), two surround channels (Surround Left - SL and Surround Right - SR) and the low-frequency effects (SW) channel designed for a subwoofer[3].
+- The dynamic range of a 16-bit / 44.1 kHz CD is over 90 dB — slightly greater than the range of human hearing. 24-bit digital audio has a theoretical dynamic range of 144 dB, but no playback system can equal that[4].
+- Surround sound is a technique for enriching the fidelity and depth of sound reproduction by using multiple audio channels from speakers that surround the listener. The technique enhances the perception of sound spatialization by exploiting sound localization: a listener's ability to identify the location or origin of a detected sound in direction and distance[6].
 
-- Dolby Stereo ostensibly includes four channels—left, center, and right front plus mono surround—and, ignoring for the moment the LFE channel,
-- digital surround systems employ the same basic setup other than splitting the mono surround channel into stereo.
-- Digital surround sound, in contrast, offers _completely discrete audio channels_, meaning that the content in each one of its six channels is completely independent of what is in the others.
-- ability for literally more sounds to play at the same time.
+Citations:
+[1] https://emastered.com/blog/dynamic-range-in-audio
+[2] https://www.dolby.com/about/support/guide/surround-sound-speaker-setup/
+[3] https://en.wikipedia.org/wiki/5.1_surround_sound
+[4] https://hub.yamaha.com/audio/music/what-is-dynamic-range-and-why-does-it-matter/
+[5] https://www.dolby.com/about/support/guide/speaker-setup-guides/5.1-virtual-speakers-setup-guide/
+[6] https://en.wikipedia.org/wiki/Surround_sound
+[7] https://blogs.qsc.com/live-sound/why-is-dynamic-range-so-important/
+[8] https://www.dolby.com/about/support/guide/speaker-setup-guides/
+[9] https://blog.bestbuy.ca/tv-audio/tv-home-theatre-tv-audio/types-of-surround-sound-systems-5-1-7-1-9-1-channel-dolby-atmos-and-dtsx?amp=1
+[10] https://en.wikipedia.org/wiki/Dynamic_range
+[11] https://www.dolby.com/about/support/guide/dolby-atmos-speaker-setup/
+[12] https://www.digitaltrends.com/home-theater/ultimate-surround-sound-guide-different-formats-explained/
+[13] https://blog.landr.com/dynamic-range-mastering/
+[14] https://www.dolby.com/about/support/guide/speaker-setup-guides/9.1-virtual-speakers-setup-guide/
+[15] https://www.pcmag.com/how-to/what-is-surround-sound-51-71-dolby-atmos-and-more-explained
+[16] https://www.dolby.com/about/support/guide/speaker-setup-guides/9.1.2-overhead-speaker-setup-guide/
+[17] https://thehometheaterdiy.com/surround-sound-channels-explained/
+[18] https://www.dolby.com/about/support/guide/speaker-setup-guides/5.1.4-overhead-speaker-setup-guide/
+[19] https://professional.dolby.com/tv/dolby-digital/
+[20] https://www.avforums.com/threads/dolby-digital-on-2-channel-setup.2365274/
+[21] https://www.diffen.com/difference/5.1_Surround_Sound_vs_7.1_Surround_Sound
 
 {{%/ note %}}
 
@@ -77,7 +102,14 @@ Its biggest action sequence, an extended freeway chase, moves a huge number of s
 - Driving across the country interviewing people for a study
 
 {{% note %}}
-A montage sequence in Kinsey (2004) employs an even more complex mix than that of T2’s freeway chase. While the title character crisscrosses the country interviewing people for his sex study, the faces of his various interviewees appear onscreen over a U.S. map. Their voices also begin to mingle together and spread throughout the theater as they recount their stories. By the montage’s end, all five main sound channels are playing different sets of voices. These voices remain individually discernable, and audience members can choose if they want to focus on any particular voice to hear its story; alternately, they can simply listen to the mix as a whole, which continuously shifts focus among different voices. The result either way is a feeling of being overwhelmed by the number of different points of view present, an emotion made more powerful by the clear sense that this is not just “walla” sound but a vast collection of individual voices, all of whom have something worth saying.
+Details: The montage sequence in the 2004 film "Kinsey" is described as follows:
+
+- The sequence involves the title character, Kinsey, traveling across the country to conduct interviews for his sex study [INITIAL_QUERY].
+- As Kinsey crisscrosses the U.S., the faces of his interviewees appear onscreen over a map of the country [INITIAL_QUERY].
+- The voices of the interviewees begin to mingle together and spread throughout the theater, recounting their stories [INITIAL_QUERY].
+- By the end of the montage, all five main sound channels are playing different sets of voices [INITIAL_QUERY].
+- Despite the multitude of voices, each one remains individually discernible. Audience members have the option to focus on a particular voice to hear its story, or they can listen to the mix as a whole, which continuously shifts focus among different voices [INITIAL_QUERY].
+- The result is a feeling of being overwhelmed by the number of different points of view present. This emotion is amplified by the clear sense that this is not just background noise, but a vast collection of individual voices, each with something worth saying [INITIAL_QUERY].
 {{%/ note %}}
 
 ---
@@ -95,7 +127,11 @@ Digital surround sound’s discrete channel system is not, of course, used only 
 Maximus walks from a small enclosed space out into the arena
 
 {{% note %}}
-As an example, a scene in Gladiator (2000) where Maximus (the film’s hero, played by Russell Crowe) walks from a small enclosed space out into a giant arena uses a gradual movement of sounds through all five channels. At the start of the scene, we hear the sounds of the small “waiting area” where Maximus is preparing to do battle; muffled sounds from outside also play in the background. As Maximus moves out to the arena, the camera moves with him and the soundtrack begins to shift. It gradually introduces the sounds of the arena (now heard without the “muffling” effect) to the front center, then the entire front, then gradually the entire theater (as the sounds of the original waiting area fade out in the rears). This design effectively conveys the overwhelming sensation of moving from a tiny underground tunnel to a gigantic stadium filled with cheering spectators, and it is made more effective by the way all the main channels are used together to precisely shape the move between these two spaces.
+Details: The scene from the 2000 film "Gladiator" featuring Maximus, played by Russell Crowe, is described as follows:
+
+- The scene begins in a small enclosed space, the "waiting area" where Maximus is preparing for battle. Muffled sounds from outside can be heard in the background [INITIAL_QUERY].
+- As Maximus moves out into the arena, the camera follows him and the soundtrack begins to shift. The sounds of the arena, now without the "muffling" effect, are gradually introduced to the front center, then the entire front, and eventually the entire theater as the sounds of the original waiting area fade out in the rear channels [INITIAL_QUERY].
+- This sound design effectively conveys the overwhelming sensation of moving from a tiny underground tunnel to a gigantic stadium filled with cheering spectators. The use of all the main channels together precisely shapes the transition between these two spaces, enhancing the overall effect [INITIAL_QUERY].
 {{%/ note %}}
 
 ---
@@ -105,7 +141,12 @@ As an example, a scene in Gladiator (2000) where Maximus (the film’s hero, pla
 Rewatch opening scene in 5.1
 
 {{% note %}}
-The film opens on earth, then the camera begins tracking backward away from our planet through the outer reaches of the solar system all the way into deep space. As the camera pulls back, the soundtrack conveys that earth’s radio and television signals are traveling out into space by moving recognizable music and news clips from the back of the theater to the front. In other words, as the camera moves away from the earth, the sounds of history whiz by the audience—the effect is that of traveling backward both spatially and temporally. A similar sound effect (that of moving back into history) could possibly be created in a monophonic or Dolby Stereo environment—but this would not have the same psychological and narrative power as actually hearing history fly by.
+Details: The opening scene of the film is described as follows:
+
+- The film begins with a view of Earth, and the camera starts to move backward, tracking away from our planet through the outer reaches of the solar system and into deep space [INITIAL_QUERY].
+- As the camera pulls back, the soundtrack conveys the travel of Earth's radio and television signals into space. This is done by moving recognizable music and news clips from the back of the theater to the front [INITIAL_QUERY].
+- As the camera moves away from Earth, the sounds of history whiz by the audience. This creates an effect of traveling backward both spatially and temporally [INITIAL_QUERY].
+- A similar sound effect, that of moving back into history, could potentially be created in a monophonic or Dolby Stereo environment. However, it would not have the same psychological and narrative power as actually hearing history fly by [INITIAL_QUERY].
 {{%/ note %}}
 
 ---
@@ -135,9 +176,12 @@ The trailer for 2003’s The Texas Chainsaw Massacre remake employs this strateg
 Play on Apple TV
 
 {{% note %}}
-The short Lifted (2006) uses careful placement of sounds around the multi-channel soundscape to indicate diegetic action beyond the edges of the frame. Here the abductor-in-training reacts to the offscreen sounds of an examiner making notes about his poor performance.
+Details: The 2006 short film "Lifted" uses the multi-channel soundscape to indicate actions happening offscreen. Here's a summary of the film's sound design:
 
-Throughout the piece, Rydstrom uses carefully panned sound effects to suggest both this (often offscreen) havoc and other diegetic sounds outside the borders of the frame, such as the trainee’s whining during a shot of his teacher making notes about his performance. One of the film’s funniest moments even relies on a surround effect: the abductor-in-training at last succeeds in directing the human out of the bedroom window—a success quickly marred by the fact that immediately after the body flies offscreen, a crash in the right surround channel reveals that it has hit a tree. This sound effect cues a cut to a wider shot revealing the body wedged in the tree’s branches. In this and other situations, Rydstrom carefully places sounds around the theater to heighten his film’s drama and/or comedy. But since all these sound effects have clearly indicated sources within the diegesis (even if those sources are not onscreen at the moment), the sound design never be- comes distracting or “too big” for the story.
+- The film features an abductor-in-training who reacts to the offscreen sounds of an examiner making notes about his poor performance [INITIAL_QUERY].
+- Throughout the film, sound effects are carefully panned to suggest offscreen chaos and other diegetic sounds outside the frame, such as the trainee's whining during a shot of his teacher making notes [INITIAL_QUERY].
+- One of the film's funniest moments relies on a surround effect: the abductor-in-training finally succeeds in directing the human out of the bedroom window, only for a crash in the right surround channel to reveal that the body has hit a tree. This sound effect cues a cut to a wider shot revealing the body wedged in the tree's branches [INITIAL_QUERY].
+- In this and other situations, the film's sound designer, Gary Rydstrom, carefully places sounds around the theater to heighten the film's drama and/or comedy. However, since all these sound effects have clearly indicated sources within the diegesis (even if those sources are not onscreen at the moment), the sound design never becomes distracting or "too big" for the story [INITIAL_QUERY].
 {{%/ note %}}
 
 ---
@@ -148,11 +192,11 @@ Throughout the piece, Rydstrom uses carefully panned sound effects to suggest bo
 - Also the T1000 melting at the end of Terminator 2
 
 {{% note %}}
-An even better indication of how much digital surround’s discrete channel design has affected mixing practices is that dialogue is slowly being liberated to move around the theater like other elements of the soundtrack. One of the cardinal principles of multi-channel panning has been to keep dialogue front and center; filmmakers using magnetic stereo in the 1950s quickly learned this lesson, and the Dolby Stereo system appearing twenty years later technologically codified this aesthetic guideline. But now that the discrete channels of digital surround have made it technically possible to place dialogue elsewhere in the theater, some filmmakers are breaking with decades-long conventions to take advantage of this capability.
-
-The _Kinsey montage_ discussed earlier, for in- stance, gradually spreads the voices of its researchers’ interviewees around the whole soundscape, but it is clear in this case that no literal correspondence between image and sound is intended. In fact, while some of the voices in the montage are first heard in sync with onscreen faces, others are never associated with onscreen elements, and ultimately both types of voices spread into the surrounds even as some of the speakers’ faces remain onscreen.
-
-The same fundamental principle is at play in the scene near the end of Terminator 2 where the T1000 (played by Robert Patrick) is melting in a pit of molten steel. Despite the T1000 remaining onscreen in a close shot, its screams whip around the surround channels.70 While this violates conventions of spatial matching between image and sound, it fits with the “spectacle” of the scene overall, recognizing that audiences are not expecting unadulterated realism out of this scene. Moreover, the T1000’s screams are, like the voices in the Kinsey montage, primarily effects rather than dialogue whose semantic meaning the audience is expected to decode.
+- Digital surround sound's use of discrete channels has started to change mixing practices, including for dialogue. Dialogue has traditionally been kept front and center, but can now be placed elsewhere with digital surround [INITIAL_QUERY].
+- The Kinsey montage spreads interviewees' voices around the soundscape, not matching them spatially to the onscreen faces. Some voices are never associated with onscreen elements at all [INITIAL_QUERY].
+- In Terminator 2, the T-1000's screams whip around the surround channels even as he remains onscreen. This violates conventions of matching image and sound, but fits the spectacle of the scene [INITIAL_QUERY]. 
+- Spreading dialogue to surround channels goes against long-standing conventions. But filmmakers are starting to do this in certain stylized scenes where realism is not the priority [INITIAL_QUERY].
+- Overall, digital surround's discrete channels have made it technically possible to spread dialogue around the theater. Some filmmakers are utilizing this capability, breaking from traditional conventions of keeping dialogue front and center [INITIAL_QUERY].
 {{%/ note %}}
 
 <!-- ---
@@ -208,9 +252,12 @@ no surrround with 5.1 trailers
 ## Full Frequency Channels
 
 {{% note %}}
-When SMPTE was developing the specifications for digital motion picture soundtracks, however, it recognized that the advantages of discrete channels would be partially lost if frequency limitations meant that the surround channels could only handle certain types of sounds. Hence SMPTE stipulated that every main channel be able to reproduce all audible frequencies.
+Details: The development of specifications for digital motion picture soundtracks by SMPTE (Society of Motion Picture and Television Engineers) and its implications are summarized as follows:
 
-The combination of full-range channels with a discrete channel configuration means not only that any sound can be placed in any channel, but that sounds can smoothly be panned from one channel to another. While brief stereo “fly-bys” across the front speakers have long been a staple of multi-channel soundtracks, digital surround sound represents the first commonplace system where sounds can move not just across the screen but all throughout the theater. Apocalypse Now famously panned helicopter sounds throughout the auditorium—but the full splendor of this multi-channel mix was only heard by viewers in a few showcase houses, as the standard 35mm Dolby Stereo prints of Apocalypse Now did not even include a surround channel.
+- SMPTE recognized that the advantages of discrete channels in digital soundtracks would be partially lost if frequency limitations meant that the surround channels could only handle certain types of sounds. Therefore, it stipulated that every main channel should be able to reproduce all audible frequencies [INITIAL_QUERY].
+- The combination of full-range channels with a discrete channel configuration means that any sound can be placed in any channel, and sounds can smoothly be panned from one channel to another [INITIAL_QUERY].
+- While brief stereo "fly-bys" across the front speakers have long been a staple of multi-channel soundtracks, digital surround sound represents the first commonplace system where sounds can move not just across the screen but all throughout the theater [INITIAL_QUERY].
+- The film "Apocalypse Now" famously panned helicopter sounds throughout the auditorium. However, the full splendor of this multi-channel mix was only heard by viewers in a few showcase houses, as the standard 35mm Dolby Stereo prints of "Apocalypse Now" did not even include a surround channel [INITIAL_QUERY].
 {{%/ note %}}
 
 ---

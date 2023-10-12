@@ -170,25 +170,20 @@ Labor Day - No class
 
 - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
 
-<!-- 
+## Friday 
+
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
-> Project 4: [Surround Mix film scene](../projects/5.1/)
-- [Reaper surround mixing](../lectures/week-7/reasurround/)
-Assignment: [5.1](../projects/5.1/)
-- Using [Sound Particles](../lectures/week-7/sound-particles/) to create multichannel audio
-- Mixing music in 5.1 or 7.1
-  - Listen to some more mixes
-    - VLC
-      - Bowie - Young American
-    - Reaper
-      - Nirvana - MTV Unplugged
-      - Jimi Hendrix - Live
-      - Leonard Cohen
-      - Joni Mitchell - mostly reverb in the surrounds
-      - Steve Wilson - Luminol - putting solos in the surrounds?
-      - Beach Boys
-      - Flaming Lips
-  - Mix something from Mike Senior's collection
+
+# Week 9 (10/16) 
+
+## Monday
+
+- [ReaSurroundPan](../lectures/week-7/reasurround/)
+- Mix 7.1 music: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
+
+
+<!--
+## Wednesday
 
 **Technical introduction to Dolby Atmos**
 
@@ -197,24 +192,12 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Friday
 
-- [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
-
-# Week 9 (10/16) -
-
-## Monday
-
 - [Atmos with Logic X](../lectures/week-9/atmos-logic/)
 - Setting up a new mix?
 - Step sequencer?
-
-## Wednesday
-
 - In depth listening session
   - Atmos Demo
   - Lil Nas X demo
-
-## Friday
-
 - Watch [this video](https://www.youtube.com/watch?v=-WWhJQNo2zU&list=PL7wdwvsh3pOiap-YltSwamGRENdmQRqt5&index=3) for a great overview of Atmos and routing.
 - _Ocean Eyes_ tips
   - A/B between your mix and the stereo mix to hear if you're loosing an important part.
@@ -231,6 +214,7 @@ Assignment: [5.1](../projects/5.1/)
 
 ## Monday
 
+- [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
 - One more Atmos music mix - Kangoro - King Rascal
 
 ## Wednesday
@@ -300,4 +284,6 @@ Veteran's Day - No Class
 
 # Week 16 (12/4)
 
-- Final Exam Presentation: Monday, December 12, 1 pm - 3 pm -->
+- Final Exam Presentation: Monday, December 12, 1 pm - 3 pm 
+
+-->
