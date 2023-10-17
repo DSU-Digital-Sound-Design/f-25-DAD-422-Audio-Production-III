@@ -178,20 +178,21 @@ Labor Day - No class
 
 ## Monday
 
+- [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
+
+
+## Wednesday
+
 - [ReaSurroundPan](../lectures/week-7/reasurround/)
 - Mix 7.1 music: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
 
-
 <!--
-## Wednesday
+## Friday
 
 **Technical introduction to Dolby Atmos**
 
 - Watch the Atmos demo - how different does it sound from the 5.1/7.1 we have been using?
 - [What is Dolby Atmos](../lectures/week-8/what-is-dolby-atmos/)
-
-## Friday
-
 - [Atmos with Logic X](../lectures/week-9/atmos-logic/)
 - Setting up a new mix?
 - Step sequencer?
