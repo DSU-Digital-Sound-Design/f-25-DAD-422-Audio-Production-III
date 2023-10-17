@@ -183,6 +183,7 @@ Labor Day - No class
 
 ## Wednesday
 
+- Listen to Ambisonics mixes in class and talk about your process. 
 - [ReaSurroundPan](../lectures/week-7/reasurround/)
 - Mix 7.1 music: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
 
