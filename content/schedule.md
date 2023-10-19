@@ -187,13 +187,18 @@ Labor Day - No class
 - [ReaSurroundPan](../lectures/week-7/reasurround/)
 - Mix 7.1 music: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
 
-<!--
 ## Friday
 
 **Technical introduction to Dolby Atmos**
 
 - Watch the Atmos demo - how different does it sound from the 5.1/7.1 we have been using?
 - [What is Dolby Atmos](../lectures/week-8/what-is-dolby-atmos/)
+
+<!--
+# Week 10 (10/23)
+
+## Monday
+
 - [Atmos with Logic X](../lectures/week-9/atmos-logic/)
 - Setting up a new mix?
 - Step sequencer?
@@ -211,10 +216,6 @@ Labor Day - No class
 - Requests for a mix for Monday?
 
 > Project: [create a atmos surround mix of ocean eyes](../projects/atmos/) - DUE October 26
-
-# Week 10 (10/23)
-
-## Monday
 
 - [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
 - One more Atmos music mix - Kangoro - King Rascal
