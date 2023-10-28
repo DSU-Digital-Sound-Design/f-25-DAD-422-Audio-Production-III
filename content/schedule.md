@@ -211,30 +211,21 @@ Labor Day - No class
 
 - ATMI conference
 
-<!--
 # Week 11 (10/30)
 
 ## Monday
 
-- Step sequencer?
-- In depth listening session
+- Listen to your progress with your mixes
+  - answer questions
+-  In depth listening session
   - Atmos Demo
   - Lil Nas X demo
-- Watch [this video](https://www.youtube.com/watch?v=-WWhJQNo2zU&list=PL7wdwvsh3pOiap-YltSwamGRENdmQRqt5&index=3) for a great overview of Atmos and routing.
-- _Ocean Eyes_ tips
-  - A/B between your mix and the stereo mix to hear if you're loosing an important part.
-- Setting up a mix from scratch
-  - Mix Major Lazer
-  - More diffs between bed and object tracks
-  - Bed tracks are 7.1.2, object tracks are 7.1.4, this is why object tracks are much more precise for spatial location. We can see this with a meter before and after the renderer.
-  - Let's try to use some height modes, using automation, or sphere mode
-- Requests for a mix for Monday?
+- Implement the step sequencer 
+- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
 
-> Project: [create a atmos surround mix of ocean eyes](../projects/atmos/) - DUE October 26
+<!--
 
 - [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
-- One more Atmos music mix - Kangoro - King Rascal
-- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
 - Listen to some projects
 - Use Logic's Modulators to do cool stuff (look at project on lab computer)
   - Route Modulator using IAC Bus
@@ -246,6 +237,7 @@ Labor Day - No class
 ## Wednesday
 
 - [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/)
+- Listen to your Atmos mixes 
 
 ## Friday
 

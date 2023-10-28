@@ -11,14 +11,19 @@ margin = 0.2
 ## A somewhat critical take
 
 {{% note %}}
-We skipped ahead a bit to talk about using atmos with music, but it was originally designed for mixing films.
 
-The first film that used Atmos was a pixar short that played before Brave called "Leaf". Somehow this movie is not on IMDB, not sure why.
+- **Introduction**: While Dolby Atmos is now a prominent technology in music, it's crucial to remember that it was initially designed for mixing films.
+  
+- **First Use in Film**: Interestingly, the first film to use Dolby Atmos wasn't a feature-length blockbuster but a Pixar short called "Leaf," which played before the movie "Brave." It's noteworthy that "Leaf" is not listed on IMDb for some reason, adding a layer of mystery to its pioneering role.
 
-Source: https://web.archive.org/web/20130228051002/http://www.filmjournal.com/filmjournal/content_display/esearch/e3i6bc2381e4316e9773b5d74a8c3c72916
+- **Development Timeline**: The concept of Dolby Atmos dates back to 2007, according to Stuart Bowling, the senior technical marketing manager for cinema at Dolby at the time. 
 
-Development and Deployment: Launching into the Dolby Atmos
-“This has been a real evolutionary process,” declares Stuart Bowling (senior technical marketing manager for cinema at Dolby), explaining that the genesis of the Dolby Atmos platform goes back as far as 2007. “We were approached by a major exhibitor who was looking to the future and saying, ‘We are going to start changing the way in which we design and build our auditoriums. With all the changes in imaging technology, something has to happen with audio. What would that look like?’ Dolby was already looking at that same question, but our ability to change the industry was partly held back because the footprint of digital was still relatively small at that time by comparison to where we are now.”
+- **Initial Catalyst**: The initiative to create Dolby Atmos was a response to a query from a major exhibitor. This exhibitor foresaw changes in theater design due to advancements in imaging technology and felt that audio needed to evolve in tandem.
+
+- **Challenges and Considerations**: One of the limitations in the early development stage was that the footprint of digital technology in the industry was still relatively small, which somewhat constrained Dolby's ability to enact industry-wide changes.
+
+- **Source Citation**: The information is drawn from an article on Film Journal, which has been archived [here](https://web.archive.org/web/20130228051002/http://www.filmjournal.com/filmjournal/content_display/esearch/e3i6bc2381e4316e9773b5d74a8c3c72916).
+
 {{%/ note %}}
 
 ---
@@ -27,11 +32,21 @@ Development and Deployment: Launching into the Dolby Atmos
 <p><a href="https://vimeo.com/40658763">Dolby Perspective on Dolby Atmos</a> from <a href="https://vimeo.com/dolby">Dolby Laboratories</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 {{% note %}}
-So what was Dolby saying at the time Atmos was coming out about why this was an important and new invention?
+### Slide Title: Dolby's Ambitions and Impact with Atmos 
 
-More than a technical novelty or specialized exhibition format, the company’s long-term goal is to feature Atmos in “every movie and every theater” (Fuchs 2012). According to film historian Gianluca Sergi, Atmos represents Dolby Laboratories’ larger goal of recapturing “the prime position that it held in the cinema market, both internally to the company and externally in the industry” after more than two years of revenue decline in its digital cinema division (2013: 109).
+#### Speaker Notes:
 
-Between 2010 and 2013, Dolby reached out to sound practitioners, directors, studios and major theater chains using financial incentives, complimentary training sessions and a barrage of trade advertisements to promote the format as the future of cinema sound production and exhibition. To accomplish this widespread adoption and implementation strategy, Atmos proposes a re-evaluation of Hollywood sound mixing conventions and practices, many of which are rooted in the professional identities, social organization and creative work of mixers themselves. **Despite Dolby’s claim that their new platform allows mixers to retain more artistic control over their work at different stages of production and exhibition, there is considerable evidence that Atmos actually limits a mixer’s creative role in authoring soundtracks.**
+- **Dolby's Vision for Atmos**: At the time of its launch, Dolby presented Atmos as more than just a technical novelty; it was pitched as the future of cinema sound, aiming for ubiquitous adoption in "every movie and every theater."
+
+- **Strategic Importance**: According to film historian Gianluca Sergi, Atmos was crucial for Dolby's business strategy, aiming to reclaim the dominant position it once held in the cinema market, especially after experiencing revenue decline in its digital cinema division over two years.
+
+- **Outreach and Promotion (2010-2013)**: Dolby executed a robust marketing strategy that included reaching out to sound practitioners, directors, studios, and major theater chains. They offered financial incentives, complimentary training sessions, and extensive trade advertising to promote Atmos as the next big thing in cinema sound.
+
+- **Redefining Sound Mixing**: Dolby Atmos not only proposed new technology but also encouraged a re-evaluation of existing sound mixing conventions in Hollywood. This was tied closely to the professional identities and practices of mixers themselves.
+
+- **Controversial Impact on Mixers**: Although Dolby claimed that Atmos would grant mixers more artistic control throughout various stages of production and exhibition, there is evidence suggesting that the platform may actually limit a mixer's creative role in authoring soundtracks.
+
+- **Source Citation**: The information is drawn from academic analyses and historical accounts, including insights from film historian Gianluca Sergi and trade documentation from the period between 2010 and 2013.
 
 {{%/ note %}}
 
@@ -44,19 +59,19 @@ Between 2010 and 2013, Dolby reached out to sound practitioners, directors, stud
 - aesthetic
 
 {{% note %}}
-We'll go into the large-scale _technological, occupational and aesthetic implications_ of the Atmos format on the art and craft of Hollywood sound mixing.
 
-_Technological_
-
-The first is based on what Dolby claims is the “intuitive” design of the format, which uses a digital rendering algorithm that is responsive to variations in theater room size and loudspeaker configuration. The backward-compatible system aims to simplify distribution with a Digital Cinema Package (DCP) that outputs to different digital sound configurations, including 5.1 and 7.1, in a process Dolby calls “Author Once, Optimize Everywhere.”
-
-_Workflow_
-
-a shift in creative workflow that requires mixers to adapt their professional style to the nuances of the Atmos system. In some cases, Dolby has offered training sessions at their San Francisco and Burbank offices to familiarize mixers with the format. While Dolby engineers and consultants claim not to place creative constraints on how film-makers use the system, some mixers have already expressed frustration with the automated algorithm that automatically down-mixes an Atmos pass to 5.1 and 7.1 configurations. In this way, mixers “capture their creative content” and then let the algorithm “generate” alternate versions in the box (Dolby Laboratories 2013a: 1, 14)
-
-_Aesthetic_
-
-Finally, the persistent strains of “realism” and the promise of “lifelike audio” continue to shape Dolby’s aims for Atmos and multichannel film sound in general. These discourses, which feature prominently in the Dolby Atmos White Paper, emphasize the format’s ability to place sounds around the auditorium with a greater level of screen accuracy, leading to what Dolby believes is a “heightened sense of realism without being obvious” (7). However, sound mixers often avoid “realism” in favor of dramatic “feel” and other aesthetic factors that push beyond accurate representations of sound/picture scale.
+- **Introduction**: Dolby Atmos has had a transformative effect on the art and craft of Hollywood sound mixing. This transformation spans technological advancements, changes in workflow, and shifts in aesthetic considerations.
+- **Technological Implications**
+    - **Intuitive Design**: Dolby presents Atmos as an "intuitive" system. It uses a digital rendering algorithm that adjusts to variations in theater size and loudspeaker configurations.
+    - **Backward Compatibility**: Atmos aims to simplify distribution through a Digital Cinema Package (DCP) that works with existing digital sound setups, like 5.1 and 7.1. Dolby refers to this as "Author Once, Optimize Everywhere."
+- **Occupational Implications (Workflow)**
+    - **Professional Adaptation**: Atmos introduces shifts in the creative workflow, requiring mixers to adapt to its unique characteristics.
+    - **Training**: Dolby has offered training sessions at their San Francisco and Burbank locations to help mixers adjust.
+    - **Automated Down-Mixing**: While Dolby claims not to impose creative constraints, some mixers express frustration with algorithms that automatically down-mix an Atmos pass to 5.1 and 7.1 configurations. This automatic process could be seen as limiting creative control.
+- **Aesthetic Implications**
+    - **Emphasis on Realism**: Dolby's white paper and other discourses highlight Atmos's ability to create "lifelike audio," aiming for a heightened sense of realism.
+    - **Tension with Artistic Choices**: Many sound mixers prefer focusing on the dramatic "feel" and other aesthetic factors that don't necessarily align with strict realism, creating a potential point of tension between technology and artistry.
+- **Source Citation**: The information is based on academic research and Dolby's own documents, including their White Paper and other official publications from the period between 2010 and 2013.
 
 {{%/ note %}}
 
@@ -77,17 +92,21 @@ See [this whitepaper](Dolby_Atmos_Next_Generation_Audio_for_Ci.pdf) for some int
   - Barco - Auro - 11.1
 
 {{% note %}}
-We are already familiar with the developments of sound for film up to Atmos.
+- **Introduction**: 
+Before diving into Dolby Atmos, it's worth revisiting the landscape of multichannel audio for films that set the stage for Atmos. This period witnessed numerous innovations as the industry transitioned to digital cinema.
 
-In 2008, Dolby Labs was asked by AMC Theaters to brainstorm ideas on the next wave of multichannel audio for film. At that point, the migration from 35mm to all-digital delivery was already underway, and by 2010 there were nearly 16,000 digital cinema screens worldwide (Christie Digital Systems 2013: 5). With a single Digital Cinema Package capable of accommodating up to sixteen channels of digital audio, executives at AMC sought a premium digital format for their ETX auditoriums that could do for sound what digital 3D had done for picture: boost ticket sales.
+- **AMC Theaters & Dolby Labs (2008)**:
+AMC Theaters challenged Dolby Labs in 2008 to develop the next wave of multichannel audio for film. Their objective was to emulate the success of digital 3D in boosting ticket sales but through a superior audio experience.
 
-Tomlinson Holman, who had previously coined the term “5.1” and created the THX sound standard for Lucasfilm, developed a 10.2 sound format with additional screen channels, two height channels positioned above the screen, and two subwoofers (Holman 2000).
+- **Digital Cinema's Global Footprint (2010)**:
+By 2010, digital cinema was becoming the norm, with nearly 16,000 screens worldwide. The Digital Cinema Package (DCP) could support up to sixteen channels of digital audio, which presented a fertile ground for advancements in sound technology.
 
-In Germany, Karlheinz Brandenburg (one of the creators of the MP3 compression standard) developed IOSONO, as both a cinema audio process and live event format. Based on techniques developed in the Netherlands, IOSONO used 64 channels and 600 speakers to reproduce a “high-dimensional experience” (Taub 2009).
+- **Other Notable Audio Formats**:
+Several other multichannel formats emerged during this period. Tomlinson Holman developed a 10.2 format, while Karlheinz Brandenburg's IOSONO used 64 channels and 600 speakers to create a “high-dimensional experience.” Barco's Auro, although now defunct, also attempted to push the boundaries with its 11.1 process.
 
-the technology company Barco obtained the license for Auro, a Belgian format developed by Galaxy Studios, which features an 11.1 process that adds multiple height channels to a traditional 5.1 array. though this is now defunct
+- **Dolby’s Initial Steps: Dolby Surround 7.1 (2010)**:
+Dolby’s initial response to AMC's challenge was the introduction of Dolby Surround 7.1, which premiered with Toy Story 3. This was not merely an incremental upgrade; the 7.1 format marked Dolby's cautious entry into digital cinema. It improved the existing surround sound experience and laid the groundwork for more audacious projects, leading eventually to Dolby Atmos after two more years of research and development.
 
-Dolby responded to AMC’s challenge with a modest revision of its digital process called Dolby Surround 7.1. Still retaining the infra- structure of its existing loudspeaker configuration, Dolby split the rear array into four zones: left side, left back, right side, right back. The format, which premiered with Toy Story 3 (2010), was promoted as a means to improve panning and positioning of audio elements in the surround field. However, the development of 7.1 meant much more than surround zones: it represented a cautious entry point into digital cinema that, if successful, could provide the springboard for more audacious audio experiments. After two years of additional research and development, Dolby unveiled Atmos.
 {{%/ note %}}
 
 ---
@@ -95,21 +114,19 @@ Dolby responded to AMC’s challenge with a modest revision of its digital proce
 ![](cinema-layout.png)
 
 {{% note %}}
-In a 7.1 environment, surround sound material is fed to four distinct zones, all of which contain the same audio information within each zone. That translates into clusters of loudspeakers along the side and back walls of a theater reproducing the same set of sounds.
 
-By contrast, Dolby engineers argue that “in everyday life many sounds originate from randomly placed point sources” (Dolby Laboratories 2013a: 7).
+- **7.1 vs. Dolby Atmos**: 
+Traditional 7.1 environments divide surround sound into four zones, each with identical audio information. Dolby Atmos, in contrast, aims to reflect the complexities of real-world sound environments, where sounds can originate from various points in space.
 
-**Dolby Rendering Mastering Unit**
+- **Dolby Rendering and Mastering Unit (RMU)**: 
+The RMU is an integral part of the Dolby Atmos system. It automates the process of rendering audio for different room configurations. After an Atmos mix is made, the RMU algorithm can auto-generate versions for 5.1 and 7.1 setups based on a theater's specific loudspeaker layout.
 
-Atmos features the Dolby Rendering and Mastering Unit (RMU), a fully automated component of its audio authoring system. After an Atmos mix is created, the RMU algorithm automatically generates 5.1 and 7.1 room configurations based on a theater’s loudspeaker layout.
+- **Stuart Bowling's Explanation**:
+According to Stuart Bowling, the key advantage here is the principle of "author once and render anywhere." This means the original intent of the sound mixer is preserved across different sound environments. From a large theater with a 7.1 setup to a smaller one with a 5.1 configuration, the same DCP file package can be used.
 
-According to Stuart Bowling:
+- **A Double-Edged Sword**:
+While Atmos provides a significant innovation in digital cinema storage and delivery by creating a unified DCP file for multiple configurations, its optimization technology is a subject of controversy. This automatic rendering process has raised questions regarding the creative control mixers have over the final audio output in various environments.
 
-> What this really means is, in essence, author once and render anywhere. That we’re taking and controlling the true intent of the mixer and now allowing that single, distributable package, our file, to play out in multiple different environments. So they’ll be able to play the 7.1 in the main screen, and as the movie plays down in size, they may have to provide another version of the movie in 5.1. So now the same film can play out during its lifespan inside that movie theater. (quoted in Dolby Laboratories 2012)
-
-Bowling’s statement also attempts to assure mixers that their aesthetic intent would remain intact in different configurations. In this way, Atmos is a significant innovation in digital cinema storage and delivery. The format’s ability to produce multiple configurations of a sound mix represents a bold attempt to simplify the delivery system to major exhibitors and independents using a single DCP file package.
-
-However, the format’s optimization technology, which automatically renders different sound configurations based on theater specifications, is a more problematic feature of the new process.
 {{%/ note %}}
 
 ---
@@ -117,11 +134,17 @@ However, the format’s optimization technology, which automatically renders dif
 ![](automatic.png)
 
 {{% note %}}
-Consequently, the Atmos rendering tool, which automatically derives 5.1 and 7.1 versions from an original Atmos mix,** challenges the ways in which mixers author their work and maintain competitive artistic identities.** As film sound mixing has become more dependent on the specialized knowledge of digital formats and platforms, and as mixers have been tasked with consolidating and balancing more sound elements in novel ways, Dolby has conflated technical control with creative control.
+- **The Atmos Rendering Tool**:
+The Atmos rendering tool can automatically create 5.1 and 7.1 versions from an original Atmos mix. While this enhances versatility and ease of distribution, it raises significant questions about artistic agency. The tool essentially changes the nature of a sound mixer's work, which has increasingly become specialized due to the digital formats and platforms involved.
 
-Stuart Bowling maintains that Dolby’s rendering algorithm creates a duplicate copy of the mixer’s “true intent” and downsizes it for theaters with different loudspeaker configurations; hence the promotional tagline, “Author Once, Optimize Everywhere” (Dolby Laboratories 2012). In fact, the renderer reworks a mixer’s workflow to create a 5.1/7.1 output by “intelligently [using] the surround speakers in the theatre to their best effect” (Dolby Laboratories 2013a: 10). Its algorithm essentially finds a way to position audio objects according to the “speakers that are present, rather than necessarily being output to a physical channel” (8).
+- **"Author Once, Optimize Everywhere" Explained**:
+Stuart Bowling explains that Dolby's rendering algorithm aims to preserve the mixer’s "true intent" as it adapts to various theater configurations. The algorithm works by optimally using the available speakers in the theatre, repositioning audio objects based on what speakers are present, rather than adhering to a specific output channel.
 
-according to Dolby senior platform manager Nicolas Tsingos, the algorithm “basically selects the most appropriate set of speakers, and plays the sound from those speakers” (quoted in Dayal 2012). **But, given its automated “selection” process, the renderer has the potential to reduce a mixer’s ability to control how his or her work is translated from one format to another.**
+- **Nicolas Tsingos' Take**:
+According to Nicolas Tsingos, Dolby's senior platform manager, the algorithm essentially selects the most suitable set of speakers for each sound and plays it from those. While this sounds like an optimal use of resources, it also potentially takes away some of the control that the sound mixer has over how their work is represented across different formats.
+
+- **Tension Between Technical and Creative Control**:
+Dolby seems to conflate technical control with creative control. While the automation offers a certain level of convenience and adaptability, it comes at the cost of reducing a mixer's authority and agency in translating their work from one format to another. This has implications for mixers who want to maintain a competitive and unique artistic identity.
 
 {{%/ note %}}
 
@@ -143,15 +166,27 @@ Some details about how a film is typically mixed, the sound mix being the "final
 - Atmos - flexible with the render algorithm
 
 {{% note %}}
-In a traditional channel-based system, mixers prepare sound and music “stems” that “bake” all the sounds and their positional data into 5.1 or 7.1 channel arrays. After the stems are prepared, it is virtually impossible to remove or “unbake” individual elements from the channel layout. In other words, the stems provide a concrete way for directors and mixers to control the scope and balance of the soundtrack. By contrast, Atmos “unbakes the cake” by keeping audio objects and sound elements flexible during the dubbing process so the rendering algorithm can create virtual 5.1 and 7.1 stems. There are ways to manually override the rendering unit to provide custom 5.1/7.1 channel outputs, but Dolby has promoted the algorithm to studios and film-makers as a time- and cost-saving technology designed to work in tandem with the creative demands of both mixers and film-makers.
 
-> If the sound mix is the “final rewrite” of a film, as Robert Zemeckis describes it, then Dolby Atmos is potentially leaving the final word to be rewritten by a computer algorithm that approximates the location of individual sound elements.
+#### Traditional Channel-Based System vs. Atmos
+- Traditional systems "bake" sounds into 5.1 or 7.1 channel arrays, limiting later adjustments.
+- Atmos keeps sound elements fluid, allowing for algorithmic creation of 5.1 and 7.1 versions.
 
-> While the number of Atmos-ready theaters worldwide is relatively small (approximately 200 in late 2013), several mixers have already expressed skepticism toward the rendering unit, claiming that it has the potential to dramatically alter how their work is reinterpreted for different theaters; however, **the same mixers also admit that it is virtually impossible to control how any theater reproduces their work.** What matters most is their ability to retain a sense of creative autonomy from a technology that appears to impose a particular aesthetic arrangement on their workflow.
+#### 'Final Rewrite' and Creative Autonomy
+- Sound mix often considered the "final rewrite" of a film.
+- Atmos algorithms could potentially auto-generate this 'final word,' affecting artistic intent.
+- Sound mixers are concerned but also recognize the inherent lack of control over theater reproductions.
 
-Though Dolby Digital 5.1 solved phasing problems with surround channel information, mixers have not altogether abandoned their conservative treatment of the rear channels. With Atmos, Dolby is asking mixers to rethink their relationship to rear channel information with the flexible audio objects that can be panned and positioned anywhere in the front or surround sound field, including sound elements that carry crucial narrative information (Dolby Laboratories 2013b: 1).
+#### Re-Imagining Rear Channel Information
+- Dolby 5.1 didn't significantly change how mixers use rear channels.
+- Atmos promotes a paradigm shift, allowing for vital narrative information to be positioned flexibly in the sound field.
 
-> Not unlike the problems of Dolby Stereo, contemporary mixers are largely hesitant to turn over their workflow to a technology that approximates the position of sound material within the sound field, no matter how precise the mathematical algorithm may be.
+#### Creative Hesitancy vs. Technological Advancements
+- Mixers are wary of surrendering control to Atmos' algorithms.
+- The tension exists between the technology's precision and the artistic control prized by mixers.
+
+#### Summary Conclusion
+- Dolby Atmos offers both advancements and challenges.
+- Technological innovations bring forth ethical and aesthetic questions about artistic autonomy in algorithmic mixing.
 
 {{%/ note %}}
 
@@ -162,10 +197,29 @@ Though Dolby Digital 5.1 solved phasing problems with surround channel informati
 - 1920s - music recording vs. telephone industries
 
 {{% note %}}
-At the heart of the debate were two different understandings of realism in sound representation.
+### Two Paradigms of Realism in Sound Representation: A Summary
 
-1. The first camp, led by Bell Laboratories engineer Joseph P. Maxfield, recommended that sound recordings duplicate the original event with the audience, in Lastra’s words, “conceptually and practically a part of the space of representation” (2000: 163) . However, the idea of maintaining absolute fidelity was antithetical to the demands of film narration, which necessitated that separately recorded sound elements, including dialogue, music and effects, be re-recorded into a single track.
-2. The second camp was led by engineers from AT&T and the telephony industry, which valued **intelligibility over fidelity** and stressed the importance of clear, unencumbered speech for their telephone technologies. From as early as 1930, film sounds were divided into separate, hierarchically ordered tracks, with dialogue taking a leading role. Rick Altman (1985) has noted that early studio engineers had one goal in mind, to maintain dialogue intelligibility. **In most cases, this led them to abandon accurate notions of sound and picture scale in favor of a hierarchized soundtrack that privileged narratively significant sound elements (Doane 1985).**
+#### Camp 1: Fidelity-Led Realism
+- Led by Joseph P. Maxfield of Bell Laboratories.
+- Advocates for duplicating the original event in sound recordings.
+- Aims for the audience to be "conceptually and practically a part of the space of representation."
+- Challenged by the requirements of film narration, which often require multiple sound elements to be fused into a single track.
+
+#### Camp 2: Intelligibility-Led Realism
+- Led by engineers from AT&T and the telephony industry.
+- Values clarity and intelligibility of speech over strict fidelity to the original sound.
+- Dates back to as early as 1930; film sounds are separated into tracks, with dialogue prioritized.
+- Willing to compromise on realistic sound and picture scales for the sake of clear, narratively significant sound elements.
+
+#### Tensions Between the Two Camps
+- Fidelity-Led Realism seeks to immerse the audience in a space that mirrors the original sound environment, potentially complicating film narratives.
+- Intelligibility-Led Realism makes concessions for the sake of storytelling, sacrificing absolute fidelity to elevate dialogue and other key elements.
+
+#### Implications for Film Soundtracks
+- The tug-of-war between fidelity and intelligibility has influenced the development and philosophy behind various sound technologies and film soundtracks.
+- Rick Altman and others note that the historical emphasis has often been on intelligibility, particularly in terms of elevating dialogue in the sound mix.
+
+In summary, these two differing paradigms highlight the inherent tension between achieving high-fidelity sound representation and meeting the narrative requirements of film, which often prioritize clarity and intelligibility.
 
 {{%/ note %}}
 
@@ -176,9 +230,22 @@ At the heart of the debate were two different understandings of realism in sound
 > -- Richard Portman
 
 {{% note %}}
-As Richard Portman notes, “Motion pictures are not reality. The best you can do is be sparing. If someone is walking down the street, I know I need traffic, but I don’t need a car effect for every one I see” (quoted in Weaver 1995: 27).
+### The Art of Sound Mixing and the Quest for "Idealized Reality": A Discussion
 
-In this way, mixing for realism often means making choices about what to feature against the picture. Film historian and theorist John Belton has argued that classical and contemporary sound editing and mixing conventions suggest **a “quest” for an “idealized reality,”** a soundtrack that is “carefully filtered to eliminate the sounds that fall outside of understanding or significance; every sound must signify” (1985: 66).
+#### Richard Portman's Perspective
+- Film sound veteran Richard Portman emphasizes that movies are not reality.
+- Advocates for a restrained approach in sound design, using only essential sound effects that support the narrative or scene.
+- Illustrates that sometimes less is more; for instance, not every visible car on screen needs an accompanying car sound effect.
+
+#### John Belton's Theory on "Idealized Reality"
+- John Belton, a film historian and theorist, posits that both classical and contemporary sound editing aim for an "idealized reality."
+- Argues that this idealized reality is a crafted version of the world where every sound has a purpose and meaning.
+- Suggests that unnecessary sounds — those that don't contribute to understanding or significance — should be filtered out.
+
+#### Balancing Realism and Significance
+- Both Portman and Belton point to the selective nature of sound mixing for films, advocating for an "idealized reality" rather than an exact duplication of real-world sounds.
+- The objective is not merely to replicate reality but to create a compelling and coherent audio-visual experience, where the sounds used are deliberate and meaningful.
+  
 {{%/ note %}}
 
 ---
@@ -186,9 +253,18 @@ In this way, mixing for realism often means making choices about what to feature
 ## Clarity vs density
 
 {{% note %}}
-Mixing for “feel” encompasses the artistic identities of contemporary mixers who must decide what is appropriate for a scene. Sometimes clarity is needed to convey a crucial plot point; at other times, density is needed to convey a sense of disorder and chaos.
+### Summary: Mixing for "Feel" and Dolby Atmos White Paper
 
-Within this context of mixing practices, it is interesting that the Dolby Atmos White Paper should emphasize the format’s ability to render “lifelike” audio that “takes realism to a new level” (2013a: 7). It goes on to note that the system’s top loudspeaker channel mimics the activity of sound in the real world, where sound originates from all directions, including the upper hemisphere. Expanding the top and rear channels not only creates a more fluid passage of audio objects around the theater but, in Dolby’s view, prevents the audience from having to mentally create a phantom image of sound moving above and around the theater space.
+#### Mixing for "Feel" in Contemporary Practices
+- Mixing involves artistic decisions to suit the context of a scene.
+- Clarity might be prioritized for critical plot points.
+- Density could be emphasized to create a sense of disorder or chaos.
+
+#### Dolby Atmos White Paper's Perspective
+- Dolby Atmos aims to provide "lifelike" and highly realistic audio.
+- The system includes a top loudspeaker channel for sound from the upper hemisphere.
+- Expanding top and rear channels enhances audio object fluidity in the theater.
+- In Dolby's view, this prevents the need for the audience to mentally construct a "phantom image" of the sound space.
 {{%/ note %}}
 
 ---
@@ -198,9 +274,22 @@ Within this context of mixing practices, it is interesting that the Dolby Atmos 
 > Whitepaper
 
 {{% note %}}
-This is not dissimilar from early sound practices that attempted to match sound/picture scale with an aim toward preserving fidelity. Atmos attempts to preserve a strict correlation between sound/picture point sources on screen and in the theater space.
+### Summary: Relationship between Early Sound Practices and Dolby Atmos
 
-By literalizing the position between sound and picture, Atmos aims to place the audience within the three-dimensional space of the original sound event, even though no such event actually exists.
+#### Early Sound Practices
+- Early sound design aimed to match sound and picture scales.
+- The goal was to preserve fidelity between what is seen and heard.
+
+#### Dolby Atmos' Objectives and Techniques
+- Atmos also seeks a strict correlation between sound and picture point sources.
+- It tries to match the sound precisely with its visual representation on screen and in the theater.
+- Atmos literalizes the position between sound and picture.
+
+#### Impact on Audience Experience
+- Atmos aims to immerse the audience in the original three-dimensional sound space.
+- This is despite the fact that such an "original sound event" does not actually exist.
+
+Dolby Atmos carries the ethos of early sound practices into contemporary sound design, striving for a heightened sense of realism and fidelity by meticulously matching audio and visual elements.
 {{%/ note %}}
 
 ---
@@ -210,9 +299,20 @@ By literalizing the position between sound and picture, Atmos aims to place the 
 > (ibid.)
 
 {{% note %}}
-At the same time, Dolby engineers have conceived of Atmos as a format that brings film-makers and audiences closer to how we experience sound events in everyday life:
+### Summary: Dolby Atmos and the Gap Between Theory and Practice
 
-To suggest that mixers can obtain a “heightened sense of realism” by panning sound to particular speakers at the expense of narrative transparency is at odds with Hollywood mixing conventions. This is largely due to the gap that exists between Atmos as a theoretical concept and as a practical mixing tool.
+#### Atmos' Conceptual Goal
+- Dolby engineers designed Atmos to mimic how we experience sound in daily life.
+- The aim is to bring filmmakers and audiences closer to everyday auditory experiences.
+
+#### Discrepancy with Hollywood Mixing Conventions
+- Suggesting that a "heightened sense of realism" can be achieved by panning sounds to specific speakers may conflict with traditional Hollywood mixing practices.
+- This focus on realism and particular speaker usage may come at the expense of narrative transparency.
+
+#### The Gap in Atmos
+- A gap exists between Atmos as a theoretical audio concept and its utility as a practical mixing tool.
+
+Dolby Atmos aims to revolutionize the auditory experience in cinema by striving for a natural, lifelike sound environment. However, this ambition can create a conflict with established Hollywood mixing norms that often prioritize narrative clarity. This dichotomy reveals a tension between Atmos' theoretical aspirations and its practical applications in the world of film sound design.
 {{%/ note %}}
 
 ---
@@ -228,9 +328,24 @@ To suggest that mixers can obtain a “heightened sense of realism” by panning
 > Chris Jenkins (“The Sound of Man of Steel”)
 
 {{% note %}}
-When re-recording mixers Chris Jenkins and Frank Montaño created their 9.1 Atmos mix for Man of Steel (2013), there was an opportunity to aggressively explore the multi-dimensional sound field with point-source panning, especially during the film’s many action sequences. Instead of filling the surround sound field with discrete sound effects, Jenkins and Montaño filled the room with composer Hans Zimmer’s percussive score.
+### Summary: Case Study of "Man of Steel" and Dolby Atmos Use
 
-Pushing music into the surround zones not only conforms to the historical practice of positioning ambiences in the surround field, but also undermines Dolby’s intention of bringing audio objects into the sound space.9 What Jenkins achieves is something more unique: the separation of Zimmer’s score into different audio zones with choir, synths, strings and brass assigned a specific position in the sound field.
+#### Opportunity in "Man of Steel" (2013)
+- Re-recording mixers Chris Jenkins and Frank Montaño had the chance to explore Atmos' multi-dimensional sound field.
+- The film's action sequences presented a good opportunity for point-source panning.
+
+#### The Approach Taken by Jenkins and Montaño
+- Instead of utilizing discrete sound effects, the mixers used Hans Zimmer's percussive score to fill the room.
+- This approach aligns with historical practices of using the surround field for ambiences.
+
+#### Conflict with Dolby Atmos' Intentions
+- Using music in the surround zones goes against Dolby's goal of placing audio objects into specific sound spaces.
+- The mixers opted for a unique approach that doesn't strictly adhere to Atmos' guidelines.
+
+#### Unique Achievement
+- Jenkins and Montaño managed to separate Zimmer’s score into distinct audio zones.
+- Different musical elements like choir, synths, strings, and brass were each given a specific position in the sound field.
+
 {{%/ note %}}
 
 ---
@@ -238,7 +353,22 @@ Pushing music into the surround zones not only conforms to the historical practi
 > Sometimes we get lost in the novelty of what we bring to the table. I’m always conscious of the first-time viewer. Are we getting the story? Are we clearing dialogue? We don’t want anybody to lean over and say, “What did they say?” So I always try to err on clarity. If that means sacrificing whatever is at your fingertips, so be it. You have to be sensitive to all the disciplines of dialogue, music, and sound effects. (“The Sound of Man of Steel”)
 
 {{% note %}}
-As a practical tool, then, mixers like Jenkins and Montaño circumvent point-sourcing effects in favor of an approach that de-emphasizes off-screen audio objects. In pulling the musical score off the screen and into the surround zones, Jenkins opens up the front three screen channels for a roomier dialogue and effects track, which supports the ideology of intelligibility over greater realism. **Ultimately, these strategies forgo Dolby’s call for “lifelike” audio to better reflect the demands of the narrative and to satisfy their own professional tastes.**
+### Summary: Practical Use of Dolby Atmos by Professional Mixers
+
+#### Circumventing Point-Sourcing Effects
+- Mixers like Jenkins and Montaño favor an approach that moves away from point-sourcing effects.
+- They de-emphasize the placement of off-screen audio objects.
+
+#### Use of Musical Score in Surround Zones
+- By pushing the musical score into surround zones, Jenkins frees up the front screen channels.
+- This creates room for clearer dialogue and effects tracks.
+
+#### Ideology of Intelligibility Over Realism
+- The approach supports a focus on narrative clarity and intelligibility rather than Atmos' goal of greater realism.
+
+#### Professional Choices Over Dolby's Guidelines
+- The mixers' strategies ultimately prioritize narrative demands and their own professional tastes over Dolby’s aim for "lifelike" audio.
+
 {{%/ note %}}
 
 ---
@@ -248,11 +378,19 @@ As a practical tool, then, mixers like Jenkins and Montaño circumvent point-so
 > Randy Thom
 
 {{% note %}}
-When asked about the technological demands of contemporary sound editing and mixing, Randy Thom expressed sincere disappointment with the industry’s focus on technical novelty over artistic practice
+### Summary: Challenges and Uncertainties in the Adoption of Dolby Atmos
 
-Given that it took Dolby Digital 5.1 nearly twenty years to become a ubiquitous feature of motion picture mixing and exhibition, it is far too early to predict the fate of Atmos and its place within the sound community and among theater owners worldwide. Even with endorsements from high-profile directors like Peter Jackson and Guillermo del Toro, Dolby executives admit that it is still too early to deem Atmos a commercial success as they continue to train mixers, convince exhibitors to install the costly system, and manage competitors.
+#### Randy Thom's View on Industry Focus
+- Randy Thom expresses disappointment over the industry prioritizing technical novelty over artistic practice.
 
-Atmos proposes a re-evaluation of mixing ideology and practice among re-recording mixers that has not occurred since the introduction of four-channel Dolby Stereo in the 1970s.
+#### Historical Context and Commercial Uncertainty
+- Dolby Digital 5.1 took nearly two decades to become widely adopted.
+- Despite endorsements from high-profile directors, it's too early to declare Atmos a commercial success.
+- Dolby continues to train mixers and convince exhibitors to adopt the system, while also facing competition.
+
+#### Re-Evaluation of Mixing Practices
+- Atmos calls for a significant shift in mixing ideology, similar to the impact of four-channel Dolby Stereo in the 1970s.
+
 {{%/ note %}}
 
 ---
@@ -262,5 +400,22 @@ Atmos proposes a re-evaluation of mixing ideology and practice among re-recordin
 - Challenging convention?
 
 {{% note %}}
-With its digital rendering algorithm that automatically reconfigures a mix based on room size and format compatibility, Atmos challenges the creative and professional norms of Hollywood sound mixing. By virtue of its design, Atmos not only encourages mixers to treat sound elements in a way that is contrary to mixing ideology, but it also asks them to allow a piece of automated software to author different versions of their work. In large measure, Atmos reveals a great deal about the material conditions of sound mixing within Hollywood, not to mention the aesthetic contours that define the work of re-recording mixers. Dolby Atmos may be an instrument that requires a player to learn its design, but its function remains fitted to the constraints and possibilities of re-recording mixing conventions and the ideologies of practice that govern them.
+### Summary: Dolby Atmos' Impact on Creative and Professional Norms
+
+#### Atmos' Digital Rendering Algorithm
+- Atmos has a digital rendering algorithm that adjusts the mix based on room size and format.
+- This technology challenges traditional Hollywood sound mixing approaches.
+
+#### Contradiction with Mixing Ideology
+- Atmos encourages mixers to approach sound elements in ways that contradict established mixing ideology.
+- It requires mixers to relinquish some control to automated software that authors different versions of their work.
+
+#### Insight into Material Conditions and Aesthetic Contours
+- Atmos provides valuable insights into the conditions under which sound mixing occurs in Hollywood.
+- It also highlights the aesthetic considerations that define the work of re-recording mixers.
+
+#### Fitted to Constraints and Possibilities
+- While Atmos requires a learning curve for mixers, it remains constrained by existing re-recording mixing conventions and ideologies.
+
+Dolby Atmos emerges as a complex tool that both challenges and conforms to existing practices in Hollywood sound mixing. Its innovative digital rendering algorithm, which automatically adjusts the mix for different environments and formats, introduces a layer of automation that can be at odds with traditional mixing ideologies. This creates a tension between human artistry and automated technology, requiring mixers to rethink their role and potentially allow software to generate multiple versions of their work. Despite these challenges, Atmos also serves as a lens through which the material conditions and aesthetic considerations of Hollywood sound mixing can be better understood. Therefore, while Atmos may require a new set of skills and an openness to re-evaluating established practices, it nonetheless operates within the existing framework of professional norms and ideologies that govern sound mixing in Hollywood.
 {{%/ note %}}
