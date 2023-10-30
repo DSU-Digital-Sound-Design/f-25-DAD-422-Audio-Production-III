@@ -221,7 +221,6 @@ Labor Day - No class
   - Atmos Demo
   - Lil Nas X demo
 - Implement the step sequencer 
-- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
 
 <!--
 
@@ -236,6 +235,7 @@ Labor Day - No class
 
 ## Wednesday
 
+- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
 - [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/)
 - Listen to your Atmos mixes 
 
