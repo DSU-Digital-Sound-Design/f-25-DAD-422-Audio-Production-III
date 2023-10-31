@@ -232,15 +232,16 @@ Labor Day - No class
   - Use this to write automation that you can edi
   - - [Smart TV Survey](../survey.pdf)
 - Listen to some Atmos Music - from Music playlist
+-->
 
 ## Wednesday
 
-- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
-- [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/)
 - Listen to your Atmos mixes 
+- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
 
 ## Friday
 
+- [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/)
 - [Ear Production Suite](../lectures/week-11/ear/)
 
 # Week 12 (11/6)
