@@ -237,17 +237,20 @@ Labor Day - No class
 ## Wednesday
 
 - Listen to your Atmos mixes 
-- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
+
 
 ## Friday
 
-- [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/)
-- [Ear Production Suite](../lectures/week-11/ear/)
+- Atmos in X DAW
+- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
 
+<!--
 # Week 12 (11/6)
 
 ## Monday
 
+- [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/)
+- [Ear Production Suite](../lectures/week-11/ear/)
 - [SpatGRIS](../lectures/week-12/spat-gris/)
 - Intro final and proposal
 - D2L submissions for studio time
