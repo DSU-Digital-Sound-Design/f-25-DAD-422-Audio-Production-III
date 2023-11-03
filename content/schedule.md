@@ -242,23 +242,22 @@ Labor Day - No class
 ## Friday
 
 - Atmos in X DAW
-- [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/)
+<!-- - [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/) -->
 
-<!--
 # Week 12 (11/6)
 
 ## Monday
 
-- [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/)
-- [Ear Production Suite](../lectures/week-11/ear/)
+<!-- - [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/) -->
 - [SpatGRIS](../lectures/week-12/spat-gris/)
-- Intro final and proposal
-- D2L submissions for studio time
+  - Update first 
+<!-- - [Ear Production Suite](../lectures/week-11/ear/) -->
+- Intro final and proposal - DUE 11/13
 
+<!--
 ## Wednesday
 
 - SuperCollider
-
 - Other programs - https://www.balticimmersive.net/resources
   - AcousModules - http://acousmodules.free.fr/spatial-mass.htm
   - SpaceControl - https://github.com/raphaelradna/SpaceControl
