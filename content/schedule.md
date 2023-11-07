@@ -254,16 +254,20 @@ Labor Day - No class
 <!-- - [Ear Production Suite](../lectures/week-11/ear/) -->
 - Intro final and proposal - DUE 11/13
 
-<!--
 ## Wednesday
 
 - SuperCollider
+- https://envelop.us/page/software
 - Other programs - https://www.balticimmersive.net/resources
   - AcousModules - http://acousmodules.free.fr/spatial-mass.htm
   - SpaceControl - https://github.com/raphaelradna/SpaceControl
 - Computational surround sound - web audio, supercollider, max/msp etc.
   - https://forum.ircam.fr/projects/detail/spat/
 
+> Intro final and proposal - DUE 11/13
+
+
+<!--
 ## Friday
 
 Veteran's Day - No Class
