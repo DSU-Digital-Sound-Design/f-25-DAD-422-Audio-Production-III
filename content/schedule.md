@@ -267,28 +267,49 @@ Labor Day - No class
 > Intro final and proposal - DUE 11/13
 
 
-<!--
 ## Friday
 
 Veteran's Day - No Class
 
 # Week 13 (11/13)
 
-- Begin work on final - three hours a week of independent work in Studio B
+## Wednesday 
+
+- Meet with Jacob
+
+## Friday 
+
+- Meet with Noah 
 
 # Week 14 (11/20)
 
-- final work
+- independent final work
+
+## WF
+
+- Thanksgiving Holiday 
 
 # Week 15 (11/27)
 
 ## Monday - 11/28
 
-- Fill out course evaluations
-- Meet to show progress on project to classmates.
+- Meet to show progress on projects to classmates.
+
+## Wednesday 
+
+- Meet with Jacob
+
+## Friday 
+
+- Meet with Noah 
 
 # Week 16 (12/4)
 
-- Final Exam Presentation: Monday, December 12, 1 pm - 3 pm 
+## Monday 
 
--->
+- Fill out course evaluations
+- Show progress before final 
+
+## Final Exam 
+
+- Final Exam Presentation: Monday, December 11, 1 pm - 3 pm 
