@@ -51,7 +51,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = " DAD 422: Audio Production III"
-      logoHomeLink = "https://dsu-digital-sound-design.github.io/f-22-DAD-422-Audio-Production-III-/"
+      logoHomeLink = "https://dsu-digital-sound-design.github.io/f-24-DAD-422-Audio-Production-III/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]

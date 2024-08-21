@@ -6,7 +6,7 @@ author: ""
 
 {{< toc >}}
 
-# Week 1 (8/21)
+# Week 1 (8/26)
 
 ## Monday
 
@@ -35,7 +35,8 @@ author: ""
   - [Annotations](https://hyp.is/go?url=http%3A%2F%2Fwww.acousticslab.org%2FRECA220%2FPMFiles%2FModule02a.htm&group=rB3vwk31)
 - [Historical Context - audio](../lectures/week-1/historical-context/)
 
-# Week 2 (8/28)
+<!-- 
+# Week 2 (9/2)
 
 ## Monday
 
@@ -55,7 +56,7 @@ author: ""
   - Try to artificially recreate the distance and spatial cues using the close-miced source and audio effects.
 - Mono project check-in
 
-# Week 3 (9/4)
+# Week 3 (9/9)
 
 ## Monday
 
@@ -69,7 +70,7 @@ Labor Day - No class
 
 - Class canceled - students sick
 
-# Week 4 (9/11)
+# Week 4 (9/16)
 
 ## Monday
 
@@ -87,7 +88,7 @@ Labor Day - No class
 - Try some of these in the studio
   - Do the descriptions match what we hear?
 
-# Week 5 (9/18)
+# Week 5 (9/23)
 
 ## Monday
 
@@ -102,7 +103,7 @@ Labor Day - No class
   - Add them to the package contents to get them to show up in the VST
 - Anaglyph projects making of - [Anaglyph](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 
-> Assignment: [Stereo/binaural](../projects/stereo) - Due 9/26
+> Assignment: [Stereo/binaural](../projects/stereo) - Due 10/1
 
 ## Friday
 
@@ -113,7 +114,7 @@ Labor Day - No class
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
 - Demo of the project setup - how to open a Reaper template to start your project.
 
-# Week 6 (9/25)
+# Week 6 (9/30)
 
 ## Monday
 
@@ -123,7 +124,7 @@ Labor Day - No class
 - Demo decoding various ATK example recordings
 - Any questions about setup of the ambisonic project
 
-> Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/4
+> Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/9
 
 ## Wednesday
 
@@ -141,7 +142,7 @@ Labor Day - No class
 - Listen to binaural project
 - Do an Ambisonics mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
 
-# Week 7 (10/2) - Mixing in Surround
+# Week 7 (10/7) - Mixing in Surround
 
 ## Monday
 
@@ -160,7 +161,7 @@ Labor Day - No class
 
 - Continue: [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/#15)
 
-# Week 8 (10/9)
+# Week 8 (10/14)
 
 ## Monday
 
@@ -174,7 +175,7 @@ Labor Day - No class
 
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 
-# Week 9 (10/16) 
+# Week 9 (10/21) 
 
 ## Monday
 
@@ -194,7 +195,7 @@ Labor Day - No class
 - Watch the Atmos demo - how different does it sound from the 5.1/7.1 we have been using?
 - [What is Dolby Atmos](../lectures/week-8/what-is-dolby-atmos/)
 
-# Week 10 (10/23)
+# Week 10 (10/28)
 
 ## Monday
 
@@ -211,7 +212,7 @@ Labor Day - No class
 
 - ATMI conference
 
-# Week 11 (10/30)
+# Week 11 (11/4)
 
 ## Monday
 
@@ -234,26 +235,30 @@ Labor Day - No class
 - Listen to some Atmos Music - from Music playlist
 -->
 
+<!-- 
 ## Wednesday
 
 - Listen to your Atmos mixes 
-
 
 ## Friday
 
 - Atmos in X DAW
 <!-- - [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/) -->
+ 
 
-# Week 12 (11/6)
+
+<!-- 
+# Week 12 (11/11)
 
 ## Monday
 
 <!-- - [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/) -->
-- [SpatGRIS](../lectures/week-12/spat-gris/)
-  - Update first 
+<!-- - [SpatGRIS](../lectures/week-12/spat-gris/)
+  - Update first  -->
 <!-- - [Ear Production Suite](../lectures/week-11/ear/) -->
-- Intro final and proposal - DUE 11/13
+<!-- - Intro final and proposal - DUE 11/18 -->
 
+<!-- 
 ## Wednesday
 
 - SuperCollider
@@ -271,7 +276,7 @@ Labor Day - No class
 
 Veteran's Day - No Class
 
-# Week 13 (11/13)
+# Week 13 (11/18)
 
 ## Wednesday 
 
@@ -281,7 +286,7 @@ Veteran's Day - No Class
 
 - Meet with Noah 
 
-# Week 14 (11/20)
+# Week 14 (11/25)
 
 - independent final work
 
@@ -289,9 +294,9 @@ Veteran's Day - No Class
 
 - Thanksgiving Holiday 
 
-# Week 15 (11/27)
+# Week 15 (12/2)
 
-## Monday - 11/28
+## Monday 
 
 - Meet to show progress on projects to classmates.
 
@@ -303,7 +308,7 @@ Veteran's Day - No Class
 
 - Meet with Noah 
 
-# Week 16 (12/4)
+# Week 16 (12/9)
 
 ## Monday 
 
@@ -312,4 +317,5 @@ Veteran's Day - No Class
 
 ## Final Exam 
 
-- Final Exam Presentation: Monday, December 11, 1 pm - 3 pm 
+- Final Exam Presentation:
+ -->
