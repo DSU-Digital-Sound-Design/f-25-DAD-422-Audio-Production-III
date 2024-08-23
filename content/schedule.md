@@ -1,6 +1,5 @@
 ---
 title: "Schedule"
-date: "2021-01-02"
 author: ""
 ---
 
@@ -16,24 +15,21 @@ author: ""
   - Some 5.1 surround
 - [Fundamentals of Sound](http://www.acousticslab.org/RECA220/PMFiles/Module01.htm#1a)
 
-> Read: [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
+> Read: [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1) - see D2L for more details. 
 
 ## Wednesday
 
-- Announcement: [2024 MOXsonic](https://moxsonic.org/moxsonic-proposal-portal/) - could be a place to have your immersive sound works heard!
-- A look at annotating with
-  - Join [hypothesis](https://hypothes.is/groups/PBAV8n5v/dad-310)
-  - [annotations for reading assignment](https://hyp.is/go?url=http%3A%2F%2Fwww.acousticslab.org%2FRECA220%2FPMFiles%2FModule02a.htm&group=PBAV8n5v)
 - Discuss [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
 - [Space and Time in music and sound art](../lectures/week-1/space-and-time/)
 
-> Read: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
+> Read: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a) - read and prepared to discuss on Friday using details from D2L.
 
 ## Friday
 
 - Discuss: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
-  - [Annotations](https://hyp.is/go?url=http%3A%2F%2Fwww.acousticslab.org%2FRECA220%2FPMFiles%2FModule02a.htm&group=rB3vwk31)
+
 - [Historical Context - audio](../lectures/week-1/historical-context/)
+
 
 <!-- 
 # Week 2 (9/2)
@@ -46,7 +42,7 @@ author: ""
 ## Wednesday
 
 - Discuss [Auditory distance perception in humans: a review of cues, development, neuronal bases, and effects of sensory loss - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744263/) - [notes](../lectures/week-2/auditory-distance-perception/)
-- Assignment: [Project 1: Mono](../projects/mono) - Due next Wednesday
+- Assignment: [Project 1: Mono](../projects/mono) - Due 9/11/24
 
 ## Friday
 
@@ -64,46 +60,33 @@ Labor Day - No class
 
 ## Wednesday
 
-- Class canceled
-
-## Friday
-
-- Class canceled - students sick
-
-# Week 4 (9/16)
-
-## Monday
-
 - **20 minutes** Watch mono projects and discuss your process
 - Follow along with headphones
   - [Spatial audio psychoacoustics](../lectures/week-3/spatial-audio-psychoacoustics/)
 
-## Wednesday
+## Friday
 
 - [Stereo reproduction](../lectures/week-3/stereo/)
 
-## Friday
+# Week 4 (9/16)
 
-- Stereo microphone techniques - [theory and practice](../lectures/week-3/recording-stereo/)
-- Try some of these in the studio
-  - Do the descriptions match what we hear?
+**No classes this week due to professor's conference travel**
 
 # Week 5 (9/23)
 
 ## Monday
 
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
-- Experiment with the Occulus?
 
 ## Wednesday
 
-- binaural recording with the Zoom H3-VR and my sound professionals earbuds
+- Binaural recording with the Zoom H3-VR and my sound professionals earbuds
 - [Anaglyph](http://anaglyph.dalembert.upmc.fr/)
   - Test out a few of these - [Files - Sofaconventions](https://www.sofaconventions.org/mediawiki/index.php/Files)
   - Add them to the package contents to get them to show up in the VST
 - Anaglyph projects making of - [Anaglyph](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 
-> Assignment: [Stereo/binaural](../projects/stereo) - Due 10/1
+> Assignment: [Stereo/binaural](../projects/stereo) - Due 10/9/24
 
 ## Friday
 
@@ -124,7 +107,7 @@ Labor Day - No class
 - Demo decoding various ATK example recordings
 - Any questions about setup of the ambisonic project
 
-> Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/9
+> Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/21/24
 
 ## Wednesday
 
@@ -146,7 +129,6 @@ Labor Day - No class
 
 ## Monday
 
-- Listen to binaural projects
 - Continue with ambisonics mix
 - Record ambisonics with the Zoom H3-VR
   - Spatialize the recordings in Studio B in different ways
@@ -154,7 +136,7 @@ Labor Day - No class
 
 ## Wednesday
 
-- Listen to Ambisonics projects
+- Listen to binaural projects
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 
 ## Friday
@@ -179,12 +161,11 @@ Labor Day - No class
 
 ## Monday
 
-- [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
-
+- Listen to Ambisonics mixes in class and talk about your process. 
 
 ## Wednesday
 
-- Listen to Ambisonics mixes in class and talk about your process. 
+- [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 - [ReaSurroundPan](../lectures/week-7/reasurround/)
 - Mix 7.1 music: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
 
@@ -202,15 +183,16 @@ Labor Day - No class
 - [Atmos with Logic X](../lectures/week-9/atmos-logic/)
 - Start Mixing Aiguille Rouge 
 
-> Homework: I'll be gone at a conference until next Monday. Finish this mix on your own and submit to D2L. Review this video ([Getting Started with Dolby Atmos in Logic Pro - YouTube](https://www.youtube.com/watch?v=SU459dSa_a8)) for advice on how to use the Atmos functionality of Logic X. 
+> Homework: Finish this mix on your own and submit to D2L. Review this video ([Getting Started with Dolby Atmos in Logic Pro - YouTube](https://www.youtube.com/watch?v=SU459dSa_a8)) for advice on how to use the Atmos functionality of Logic X. 
 
 ## Wednesday
 
-- ATMI conference
-   
-## Friday
-
-- ATMI conference
+- Listen to your progress with your mixes
+  - answer questions
+-  In depth listening session
+  - Atmos Demo
+  - Lil Nas X demo
+- Implement the step sequencer 
 
 # Week 11 (11/4)
 
@@ -223,19 +205,17 @@ Labor Day - No class
   - Lil Nas X demo
 - Implement the step sequencer 
 
-<!--
+# Week 12 (11/11)
+
+## Monday
 
 - [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
 - Listen to some projects
 - Use Logic's Modulators to do cool stuff (look at project on lab computer)
   - Route Modulator using IAC Bus
     - Automate the MIDI effect on and off
-  - Use this to write automation that you can edi
-  - - [Smart TV Survey](../survey.pdf)
-- Listen to some Atmos Music - from Music playlist
--->
+  - Use this to write automation that you can edit
 
-<!-- 
 ## Wednesday
 
 - Listen to your Atmos mixes 
@@ -243,38 +223,6 @@ Labor Day - No class
 ## Friday
 
 - Atmos in X DAW
-<!-- - [Dolby Atmos and Movies](../lectures/week-11/atmos-movies/) -->
- 
-
-
-<!-- 
-# Week 12 (11/11)
-
-## Monday
-
-<!-- - [Atmos Movie Day](../lectures/week-11/atmos-movie-examples/) -->
-<!-- - [SpatGRIS](../lectures/week-12/spat-gris/)
-  - Update first  -->
-<!-- - [Ear Production Suite](../lectures/week-11/ear/) -->
-<!-- - Intro final and proposal - DUE 11/18 -->
-
-<!-- 
-## Wednesday
-
-- SuperCollider
-- https://envelop.us/page/software
-- Other programs - https://www.balticimmersive.net/resources
-  - AcousModules - http://acousmodules.free.fr/spatial-mass.htm
-  - SpaceControl - https://github.com/raphaelradna/SpaceControl
-- Computational surround sound - web audio, supercollider, max/msp etc.
-  - https://forum.ircam.fr/projects/detail/spat/
-
-> Intro final and proposal - DUE 11/13
-
-
-## Friday
-
-Veteran's Day - No Class
 
 # Week 13 (11/18)
 
@@ -317,5 +265,4 @@ Veteran's Day - No Class
 
 ## Final Exam 
 
-- Final Exam Presentation:
- -->
+- Final Exam Presentation: -->
