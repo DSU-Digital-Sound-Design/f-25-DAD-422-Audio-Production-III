@@ -20,7 +20,7 @@ author: ""
 
 ## Wednesday
 
-- Discuss [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
+- Discuss [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1) - [slides](../lectures/week-1/physical-attributes-1/)
 - [Space and Time in music and sound art](../lectures/week-1/space-and-time/)
 
 > Read: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a) - read and prepared to discuss on Friday using details from D2L.
