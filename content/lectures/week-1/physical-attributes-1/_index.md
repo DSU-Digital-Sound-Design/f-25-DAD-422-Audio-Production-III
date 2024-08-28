@@ -10,6 +10,7 @@ separator = "##"
 ## Oscillation and Vibration
 
 - Definition of Oscillation
+  - [Strange Attractors](https://www.stsci.edu/~lbradley/seminar/attractors.html)
 - Definition of Vibration
 - Role of Vibration in Sound Production
 - Examples of Oscillation and Vibration
@@ -48,7 +49,6 @@ separator = "##"
 - Definition of Simple Harmonic Motion
 - Relationship Between Displacement and Restoring Force
 - Sine Wave Representation
-- Equation of SHM
 
 {{% note %}}
 
@@ -84,7 +84,6 @@ separator = "##"
 - Definition of Signal Envelope
 - Stages: Attack, Decay, Sustain, Release
 - Importance in Sound Synthesis
-- Visual Representation of Signal Envelopes
 
 {{% note %}}
 
@@ -122,6 +121,7 @@ separator = "##"
 - Doubling and Tenfold Increase in Sound Level
 - Human Hearing Range
 
+
 {{% note %}}
 
 - Sound intensity, power, and pressure are measured using a logarithmic scale, specifically decibels (dB), due to the logarithmic nature of sound perception.
@@ -133,12 +133,16 @@ separator = "##"
 
 ---
 
+![](decibel-scale.svg)
+
+---
+
 ## Additional Concepts in Acoustics
 
 - Phase and its Effect on Sound
 - Root-Mean-Square (RMS) Amplitude
 - Linear Superposition and Interference
-- Importance of These Concepts in Sound Engineering
+
 
 {{% note %}}
 
@@ -148,5 +152,3 @@ separator = "##"
 - These concepts are vital in sound engineering, influencing everything from audio recording to speaker design.
 
 {{%/ note %}}
-
----
