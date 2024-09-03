@@ -29,24 +29,23 @@ author: ""
 
 - Discuss: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
 
-- [Historical Context - audio](../lectures/week-1/historical-context/)
-
-
-<!-- 
 # Week 2 (9/2)
 
 ## Monday
 
-- Why space
-  - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
+- Labor Day - No class
 
 ## Wednesday
 
-- Discuss [Auditory distance perception in humans: a review of cues, development, neuronal bases, and effects of sensory loss - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744263/) - [notes](../lectures/week-2/auditory-distance-perception/)
+- [Historical Context - audio](../lectures/week-1/historical-context/)
 - Assignment: [Project 1: Mono](../projects/mono) - Due 9/11/24
 
+<!-- 
 ## Friday
 
+- Why space
+  - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
+- Discuss [Auditory distance perception in humans: a review of cues, development, neuronal bases, and effects of sensory loss - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744263/) - [notes](../lectures/week-2/auditory-distance-perception/)
 - In class - try to create a recording's perceived distance in a specific environment using reverb, volume, and filtering. Use the new field recording microphone. Use the iPhone measure app to measure distances. We could also try a familiar and unfamiliar sound.
   - Record something with the zoom at several distances
   - Record something in the studio at several distances
@@ -57,7 +56,6 @@ author: ""
 
 ## Monday
 
-Labor Day - No class
 
 ## Wednesday
 
