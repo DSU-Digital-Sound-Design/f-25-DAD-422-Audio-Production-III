@@ -38,7 +38,7 @@ author: ""
 ## Wednesday
 
 - [Historical Context - audio](../lectures/week-1/historical-context/)
-- Assignment: [Project 1: Mono](../projects/mono) - Due 9/11/24
+- Assignment: [Project 1: Mono](../projects/mono) - Due 9/13/24
 
 <!-- 
 ## Friday

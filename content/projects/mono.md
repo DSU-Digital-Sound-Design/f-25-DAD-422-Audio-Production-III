@@ -44,16 +44,18 @@ Create a 1-2 minute audio-only piece that simulates a walk through a specific en
    - The challenges you faced working in mono and how you overcame them
 
 
-## Evaluation Rubric
+[Previous content remains the same]
 
-| Criterion | Excellent (4) | Good (3) | Satisfactory (2) | Needs Improvement (1) |
-|-----------|---------------|----------|------------------|------------------------|
-| Creativity in Mono Techniques | Exceptional use of mono techniques to create a vivid sense of space and movement | Good use of mono techniques, creating a clear sense of space | Basic use of mono techniques, some sense of space achieved | Limited use of mono techniques, little sense of space |
-| Use of Audio Processing | Masterful use of reverb, delay, filtering, and volume to indicate movement and depth | Effective use of most processing techniques to create depth | Some use of processing techniques, but depth is inconsistent | Minimal use of processing techniques, little depth achieved |
-| Clarity and Coherence | Highly coherent sonic environment with a clear narrative progression | Coherent environment with some narrative elements | Environment is mostly clear, but lacks strong narrative | Unclear environment with no discernible narrative |
-| Variety of Sound Elements | Rich variety of well-integrated sound elements (10+) | Good variety of sound elements (8-10) | Adequate variety of sound elements (6-8) | Limited variety of sound elements (<6) |
-| Technical Execution | Flawless technical execution, adhering to all constraints | Minor technical issues, but mostly adheres to constraints | Some technical issues, partially adheres to constraints | Significant technical issues, doesn't adhere to constraints |
-| Written Explanation | Insightful explanation of techniques and challenges, clear narrative description | Good explanation of techniques and challenges, clear description | Basic explanation of techniques and challenges, adequate description | Limited explanation, unclear description |
+## Evaluation Rubric (60 points total)
+
+| Criterion | Excellent | Good | Satisfactory | Needs Improvement |
+|-----------|-----------|------|--------------|-------------------|
+| Creativity in Mono Techniques (12 pts) | 12-10: Exceptional use of mono techniques to create a vivid sense of space and movement | 9-7: Good use of mono techniques, creating a clear sense of space | 6-4: Basic use of mono techniques, some sense of space achieved | 3-1: Limited use of mono techniques, little sense of space |
+| Use of Audio Processing (12 pts) | 12-10: Masterful use of reverb, delay, filtering, and volume to indicate movement and depth | 9-7: Effective use of most processing techniques to create depth | 6-4: Some use of processing techniques, but depth is inconsistent | 3-1: Minimal use of processing techniques, little depth achieved |
+| Clarity and Coherence (10 pts) | 10-9: Highly coherent sonic environment with a clear narrative progression | 8-6: Coherent environment with some narrative elements | 5-3: Environment is mostly clear, but lacks strong narrative | 2-1: Unclear environment with no discernible narrative |
+| Variety of Sound Elements (8 pts) | 8-7: Rich variety of well-integrated sound elements (10+) | 6-5: Good variety of sound elements (8-10) | 4-3: Adequate variety of sound elements (6-8) | 2-1: Limited variety of sound elements (<6) |
+| Technical Execution (8 pts) | 8-7: Flawless technical execution, adhering to all constraints | 6-5: Minor technical issues, but mostly adheres to constraints | 4-3: Some technical issues, partially adheres to constraints | 2-1: Significant technical issues, doesn't adhere to constraints |
+| Written Explanation (10 pts) | 10-9: Insightful explanation of techniques and challenges, clear narrative description | 8-6: Good explanation of techniques and challenges, clear description | 5-3: Basic explanation of techniques and challenges, adequate description | 2-1: Limited explanation, unclear description |
 
 
 ## Resources
