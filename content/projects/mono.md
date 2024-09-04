@@ -38,7 +38,7 @@ Create a 1-2 minute audio-only piece that simulates a walk through a specific en
 
 ## Submission Requirements
 1. A mono audio file of your 1-2 minute sound walk (.wav format)
-2. A written document (300-500 words) explaining:
+2. A written document (250 words) explaining:
    - Your chosen environment and the narrative of your sound walk
    - At least three specific techniques you used to create a sense of space and movement
    - The challenges you faced working in mono and how you overcame them
