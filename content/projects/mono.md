@@ -43,9 +43,6 @@ Create a 1-2 minute audio-only piece that simulates a walk through a specific en
    - At least three specific techniques you used to create a sense of space and movement
    - The challenges you faced working in mono and how you overcame them
 
-
-[Previous content remains the same]
-
 ## Evaluation Rubric (60 points total)
 
 | Criterion | Excellent | Good | Satisfactory | Needs Improvement |
