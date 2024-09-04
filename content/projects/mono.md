@@ -25,7 +25,6 @@ Create a 1-2 minute audio-only piece that simulates a walk through a specific en
 5. Create a clear sense of movement or journey through your chosen environment.
 
 ## Technical Constraints
-- All audio must be in mono format.
 - Final output should be a single mono audio file.
 - Sample rate: 44kHz
 - Bit depth: 24-bit
