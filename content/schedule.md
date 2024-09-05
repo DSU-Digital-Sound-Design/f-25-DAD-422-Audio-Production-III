@@ -40,22 +40,22 @@ author: ""
 - [Historical Context - audio](../lectures/week-1/historical-context/)
 - Assignment: [Project 1: Mono](../projects/mono) - Due 9/13/24
 
-<!-- 
 ## Friday
 
 - Why space
   - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
+<!-- 
+
+# Week 3 (9/9)
+
+## Monday
+
 - Discuss [Auditory distance perception in humans: a review of cues, development, neuronal bases, and effects of sensory loss - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744263/) - [notes](../lectures/week-2/auditory-distance-perception/)
 - In class - try to create a recording's perceived distance in a specific environment using reverb, volume, and filtering. Use the new field recording microphone. Use the iPhone measure app to measure distances. We could also try a familiar and unfamiliar sound.
   - Record something with the zoom at several distances
   - Record something in the studio at several distances
   - Try to artificially recreate the distance and spatial cues using the close-miced source and audio effects.
 - Mono project check-in
-
-# Week 3 (9/9)
-
-## Monday
-
 
 ## Wednesday
 
