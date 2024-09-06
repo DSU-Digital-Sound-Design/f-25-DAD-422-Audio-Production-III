@@ -42,13 +42,15 @@ author: ""
 
 ## Friday
 
-- Why space
-  - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
-<!-- 
+- [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
 
 # Week 3 (9/9)
 
 ## Monday
+
+- [Distance Perception](../lectures/week-3/distance-perception/)
+
+<!-- 
 
 - Discuss [Auditory distance perception in humans: a review of cues, development, neuronal bases, and effects of sensory loss - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744263/) - [notes](../lectures/week-2/auditory-distance-perception/)
 - In class - try to create a recording's perceived distance in a specific environment using reverb, volume, and filtering. Use the new field recording microphone. Use the iPhone measure app to measure distances. We could also try a familiar and unfamiliar sound.
