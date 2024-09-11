@@ -68,13 +68,15 @@ author: ""
 - [Stereo reproduction](../lectures/week-3/stereo/)
 - Experiment with different stereo micing techniques in the studio
 
-<!-- 
 # Week 4 (9/16)
 
 **No classes this week due to conference travel**
 
+- See the [conference project](../projects/conference-project) for details on what to do this week.
+
 # Week 5 (9/23)
 
+<!-- 
 ## Monday
 
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
