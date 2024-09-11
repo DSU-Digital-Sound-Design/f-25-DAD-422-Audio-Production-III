@@ -19,5 +19,5 @@ Listen to a selection of binaural soundscapes from the NPR archives on SoundClou
 ![Spatial Impression Chart](/lectures/week-3/spatial-audio-psychoacoustics/spatial-impression.png)
 
 **Submission**:
-- Submit a **one-paragraph reflection** (150-200 words) on D2L by **Friday, Sept 23rd**.
+- Submit a **one-paragraph reflection** (150-200 words) on D2L by **Friday, Sept 20rd**.
 
