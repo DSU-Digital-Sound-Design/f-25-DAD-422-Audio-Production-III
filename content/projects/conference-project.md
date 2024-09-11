@@ -16,7 +16,7 @@ Listen to a selection of binaural soundscapes from the NPR archives on SoundClou
 
 **Diagram: Spatial Impression Framework**
 
-![](spatial-impression.png)
+![](/projects/spatial-impression.png)
 
 **Submission**:
 - Submit a **one-paragraph reflection** (150-200 words) on D2L by **Friday, Sept 20rd**.
