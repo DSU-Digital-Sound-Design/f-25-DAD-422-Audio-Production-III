@@ -59,7 +59,6 @@ author: ""
 
 ## Wednesday
 
-<!-- TODO: edit this -->
 - Follow along with headphones
   - [Spatial audio psychoacoustics](../lectures/week-3/spatial-audio-psychoacoustics/)
 
@@ -67,11 +66,12 @@ author: ""
 
 - Listen to mono projects in class and talk about process 
 - [Stereo reproduction](../lectures/week-3/stereo/)
+- Experiment with different stereo micing techniques in the studio
 
 <!-- 
 # Week 4 (9/16)
 
-**No classes this week due to professor's conference travel**
+**No classes this week due to conference travel**
 
 # Week 5 (9/23)
 
