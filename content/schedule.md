@@ -76,12 +76,17 @@ author: ""
 
 # Week 5 (9/23)
 
-<!-- 
 ## Monday
 
-- [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
+- Out of town - no class  
 
 ## Wednesday
+
+- Which binaural recordings did you listen to?
+- [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
+
+<!-- 
+## Friday
 
 - Binaural recording with the Zoom H3-VR and my sound professionals earbuds
 - [Anaglyph](http://anaglyph.dalembert.upmc.fr/)
@@ -90,9 +95,6 @@ author: ""
 - Anaglyph projects making of - [Anaglyph](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 10/9/24
-
-## Friday
-
 - Meet in the immersive room
 - Listen to ambisonics recordings in the immersive studio
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings

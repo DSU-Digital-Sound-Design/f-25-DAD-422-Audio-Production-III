@@ -155,7 +155,17 @@ Some of the best binaural recordings are those made by Richard Duda at San Jose 
 
 ## Binaural Albums
 
-- [The Best Albums Recorded in Binaural Audio - Hooke Audio](https://hookeaudio.com/blog/music/best-binaural-albums/)
+<!-- - [The Best Albums Recorded in Binaural Audio - Hooke Audio](https://hookeaudio.com/blog/music/best-binaural-albums/)
 - [(484) PigPen Theatre Co. "Shailene" : Hooke Live Sessions - Mobile Binaural 3D Audio - YouTube](https://www.youtube.com/watch?v=0PjI5zdunO4&list=PLYp6w6tSgroG5F4GWK6nEIimmZbl0CTai)
 - [AWESOME BINAURAL ALBUMS! | Headphone Reviews and Discussion - Head-Fi.org](https://www.head-fi.org/threads/awesome-binaural-albums.511850/)
-- [10 Binaural Albums That Will Blow Your Mind – Meteorite Sound](https://meteoritesound.com/10-binaural-albums-that-will-blow-your-mind/)
+- [10 Binaural Albums That Will Blow Your Mind – Meteorite Sound](https://meteoritesound.com/10-binaural-albums-that-will-blow-your-mind/) -->
+
+<iframe width="560" height="100" src="https://www.youtube.com/embed/lQkQi4hBcr8?si=CfeKaEC4cIa_cd5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="100" src="https://www.youtube.com/embed/jNWF50faO0s?si=iKzLBRL0ml9VUT1d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="100" src="https://www.youtube.com/embed/T7SzMnLYPzw?si=RVlKzy9PkmPoFb5x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="100" src="https://www.youtube.com/embed/KwSWJrKWuP4?si=lSTA4R9NGPxRNIsZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- [Various classical recordings](https://www.binaural.no/)
