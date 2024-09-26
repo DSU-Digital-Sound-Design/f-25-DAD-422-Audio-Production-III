@@ -85,16 +85,19 @@ author: ""
 - Which binaural recordings did you listen to?
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
 
-<!-- 
 ## Friday
 
 - Binaural recording with the Zoom H3-VR and my sound professionals earbuds
+- Combine binaural recordings with mono and stereo recordings that are rendered with Anaglyph
 - [Anaglyph](http://anaglyph.dalembert.upmc.fr/)
+  - Test out hwo to use it in class; add sound effects or dialogue and experiment with automation. 
   - Test out a few of these - [Files - Sofaconventions](https://www.sofaconventions.org/mediawiki/index.php/Files)
   - Add them to the package contents to get them to show up in the VST
 - Anaglyph projects making of - [Anaglyph](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 10/9/24
+> 
+<!-- 
 - Meet in the immersive room
 - Listen to ambisonics recordings in the immersive studio
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
