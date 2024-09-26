@@ -3,7 +3,7 @@ title: "Project 2: Binaural/Stereo"
 ---
 
 ### Project Overview:
-In this project, students will create a one-minute piece of binaural music, sound design, or narrative fiction that demonstrates their understanding of binaural and stereo recording techniques. The piece can either stand alone or accompany a visual, but the primary focus is on spatial audio and the use of stereo and binaural methods to create an immersive sound experience.
+In this project, you will create a one-minute piece of binaural music, sound design, or narrative fiction that demonstrates their understanding of binaural and stereo recording techniques. The piece can either stand alone or accompany a visual, but the primary focus is on spatial audio and the use of stereo and binaural methods to create an immersive sound experience.
 
 ### Requirements:
 **Track 1: Stereo Recording Technique**:  
