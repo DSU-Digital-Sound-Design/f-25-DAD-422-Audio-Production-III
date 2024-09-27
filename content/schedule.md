@@ -96,8 +96,12 @@ author: ""
 - Anaglyph projects making of - [Anaglyph](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 10/9/24
-> 
-<!-- 
+
+
+# Week 6 (9/30)
+
+## Monday
+
 - Meet in the immersive room
 - Listen to ambisonics recordings in the immersive studio
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
@@ -105,9 +109,8 @@ author: ""
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
 - Demo of the project setup - how to open a Reaper template to start your project.
 
-# Week 6 (9/30)
-
-## Monday
+<!-- 
+## Wednesday
 
 - Automation of pans + parameter modulation
 - **Listen to binaural mix project**
@@ -116,9 +119,6 @@ author: ""
 - Any questions about setup of the ambisonic project
 
 > Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/21/24
-
-## Wednesday
-
 - MS vs DMS vs Ambisonics; decode all to 5.1 or 7.1
   - **Guide:**
     - Record tests - walk around the mic array and talk so we can hear how it picks up each direction.
