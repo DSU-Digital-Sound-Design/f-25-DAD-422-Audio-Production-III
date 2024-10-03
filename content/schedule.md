@@ -107,13 +107,12 @@ author: ""
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
   - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
-- Demo of the project setup - how to open a Reaper template to start your project.
 
-<!-- 
 ## Wednesday
 
-- Automation of pans + parameter modulation
-- **Listen to binaural mix project**
+- Demo of Ambisonic Toolkit setup in Reaper
+
+<!-- 
 - [Recording Ambisonics](../lectures/week-5/ambisonics-recording/)
 - Demo decoding various ATK example recordings
 - Any questions about setup of the ambisonic project
@@ -130,7 +129,7 @@ author: ""
 
 ## Friday
 
-- Listen to binaural project
+
 - Do an Ambisonics mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
 
 # Week 7 (10/7) - Mixing in Surround
