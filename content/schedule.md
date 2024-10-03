@@ -112,9 +112,19 @@ author: ""
 
 - Demo of Ambisonic Toolkit setup in Reaper
 
+## Friday
+
+- Answer questions about the binaural project. 
+- Do an Ambisonics music mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
+
 <!-- 
+
+
+# Week 7 (10/7) - Mixing in Surround
+
+## Monday
+
 - [Recording Ambisonics](../lectures/week-5/ambisonics-recording/)
-- Demo decoding various ATK example recordings
 - Any questions about setup of the ambisonic project
 
 > Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/21/24
@@ -126,16 +136,6 @@ author: ""
       - Routing: FL = side + mid, FR = phase inverted side + mid, C = mid, SL = side + rear, SR = phase inverted side + rear; map to correct channels with JS: Channel Mapper-Downmixer
       - Do the routing, then try to encode to ambisonics with the 5 channel encoder.
 - One student setup the project in Reaper with these recordings.
-
-## Friday
-
-
-- Do an Ambisonics mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
-
-# Week 7 (10/7) - Mixing in Surround
-
-## Monday
-
 - Continue with ambisonics mix
 - Record ambisonics with the Zoom H3-VR
   - Spatialize the recordings in Studio B in different ways
