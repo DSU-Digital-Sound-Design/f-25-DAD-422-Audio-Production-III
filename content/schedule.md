@@ -115,7 +115,6 @@ author: ""
 ## Friday
 
 - Answer questions about the binaural project. 
-- Do an Ambisonics music mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
 
 
 
@@ -123,8 +122,11 @@ author: ""
 
 ## Monday
 
-- [Recording Ambisonics](../lectures/week-5/ambisonics-recording/)
+- Do an Ambisonics music mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
+<!-- - [Recording Ambisonics](../lectures/week-5/ambisonics-recording/)
+  - Some examples of ambisonic recording technology. -->
 - Any questions about setup of the ambisonic project
+- Do some ambisonic recording with the Zoom H3-VR in the studio and try to mix it in Reaper with the Ambisonic Toolkit.
 
 > Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/21/24
 
