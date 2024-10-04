@@ -117,7 +117,6 @@ author: ""
 - Answer questions about the binaural project. 
 - Do an Ambisonics music mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
 
-<!-- 
 
 
 # Week 7 (10/7) - Mixing in Surround
@@ -128,6 +127,8 @@ author: ""
 - Any questions about setup of the ambisonic project
 
 > Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/21/24
+
+<!-- 
 - MS vs DMS vs Ambisonics; decode all to 5.1 or 7.1
   - **Guide:**
     - Record tests - walk around the mic array and talk so we can hear how it picks up each direction.
