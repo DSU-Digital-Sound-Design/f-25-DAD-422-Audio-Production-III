@@ -123,36 +123,25 @@ author: ""
 ## Monday
 
 - Do an Ambisonics music mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
-<!-- - [Recording Ambisonics](../lectures/week-5/ambisonics-recording/)
-  - Some examples of ambisonic recording technology. -->
 - Any questions about setup of the ambisonic project
 - Do some ambisonic recording with the Zoom H3-VR in the studio and try to mix it in Reaper with the Ambisonic Toolkit.
 
 > Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/21/24
 
-<!-- 
-- MS vs DMS vs Ambisonics; decode all to 5.1 or 7.1
-  - **Guide:**
-    - Record tests - walk around the mic array and talk so we can hear how it picks up each direction.
-    - [Mid-Side Mic Technique Explained - Stereo Recording 101](https://musicproductionnerds.com/mid-side-mic-technique-explained)
-    - [Double Midside Technique](https://www.youtube.com/watch?v=R0og6zGwXFY)
-      - Routing: FL = side + mid, FR = phase inverted side + mid, C = mid, SL = side + rear, SR = phase inverted side + rear; map to correct channels with JS: Channel Mapper-Downmixer
-      - Do the routing, then try to encode to ambisonics with the 5 channel encoder.
-- One student setup the project in Reaper with these recordings.
-- Continue with ambisonics mix
-- Record ambisonics with the Zoom H3-VR
-  - Spatialize the recordings in Studio B in different ways
-- Listen to progress on ambisonics student projects
-
 ## Wednesday
 
 - Listen to binaural projects
-- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
-
+- Two options:
+  - (1): Continue with ambisonic mix from last class or get practice setting up another mix.
+  - (2): Start a new project with ambisonic recordings from the zoom H3-VR. Combine with other recordings we find online and render in ambisonics.
+  
 ## Friday
 
-- Continue: [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/#15)
+- Listen to progress on ambisonics student projects.
+- Move to 5.1 mixing and some history of cinema sound.
+- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 
+<!-- 
 # Week 8 (10/14)
 
 ## Monday
