@@ -150,10 +150,12 @@ author: ""
 
 ## Wednesday
 
+- [ReaSurroundPan](../lectures/week-7/reasurround/)
 - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
 
 ## Friday 
 
+- [ReaSurroundPan](../lectures/week-7/reasurround/)
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 
 # Week 9 (10/21) 
@@ -165,7 +167,6 @@ author: ""
 ## Wednesday
 
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
-- [ReaSurroundPan](../lectures/week-7/reasurround/)
 - Mix 7.1 music: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
 
 ## Friday
