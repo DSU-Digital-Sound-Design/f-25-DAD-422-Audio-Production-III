@@ -1,9 +1,6 @@
 ---
 title: "Project 3: Ambisonics"
 ---
-Here’s the complete project description, including the remaining parts:
-
----
 
 ## Project Overview
 

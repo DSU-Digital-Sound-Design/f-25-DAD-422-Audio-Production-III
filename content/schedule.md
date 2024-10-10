@@ -137,7 +137,7 @@ author: ""
   
 ## Friday
 
-- Listen to progress on ambisonics student projects.
+- Updated the [Ambisonics](../projects/ambisonics/) project with more details on the assignment.
 - Move to 5.1 mixing and some history of cinema sound.
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 
