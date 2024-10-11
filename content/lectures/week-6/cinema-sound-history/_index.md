@@ -91,7 +91,6 @@ These early developments in multi-channel sound laid the foundation for the surr
 ---
 
 ![](20191125132006_Disney-FantasiaMovieSound-FantasoundWeb.jpg)
-Here’s a more detailed notes section incorporating the "correct" and "spectacular" approaches for the Fantasound system in *Fantasia*:
 
 {{% note %}}
 * **The film's multi-channel mix was a hybrid of two approaches**:
