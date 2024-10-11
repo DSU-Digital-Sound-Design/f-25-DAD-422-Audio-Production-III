@@ -266,6 +266,8 @@ Despite Dolby Stereo's widespread adoption, some prominent filmmakers chose not 
 1. any digital multi-channel system should use fully discrete channels rather than matrix encoding to avoid encountering Dolby Stereo’s problems with sounds not playing back in the correct channels.
 2. the new digital system should have at least CD-quality sound so that cinematic systems could catch up with home audio.
 
+[ITU-R BS.775-1](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.775-1-199407-S!!PDF-E.pdf)
+
 {{% note %}}
 **Development of 5.1 surround sound**
 
