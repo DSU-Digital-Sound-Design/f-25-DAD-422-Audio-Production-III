@@ -2,71 +2,99 @@
 title: "Surround Mixing in Reaper"
 ---
 
-## Distributed Sources
+## Introduction  
+Surround mixing allows you to create immersive audio by distributing sounds across multiple speakers. Whether you’re building a cinematic soundscape, crafting 3D audio for installations, or designing game sound, Reaper’s flexible routing system makes it a powerful tool for multi-channel mixing. In this post, we’ll explore key techniques, from configuring multi-channel output and mapping channels to working with Sound Particles, automating surround panning, and rendering video with surround audio.
 
-The simples thing you can do with surround mixing in Reaper is to send a mono or stereo track to all speakers. To do this we have to make sure our track and master track are using 8 track channels. Make sure your outputs are set to multi-channel output like so:
+---
 
-![](../output-source.png)
+## Distributed Sources  
 
-Try this with any mono or stereo track.
+One of the simplest ways to begin with surround mixing in Reaper is to send a mono or stereo track to all speakers. First, ensure that both your **track** and **master track** are using **8 track channels**. You can adjust this by clicking the routing button for each track and setting the **track channels** to 8.  
 
-I'll now add a multi-channel track and map its channels to specific speakers. We can send it only to the side speaker by only selecting channels 7 and 8.
+Once your outputs are set to **multi-channel output**, your setup should look like this:  
 
-**Sound Particles**
+![Multi-channel routing](../output-source.png)  
+*Track routing for multi-channel output in Reaper*  
 
-Sound Particles is a really great too for producing audio files that have spatial data encoded in them. I can use this recording of a cat growl to make it move around the room.
+Try playing back any mono or stereo track with these settings. You’ll now hear the sound across all speakers.
 
-I have also created an immersive fire soundscape with a recording of fire and the immersive fire preset in sound particles.
+---
 
-## Extending channel mapping with user mix and automation items
+## Adding a Multi-Channel Track  
 
-This simple idea can be expanded using the user mix feature of the channel mapper and Reaper's automation items. Take the track that you would like to automate and duplicate it until it numbers the outputs you want to use. I'm using a stereo loop, so I duplicated the track once.
+To route a multi-channel track to specific speakers, configure its channel outputs. For example, to send audio only to the **side speakers**, use **channels 7 and 8** in your routing matrix.  
 
-Now create a send track then add the channel mapper to it. Send the tracks you want to pan into that new track. Make sure to send each new track into a different track channel. Think of this as a temporary way of creating a multi track media item.
+Try with [freesound](https://freesound.org/search/?f=channels:6) multi-channel files to experiment with different speaker configurations.
 
-Now you can automate the user mix volumes of the send track. I do this with automation items because they allow for easy copying and also modulations
+---
 
-To find the correct parameter to automate, move the volume of the user mix then param -> select "show in track envelope". Do this for the other volumes that you want to automate.
+## Using Sound Particles  
 
-Right click where you want to add an automation item and Automation item -> insert new automation item. Double click on the item to open its properties. You can now set an lfo shape. Copy this shape to the other volumes and change the phase slightly.
+**Sound Particles** is a powerful tool for creating audio files encoded with spatial data. It allows you to design sounds that move dynamically in a 3D space. For example, you can take a simple recording—like a cat’s growl—and use Sound Particles to move it through your mix environment.  
 
-Once you get the hang of it experiment with different lfo shapes, amp skew, pulse width, cycles etc.
+Here’s another idea: I used Sound Particles to create an **immersive fire soundscape**. Starting with a basic fire recording, I applied the **immersive fire preset**, which automatically places the sound around the listener. Export your spatial audio from Sound Particles, then import it into Reaper as a multi-channel file to experience it in your surround mix.
 
-## Point Source
+---
 
-We can create point sources and pan mono, stereo, or multi track files to different speakers with ReaSurroundPan. You should use the 5.1 studio b or 7.1 studio b presets to make sure the sounds are going to the correct speakers. If you don't you need to remap the outputs yourself.
+## Extending Channel Mapping with ReaSurroundPan and Automation Items  
 
-![](../reasurroundpan.png)
+You can achieve sophisticated channel mapping and modulation using **ReaSurroundPan** for surround control. This tool lets you pan audio dynamically across multiple speakers, with full automation support for creative modulation.  
 
-You can see the speakers in the arrangement they are in the room. The 1 and 2 pucks represent the channels of your sound source. These can move independently or together. To edit independently have _edit selected_ highlighted and move your selected puck. With this setting you can shift select other pucks to edit them. You can also select the _edit all_ option to move all input channels at the same time.
+### Steps for ReaSurroundPan Setup and Automation  
 
-There are four settings for each input:
+- **Add ReaSurroundPan** to your track and select the appropriate surround preset (e.g., 5.1 or 7.1).  
+- **Route your audio** to different channels using ReaSurroundPan’s interface. For example, set the X and Y coordinates of your input channels to align with your speaker arrangement.  
 
-- Gain: the level to play back in each speaker
-- LFE: how much to send to the sub
-- Diverge: Spread the sound between the speakers touched by the divergence circle. It makes the source a little less directional.
-- Delay: add delay to the source
+![ReaSurroundPan](../reasurroundpan.png)  
+*Speaker arrangement view in ReaSurroundPan*  
 
-## Recording automation
+- **Reveal the panning parameters** for automation by clicking the param button in the ReaSurroundPan interface and selecting **‘show track envelope’**.  
+- **Insert an Automation Item**: Right-click on the timeline and select **Automation Item → Insert New Automation Item**. Use the **LFO editor** to create custom panning shapes, such as sine waves or square pulses.  
+- **Experiment with LFO parameters** such as **skew, pulse width, and phase** for creative modulation.  
+- **Combine multiple automation items**: For advanced movement, use several automation items across different parameters (e.g., X, Y, and width) to simulate complex trajectories, such as circular panning patterns.  
 
-Find the automation of the inputs, 1 and 2, x and y. Arm these parameters and then set the automation mode to write. Now play through whatever you want to automate. When you move the parameters you will write automation. Be sure to take the automation mode out of write when you're done.
+This approach gives you fine-grained control over how sound moves through the space, making it ideal for immersive audio applications like game audio or installations.
 
-This section provides preset pan moves:
+---
 
-![](../pan-moves.png)
+## Recording Automation  
 
-For example _to left front_ will move both pucks to the left front speaker when turned up from where they were before. This is a helpful way to only have to automate one parameter.
+To add automated movement to your panning, use **ReaSurroundPan's automation features**:  
 
-Check out Z shapes if you have height channels.
+1. Find the automation parameters for **input channels 1 and 2 (X and Y coordinates).**  
+2. **Arm these parameters** and set the automation mode to **Write**.  
+3. Play your session and move the parameters to **record automation in real time**.  
+4. **Set the automation mode back to Read** once you're finished to prevent unwanted overwriting.  
 
-## Panning multiple point sources
+Here’s how you can use **preset pan moves**:  
 
-Try the trick from earlier and send multiple sources to one track, making sure to send each one to a different track channel. You can now automate and pan these sources around as if they were part of the same multichannel track. You can also rename these tracks in ReaSurroundPan to keep things organized.
+![Pan moves](../pan-moves.png)  
+*Preset pan moves in ReaSurroundPan*  
 
-![](surroundpanmix.png)
+For example, the **'To Left Front'** preset moves both pucks toward the front left speaker when increased. This simplifies automation by controlling movement with a single parameter.  
 
-## Rendering video
+Pro tip: If you’re working with **height channels**, experiment with **Z-axis shapes** to control vertical movement.  
 
-Choose options -> Channels -> 6.
+---
 
-Any of the formats in Reaper are OK as long as they give you 6 tracks of audio. I tried AVI and it did not take very long.
+## Panning Multiple Point Sources  
+
+You can combine multiple sources into one track and control them as if they were part of a single multi-channel track:  
+
+1. **Send multiple sources** to a single track and route each one to a different track channel.  
+2. Use **ReaSurroundPan** to automate and pan these sources as a cohesive unit.  
+3. **Rename tracks** in ReaSurroundPan to stay organized.  
+
+![Surround mixing](../surroundpanmix.png)  
+*Managing multiple sources in ReaSurroundPan*  
+
+---
+
+## Rendering Video with Surround Audio  
+
+To export your surround mix, follow these steps:  
+
+1. Go to **Options → Channels → 6** to configure your output for 5.1 surround.  
+2. Select an appropriate video format that supports multi-channel audio (e.g., **AVI or MP4**).  
+3. Render your project, ensuring all audio tracks are routed correctly to match the surround format.  
+

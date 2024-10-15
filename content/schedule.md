@@ -143,7 +143,7 @@ author: ""
   - [An Introduction to Spatial Audio with Matt Glenn (Part 1)](https://www.youtube.com/watch?v=KBLvTttsTaw)
   - [ How to use ReaSurroundPan for Spatial Audio in REAPER (Part 2)](https://www.youtube.com/watch?v=vg28Dok2vqQ)
 - Show [ReaSurroundPan](https://dlz.reaper.fm/userguide/ReaperUserGuide723d.pdf#page=186.08)
-- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
+<!-- note: we didn't get to this - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/) -->
 
 # Week 8 (10/14)
 
@@ -153,10 +153,10 @@ author: ""
 
 ## Wednesday
 
-<!-- 
-- [ReaSurroundPan](../lectures/week-7/reasurround/)
 - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
+- [ReaSurroundPan](../lectures/week-7/reasurround/)
 
+<!-- 
 ## Friday 
 
 - [ReaSurroundPan](../lectures/week-7/reasurround/)
