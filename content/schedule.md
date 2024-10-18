@@ -153,15 +153,22 @@ author: ""
 
 ## Wednesday
 
-- [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
+<!-- skipped - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/) -->
 - [ReaSurroundPan](../lectures/week-7/reasurround/)
 
-<!-- 
 ## Friday 
 
-- [ReaSurroundPan](../lectures/week-7/reasurround/)
-- [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
+- Ambisonics check in day
+  - Each student will present their project and discuss their process for about 10 minutes.
+  - Students then give feedback and constructive comments for 3 - 4 minutes.
+  - Feedback areas: 
+    - How well is the spatialization working?
+    - If you did an original work, how did you use the stereo or ambisonic recordings?
+    - How well is the automation working? Does it add to the piece?
+  - Wrap up with general collaborative problem-solving related to ATK and Reaper.
+<!-- skipped - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/) -->
 
+<!-- 
 # Week 9 (10/21) 
 
 ## Monday
