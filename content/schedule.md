@@ -168,13 +168,13 @@ author: ""
   - Wrap up with general collaborative problem-solving related to ATK and Reaper.
 <!-- skipped - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/) -->
 
-<!-- 
 # Week 9 (10/21) 
 
 ## Monday
 
 - Listen to Ambisonics mixes in class and talk about your process. 
 
+<!-- 
 ## Wednesday
 
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
