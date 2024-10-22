@@ -174,12 +174,14 @@ author: ""
 
 - Listen to Ambisonics mixes in class and talk about your process. 
 
-<!-- 
 ## Wednesday
 
-- [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
-- Mix 7.1 music: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
+<!-- skip: - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/) -->
+- Let's do a group mix in 7.1 using ReaSurroundPan to learn how it works. 
+  - This is an option: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
+  - Or we can pick a different song. 
 
+<!-- 
 ## Friday
 
 **Technical introduction to Dolby Atmos**
