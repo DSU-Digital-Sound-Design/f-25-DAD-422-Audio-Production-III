@@ -181,7 +181,6 @@ author: ""
   - This is an option: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
   - Or we can pick a different song. 
 
-<!-- 
 ## Friday
 
 **Technical introduction to Dolby Atmos**
@@ -189,6 +188,7 @@ author: ""
 - Watch the Atmos demo - how different does it sound from the 5.1/7.1 we have been using?
 - [What is Dolby Atmos](../lectures/week-8/what-is-dolby-atmos/)
 
+<!-- 
 # Week 10 (10/28)
 
 ## Monday

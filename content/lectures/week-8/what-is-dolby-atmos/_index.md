@@ -21,9 +21,45 @@ We'll review some of the history we have already learned through the semester to
 <!-- Mono -> Stereo -> Surround -> Immersive -->
 
 
-<p style="font-size:50px;">
+<!-- <p style="font-size:50px;">
 Mono &rarr; Stereo &rarr; Surround &rarr; Immersive
-</p>
+</p> -->
+
+<!-- Mono -> Stereo -> Surround -> Immersive -->
+
+<div style="display: flex; justify-content: center; align-items: center; font-size: 24px;">
+    <div style="text-align: center;">
+        <p>Mono</p>
+        <p>&darr;</p>
+        <p style="font-size: 20px;">Single sound source, no spatial dimension</p>
+    </div>
+    <div style="text-align: center;">
+        <p>&rarr;</p>
+    </div>
+    <div style="text-align: center;">
+        <p>Stereo</p>
+        <p>&darr;</p>
+        <p style="font-size: 20px;">Two speakers, phantom source effect</p>
+    </div>
+    <div style="text-align: center;">
+        <p>&rarr;</p>
+    </div>
+    <div style="text-align: center;">
+        <p>Surround</p>
+        <p>&darr;</p>
+        <p style="font-size: 20px;">2D sound field, multiple directions</p>
+    </div>
+    <div style="text-align: center;">
+        <p>&rarr;</p>
+    </div>
+    <div style="text-align: center;">
+        <p>Immersive</p>
+        <p>&darr;</p>
+        <p style="font-size: 20px;">3D sound, including overhead speakers</p>
+    </div>
+</div>
+
+
 
 {{% note %}}
 **Evolution of Audio Reproduction Technologies**
@@ -118,7 +154,7 @@ Understanding the nuances of audio terminology is crucial, especially in the con
 - Speaker Rendering
 - Speaker Virtualization
 - Binaural Rendering
-- Sing Format Serves It All
+- Single Format Serves It All
 - Dolby Atmos Everywhere
 
 ---
@@ -128,14 +164,27 @@ Understanding the nuances of audio terminology is crucial, especially in the con
 <!-- ![](daw.png) ->  ![](renderer.png) ->  ![](panner.png) -> ![](pan-transmission.png) -->
 
 <div style="display: flex; align-items: center; justify-content: center; font-size: 24px;">
-    <img src="daw.png" alt="DAW" style="max-width: 250px;">
+    <div style="text-align: center;">
+        <img src="daw.png" alt="DAW" style="max-width: 250px;">
+        <p>DAW</p>
+    </div>
     <span>&#8594;</span>
-    <img src="renderer.png" alt="Renderer" style="max-width: 250px;">
+    <div style="text-align: center;">
+        <img src="renderer.png" alt="Renderer" style="max-width: 250px;">
+        <p>Renderer</p>
+    </div>
     <span>&#8594;</span>
-    <img src="panner.png" alt="Panner" style="max-width: 250px;">
+    <div style="text-align: center;">
+        <img src="panner.png" alt="Panner" style="max-width: 250px;">
+        <p>Panner</p>
+    </div>
     <span>&#8594;</span>
-    <img src="pan-transmission.png" alt="Pan Transmission" style="max-width: 250px;">
+    <div style="text-align: center;">
+        <img src="pan-transmission.png" alt="Pan Transmission" style="max-width: 250px;">
+        <p>Pan Transmission</p>
+    </div>
 </div>
+
 
 
 
