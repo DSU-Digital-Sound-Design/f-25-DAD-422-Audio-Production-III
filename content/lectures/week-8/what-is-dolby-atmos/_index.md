@@ -18,16 +18,7 @@ We'll review some of the history we have already learned through the semester to
 
 ---
 
-<!-- Mono -> Stereo -> Surround -> Immersive -->
-
-
-<!-- <p style="font-size:50px;">
-Mono &rarr; Stereo &rarr; Surround &rarr; Immersive
-</p> -->
-
-<!-- Mono -> Stereo -> Surround -> Immersive -->
-
-<div style="display: flex; justify-content: center; align-items: center; font-size: 24px;">
+<div style="display: flex; justify-content: center; align-items: center; font-size: 60px;">
     <div style="text-align: center;">
         <p>Mono</p>
         <p>&darr;</p>
@@ -140,9 +131,96 @@ Understanding the nuances of audio terminology is crucial, especially in the con
 
 ![](timeline-1.png)
 
+{{% note %}}
+
+### Others:
+- **1940 – Disney's *Fantasia* Released in Surround Sound**:  
+  *Fantasia* introduced Fantasound, an early multi-channel surround sound system for cinema.
+
+- **1950s – Electronic Music Pioneers Experiment with Immersive Audio**:  
+  Electronic music pioneers explored spatial audio, laying the groundwork for modern immersive sound techniques.
+
+- **1967 – Development of the Ambisonics Microphone**:  
+  The Ambisonics microphone was developed to capture immersive, full-sphere 3D sound.
+
+- **1993 – *Jurassic Park* Released in DTS (5.1 Surround)**:  
+  *Jurassic Park* was one of the first films to use DTS 5.1 surround sound for a more immersive theater experience.
+
+- **1993 – *Last Action Hero* Released in SDDS (7.1 Surround)**:  
+  *Last Action Hero* premiered in Sony Dynamic Digital Sound (SDDS), featuring 7.1 surround sound for enhanced spatial audio.
+
+- **2005 – First Commercial Immersive Audio Format, Auro 3D**:  
+  Auro 3D introduced a new immersive sound format that added height channels to the surround sound experience.
+
+### Dolby’s Timeline:
+- **1965 – Dolby Founded in London**:  
+  Dolby began as a company focusing on noise reduction systems for recording studios.
+
+- **1977 – *Star Wars* Released with Dolby Stereo**:  
+  *Star Wars* was the first film to use Dolby Stereo, with an encoded four-channel surround sound format.
+
+- **1982 – Introduction of Dolby Surround**:  
+  Dolby Surround brought four-channel surround sound to consumer home entertainment systems.
+
+- **1987 – Introduction of Dolby Pro Logic**:  
+  Dolby Pro Logic allowed home theater systems to decode four-channel surround sound from stereo sources.
+
+- **1992 – *Batman Returns* Released in Dolby Digital (AC-3, 5.1)**:  
+  *Batman Returns* was the first film to be released with Dolby Digital 5.1 surround sound, enhancing cinematic audio.
+
+- **2000 – Introduction of Dolby Pro Logic II**:  
+  Dolby Pro Logic II improved on the original by providing a more accurate and versatile surround sound experience.
+
+- **2005 – Dolby TrueHD**:  
+  Dolby TrueHD offered lossless audio with up to 7.1 channels, providing high-fidelity surround sound for home theaters.
+
+{{%/ note %}}
+
 ---
 
 ![](timeline-2.png)
+
+{{% note %}}
+
+### Others:
+- **2015 – MPEG-H Immersive Audio Standard**:  
+  MPEG-H, a new immersive audio standard, was introduced in collaboration with MPEG and Fraunhofer, allowing for more flexible, object-based audio rendering.
+
+- **2016 – dts X Announced**:  
+  dts X was announced as the immersive version of the popular dts surround sound technology, aimed at providing object-based audio for cinema and home theater.
+
+- **2019 – Sony Introduces 360 Reality Audio**:  
+  Sony launched 360 Reality Audio, their immersive sound format designed to provide a more spatial audio experience by positioning individual sounds in a 360° sound field.
+
+### Dolby's Timeline:
+- **2012 – *Brave* Released in Dolby Atmos**:  
+  *Brave* became the first movie to be mixed and released using Dolby Atmos, introducing object-based sound and height channels for a fully immersive experience.
+
+- **2014 – Dolby Atmos for Home Entertainment**:  
+  Dolby introduced its Atmos technology to home entertainment systems, allowing consumers to experience cinema-quality immersive sound at home.
+
+- **2017 – Dolby Partners with Netflix**:  
+  Dolby teamed up with Netflix to deliver content in Dolby Atmos on the streaming service, expanding its reach to a broader audience.
+
+- **2018 – Winter Olympics and FIFA World Cup Broadcast in Dolby Atmos**:  
+  These major international sports events were broadcast with Dolby Atmos, marking a milestone in immersive audio for live broadcasts.
+
+- **2018 – Xbox One Supports Dolby Atmos for Games**:  
+  Xbox One started supporting Dolby Atmos, enhancing the gaming experience with immersive, object-based audio.
+
+- **2019 – Dolby Atmos Music Launched**:  
+  Dolby Atmos Music was launched, partnering with Amazon and Tidal, offering immersive music experiences for listeners.
+
+- **2020 – Avid Play Supports Dolby Atmos**:  
+  Avid Play became the first DIY music distribution service to support Dolby Atmos, enabling independent artists to release their music in this format.
+
+- **2021 – Lucid Air Equipped with Dolby Atmos**:  
+  The Lucid Air became the first car equipped with a Dolby Atmos sound system, bringing immersive audio to the automotive world.
+
+- **2021 – Apple Music Supports Dolby Atmos Music**:  
+  Apple Music introduced support for Dolby Atmos, allowing listeners to experience spatial audio across their devices.
+
+{{%/ note %}}
 
 ---
 
@@ -444,7 +522,37 @@ What we used in the previous month:
 
 ---
 
+### How Dolby Atmos Handles Object-Based Audio in 3D Space
+
 ![](object-based-mixing.png)
+
+{{% note %}}
+
+1. **Tracks (Vocals, Guitars, Drums)**:  
+   Each track represents an audio element (e.g., vocals, guitars, drums) that is part of the overall sound mix. These tracks are treated as individual audio objects.
+
+2. **Panning as Metadata (XYZ Coordinates)**:  
+   The position of each audio object is defined by XYZ coordinates, which represent spatial metadata. These coordinates determine the object’s position in a 3D sound field, allowing the audio to move dynamically within the space.
+
+3. **Object Audio Renderer (OAR)**:  
+   The OAR is responsible for rendering the spatial audio. It takes the audio objects and their positional metadata (XYZ coordinates) and converts them into a spatial audio experience that can be played through multiple speakers in a 3D space.
+
+4. **XYZ Coordinates (3D Space)**:  
+   The XYZ axes represent the 3D space where audio objects are positioned. X refers to horizontal (left-right) movement, Y to vertical (up-down) movement, and Z to depth (front-back), creating a fully immersive sound environment.
+
+5. **Objects**:  
+   Each audio element, like vocals, guitars, and drums, is treated as an independent object. This allows them to be moved freely within the sound field without being tied to a specific speaker channel.
+
+6. **Metadata Handling**:  
+   The metadata (panning and position) for each object is continuously updated, ensuring that the sound moves naturally through the environment according to the listener’s perspective.
+
+7. **Independent Object Manipulation**:  
+   By treating each sound as an object, Dolby Atmos allows for more precise and flexible sound placement compared to traditional channel-based systems, where sounds are fixed to specific speakers.
+
+8. **Multiple Speakers Output**:  
+   The object audio renderer sends the audio signals to multiple speakers arranged around the listener. Dolby Atmos systems can support various speaker configurations, including those with height channels, to enhance the immersive experience.
+
+{{%/ note %}}
 
 ---
 
@@ -524,9 +632,31 @@ What we used in the previous month:
 ![](single-format.png)
 
 {{% note %}}
-The mix is done in Atmos a native immersive format. Surround formats are created during playback by the Dolby Atmos playback device.
 
-You can even bring a mix back into a protools session.
+1. **Dolby Atmos Mixing (Studio Setup)**:  
+   Audio is mixed in a professional studio with a Dolby Atmos setup, where sound engineers create the object-based audio mix that can be adapted to different playback systems.
+
+2. **Dolby Atmos Core**:  
+   The object-based audio mix created in the Dolby Atmos system is flexible and can be re-rendered for different types of playback setups, ensuring compatibility with various formats.
+
+3. **Dedicated Speaker Playback**:  
+   For traditional surround sound systems, the Dolby Atmos mix can be played through configurations like 11.1, 7.1, or 5.1 surround, as well as stereo and binaural setups for headphones.
+
+4. **Speaker Systems**:  
+   The mix is played back through dedicated home theater speaker systems, like an AV receiver with surround speakers, which can support different audio configurations.
+
+5. **Speaker Virtualization**:  
+   Dolby Atmos also supports speaker virtualization, which allows devices like soundbars or smart speakers to simulate surround sound, even without a full speaker setup. This makes immersive audio more accessible to casual listeners.
+
+6. **Binaural Playback for Headphones**:  
+   For listeners using headphones, Dolby Atmos can convert the surround sound mix into a binaural format, providing a 3D audio experience over standard stereo headphones.
+
+7. **Re-Rendering**:  
+   The object-based mix can be re-rendered into different surround formats, such as 11.1, 7.1, 5.1, or stereo, depending on the playback device or environment.
+
+8. **Multi-Platform Output**:  
+   Dolby Atmos is designed to deliver high-quality audio across multiple platforms, including streaming services, physical media, and different playback devices, ensuring that the mix is tailored to the listener’s setup.
+
 {{%/ note %}}
 
 ---
