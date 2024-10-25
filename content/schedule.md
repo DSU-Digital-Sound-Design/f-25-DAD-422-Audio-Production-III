@@ -188,7 +188,6 @@ author: ""
 - Watch the Atmos demo - how different does it sound from the 5.1/7.1 we have been using?
 - [What is Dolby Atmos](../lectures/week-8/what-is-dolby-atmos/)
 
-<!-- 
 # Week 10 (10/28)
 
 ## Monday
@@ -198,6 +197,7 @@ author: ""
 
 > Homework: Finish this mix on your own and submit to D2L. Review this video ([Getting Started with Dolby Atmos in Logic Pro - YouTube](https://www.youtube.com/watch?v=SU459dSa_a8)) for advice on how to use the Atmos functionality of Logic X. 
 
+<!-- 
 ## Wednesday
 
 - Listen to your progress with your mixes
