@@ -206,7 +206,7 @@ author: ""
   - Atmos mix of song 
   - Atmos mix of Lambs Movie project
 
-> Project [Atmos](../projects/atmos) - Due 11/18/24
+> Project [Atmos](../projects/atmos) - Due 11/15/24
 
 <!-- 
 # Week 11 (11/4)
