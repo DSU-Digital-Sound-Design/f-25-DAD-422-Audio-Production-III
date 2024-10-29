@@ -1,73 +1,64 @@
 ---
-title: "Atmos Music mix"
+title: "Atmos Mix"
 ---
 
-You will use Logic Pro X to create an Atmos mix of [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)'s Bebe Grand. You will need to convert it into an Atmos mix to start. Make sure it is 24 bit / 48 kHz / 24 fps.
+You will use Logic Pro X to create a Dolby Atmos mix. You have the option to choose between two projects:
 
-In Project Settings -> Audio -> General, set _Spatial Audio_ to _Dolby Atmos_, then set the _Surround Format_ to _7.1.2_. Use a combination of **bed** and **object** tracks to create a convincing atmos mix. Don't use any stereo panning modes. 
+1. **[Aiguille Rouge's Bebe Grand](https://cambridge-mt.com/ms/mtk/#BabeGrand)**
+2. **[The Film Lambs](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=NOo8Rt)**
 
-> Make sure you are monitoring in 7.1. You can change this in the Dolby Atmos Renderer plugin.
+For either project, start by converting it into an Atmos mix format. Ensure that the settings are **24 bit / 48 kHz / 24 fps**.
 
-To convert from a stereo panner, change the output routing to _Surround_. This will now give you a Logic _Surround Panner_. Right click and select _3D Object Panner_ if you want pan this track with an object channel.
+## Initial Setup
 
-Add panning automation to at least two tracks.
+1. **Set Project Audio Format**:
 
-On your Master track use level and loudness meters to check that your mix matches the Dolby Atmos music standard loudness of -18 LUFS-I and -1 dbTP. Make sure these are placed **after** the Dolby Atmos Render plugin so that they are metering the object tracks.
+   - Open Logic Pro X and go to `Preferences -> Audio`.
+   - Set the input/output settings to **24-bit, 48 kHz, 24 fps**.
 
-Save your **project file** into the folder in studio b called _DAD 422 - Dolby Atmos Aiguille Rouge Turn-in Folder_. Also save an **exported ADM BWF file**. This is the file that you would upload to a distributor if you were distributing your mix for consumers.
+2. **Configure Spatial Audio Settings**:
 
+   - Navigate to `Project Settings -> Audio -> General`.
+   - Under "Spatial Audio," select **Dolby Atmos**.
+   - Set "Surround Format" to **7.1.2**.
 
-## Guide to Creating an Atmos Mix in Logic Pro X
+## Mixing Guidelines
 
-In this step-by-step guide, we'll walk through the process of creating an Atmos mix of "Aiguille Rouge's Bebe Grand" using Logic Pro X. Follow these instructions to ensure a successful Atmos mix:
+### Using Bed and Object Tracks
 
-### Step 1: Configure Logic Pro X Audio Settings
+All tracks should be panned using either the `Surround Panner` or the `3D Object Panner`.
 
-1.1. **Open Logic Pro X**: Launch Logic Pro X and open your project.
+1. **Bed Tracks**:
 
-1.2. **Set Audio Format**:
-   - In the Logic Pro X menu, go to Logic Pro X -> Preferences -> Audio.
-   - Set the **Audio Input/Output**: 24-bit, 48 kHz, and 24 fps.
+   - Use for ambient or foundational audio, creating a consistent sonic environment. Ideal for elements that will remain static in the mix.
+   - Set to **Surround Panner**.
 
-### Step 2: Configure Project Settings
+2. **Object Tracks**:
 
-2.1. **Spatial Audio Settings**: 
-    * Navigate to Project Settings -> Audio -> General.
-    * Under "Spatial Audio," select "Dolby Atmos."
-    * In the same settings window, set the "Surround Format" to "7.1.2."
+   - Use for sound elements that move within the 3D space, or for elements that need a distinct point source with a strong locative quality.
+   - Set to **3D Object Panner** and add panning automation for dynamic movement.
 
-### Step 3: Use Bed and Object Tracks
+> **Tip**: Avoid stereo panning modes for an authentic Atmos mix.
 
-All tracks should be panned with either the `Surround Panner` or the `3D Object Panner`
+### Monitoring in 7.1.4
 
-3.1. **Bed Tracks**:
-   - These are foundational tracks with static or non-moving audio elements, providing a consistent sonic environment.
-   - Use bed tracks for ambient or static elements in the mix. 
-   - Bed tracks use the `Surround Panner`. 
+Ensure that you are monitoring in **7.1**.4 Adjust this setting in the **Dolby Atmos Renderer plugin**.
 
-3.2. **Object Tracks**:
-   - These contain dynamic sound objects that can move independently within the three-dimensional sound space.
-   - Employ object tracks for dynamic elements that you wish to have a more precise location in space.
-   - Object tracks use the `3D Object Panner`
+### Adding Panning Automation
 
-### Step 4: Monitor in 7.1
+Add panning automation to at least two tracks to create spatial movement and enhance immersion.
 
-4.1. **Adjust Monitoring**: Ensure that you are monitoring in 7.1. You can change this setting in the Dolby Atmos Renderer plugin.
+### Checking Loudness Levels
 
-### Step 7: Add Panning Automation
+1. **Master Track Analysis**:
 
-6.1. **Create Automation**: Add panning automation to at least two tracks to control the spatial movement of sound elements within the Atmos mix.
+   - On your Master track, use level and loudness meters to ensure that your mix matches the Dolby Atmos loudness standards of **-18 LUFS-I** and **-1 dbTP**.
 
-### Step 8: Check Loudness Levels
+2. **Meter Placement**: Position the meters **after the Dolby Atmos Render plugin** to accurately capture the levels of object tracks.
 
-7.1. **Master Track Analysis**: On your Master track, use level and loudness meters to check that your mix matches the Dolby Atmos music standard loudness of -18 LUFS-I and -1 dbTP.
+### Saving and Exporting
 
-7.2. **Placement of Meters**: Ensure that the meters are placed **after** the Dolby Atmos Render plugin in your signal chain. This will accurately meter the object tracks.
+1. **Save Project File**: Save your project file in the "DAD 422 - Dolby Atmos Aiguille Rouge Turn-in Folder" if mixing *Bebe Grand*, or in the designated *Lambs* folder.
 
-### Step 9: Save and Export
+2. **Export ADM BWF File**: Export and save an **ADM BWF file** for distribution or submission. This file is essential for uploading your mix to a distributor for consumer playback.
 
-8.1. **Save Your Project**: Save your project file into the designated folder called "DAD 422 - Dolby Atmos Aiguille Rouge Turn-in Folder" within your studio workspace.
-
-8.2. **Export ADM BWF File**: Additionally, save an **exported ADM BWF file**. This file is essential if you plan to distribute your Atmos mix to consumers or other platforms.
-
-Following these renumbered step-by-step instructions will help you create a high-quality Dolby Atmos mix of "Aiguille Rouge's Bebe Grand" using Logic Pro X, incorporating both bed and object tracks to achieve an immersive audio experience. Ensure that your audio settings in Logic Pro X are correctly configured to match the specified format before starting your project. Remember to pay close attention to audio quality, routing, and loudness standards to achieve the best results.

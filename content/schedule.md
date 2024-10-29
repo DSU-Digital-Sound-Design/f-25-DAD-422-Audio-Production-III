@@ -197,16 +197,18 @@ author: ""
 
 > Homework: Finish this mix on your own and submit to D2L. Review this video ([Getting Started with Dolby Atmos in Logic Pro - YouTube](https://www.youtube.com/watch?v=SU459dSa_a8)) for advice on how to use the Atmos functionality of Logic X. 
 
-<!-- 
 ## Wednesday
 
-- Listen to your progress with your mixes
-  - answer questions
--  In depth listening session
-  - Atmos Demo
-  - Lil Nas X demo
-- Implement the step sequencer 
+- Show Lambs Movie project
+  - [Download](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=xhLWbK)
+- Show 5.1 movie examples  
+- Talk about next project
+  - Atmos mix of song 
+  - Atmos mix of Lambs Movie project
 
+> Project [Atmos](../projects/atmos) - Due 11/18/24
+
+<!-- 
 # Week 11 (11/4)
 
 ## Monday
