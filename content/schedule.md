@@ -208,18 +208,14 @@ author: ""
 
 > Project [Atmos](../projects/atmos) - Due 11/15/24
 
-<!-- 
 # Week 11 (11/4)
 
 ## Monday
 
-- Listen to your progress with your mixes
-  - answer questions
--  In depth listening session
-  - Atmos Demo
-  - Lil Nas X demo
-- Implement the step sequencer 
+- In class Atmos mixing to learn the basics
+  - We'll go through he project instructions and do a basic mix in class.
 
+<!-- 
 # Week 12 (11/11)
 
 ## Monday
