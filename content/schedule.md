@@ -215,22 +215,25 @@ author: ""
 - In class Atmos mixing to learn the basics
   - We'll go through he project instructions and do a basic mix in class.
 
-<!-- 
 # Week 12 (11/11)
 
 ## Monday
 
-- [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
+- No class for Veterans Day
+
+<!-- - [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
 - Listen to some projects
 - Use Logic's Modulators to do cool stuff (look at project on lab computer)
   - Route Modulator using IAC Bus
     - Automate the MIDI effect on and off
-  - Use this to write automation that you can edit
+  - Use this to write automation that you can edit -->
 
 ## Wednesday
 
-- Listen to your Atmos mixes 
+- Talk about DAD @ MAAC
+- Hear progress on the mixes due on Friday
 
+<!-- 
 ## Friday
 
 - Atmos in X DAW
