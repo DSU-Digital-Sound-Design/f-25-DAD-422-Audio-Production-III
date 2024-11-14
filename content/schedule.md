@@ -233,11 +233,11 @@ author: ""
 - Talk about DAD @ MAAC
 - Hear progress on the mixes due on Friday
 
-<!-- 
 ## Friday
 
-- Atmos in X DAW
+- Listen to your mixes and/or talk about problems you are having.
 
+<!-- 
 # Week 13 (11/18)
 
 ## Wednesday 
