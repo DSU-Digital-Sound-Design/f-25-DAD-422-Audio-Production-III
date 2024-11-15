@@ -305,4 +305,4 @@ author: ""
 
 # Final Exam 
 
-> December 13, 1 - 3 pm
+> December 16, 1 - 3 pm
