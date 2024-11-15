@@ -237,20 +237,34 @@ author: ""
 
 - Listen to your mixes and/or talk about problems you are having.
 
-<!-- 
 # Week 13 (11/18)
+
+## Monday
+
+- Proposal Workshop
+  - Come in with specific ideas (concepts, tools, influences) for your final project, we'll discuss them as a class.  
 
 ## Wednesday 
 
-- Meet with Jacob
+- Open session to talk about proposals 
+- SuperCollider 
 
 ## Friday 
 
-- Meet with Noah 
+- SuperCollider
+- Each student briefly presents their proposal 
 
 # Week 14 (11/25)
 
-- independent final work
+## Monday
+
+- Final project setup session 
+  - Meet in small groups to setup your project and ask questions.
+- Schedule: 
+  - 1:00 - 1:50
+    - Orlando, Reiter, Michael, Hunter
+  - 1:50 - 2:40 
+    - Abbie, Wiley, Mason
 
 ## WF
 
@@ -260,23 +274,35 @@ author: ""
 
 ## Monday 
 
-- Meet to show progress on projects to classmates.
+- Midpoint Critique
+  - Each student will show their progress on the project so far, playing 1-2 minutes of a mix or composition. 
+  - Other students will provide feedback and encouragement. 
 
 ## Wednesday 
 
-- Meet with Jacob
+- Organized Work Session  
+  - Work on feedback suggestions from Monday. 
+- Schedule: 
+  - 1:00 - 1:50
+    - Abbie, Wiley, Mason
+  - 1:50 - 2:40 
+    - Orlando, Reiter, Michael, Hunter
 
 ## Friday 
 
-- Meet with Noah 
+- All students meet for feedback and sharing progress session. 
 
 # Week 16 (12/9)
 
 ## Monday 
 
 - Fill out course evaluations
-- Show progress before final 
+- ask any final questions or further feedback request before the final exam presentation. 
 
-## Final Exam 
+## WF
 
-- Final Exam Presentation: -->
+- Exam time starts
+
+# Final Exam 
+
+> December 13, 1 - 3 pm
