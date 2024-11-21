@@ -284,9 +284,9 @@ author: ""
   - Work on feedback suggestions from Monday. 
 - Schedule: 
   - 1:00 - 1:50
-    - Abbie, Wiley, Mason
-  - 1:50 - 2:40 
-    - Orlando, Reiter, Michael, Hunter
+    - everyone 
+  - 2 - 4 pm 
+    - Go check out the Undergraduate Research projects in the Science Center Lobby. 
 
 ## Friday 
 
