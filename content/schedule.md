@@ -251,7 +251,6 @@ author: ""
 
 ## Friday 
 
-- SuperCollider
 - Each student briefly presents their proposal 
 
 # Week 14 (11/25)
