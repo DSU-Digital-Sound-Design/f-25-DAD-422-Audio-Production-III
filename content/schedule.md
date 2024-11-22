@@ -252,6 +252,8 @@ author: ""
 ## Friday 
 
 - Each student briefly presents their proposal 
+  - This is a chance to get feedback and suggestions from the class.
+  - We'll also listen to your influences listed in the proposal. 
 
 # Week 14 (11/25)
 
