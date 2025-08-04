@@ -222,18 +222,26 @@ author: ""
 
 # Week 11 
 
+
+## Monday
+
 - In class Atmos mixing to learn the basics
   - We'll go through he project instructions and do a basic mix in class.
 
-## Monday
+## Wednesday
+
+- In class Atmos mixing to learn the basics
+  - We'll go through he project instructions and do a basic mix in class.
+
+## Friday
 
 - [Atmos Movies](../lectures/week-11/atmos-movies/)
 
 # Week 12 
 
-## Tuesday
+## Monday
 
-- Veterans’ Day – No Class
+- [Atmos Movie Examples](../lectures/week-11/atmos-movie-examples/)
 
 ## Wednesday
 
@@ -242,6 +250,7 @@ author: ""
 ## Friday
 
 - Listen to your mixes and/or talk about problems you are having.
+
 
 # Week 13 (Nov 17)
 
@@ -261,6 +270,7 @@ author: ""
   - This is a chance to get feedback and suggestions from the class.
   - We'll also listen to your influences listed in the proposal. 
 
+
 # Week 14 (Nov 24)
 
 ## Monday
@@ -273,9 +283,11 @@ author: ""
   - 1:50 - 2:40 
     - Abbie, Wiley, Mason
 
+
 ## Wed–Fri (Nov 26–28)
 
 - Thanksgiving Break – No Classes
+
 
 # Week 15 (Dec 1)
 
@@ -298,7 +310,6 @@ author: ""
 ## Friday 
 
 - All students meet for feedback and sharing progress session. 
-
 
 # Week 16 (Dec 8)
 
