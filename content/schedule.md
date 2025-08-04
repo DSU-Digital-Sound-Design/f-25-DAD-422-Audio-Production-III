@@ -8,7 +8,6 @@ author: ""
 
 # Week 1 (8/25)
 
-
 ## Monday
 
 - Look at [syllabus](../syllabus)
@@ -53,6 +52,7 @@ author: ""
 - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
 
 
+<!-- 
 # Week 3 (9/8)
 
 
