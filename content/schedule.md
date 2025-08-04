@@ -5,18 +5,21 @@ author: ""
 
 {{< toc >}}
 
-# Week 1 (8/26)
+
+# Week 1 (8/25)
+
 
 ## Monday
 
 - Look at [syllabus](../syllabus)
-- [Fundementals of Sound: Slides](../lectures/week-1/foundations-of-sound/)
+- [Fundamentals of Sound: Slides](../lectures/week-1/foundations-of-sound/)
   - Source: [Fundamentals of Sound](http://www.acousticslab.org/RECA220/PMFiles/Module01.htm#1a)
 - Listen to some surround in the immersive room.
   - Atmos demos
   - Some 5.1 surround
 
 > Read: [Physical attributes of acoustic waves: Part I: Introduction](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1) - see D2L for more details. 
+
 
 ## Wednesday
 
@@ -25,42 +28,44 @@ author: ""
 
 > Read: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a) - read and prepared to discuss on Friday using details from D2L.
 
+
 ## Friday
 
 - Discuss: [Physical attributes of acoustic waves - Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
 
-# Week 2 (9/2)
+
+# Week 2 (9/1)
+
 
 ## Monday
 
-- Labor Day - No class
+- Labor Day – No Class
+
 
 ## Wednesday
 
 - [Historical Context - audio](../lectures/week-1/historical-context/)
-- Assignment: [Project 1: Mono](../projects/mono) - Due 9/13/24
+- Assignment: [Project 1: Mono](../projects/mono) - Due 9/19/25
+
 
 ## Friday
 
 - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
 
-# Week 3 (9/9)
+
+# Week 3 (9/8)
+
 
 ## Monday
 
 - [Distance Perception](../lectures/week-3/distance-perception/)
 
-<!-- - Discuss [Auditory distance perception in humans: a review of cues, development, neuronal bases, and effects of sensory loss - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4744263/) - [notes](../lectures/week-2/auditory-distance-perception/)
-- In class - try to create a recording's perceived distance in a specific environment using reverb, volume, and filtering. Use the new field recording microphone. Use the iPhone measure app to measure distances. We could also try a familiar and unfamiliar sound.
-  - Record something with the zoom at several distances
-  - Record something in the studio at several distances
-  - Try to artificially recreate the distance and spatial cues using the close-miced source and audio effects.
-- Mono project check-in -->
 
 ## Wednesday
 
 - Follow along with headphones
   - [Spatial audio psychoacoustics](../lectures/week-3/spatial-audio-psychoacoustics/)
+
 
 ## Friday
 
@@ -68,21 +73,16 @@ author: ""
 - [Stereo reproduction](../lectures/week-3/stereo/)
 - Experiment with different stereo micing techniques in the studio
 
-# Week 4 (9/16)
 
-**No classes this week due to conference travel**
+# Week 4 (9/15)
 
-- See the [conference project](../projects/conference-project) for details on what to do this week.
-
-# Week 5 (9/23)
 
 ## Monday
 
-- Out of town - no class  
+- [Recording Stereo](../lectures/week-3/recording-stereo/)
 
 ## Wednesday
 
-- Which binaural recordings did you listen to?
 - [Binaural Audio and Recording](../lectures/week-4/binaural-recording/)
 
 ## Friday
@@ -97,8 +97,7 @@ author: ""
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 10/9/24
 
-
-# Week 6 (9/30)
+# Week 5 (9/22)
 
 ## Monday
 
@@ -116,9 +115,7 @@ author: ""
 
 - Answer questions about the binaural project. 
 
-
-
-# Week 7 (10/7) - Mixing in Surround
+# Week 6 (9/29)
 
 ## Monday
 
@@ -128,35 +125,46 @@ author: ""
 
 > Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/21/24
 
+
 ## Wednesday
 
 - Listen to binaural projects
 - Two options:
   - (1): Continue with ambisonic mix from last class or get practice setting up another mix.
   - (2): Start a new project with ambisonic recordings from the zoom H3-VR. Combine with other recordings we find online and render in ambisonics.
-  
+
 ## Friday
 
-- Updated the [Ambisonics](../projects/ambisonics/) project with more details on the assignment.
 - Move to **5.1 mixing** and some history of cinema sound.
+- [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
+
+# Week 7 (10/6)
+
+## Monday
+
+- [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
+
+## Wednesday
+
+- [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
+
+## Friday
+
+
 - Two great videos on Reaper and surround:
   - [An Introduction to Spatial Audio with Matt Glenn (Part 1)](https://www.youtube.com/watch?v=KBLvTttsTaw)
   - [ How to use ReaSurroundPan for Spatial Audio in REAPER (Part 2)](https://www.youtube.com/watch?v=vg28Dok2vqQ)
 - Show [ReaSurroundPan](https://dlz.reaper.fm/userguide/ReaperUserGuide723d.pdf#page=186.08)
-<!-- note: we didn't get to this - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/) -->
+- [ReaSurroundPan](../lectures/week-7/reasurround/)
 
-# Week 8 (10/14)
+# Week 8 (Oct 13)
+
 
 ## Monday
 
-- No class for Native America Day
+- Native American Day – No Class
 
 ## Wednesday
-
-<!-- skipped - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/) -->
-- [ReaSurroundPan](../lectures/week-7/reasurround/)
-
-## Friday 
 
 - Ambisonics check in day
   - Each student will present their project and discuss their process for about 10 minutes.
@@ -166,38 +174,39 @@ author: ""
     - If you did an original work, how did you use the stereo or ambisonic recordings?
     - How well is the automation working? Does it add to the piece?
   - Wrap up with general collaborative problem-solving related to ATK and Reaper.
-<!-- skipped - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/) -->
 
-# Week 9 (10/21) 
-
-## Monday
+## Friday 
 
 - Listen to Ambisonics mixes in class and talk about your process. 
 
-## Wednesday
+# Week 9 (Oct 20)
 
-<!-- skip: - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/) -->
+## Monday
+
 - Let's do a group mix in 7.1 using ReaSurroundPan to learn how it works. 
   - This is an option: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
   - Or we can pick a different song. 
 
-## Friday
+## Wednesday
 
 **Technical introduction to Dolby Atmos**
 
 - Watch the Atmos demo - how different does it sound from the 5.1/7.1 we have been using?
 - [What is Dolby Atmos](../lectures/week-8/what-is-dolby-atmos/)
 
-# Week 10 (10/28)
 
-## Monday
+## Friday
+
 
 - [Atmos with Logic X](../lectures/week-9/atmos-logic/)
 - Start Mixing Aiguille Rouge 
 
 > Homework: Finish this mix on your own and submit to D2L. Review this video ([Getting Started with Dolby Atmos in Logic Pro - YouTube](https://www.youtube.com/watch?v=SU459dSa_a8)) for advice on how to use the Atmos functionality of Logic X. 
 
-## Wednesday
+
+# Week 10 (Oct 27)
+
+## Monday
 
 - Show Lambs Movie project
   - [Download](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=xhLWbK)
@@ -208,36 +217,33 @@ author: ""
 
 > Project [Atmos](../projects/atmos) - Due 11/15/24
 
-# Week 11 (11/4)
+## Wednesday
 
-## Monday
+
+# Week 11 
 
 - In class Atmos mixing to learn the basics
   - We'll go through he project instructions and do a basic mix in class.
 
-# Week 12 (11/11)
-
 ## Monday
 
-- No class for Veterans Day
+- [Atmos Movies](../lectures/week-11/atmos-movies/)
 
-<!-- - [Mixing in Atmos with Protools](../lectures/week-8/protools-mixing-atmos/)
-- Listen to some projects
-- Use Logic's Modulators to do cool stuff (look at project on lab computer)
-  - Route Modulator using IAC Bus
-    - Automate the MIDI effect on and off
-  - Use this to write automation that you can edit -->
+# Week 12 
+
+## Tuesday
+
+- Veterans’ Day – No Class
 
 ## Wednesday
 
-- Talk about DAD @ MAAC
 - Hear progress on the mixes due on Friday
 
 ## Friday
 
 - Listen to your mixes and/or talk about problems you are having.
 
-# Week 13 (11/18)
+# Week 13 (Nov 17)
 
 ## Monday
 
@@ -255,7 +261,7 @@ author: ""
   - This is a chance to get feedback and suggestions from the class.
   - We'll also listen to your influences listed in the proposal. 
 
-# Week 14 (11/25)
+# Week 14 (Nov 24)
 
 ## Monday
 
@@ -267,11 +273,11 @@ author: ""
   - 1:50 - 2:40 
     - Abbie, Wiley, Mason
 
-## WF
+## Wed–Fri (Nov 26–28)
 
-- Thanksgiving Holiday 
+- Thanksgiving Break – No Classes
 
-# Week 15 (12/2)
+# Week 15 (Dec 1)
 
 ## Monday 
 
@@ -293,17 +299,23 @@ author: ""
 
 - All students meet for feedback and sharing progress session. 
 
-# Week 16 (12/9)
+
+# Week 16 (Dec 8)
 
 ## Monday 
 
 - Fill out course evaluations
 - ask any final questions or further feedback request before the final exam presentation. 
 
-## WF
 
-- Exam time starts
+## Dec 10 (Wed)
+
+- No Classes
+
+## Dec 11–17 (Thurs–Wed)
+
+- Final Exam Period (presentation date TBA)
 
 # Final Exam 
 
-> December 16, 1 - 3 pm
+> December 12, 1 - 3 pm
