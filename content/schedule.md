@@ -51,7 +51,7 @@ author: ""
 
 - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
 
-
+<!-- 
 
 # Week 3 (9/8)
 
@@ -327,7 +327,7 @@ author: ""
 
 ## Dec 11–17 (Thurs–Wed)
 
-- Final Exam Period (presentation date TBA)
+- Final Exam Period 
 
 # Final Exam 
 
