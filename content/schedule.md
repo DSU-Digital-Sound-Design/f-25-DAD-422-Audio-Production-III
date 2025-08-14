@@ -251,6 +251,7 @@ author: ""
 
 - Listen to your mixes and/or talk about problems you are having.
 
+> [Final Project Description](../projects/final) - Proposal Due 11/21; Project Due 12/12 - both submitted via D2L
 
 # Week 13 (Nov 17)
 
@@ -258,6 +259,7 @@ author: ""
 
 - Proposal Workshop
   - Come in with specific ideas (concepts, tools, influences) for your final project, we'll discuss them as a class.  
+
 
 ## Wednesday 
 
