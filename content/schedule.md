@@ -123,7 +123,7 @@ author: ""
 - Any questions about setup of the ambisonic project
 - Do some ambisonic recording with the Zoom H3-VR in the studio and try to mix it in Reaper with the Ambisonic Toolkit.
 
-> Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/21/24
+> Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/17/24
 
 
 ## Wednesday
