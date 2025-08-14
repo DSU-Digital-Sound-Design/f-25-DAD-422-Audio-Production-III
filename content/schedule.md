@@ -44,7 +44,7 @@ author: ""
 ## Wednesday
 
 - [Historical Context - audio](../lectures/week-1/historical-context/)
-- Assignment: [Project 1: Mono](../projects/mono) - Due 9/19/25
+- Assignment: [Project 1: Mono](../projects/mono) - Due 9/12/25
 
 
 ## Friday
@@ -52,7 +52,7 @@ author: ""
 - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
 
 
-<!-- 
+
 # Week 3 (9/8)
 
 
