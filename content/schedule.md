@@ -95,7 +95,7 @@ author: ""
   - Add them to the package contents to get them to show up in the VST
 - Anaglyph projects making of - [Anaglyph](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 
-> Assignment: [Stereo/binaural](../projects/stereo) - Due 10/9/24
+> Assignment: [Stereo/binaural](../projects/stereo) - Due 10/10/24
 
 # Week 5 (9/22)
 
