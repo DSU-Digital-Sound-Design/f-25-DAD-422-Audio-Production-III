@@ -19,16 +19,24 @@ margin = 0.2
 
 ---
 
-## Fundamentals of Sound: Definitions and Scope of Study
+## Fundamentals of Sound
 
-- Sound study covers physical, physiological, and perceptual aspects.
-- Key acoustics fields: Physical, Physiological, Signal Processing.
-- Acoustics investigates absolute and difference thresholds.
-- Psychoacoustics combines physical and physiological acoustics.
+![](https://www.healthyhearing.com/uploads/images/the-basics-of-hearing-hh19.jpg)
 
 {{% note %}}
-- The study of sound is foundational for understanding more advanced topics like surround sound and immersive audio technologies like Dolby Atmos and Ambisonics. 
-- By grasping how sound is produced, transmitted, and perceived, you'll be better equipped to design and analyze complex soundscapes.
+- The study of sound is a multidisciplinary field.
+  - It explores physical aspects, such as vibrations and waves.
+  - It considers physiological factors, like the construction of the ear.
+  - It examines perceptual elements, including auditory sensations.
+- This field links physical, physiological, and perceptual frames of reference.
+  - It investigates how these aspects interact to create auditory perceptions.
+- Cognitive Psychology of Sound extends this study.
+  - It looks at how we organize sonic perceptions into meaningful wholes.
+  - It provides evidence for how we interpret and evaluate sound and sound structures.
+- A "frame of reference" is a set of concepts and definitions accepted by a particular field.
+  - It represents a specific worldview within that area of study.
+
+
 {{%/ note %}}
 
 ---
@@ -42,13 +50,29 @@ margin = 0.2
 See: https://exploresound.org/what-is-new/fields-of-acoustics
 
 {{% note %}}
-- In surround sound, especially with technologies like Dolby Atmos, understanding Physical Acoustics is essential for managing how sound waves interact with physical spaces and reach the listener.
-- Physiological Acoustics is directly tied to how our ears and brain interpret these complex sound environments, affecting the placement and movement of sounds within a 3D space.
+- In our study of sound, we will explore several key fields of acoustics.
+
+- Physical Acoustics focuses on the generation, transmission, and modification of acoustic waves.
+  - We ask: How is sound produced and influenced by materials and construction?
+  - How does sound transmission through air change what we hear?
+  - What are the physical foundations of our emotional responses to sound?
+  - We will touch on Musical, Architectural, and Environmental Acoustics.
+
+- Physiological Acoustics examines how the human body reacts to sound vibrations.
+  - We consider: How do our ears process and transform acoustic energy into sensations?
+  - What are the physiological roots of our emotional responses to sound?
+  - Together, Physical and Physiological Acoustics form the basis of Psychoacoustics.
+
+- Signal Processing and Notation look at sound through electronic, graphic, and mathematical representations.
+  - We explore: How does manipulating symbols relate to manipulating sound itself?
+  - What is the formal basis for our emotional responses to sound?
+  - In this course, we will focus on basic graphic representations, such as sound signals and spectra, and on understanding digital audio fundamentals.
+
 {{%/ note %}}
 
 ---
 
-## Sound, Noise, and Music: Essential Definitions
+## Sound, Noise, and Music
 
 - Sound: Vibrational energy perceived as auditory sensations.
 - Noise: Unpleasant or unintended sound within a context.
