@@ -9,146 +9,240 @@ separator = "##"
 
 ## Oscillation and Vibration
 
-- Definition of Oscillation
-  - [Strange Attractors](https://www.stsci.edu/~lbradley/seminar/attractors.html)
-- Definition of Vibration
-- Role of Vibration in Sound Production
-- Examples of Oscillation and Vibration
+### Oscillation
+
+* Repetitive back-and-forth motion around a reference point
+
+### Vibration
+
+* A specific physical form of oscillation
+* Typically involves a mass moving around its equilibrium
+* A fundamental source of sound when that equilibrium is disturbed
 
 {{% note %}}
 
-- Oscillation describes any back-and-forth variation around a reference point, such as Earth's surface motion relative to different celestial points.
-- Vibration is a specific type of oscillation where a mass moves around an equilibrium point, crucial for generating sound.
-- Musical instruments produce sound through vibrations when disturbed from their equilibrium, a key principle in sound creation.
-- Examples include the oscillation of a pendulum and the vibration of guitar strings when plucked.
-
-{{%/ note %}}
+* Oscillation is the broader concept; vibration is its physical and acoustic manifestation.
+* In musical contexts, systems (like strings or membranes) vibrate around stable equilibrium to sustain sound.
+* Without a restoring force or with friction, vibration ceases.
+  {{%/ note %}}
 
 ---
 
-## Equilibrium in Sound
+**Simple Harmonic Motion (SHM)**
 
-- Definition of Equilibrium
-- Types of Equilibrium: Stable vs. Unstable
-- Importance in Musical Instruments
-- Example: Ball on Hilltop vs. Valley
+### Key Concepts
+
+* Motion characterized by a restoring force proportional to displacement (Hooke’s Law)
+* Described by a [sinusoidal function](https://en.wikipedia.org/wiki/Simple_harmonic_motion) (sine wave)
+* Defined by amplitude, frequency (or period), and phase
+
+### Relevance
+
+* SHM serves as the theoretical backbone of acoustics
+* Sine waves are the purest form of sound and build more complex waves
 
 {{% note %}}
 
-- Equilibrium is the state where forces on a system are balanced; in sound, this state is disturbed to create vibrations.
-- Unstable equilibrium breaks down when disturbed, like a ball on a hilltop, while stable equilibrium, like a ball in a valley, is maintained.
-- All musical instruments operate under stable equilibrium, where disturbance causes vibrations leading to sound production.
-- An example is a guitar string returning to its original position after being plucked.
-
-{{%/ note %}}
+* Enables mathematical modeling of real-world systems (like [mass-on-a-spring simulations](https://ophysics.com/w1.html) or [pendulums](https://phet.colorado.edu/en/simulation/pendulum-lab)).
+* Foundation for Fourier analysis and spectral decomposition.
+* Provides insight into resonance phenomena.
+  {{%/ note %}}
 
 ---
 
-## Simple Harmonic Motion (SHM)
+### Additional Interactive Visuals
 
-- Definition of Simple Harmonic Motion
-- Relationship Between Displacement and Restoring Force
-- Sine Wave Representation
+* [Interactive Mass-Spring Simulation](https://www.physicsclassroom.com/Physics-Interactives/Waves-and-Sound/Mass-on-a-Spring/Mass-on-a-Spring-Interactive?utm_source=chatgpt.com)
+* [Circular Motion → SHM Demonstrator](https://physics.bu.edu/~duffy/HTML5/SHM_circular_motion.html)
+* [Web SHM Visualizer](https://ophysics.com/w0.html)
+
+---
+
+## Complex Vibrations
+
+### Real-World Complexity
+
+* Real acoustic signals are rarely pure sine waves
+* Comprised of multiple SHMs summed together
+* Complex waveforms define timbre and texture
 
 {{% note %}}
 
-- Simple harmonic motion is the simplest type of vibration, where the restoring force is proportional to the displacement.
-- This motion is foundational in acoustics and is graphically represented by a sine wave, depicting periodic vibration.
-- The equation \( y(t) = A \sin(2\pi ft + \phi) \) describes this motion, where amplitude, frequency, and phase are key parameters.
-- Understanding SHM helps in grasping how sound waves propagate as periodic vibrations.
-
-{{%/ note %}}
+* Any sound can be decomposed into sine components (Fourier series/transform).
+* This decomposition is essential for synthesis, analysis, and understanding timbre.
+* Instruments derive their characteristic tone from the harmonic content.
+  {{%/ note %}}
 
 ---
 
-## Complex Vibrations and Waves
+## Amplitude and the Signal Envelope
 
-- Definition of Complex Vibration
-- Sum of Simple Harmonic Motions
-- Fourier Analysis of Complex Signals
-- Real-world Sound Examples
+### Amplitude
+
+* Height from equilibrium to peak; correlates with loudness
+
+### Signal Envelope
+
+* Temporal outline of amplitude changes
+* Identified stages: Attack → Decay → Sustain → Release (ADSR)
 
 {{% note %}}
 
-- Complex vibrations involve more intricate relationships between restoring force and displacement, resulting in complex curves or signals.
-- These vibrations are sums of multiple simple harmonic motions, making most real-world sounds complex.
-- Fourier analysis allows breaking down these complex vibrations into a set of sine waves for easier analysis.
-- Examples include the complex sounds produced by musical instruments and human voices.
+* Envelopes shape the perceptual character of sounds (e.g., a piano vs. violin).
+* Differentiates between impulse versus continuous signals.
+* Crucial for sound synthesis, envelope generators, and expressive control.
+  {{%/ note %}}
 
-{{%/ note %}}
+**Visual resource**: [Envelope in music – ADSR stages](https://en.wikipedia.org/wiki/Envelope_%28music%29) and their [fine structure](https://en.wikipedia.org/wiki/Temporal_envelope_and_fine_structure).
 
 ---
 
-## Signal Envelope
+## Period and Frequency
 
-- Definition of Signal Envelope
-- Stages: Attack, Decay, Sustain, Release
-- Importance in Sound Synthesis
+### Period
+
+* Time for one complete oscillation (T)
+
+### Frequency
+
+* Number of cycles per second (Hz); frequency = 1 / period
 
 {{% note %}}
 
-- The signal envelope outlines the amplitude of a sound wave over time, crucial in understanding sound dynamics.
-- It includes distinct stages: attack (initial energy rise), decay (energy decrease), sustain (steady state), and release (energy drop-off).
-- These stages are fundamental in sound synthesis, shaping how a sound evolves from start to finish.
-- Visual examples show simple and complex signal envelopes, such as the sustained tone of a trombone.
-
-{{%/ note %}}
+* Frequency determines perceived pitch.
+* Important for tuning, acoustic analysis, and digital sampling systems.
+* Temporal and frequency domains are dual perspectives of sound.
+  {{%/ note %}}
 
 ---
 
-## Periodic Vibration and Wave
 
-- Definition of Periodic Vibration
-- Relationship Between Period and Frequency
-- Perception of Pitch
-- Examples of Periodic Waves
+## Frequency and Period Conversion
+
+### Frequency (f)
+
+* Number of cycles per second, measured in hertz (Hz)
+* Formula: f = 1 / T
+* Try it: [SensorsONE frequency→period calculator](https://www.sensorsone.com/frequency-to-period-calculator/)
+### Period (T)
+
+* Time for one complete cycle, measured in seconds
+* Formula: T = 1 / f
+* More examples: [Omni Calculator – Frequency](https://www.omnicalculator.com/physics/frequency)
 
 {{% note %}}
 
-- Periodic vibrations repeat at regular intervals, producing a consistent pitch, which is perceived as a musical note.
-- The period (T) is the time taken to complete one cycle, inversely related to frequency, \( T = \frac{1}{f} \).
-- Understanding periodic vibrations is key to grasping concepts like pitch and tone in music.
-- Examples include the periodic waves produced by tuning forks and vibrating strings.
+* Frequency and period are exact inverses: if one doubles, the other halves.
+* Worked examples:
+  * If T = 0.01 s, then f = 1 / 0.01 = 100 Hz.
+  * If f = 440 Hz (concert A), then T ≈ 1 / 440 ≈ 0.00227 s.
+* Teaching tip:
+  * Show a single-cycle waveform and label the horizontal span as T; then remind students that frequency is “how many of those spans fit into 1 second.”
+* Forward-looking connection:
+  * This inverse relationship underlies sample-rate reasoning in DAWs and will resurface when we discuss aliasing, FFT window lengths, and time–frequency trade-offs later in the course.
 
 {{%/ note %}}
 
+
 ---
 
-## Logarithmic Scales in Sound
+## Phase
 
-- Use of Decibels (dB)
-- Perception of Sound Intensity
-- Doubling and Tenfold Increase in Sound Level
-- Human Hearing Range
+### Concept
 
+* Describes the position within a cycle (degrees or radians)
+* Two waves with same frequency and amplitude but different phase can behave differently together
+
+### Impact
+
+* Asynchronous phase shifts may be imperceptible
+* Simultaneous multi-source phase relationships affect loudness, timbre, and spatial cues
 
 {{% note %}}
 
-- Sound intensity, power, and pressure are measured using a logarithmic scale, specifically decibels (dB), due to the logarithmic nature of sound perception.
-- A doubling of sound level results in a 3dB increase, while a tenfold increase adds 10dB, perceived as twice as loud.
-- This scale helps explain the vast range of human hearing, from the faintest whisper to the threshold of pain.
-- The range of human hearing spans from 0dB (barely audible) to 120dB (painful).
-
-{{%/ note %}}
+* Phase is critical in audio mixing (phase alignment) and stereo imaging.
+* Misaligned phases can cause destructive interference or comb filtering.
+* Phase differences contribute to perceptual features like localization.
+  {{%/ note %}}
 
 ---
 
-![](decibel-scale.svg)
+## Logarithmic Scales in Acoustics
 
----
+### Why Logarithmic?
 
-## Additional Concepts in Acoustics
+* Human perception of stimulus is proportional to logarithm of intensity (Fechner’s Law)
+* Compresses wide dynamic ranges into manageable scales
 
-- Phase and its Effect on Sound
-- Root-Mean-Square (RMS) Amplitude
-- Linear Superposition and Interference
+### Applications
 
+* Express acoustic quantities (power, intensity, pressure) in decibels (dB)
+* Aligns measurement scale with human hearing sensitivity
 
 {{% note %}}
 
-- Phase refers to the position in the vibration cycle, affecting sound characteristics like loudness and timbre.
-- RMS amplitude measures the average energy in a signal, essential for analyzing complex, non-constant signals.
-- Linear superposition describes how overlapping waves combine, leading to constructive or destructive interference.
-- These concepts are vital in sound engineering, influencing everything from audio recording to speaker design.
+* Decibel scale enables intuitive understanding of large acoustic ranges.
+* Helps connect physical measurement with perceptual loudness.
+* Foundational to metering, audio level calibration, and SPL measurement.
+  {{%/ note %}}
 
-{{%/ note %}}
+---
+
+## Common Sound Levels
+
+### Examples
+
+* \~180 dB – Rocket launch (irreversible hearing loss)
+* \~120 dB – Live rock band (pain threshold)
+* \~60 dB – Normal conversation
+* \~0 dB – Threshold of hearing
+
+{{% note %}}
+
+* Human hearing spans \~0–120 dB over perceived loudness.
+* Sustained levels above \~85 dB risk hearing damage—key for safety in sound professions.
+* Real-world examples help contextualize abstract numbers.
+  {{%/ note %}}
+
+---
+
+## RMS Amplitude
+
+### Definition
+
+* Root-Mean-Square (RMS) measures energy of oscillating signals
+* Takes absolute values into account positive and negative deflections
+
+### Purpose
+
+* More accurately correlates with perceived loudness than peak levels for sinusoidal and complex signals
+
+{{% note %}}
+
+* RMS = sqrt(mean(square(signal))).
+* For pure sine waves: RMS ≈ 0.707 × peak.
+* Crucial for accurate loudness estimation in signal processing and metering.
+  {{%/ note %}}
+
+---
+
+## Superposition and Interference
+
+### Superposition
+
+* Multiple waves add algebraically to produce a complex resultant
+
+### Interference
+
+* Constructive: waves amplify each other
+* Destructive: waves cancel out
+* Beats arise from near-frequency waves (fluctuating amplitude)
+
+{{% note %}}
+
+* Fundamental to understanding room acoustics, comb filtering, and waveform texture.
+* Beats are used intuitively in tuning and signal sensing.
+* Destructive interference is core to noise cancellation technologies.
+  {{%/ note %}}
+
+
