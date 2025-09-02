@@ -252,3 +252,11 @@ Sources: Dolby Stereo first LCR/LCRS uses (1975 _Lisztomania_, 1976 _A Star Is B
 {{% note %}}
 DVD-Video audio formats: https://en.wikipedia.org/wiki/DVD-Video ; Dolby Digital as the DVD audio standard (developer overview): https://developer.dolby.com/technology/dolby-audio/dolby-digital/ ; Blu-ray audio codecs (lossless options): https://en.wikipedia.org/wiki/DTS-HD_Master_Audio and https://en.wikipedia.org/wiki/Dolby_TrueHD ; Atmos over DD+ JOC: https://professionalsupport.dolby.com/s/article/What-is-Dolby-Digital-Plus-JOC-Joint-Object-Coding .
 {{%/ note %}}
+
+---
+
+Activity: which film do you remember seeing or hearing about first?
+
+{{% note %}}
+Consider the advancements in audio technology and how they have influenced your viewing experience. Reflect on the first film you remember seeing or hearing about that utilized these technologies.
+{{%/ note %}}
