@@ -21,10 +21,11 @@ Understanding the historical context of film sound is crucial to appreciating ho
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IyfO06O8nTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[The Assassination of the Duke of Guise (1908)](https://en.wikipedia.org/wiki/The_Assassination_of_the_Duke_of_Guise)
+
 {{% note %}}
-
-The Assassination of the Duke of Guise is the first film to feature an original score. Charles le Bargy and André Calmettes created it before film sound, so an orchestra performed the score live with the movie.
-
+Often cited as the first film to feature an **original score specifically composed for a film**, *La Mort du duc de Guise* (1908) featured music by Camille Saint-Saëns, written scene-by-scene and later adapted into concert form (Op. 128). Its premiere in Paris on 16 November 1908 marked a turning point in film-music integration.
+Sources: [filmmusiccentral.com](https://filmmusiccentral.com/2016/01/13/film-music-101-the-first-film-score/), [musicintheround.co.uk](https://musicintheround.co.uk/resources/lassassinat-du-duc-de-guise/)
 {{%/ note %}}
 
 ---
@@ -33,10 +34,9 @@ The Assassination of the Duke of Guise is the first film to feature an original 
 
 
 {{% note %}}
-
-The introduction of synchronized sound in films marked the transition from silent movies to "talkies." The first sync sound films used mono audio, with a single channel played through a speaker located at the front of the auditorium, centered horizontally with the screen.
-
+With the advent of synchronized sound ("talkies") around 1927, film sound moved to **mono optical soundtracks**, typically a single channel projected from behind the screen. This setup held sway until mid-century. (*The Jazz Singer* (1927) is often marked as the first sync-sound “talkie.”)
 {{%/ note %}}
+
 
 ---
 
@@ -45,11 +45,13 @@ The introduction of synchronized sound in films marked the transition from silen
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MMNICLfHE3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
+Max Steiner’s score for *King Kong* (1933) is widely regarded as the first **feature-length original score** for an American sound film. It introduced the consistent use of a **thematic orchestral score**, leitmotifs tied to characters, and recording on **separate tracks** for dialogue, sound effects, and music.  
+These innovations helped define the Hollywood film score and influenced generations of composers, from Bernard Herrmann to John Williams.  
 
-King Kong's score, composed by Max Steiner, was revolutionary. It was the first feature-length musical score for an American "talkie," the first to use a thematic score, and the first to be recorded on separate tracks for sound effects, dialogue, and music. Steiner's innovative use of leitmotifs and orchestration set new standards for film music, influencing generations of composers.
-
+**Sources:**  
+- [Filmsite.org – King Kong (1933)](https://www.filmsite.org/kingk.html)  
+- [David Allen Composer – Steiner’s Influence](https://davidallencomposer.com/blog/king-kong-max-steiner-james-newton-howard-comparison)  
 {{%/ note %}}
-
 
 ---
 
@@ -57,21 +59,29 @@ King Kong's score, composed by Max Steiner, was revolutionary. It was the first 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2FRyAXXOsMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[Fantasia and Fantasound](https://en.wikipedia.org/wiki/Fantasound)
+
+
 {{% note %}}
-
-Walt Disney's Fantasia introduced "Fantasound," an early multi-channel sound system that used multiple speakers around the theater to create an immersive audio experience. Though Fantasound was not widely adopted, it was a precursor to later developments in multi-channel sound and set the stage for the widescreen sound systems of the 1950s.
-
+Walt Disney’s *Fantasia* introduced **Fantasound**, the first **commercial multichannel surround-sound system**. It used up to 64 speakers (36 behind the screen, 22 for orchestra, 6 balcony), and required separate sound and image projection systems. Only about a dozen theaters could exhibit it due to cost and technical challenges.
+Sources: [newyorker.com](https://www.newyorker.com/magazine/1940/11/16/fantasound), [en.wikipedia.org](https://en.wikipedia.org/wiki/Fantasound)
 {{%/ note %}}
 
 
 ---
 
-# The Dolby Stereo Era (mid-1970s to mid-1990s)
+## Dolby Stereo Era (mid-1970s to mid-1990s)
+
+### Early Dolby Stereo (1975–76)
+
+[Dolby Stereo intro](https://fx3004filmsoundtrackmilestone.wordpress.com/2016/11/30/john-gleeson-essay-the-milestone-era-new-dolby-stereo-technology-1975/)
+[A Century of Innovation - Timeline](https://professional.dolby.com/siteassets/cinema/cie-innovation-tech/cie-innovation-tech-dolby.pdf)
 
 {{% note %}}
-Dolby Stereo represented a major advancement in film sound, offering both three-channel and four-channel audio configurations. Its adoption by major films in the 1970s marked the beginning of a new era in cinematic audio, where sound became a key component of the blockbuster experience.
+In 1975, Dolby introduced **Dolby Stereo**, using noise-reduction and a matrix-encoded optical track on 35 mm. *Lisztomania* (1975) was the first film to use it, offering Left, Center, Right (LCR) channels; the full four-channel (LCR + Surround) debuted with *A Star Is Born* (1976).  
+*Star Wars* (1977) demonstrated its immersive potential and fueled industry-wide adoption.  
+Source: [everything.explained.today](https://everything.explained.today/Dolby_Stereo/)
 {{%/ note %}}
-
 
 ---
 
@@ -80,9 +90,10 @@ Dolby Stereo represented a major advancement in film sound, offering both three-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CeglJMCgnuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-
-Dolby Stereo debuted with a three-channel configuration (Left, Center, Right) in _Lizstomania_ (1975). This innovation provided a more dynamic and immersive sound experience than the mono audio systems that preceded it.
-
+Dolby Stereo debuted with a three-channel configuration (Left, Center, Right) in *Lisztomania* (1975). This innovation provided a more dynamic and immersive sound experience than the mono systems that preceded it.  
+**Sources:**  
+- [Dolby Stereo history – everything.explained.today](https://everything.explained.today/Dolby_Stereo/)  
+- [Film Soundtrack Milestone essay](https://fx3004filmsoundtrackmilestone.wordpress.com/2016/11/30/john-gleeson-essay-the-milestone-era-new-dolby-stereo-technology-1975/)  
 {{%/ note %}}
 
 ---
@@ -92,9 +103,9 @@ Dolby Stereo debuted with a three-channel configuration (Left, Center, Right) in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/838aCpFNpjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-
-The four-channel matrix configuration (Left, Center, Right, Surround) was introduced with 1976’s _A Star is Born_. Its use in blockbuster films like _Star Wars_ (1977) and _Close Encounters of the Third Kind_ (1978) popularized Dolby's system across the industry, making multi-channel sound the new standard.
-
+The four-channel matrix configuration (Left, Center, Right, Surround) was introduced with *A Star is Born* (1976). Its success with blockbusters like *Star Wars* (1977) and *Close Encounters of the Third Kind* (1978) made Dolby’s system the new standard for theatrical audio.  
+**Sources:**  
+- [Everything Explained – Dolby Stereo](https://everything.explained.today/Dolby_Stereo/)  
 {{%/ note %}}
 
 ---
@@ -103,11 +114,24 @@ The four-channel matrix configuration (Left, Center, Right, Surround) was introd
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1g3_CFmnU7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{% note %}}
+*Star Wars* (1977) became the breakthrough moment for Dolby Stereo, demonstrating how multi-channel sound could heighten cinematic immersion. Its use of spatialized effects and John Williams’ score established audience expectations for blockbuster sound.  
+**Sources:**  
+- [American Cinematographer archives](https://theasc.com/articles/beyond-the-frame-star-wars-episode-iv-a-new-hope)  
+{{%/ note %}}
+
 ---
 
 ### Close Encounters of the Third Kind (1978)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dSpQ3G08k48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{% note %}}
+Spielberg’s *Close Encounters of the Third Kind* (1978) further showcased Dolby Stereo’s four-channel potential. Its iconic “five-tone motif” sequence used spatial placement and dynamic mixing to immerse audiences in an unprecedented way.  
+**Sources:**  
+- [Dolby Stereo history – everything.explained.today](https://everything.explained.today/Dolby_Stereo/)  
+- [American Film Institute – Close Encounters](https://catalog.afi.com/Film/67160-CLOSE-ENCOUNTERSOFTHETHIRDKIND?sid=afcf4c16-53d1-45a2-9244-602005256254&sr=16.964832&cp=1&pos=0)  
+{{%/ note %}}
 
 ---
 
@@ -124,14 +148,15 @@ In 1987, the Society of Motion Picture and Television Engineers (SMPTE) establis
 
 ---
 
-### Dolby Digital - Batman Returns (1992)
+## Digital Surround Era (early 1990s to present)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Too3qgNaYBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Dolby Digital – Batman Returns (1992)
+
+[Batman Returns – Dolby Digital](https://news.dolby.com/en-WW/252716-the-bat-is-back-in-dolby-as-tim-burton-s-batman-and-batman-returns-swoop-back-to-theaters-exclusively-at-dolby-cinema/)
 
 {{% note %}}
-
-Dolby Digital, which premiered with _Batman Returns_ in 1992, marked the beginning of digital surround sound in theaters. Unlike earlier analog formats, Dolby Digital offered improved clarity, dynamic range, and channel separation, setting the stage for the future of film sound.
-
+*Batman Returns* (1992) was the **first feature film released in Dolby Digital**, marking the shift to **digital 5.1-channel surround sound** in theaters. Dolby Digital offered clearer sound, wider dynamic range, and discrete channel separation.
+Sources: [news.dolby.com](https://news.dolby.com/en-WW/252716-the-bat-is-back-in-dolby-as-tim-burton-s-batman-and-batman-returns-swoop-back-to-theaters-exclusively-at-dolby-cinema/), [thedigitalbits.com](https://thedigitalbits.com/columns/michael-coate/history-legacy-showmanship/item/1611-batman-returns-25th), [vitalthrills.com](https://www.vitalthrills.com/batman-and-batman-returns-to-be-rereleased-in-dolby-cinema/)
 {{%/ note %}}
 
 
@@ -158,6 +183,11 @@ Dolby Surround EX introduced a sixth channel by adding a matrixed center surroun
 
 DTS (Digital Theater Systems) emerged as a strong competitor to Dolby Digital, offering an alternative 5.1-channel format. _Jurassic Park_ (1993) was the first film to use DTS, and its success led to broader adoption of digital surround sound formats across the industry.
 
+- DTS (theatrical)
+  - 5.1 discrete playback synchronized via timecode on film and audio on external CD-ROMs.
+  - First widely released film: _Jurassic Park_ (1993).
+  - DTS-ES adds a sixth, center-surround channel (Matrix and Discrete variants, late 1990s).
+
 {{%/ note %}}
 
 
@@ -167,6 +197,14 @@ DTS (Digital Theater Systems) emerged as a strong competitor to Dolby Digital, o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ShBw43KJoLk" title="YouTube video player" frameborder="0" allow="acceler
 
+
+{{% note %}}
+
+- SDDS (Sony Dynamic Digital Sound)
+  - Up to 8 channels: 5 screen (L, Lc, C, Rc, R) + stereo surrounds (Ls, Rs) + LFE (often deployed as 5.1).
+  - First premiering titles included _Last Action Hero_ (1993).
+  - Limited long-term adoption due to cost/complexity; most mixes released in 5.1.
+{{%/ note %}}
 
 ---
 
@@ -184,15 +222,33 @@ Dolby Atmos represents the next major leap in cinematic sound, offering an objec
 
 ---
 
-# Summary of Key Points
-
-- The evolution of film sound reflects advancements in technology and creativity.
-- From mono sound and synchronized scores to multi-channel formats like Dolby Stereo and digital surround systems, each development has shaped how audiences experience cinema.
-- Modern innovations like Dolby Atmos continue to push the boundaries of immersive audio, creating new possibilities for sound design in film.
+- 1908 – First original film score (_The Assassination of the Duke of Guise_)
+- 1927+ – Mono optical sound in standard “talkies”
+- 1940 – _Fantasia_ and Fantasound experiment with multi-channel playback
+- 1975–76 – Dolby Stereo ushers in matrixed multichannel cinema
+- 1992 – _Batman Returns_ launches digital 5.1 (Dolby Digital) in theaters
+- Mid-1990s – DTS and SDDS compete with alternative digital systems
+- 1999 – Dolby Surround EX expands to 6.1 (matrixed rear center)
+- 2010 – Dolby Surround 7.1 arrives (first with _Toy Story 3_)
+- 2012 – Dolby Atmos introduces object-based immersive audio
 
 {{% note %}}
-### Discussion Prompt
+Sources: Dolby Stereo first LCR/LCRS uses (1975 _Lisztomania_, 1976 _A Star Is Born_): https://en.wikipedia.org/wiki/Dolby_Stereo ; Dolby Surround 7.1 launch with _Toy Story 3_: https://www.businesswire.com/news/home/20100615006577/en/Disney%E2%80%A2Pixar%E2%80%99s-Toy-Story-3-Makes-Global-Debut-with-Dolby-Surround-7.1 and https://en.wikipedia.org/wiki/Dolby_Surround_7.1 ; Digital 5.1 debut with _Batman Returns_: https://en.wikipedia.org/wiki/Dolby_Digital ; Competing formats (DTS, SDDS): https://en.wikipedia.org/wiki/DTS%2C_Inc. and https://en.wikipedia.org/wiki/Sony_Dynamic_Digital_Sound ; Dolby Surround EX (6.1 matrixed rear center): https://en.wikipedia.org/wiki/Dolby_Digital .
+{{%/ note %}}
 
-How do you think future developments in sound technology will continue to shape the film industry?
+---
 
+**Home-Audio Migration (DVD → Blu-ray → Streaming)**
+
+- DVD-Video (1996+)
+  - Common codecs: Dolby Digital (AC-3) and DTS; PCM and MP2 also supported (region-dependent).
+  - Most Hollywood titles favored Dolby Digital; some offered DTS tracks.
+- Blu-ray Disc (2006+)
+  - Adds lossless options: Dolby TrueHD and DTS-HD Master Audio, plus LPCM.
+  - Many titles carry Atmos or DTS:X as extensions on TrueHD/DTS-HD MA.
+- Streaming
+  - Immersive mixes commonly delivered as Dolby Atmos over Dolby Digital Plus (DD+ JOC) for bandwidth efficiency.
+
+{{% note %}}
+DVD-Video audio formats: https://en.wikipedia.org/wiki/DVD-Video ; Dolby Digital as the DVD audio standard (developer overview): https://developer.dolby.com/technology/dolby-audio/dolby-digital/ ; Blu-ray audio codecs (lossless options): https://en.wikipedia.org/wiki/DTS-HD_Master_Audio and https://en.wikipedia.org/wiki/Dolby_TrueHD ; Atmos over DD+ JOC: https://professionalsupport.dolby.com/s/article/What-is-Dolby-Digital-Plus-JOC-Joint-Object-Coding .
 {{%/ note %}}

@@ -56,7 +56,6 @@ author: ""
 
 - [Introduction to spatial audio](../lectures/week-2/intro-spatial-audio/)
 
-<!-- 
 
 # Week 3 (9/8)
 
@@ -79,6 +78,7 @@ author: ""
 - Experiment with different stereo micing techniques in the studio
 
 
+<!-- 
 # Week 4 (9/15)
 
 
