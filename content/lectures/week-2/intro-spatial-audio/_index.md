@@ -12,18 +12,20 @@ margin = 0.2
 
 ## The Spatial Dimension in Natural Sound
 
-- Width
-- Height
-- Depth
+* Width: left ↔ right placement of sounds
+* Height: perception of vertical position
+* Depth: distance and front-to-back layering
 
 {{% note %}}
 
-- Humans experience sound in three dimensions.
-- Spatial awareness helps people make sense of their environment.
-- Natural sounds are perceived based on:
-  - Location
-  - Size (though often less consciously than visual perception)
-- Sound is often relied upon for things behind and above due to the limitations of vision.
+* Humans naturally experience sound in three dimensions, even with just two ears.
+* Spatial hearing helps us orient ourselves and understand our environment.
+* Natural sound perception involves cues such as:
+
+  * **Location** (where a sound is coming from in space)
+  * **Size** (how large or diffuse the source seems, often less consciously noticed than with vision)
+  * **Distance** (how far away the source is, linked to loudness and reverberation)
+* Sound is especially critical for detecting events behind us or above us, where vision provides little information.
 
 {{%/ note %}}
 
@@ -31,31 +33,40 @@ margin = 0.2
 
 ## Natural Sound in Outdoor Environments
 
-- Many sound sources with distinct locations and attributes.
-- Blending of sound sources occurs naturally.
+* Multiple sound sources with unique locations and qualities
+* Natural blending creates a diffuse soundscape
+* Contrast between background ambience and identifiable events
 
 {{% note %}}
 
-- Outdoor environments create a sense of spaciousness.
-- Sounds blend into a diffuse soundscape, including:
-  - Background noise (e.g., wind, distant roads).
-  - Specific localizable sounds (e.g., birds).
-- Creates an 'outdoor' perception, making the sound feel open and external.
+* Outdoor environments often feel **spacious** because sound arrives from many directions.
+* Sources overlap and blend, creating a diffuse sound field.
+* Examples of blended **background ambience**: wind, distant traffic, flowing water.
+* Examples of **localizable sources**: birds, footsteps, voices.
+* This balance between diffuse ambience and distinct signals shapes the **“outdoor” perception**—open, external, and less confined compared to indoor spaces.
+* Our brains rely on this mixture to recognize environments and feel oriented in space.
 
 {{%/ note %}}
+
 
 ---
 
 ## Natural Sound in Indoor Environments
 
-- Reflections strongly affect sound perception.
-- Reflections provide clues about the size and shape of the space.
+* Reflections shape how sound is perceived
+* Reflections reveal size and character of the space
+* Contrast between direct and reflected sound is key
 
 {{% note %}}
 
-- Indoor soundscapes are characterized by reflections from surfaces.
-- Reflections provide spatial information about the room.
-- The difference between direct sound and reflected sound is crucial for understanding indoor environments.
+* Indoor soundscapes are dominated by **reflections from walls, ceilings, and floors**.
+* These reflections provide critical spatial information:
+
+  * **Room size** (longer delay = larger space).
+  * **Room shape and surface qualities** (sharp vs. diffuse echoes).
+* The brain compares **direct sound** (arriving first) with **reflected sound** (arriving later) to understand where we are and how large the space feels.
+* Too many reflections can blur clarity, while carefully managed reflections can add warmth and fullness (as in concert halls).
+* Unlike outdoors, where sound dissipates, indoors the boundaries of the room constantly reinforce and reshape what we hear.
 
 {{%/ note %}}
 
@@ -126,46 +137,85 @@ margin = 0.2
 
 ---
 
-## Sound Sources in a Free Field
-
-- No reflections or obstacles.
-- Sound radiates freely from the source.
-
-{{% note %}}
-
-- A free-field environment has no reflections or obstacles.
-- Sound dissipates naturally and drops off by 6 dB for every doubling of distance.
-- Sound is easier to localize because of the absence of reflections, but depth perception is more challenging.
-
-{{%/ note %}}
-
----
-
-## Free Field: Sound Localization
+## Sound Intensity in a Free Field
 
 ![](free-field.png)
 
 {{% note %}}
 
-Here’s the revised bullet-point description with your additional notes:
+The key concept is the **inverse-square law**: as sound radiates outward from a source, its intensity decreases with the square of the distance.
 
-### Part (a):
-- **Source**: The central point from which sound radiates.
-- **Omnidirectional radiation**: Sound radiates spherically from the source in all directions.
-- **Surface area of the sphere (S)**: Represents the area over which sound energy is spread as it radiates outward.
-- **Distance (r)**: The radius from the source to the point where the intensity is being measured.
-- **Power (W)**: Represents the sound power being emitted from the source.
-- **1 m² reference area**: At a distance of r, sound energy passes through an area of 1 m² on the sphere’s surface.
-- **Doubling distance**: At twice the distance (2r), the surface area over which the sound energy is spread increases to 4 m², resulting in a quarter of the original intensity and a 6 dB reduction in sound level.
-- **Free-field conditions**: Allow for easier localization of sound, as there are no reflections. Listeners can focus solely on the direct sound, helping them pinpoint the source's direction more accurately.
 
-### Part (b):
-- **Source**: The sound originates from this point.
-- **Distance (r)**: The distance from the source to the reference point (where the area is 1 m²).
-- **Area expansion**: As the distance from the source increases from r to 2r, the area through which sound passes expands from 1 m² to 4 m².
-- **6 dB reduction**: The increase in area results in a decrease in sound intensity by 6 dB with each doubling of distance.
-- **No reflections**: Since free-field environments lack reflections, the sound is clearer and easier to localize based on direct sound without interference from reflections.
+## Omnidirectional Radiation
 
+Imagine a sound source that radiates equally in every direction—what we call an **omnidirectional source**.
+
+* The sound energy spreads out spherically, like ripples on a pond, but in 3D.
+* The power of the source is represented as **W** (watts).
+* As this energy moves outward, it must cover more and more surface area.
+
+Ask students: *If the same amount of power is spread over a larger area, what happens to the intensity?*
+
+
+
+## Surface Area and Intensity
+
+The surface area of a sphere increases as we move farther away from the source:
+
+* Formula: **S = 4πr²**.
+* Intensity is defined as **Power ÷ Area**, so:
+  **I = W / (4πr²)**.
+
+This means intensity doesn’t decrease linearly with distance—it decreases much faster, with the square of distance.
+
+Analogy: Think about butter spread over bread. If the bread is small, the butter layer is thick. If the bread is twice as large, the same butter covers it more thinly. The “flavor” (intensity) weakens.
+
+## Doubling Distance Effect
+
+Now, here’s the important rule of thumb:
+
+* At distance **r**, a patch of energy covers 1 m².
+* At distance **2r**, that same energy must now cover 4 m².
+* So, intensity is reduced to **one-quarter**.
+
+In sound terms, this is about a **6 dB drop** every time you double the distance.
+
+Ask students: *If we start at 1 meter from the source, how many dB lower will it sound at 4 meters?*
+(Answer: 12 dB lower, since doubling twice = two 6 dB drops.)
+
+
+## Visual Explanation of the Diagrams
+
+(a) **Spherical Model**
+
+* A sphere radiates outward from the source.
+* Energy that passes through a 1 m² patch at distance r spreads thinner as the sphere expands.
+
+(b) **Expansion Model**
+
+* The cube-like sketch shows how a fixed energy beam expands from 1 m² at r to 4 m² at 2r.
+* It illustrates the same inverse-square relationship in a more geometric way.
+
+## Key Takeaways
+
+* Sound intensity decreases with the **inverse-square of distance**.
+* Doubling distance reduces intensity to **one-quarter**.
+* In decibels, every doubling of distance equals a **6 dB drop**.
+* This principle is essential in live sound, recording, and acoustic design.
+
+Final question for students: *How might this principle affect microphone placement in a concert recording?*
+
+**Answer**
+
+When placing microphones for a concert, the **inverse-square law** means that distance has a dramatic effect on the captured level:
+
+* **Closer placement**: If the microphone is close to the source, the captured sound will be much louder and more direct. This reduces the influence of room acoustics and ambient noise. That’s why close-miking is common for individual instruments.
+
+* **Further placement**: As you move the microphone farther away, intensity drops quickly. For every doubling of distance, the level decreases by **6 dB**. This means distant microphones require more gain, which can also bring up background noise.
+
+* **Balance of direct vs. ambient sound**: Engineers often combine close mics (for clarity) with distant or overhead mics (to capture the natural reverb and ensemble blend). The inverse-square law helps explain why the distant mics sound quieter and more diffuse—they’re catching less direct energy and more reflections.
+
+* **Practical implication**: If you double the mic’s distance from a violinist—from 1 m to 2 m—you don’t just lose a little volume, you lose a **quarter of the intensity**. That affects both loudness balance and the clarity of the recording.
 
 
 {{%/ note %}}
@@ -178,24 +228,38 @@ Here’s the revised bullet-point description with your additional notes:
 
 {{% note %}}
 
-- **Directivity Pattern**: Represents how sound is radiated from a source at different angles.
-- **Axis Labels**: 
-  - 0° represents the front of the sound source (directly ahead).
-  - 90°, 180°, and 270° represent the side, back, and opposite side of the source, respectively.
-- **Low Frequencies (LF)**: The solid line represents low frequencies. 
-  - Sound radiation is more uniform, with smaller directivity changes.
-  - There is still a bias towards the front (0°), but the difference between front and back is less pronounced.
-  - Maximum magnitude is around +6 dB towards the front (0° axis).
-- **High Frequencies (HF)**: The dashed line represents high frequencies.
-  - High frequencies are more directional.
-  - The pattern is more elongated towards the front, with a maximum magnitude of +12 dB at the 0° axis.
-  - The sound drops off more quickly towards the back (180°), showing a stronger directional bias.
-- **Magnitude in dB**: 
-  - The concentric circles represent increasing or decreasing decibels (dB).
-  - 0 dB represents equal intensity in all directions, while +12 dB indicates amplification in a particular direction (here, towards the front).
-  - As you move to the back of the source (180°), the sound intensity decreases, reaching -6 dB or lower.
+## Directivity Patterns of Sound Sources
 
-This figure shows how sound sources tend to radiate more directionally at higher frequencies, focusing sound towards the front. At lower frequencies, sound radiates more evenly in all directions.
+* Diagram shows how much energy a source radiates at different angles.
+* Radiation is **not uniform**: more energy is radiated to the front (0° axis).
+* Directivity increases with **frequency**.
+
+### Key Observations
+
+* **LF (Low Frequency, solid line)**
+
+  * Radiation pattern is broader and more rounded.
+  * Energy spreads more evenly around the source.
+  * Less directional.
+
+* **HF (High Frequency, dash-dot line)**
+
+  * Pattern is narrower and elongated forward.
+  * Strong emphasis on the 0° axis.
+  * Much less energy radiated to the sides (90°/270°) or back (180°).
+  * More directional.
+
+### Acoustic Meaning
+
+* At **low frequencies**, sound wraps around obstacles and radiates almost omnidirectionally.
+* At **high frequencies**, sound beams forward, creating a focused projection.
+* This is why bass feels “everywhere” in a room, but treble seems more localized.
+
+### Applications
+
+* **Microphone pickup patterns** work on the same principle (e.g., cardioid polar plots).
+* **Loudspeaker design** uses directivity to control coverage in a venue.
+* In **recording and live sound**, understanding directivity helps with mic placement, avoiding bleed, and controlling reflections.
 
 {{%/ note %}}
 
@@ -204,71 +268,152 @@ This figure shows how sound sources tend to radiate more directionally at higher
 
 ### Real-World Examples of Directivity Patterns
 
-- **Loudspeakers**:
-  - **High frequencies (HF)**: Tweeters radiate sound directionally, focusing sound towards the front (+12 dB). 
-  - **Low frequencies (LF)**: Woofers and subwoofers radiate more evenly in all directions, similar to the solid line (+6 dB). Low-frequency sounds are heard more evenly in a room.
+![](monitor-directivity.jpg)
 
----
-
-- **Musical Instruments**:
-  - **Brass instruments** (e.g., trumpets, trombones):
-    - High-frequency sounds radiate directionally towards the front, similar to HF in the diagram. The sound is loudest in front of the instrument.
-  - **String instruments** (e.g., violins, cellos):
-    - Low frequencies radiate more evenly, while higher harmonics are projected more directionally towards the front.
+[Adam Audio Speaker Directivity Chart](https://www.adam-audio.com/blog/understanding-speaker-directivity-charts/)
 
 {{% note %}}
-- Real-world sources, such as loudspeakers and musical instruments, follow similar directivity patterns. High frequencies tend to radiate more directionally, while low frequencies spread more evenly.
-- This pattern influences the way we experience sound in different environments.
+
+What the plot shows
+
+* X-axis: frequency (kHz), \~0.1–20 on a log scale.
+* Y-axis: vertical angle relative to the tweeter axis (0°), from −180° to +180°.
+* Color: level in dB relative to 0° (warm colors ≈ louder; cool colors ≈ attenuated).
+
+How to read it
+
+* Low frequencies (≤ \~300–500 Hz): wide “orange” band across many angles → near-omnidirectional vertically.
+* Midband (\~1–3 kHz): pattern begins to pinch; alternating yellow/green bands indicate vertical lobing around the crossover region.
+* High frequencies (≥ \~5–10 kHz): narrow orange core centered at 0° with rapid falloff to green/blue → small vertical sweet spot.
+
+Approximate landmarks (read from color transitions)
+
+* Around 1 kHz: useful coverage to roughly ±60° before substantial roll-off.
+* Around 5 kHz: useful coverage tightens to roughly ±30°.
+* ≥10 kHz: useful coverage can be as tight as ±15–20° (levels drop quickly away from 0°).
+
+Why it matters
+
+* Ear height: align ears close to the tweeter’s 0° axis to keep HF balance.
+* Tilt: angle monitors so the 0° axis meets the listener’s ears; small up/down moves can change brightness.
+* Reflections: desk and ceiling paths are typically off-axis vertically; their HF content is reduced relative to direct sound, but midband lobing can color those reflections.
+* Placement decisions: for multiple listeners or standing positions, consider stands/tilt to keep everyone within the HF coverage; for a single mix position, aim precisely at ear height.
+* Design angle: waveguides/horns and coaxial drivers are used to control or stabilize this pattern, trading width for consistency.
+
+Prompt for discussion
+
+* If a listener stands up 20–30 cm, which frequency range changes most audibly, and why?
+* How would you adjust speaker tilt or seat height to keep the spectral balance stable across sessions?
+
 {{%/ note %}}
 
 
 ---
 
-## Sources in Reflective Spaces
+### Real-World Example: Tuba Directivity
 
-- Reflections alter sound in enclosed spaces.
-- Reflections and reverberation create an 'ambient' sound field.
+![](tuba.jpg)
 
 {{% note %}}
 
-- Reflective environments introduce sound reflections, which mix with direct sound.
-- The result is an ambient sound field, with early discrete reflections followed by a reverberation tail.
-- Reflections impact sound localization, making it harder to distinguish direction and distance.
+Reading the figure
+
+* Left: measurement array of microphones around the tuba at four elevation rings (about +53°, +11°, −11°, −53°).
+* Right: four heatmaps (one per elevation).
+
+  * X-axis: frequency (≈63 Hz to 8 kHz).
+  * Y-axis: azimuth angle at that elevation (−180° to +180°, front at 0°).
+  * Color/gray scale: level relative to the on-axis reference (0 dB = loudest), down to about −60 dB.
+* The plot is normalized, so it shows relative level vs. direction rather than absolute SPL.
+
+What it shows
+
+* 63–250 Hz: broad, near-omnidirectional radiation at all angles; the instrument body radiates, so bell aim matters less.
+* 500 Hz–2 kHz: pattern begins to concentrate toward the bell; side and rear levels fall by \~10–20 dB depending on elevation.
+* > 2–4 kHz: strong beaming along the bell axis (forward and slightly upward), with steep roll-off to the sides and rear (often >20–30 dB down).
+* Elevation asymmetry: upper rings show more HF energy than lower rings, consistent with the bell pointing upward/forward.
+
+Practical implications
+
+* Mic placement for clarity/brightness: aim near the bell axis (slightly above and in front) to capture mid/high partials and articulation.
+* Warmer, rounder tone: move off-axis toward the side of the bell or lower elevation to reduce HF beaming and key/valve noise.
+* Section balance and seating: players and listeners above/forward of the bell hear more definition; those off to the side/rear perceive less brightness.
+* Live sound: a single overhead or front-of-bell mic will translate articulation; add a side or room mic to recover body and low-end bloom.
+* Recording consistency: mark bell aim and mic height—small vertical changes can shift HF capture noticeably.
+
+Prompts for discussion
+
+* If you want more articulation without boosting EQ, which direction should you move the mic, and why?
+* How might this pattern inform the placement of baffles or reflectors in a live hall to improve clarity without making the sound harsh?
+
+{{%/ note %}}
+
+
+---
+
+### Sources in Reflective Spaces
+
+![](OIP.jpg)
+
+{{% note %}}
+
+Reading the room
+
+* Reflective boundaries (walls, floor, ceiling, furniture) return sound to the listener along multiple paths.
+* The listener hears:
+
+  * Direct sound first (most intelligible cues).
+  * Early reflections shortly after, from nearby surfaces—these can widen the image or blur localization depending on timing and level.
+  * A dense reverberation tail that builds an ambient, enveloping field.
+
+Perception and practice
+
+* Strong, close-in reflections reduce directional clarity; controlling them improves intelligibility and imaging.
+* Diffusion and absorption let you tune the mix of clarity (direct/early) and spaciousness (late/reverb).
+* For teaching demos: toggle between a dry signal, early-reflection simulation, and late reverb to let students hear how localization and “room size” change.
 
 {{%/ note %}}
 
 ---
 
-## Introduction to Spatial Reproduction of Sound
+### Introduction to Spatial Reproduction of Sound
 
-- Goals of sound reproduction:
-  - Recreate natural environments.
-  - Create virtual environments.
-
-{{% note %}}
-
-- Sound reproduction can either:
-  - Recreate natural soundscapes (e.g., concert hall acoustics).
-  - Create imaginary or virtual environments (e.g., in film or games).
-- Both approaches are valid and depend on the artistic or functional goal of the sound design.
-
-{{%/ note %}}
-
----
-
-## From Mono to Surround Sound and 3D Audio
-
-- Mono: Only distance and depth cues.
-- Stereo: Adds width.
-- Surround sound: Introduces immersive, directional cues.
-- 3D audio: Provides full spatial immersion with height and depth.
+* Two aims: recreate real acoustic spaces or design imagined spaces
+* Three approaches: channel-based (stereo, 5.1), object-based (e.g., Atmos), scene-based (Ambisonics/HOA)
+* Two delivery modes: loudspeakers (room-interactive) and headphones/binaural (HRTF-based)
 
 {{% note %}}
 
-- The evolution of sound technology has progressed from mono, which had minimal spatial cues, to fully immersive 3D audio experiences.
-- Surround sound adds directionality, while 3D audio introduces a complete 360° sphere of sound around the listener.
+Overview
+
+* Recreate natural environments: capture or model real spaces (e.g., concert hall impulse responses, Decca Tree, or 5.1 per ITU-R BS.775). The goal is plausibility and fidelity to the original venue. ([ITU][1], [AES][2])
+* Create virtual environments: place and move sounds anywhere in 3D, independent of an original space (film, games, XR).
+
+Core paradigms
+
+* Channel-based: fixed speaker feeds; phantom imaging between loudspeakers. ITU-R BS.775 defines reference angles for 5.1 layouts used in production/playback. ([ITU][1], [AES][2])
+* Object-based: each element carries position metadata; a renderer adapts playback to any certified layout (e.g., Atmos). ([professional.dolby.com][3], [Audient][4])
+* Scene-based (Ambisonics/HOA): encode the sound field with spherical harmonics; decode to speakers or to binaural. ([Microsoft][5], [Wikipedia][6])
+
+Delivery and perception
+
+* Loudspeakers: listener hears direct sound plus room interactions; layout and room treatment shape localization, envelopment, and timbre. ITU reference layouts provide a consistent baseline. ([ITU][1])
+* Headphones/binaural: HRTFs and head-tracking maintain externalization and stable localization as the head moves. ([MathWorks][7], [MDPI][8])
+
+Evaluation criteria (use when comparing systems in class)
+
+* Localization accuracy and stability with listener movement
+* Externalization vs. “in-head” sensation
+* Envelopment and spatial resolution
+* Spectral fidelity (no excessive coloration)
+
+Teaching prompts
+
+* When would you choose object-based over channel-based for a touring show?
+* How does head-tracking improve externalization in VR compared to static binaural?
 
 {{%/ note %}}
+
 
 ---
 
@@ -311,27 +456,37 @@ This figure shows how sound sources tend to radiate more directionally at higher
 
 {{% note %}}
 
-Steinberg and Snow’s attempt to reduce the number of channels in sound reproduction:
+## Speaker Notes
 
-### Key Elements:
-- **Stage**: Represents the physical source of sound (e.g., a performance on stage).
-- **Source**: The original sound emitted from the stage.
-- **Direct Sound Pulse**: The initial pulse of sound directly from the source, without any reflections.
-- **Screen of Microphones**: A setup with many microphones capturing the sound from different angles.
-- **Electrical Channels**: The signal is passed through electrical channels for reproduction.
-- **Virtual Source**: Reconstructed sound field, projected as though the sound originates from a specific location.
-- **Screen of Loudspeakers**: Many loudspeakers are used to reproduce sound in various directions, simulating the original sound environment.
-- **Individual Point-Source Sound Pulses**: Each loudspeaker generates a separate point-source sound pulse.
-- **Single Resultant Sound Pulse**: The combined output of all the speakers creates a coherent sound pulse that the listener perceives.
-- **Observers (O₁, O₂)**: Two listeners seated in the auditorium, receiving sound pulses.
-- **One Pulse to Each Ear**: Each observer receives a distinct sound pulse to each ear, recreating the spatial sound perception.
-- **Auditorium**: The listening environment where sound is reproduced.
+* This diagram shows an early experiment in spatial sound reproduction by **Steinberg and Snow** at Bell Labs in the 1930s.
+* Their question: *How many channels are needed to reproduce the spatial impression of a real source on stage for an audience?*
 
-### Additional Notes:
-- **'Ideal' Arrangement**: Involves a large number of transducers (speakers and microphones) to replicate spatial features with great accuracy.
-- **Compromise Arrangement**: Uses only three channels and relies more heavily on the **precedence effect** (where the brain uses the first arriving sound to locate the source), simplifying the reproduction.
+### Step 1: The “Ideal” Concept
 
-This diagram shows Steinberg and Snow’s effort to simulate spatial sound realistically while reducing the number of channels needed, exploring an optimal balance between complexity and perceived sound quality.
+* Imagine a **screen of microphones** in front of the stage, each capturing the wavefront at a slightly different position.
+* Each mic feeds a **matching loudspeaker screen** in the auditorium.
+* Together, the loudspeakers recreate the original **sound wavefront**—so every listener perceives the correct direction and timing, no matter where they sit.
+* In theory, this is perfect wavefield reproduction, but it requires a **huge number of transducers**.
+
+### Step 2: The Compromise
+
+* Steinberg & Snow realized you could get most of the effect with far fewer channels.
+* By using just **three channels (Left–Center–Right)**, you can still create a stable sound image for a wide audience.
+* This works because of the **precedence effect**: our ears lock onto the **first-arriving sound** to determine direction. Later arrivals reinforce loudness without shifting localization.
+
+### Why It Matters
+
+* Their work laid the foundation for **cinema LCR playback systems**, later evolving into stereo and surround.
+* It also framed two continuing approaches in spatial audio:
+
+  1. **Wavefront reconstruction** (many sources, physical accuracy).
+  2. **Psychoacoustic rendering** (few sources, exploiting how humans localize).
+
+### Teaching Prompt
+
+* You might ask students: *Why does the center channel help stabilize the image compared to stereo?*
+* Or demonstrate with clicks through two vs. three speakers—listeners off to the side will notice the center channel keeps the image anchored.
+
 
 {{%/ note %}}
 

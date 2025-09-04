@@ -62,6 +62,7 @@ author: ""
 
 ## Monday
 
+
 - [Distance Perception](../lectures/week-3/distance-perception/)
 
 
