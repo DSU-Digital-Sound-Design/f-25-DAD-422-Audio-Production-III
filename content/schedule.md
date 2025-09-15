@@ -79,7 +79,6 @@ author: ""
 - Experiment with different stereo micing techniques in the studio
 
 
-<!-- 
 # Week 4 (9/15)
 
 
@@ -103,6 +102,7 @@ author: ""
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 10/10/24
 
+<!-- 
 # Week 5 (9/22)
 
 ## Monday
