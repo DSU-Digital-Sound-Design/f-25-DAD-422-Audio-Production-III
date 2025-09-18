@@ -49,3 +49,28 @@ Submit the following materials to D2L:
 * Reflect on any challenges you encountered and how you addressed them.
 * Share any additional insights or interesting decisions in your creative process.
 
+
+### Grading Criteria
+
+### 1. Technical Execution – 25 points
+| Criterion | Excellent | Good | Needs Work |
+|-----------|----------|------|-----------|
+| **Stereo Recording (7 pts)** | Clean, well-balanced capture using the chosen technique; clear documentation. | Minor noise or balance issues. | Weak capture or missing documentation. |
+| **Binaural Recording (7 pts)** | Immersive, high-fidelity track with strong spatial depth. | Minor technical flaws. | Poor spatial effect or serious artifacts. |
+| **Mono Sources & Anaglyph (6 pts)** | Creative, accurate spatialization with clear parameter control. | Adequate spatial variety. | Minimal or incorrect use of Anaglyph. |
+| **Panning Automation (5 pts)** | Two or more smooth, dynamic automation moves (e.g., fly-by, circle). | Only one strong move or minor issues. | Missing or poorly executed automation. |
+
+### 2. Creativity & Aesthetic Impact – 20 points
+| Criterion | Excellent | Good | Needs Work |
+|-----------|----------|------|-----------|
+| **Spatial Immersion (8 pts)** | Vivid 3-D soundstage; listener feels fully enveloped. | Clear spatial intent, limited depth. | Flat or confusing spatial image. |
+| **Sound Design & Composition (8 pts)** | Strong narrative/musical arc and compelling sonic palette. | Some creative moments but uneven pacing. | Lacks coherence or interest. |
+| **Dynamic Contrast (4 pts)** | Effective use of near/far or loud/quiet textures. | Some variation, somewhat predictable. | Little to no dynamic variation. |
+
+### 3. Documentation & Professionalism – 15 points
+| Criterion | Excellent | Good | Needs Work |
+|-----------|----------|------|-----------|
+| **Written Response (10 pts)** | Thorough explanation of setups, parameters, challenges, and creative choices. | Adequate detail with minor gaps. | Sparse or incomplete explanation. |
+| **File Organization (5 pts)** | Correct WAV format, zipped Reaper project, clear naming conventions. | Minor formatting or naming issues. | Disorganized or missing required files. |
+
+**Total: 60 points**
