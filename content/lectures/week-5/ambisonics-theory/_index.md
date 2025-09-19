@@ -11,41 +11,47 @@ margin = 0.2
 
 ---
 
-### Introduction to Ambisonics
 
-- Ambisonics was introduced as a solution to the issues with quadraphonic sound systems.
-- Michael Gerzon criticized quadraphonics for failing to deliver reliable spatial sound localization.
-- Ambisonics, also called a "kernel system," was supported by the National Research and Development Corporation (NRDC) and Professor Peter Fellgett.
-- The system aimed to provide a continuous, accurate sound field around the listener using psycho-acoustic principles rather than matrix-based transformations.
+### Ambisonics: Rethinking Surround Sound
+
+* Developed in the early 1970s as a **response to the limits of quadraphonic sound**.
+* Michael Gerzon argued quad systems **failed to give reliable spatial localization** for listeners.
+* Supported by the UK’s **National Research and Development Corporation (NRDC)** and Prof. Peter Fellgett.
+* Goal: **accurate 3D sound fields** around a listener using **psychoacoustic principles** rather than matrix tricks.
 
 {{% note %}}
-Ambisonics was developed to overcome the limitations of quadraphonic systems, which were unable to provide consistent sound localization. The psycho-acoustic approach of Ambisonics aimed to recreate sound fields that align with the human ear’s natural mechanisms for detecting spatial sound, making it more immersive.
-{{%/ note %}}
+Ambisonics set out to reproduce a true sound field, matching how our ears and brain localize audio cues.
+Unlike quadraphonic sound, which relied on four fixed speakers and phantom images, Ambisonics encodes the entire sound sphere so it can be decoded to any playback array.
+{{% /note %}}
 
 ---
 
+### Capturing the Sound Field: The Soundfield Microphone
 
-### Ambisonic Soundfield Microphone
-
-- The **Soundfield microphone** was co-invented by Michael Gerzon and Peter Craven, designed to capture true 3D sound fields.
-- Originally conceptualized as a spherical array of microphones, it evolved into a tetrahedral array that could capture an accurate sound field.
-- This microphone became a key component of the Ambisonic system and allowed the recording and reproduction of natural sound fields in any direction.
+* **Inventors:** Michael Gerzon & Peter Craven.
+* Early idea: a **spherical mic array**; final design: **four capsules in a tetrahedral pattern**.
+* Records the **complete 3D acoustic environment**, not just a stereo panorama.
+* Became the **core hardware** of the Ambisonic system.
 
 {{% note %}}
-The **Soundfield microphone** captures a sound field in a spherical manner, making it a central element of the Ambisonic system. It uses four microphones in a tetrahedral arrangement to record the entire 3D sound space, later allowing the sound field to be manipulated and played back accurately.
-{{%/ note %}}
+The Soundfield mic uses four closely spaced capsules arranged tetrahedrally to capture both **pressure** and **directional velocity** of sound.
+This raw capture (A-format) is later transformed into B-format, allowing rotation or decoding for any loudspeaker configuration or headphones.
+{{% /note %}}
 
 ---
 
-### Ambisonic Recording & Playback
+### From Recording to Playback
 
-- The first Ambisonic recording using the Soundfield microphone occurred in 1975, featuring the Schola Cantorum of Oxford.
-- Ambisonic playback setups required a multi-speaker array, typically in a square layout for horizontal surround sound.
-- The flexibility of the Ambisonic system allowed it to adapt to different loudspeaker layouts without significant loss of audio quality or spatial precision.
+* **First Ambisonic recording (1975):** Schola Cantorum of Oxford.
+* Playback typically used a **square or circular loudspeaker array** for horizontal surround.
+* **Flexible decoding** means the same recording works on many setups—
+  from headphones to large multichannel systems—while preserving spatial accuracy.
 
 {{% note %}}
-Ambisonic recordings can be played back on various speaker layouts, preserving the integrity of the sound field. This flexibility made Ambisonics more practical than traditional quadraphonic systems, as it could adjust to the listener’s environment without losing spatial accuracy.
-{{%/ note %}}
+Ambisonic recordings are independent of playback layout.
+Whether four speakers, a dome of many, or binaural headphones, the decoding math adapts to the arrangement without losing spatial detail—a key advantage over quadraphonic or fixed 5.1 systems.
+{{% /note %}}
+
 
 ---
 
@@ -67,50 +73,59 @@ Ambisonic recordings can be played back on various speaker layouts, preserving t
 
 ---
 
-## Principles
 
-- Gerzon, Barton, Fellgett - main theoretical basis
-- hierarchical approach to directional sound recording
-- formats
-  - A-format: raw microphone recording
-  - B-format: studio equipment and processing
-  - C-format: consumer friendly, two-channel
-  - D-format: decoding and reproduction - rarely used now
-  - UHJ - good for mono/stereo compatibility
+* **Key Theorists:** Michael Gerzon, Peter Fellgett, Geoff Barton
+* **Core Idea:** A **hierarchical system** for capturing, storing, and reproducing a 3D sound field.
+* **Scalable Output:** Works from mono to full-sphere surround with height.
+* **Main Formats:**
+  * **A-format** – raw mic signals from the tetrahedral array
+  * **B-format** – studio-ready sound-field representation
+  * **C-format / UHJ** – stereo-compatible consumer release
+  * **D-format** – speaker-specific decoding (rare today)
 
 {{% note %}}
+Ambisonics treats the sound field as a *continuous sphere* and separates **capture**, **processing**, and **playback** into clear layers.
 
-- Ambisonics is a hierarchical approach to sound pickup, storage, transmission, and reproduction. This means that it can be used to create audio for any number of channels, from mono to stereo to surround sound with height information.
-- The more channels used, the greater number of dimensions can be reproduced during playback.
-- Ambisonics can be used to create surround sound recordings, which can then be played back on any speaker configuration, including 7.1, quad, or 5.1.
+**Hierarchy & Flexibility**
 
-- **A-Format (from ambisonic.info):** A-format represents the signals from the four capsules of a tetrahedral soundfield microphone. The exact meaning of the A-format signals can vary between different microphone designs. Each microphone system has a specific process for converting A-format to B-format for further processing.
-- **B-Format (from ambisonic.info):** B-format is the core format used for storing and manipulating Ambisonics. For first-order Ambisonics, B-format consists of four signals: W (omnidirectional) and X, Y, Z (three orthogonal figure-eight microphones). It is used for speaker decoding, sound field rotation, and other transformations with minimal mathematical complexity.
-- **C-Format (from ambisonic.info):** C-format, also known as UHJ, is a consumer-friendly distribution format. It reduces the four-channel B-format into a stereo-compatible two-channel system (L and R), while still being capable of transmitting a mono signal. Additional channels (T and Q) can add back full surround and height information.
-- **D-Format (from ambisonic.info):** D-format refers to an ambisonic signal that has been decoded for a specific speaker configuration. However, the term is rarely used. It is sometimes replaced by G-format, which refers to speaker feeds decoded for systems like 5.1 surround sound.
-{{%/ note %}}
+* Add more channels → increase spatial precision without changing the original recording.
+* One B-format master can be decoded for headphones, 5.1, 7.1, or dome arrays.
 
+**Formats Explained**
+
+* **A-format**: Four raw mic outputs from the tetrahedral Soundfield microphone. Exact capsule orientation varies by manufacturer; these signals must be converted before use.
+* **B-format**: Core Ambisonic format with four channels—W (omni pressure) plus X, Y, Z (figure-eight velocity components). Enables rotation, mixing, and decoding to any speaker layout.
+* **C-format / UHJ**: Stereo-friendly distribution. Two channels (L/R) preserve mono compatibility; optional T and Q channels add full surround when decoded.
+* **D-format**: Decoded feeds for a specific speaker rig (e.g., a 7.1 theater). Rare today but conceptually the last step—turning B-format into speaker signals.
+
+This layered design future-proofs recordings: a single B-format capture can adapt to new playback formats without remixing.
+{{% /note %}}
 
 ---
 
-### Differences from stereo/quad
-
-- Quad
-  - is fixed to four speakers
-  - Uses phantom images between two speakers
-  - worse with off center listening
-  - common "hole in the middle" problem
-- Ambisonics
-  - encodes from all directions, decodes to your loudspeaker setup
+* **Quadraphonic (4-channel)**
+  * Fixed to four speakers in a square
+  * Creates “phantom images” between pairs of speakers
+  * Spatial image collapses if the listener moves off center
+  * Known “hole in the middle” problem for front imaging
+* **Ambisonics**
+  * Records a full 360° sound field (pressure + directional velocity)
+  * Decodes to *any* loudspeaker layout or binaural headphones
+  * Maintains spatial accuracy even for off-center listeners
 
 {{% note %}}
+**Core Difference**
+Quadraphonic systems rely on fixed speaker placement and amplitude panning. Move your head and the spatial illusion weakens.
 
-- Ambisonics encodes sounds from all directions in terms of pressure and velocity components.
-- Ambisonics decodes these signals to a number of loudspeakers.
-- Ambisonics uses psychoacoustically optimized shelf filtering above 700 Hz to correct for the shadowing effects of the head.
-- Ambisonics uses an amplitude matrix to determine the correct levels for each speaker for the layout chosen.
+**Ambisonic Approach**
 
-{{%/ note %}}
+* Encodes the entire sound sphere using *pressure* (W) and *velocity* (X,Y,Z) components.
+* Decoding software calculates the correct amplitude for each loudspeaker via an amplitude matrix.
+* Psychoacoustic shelf filtering above \~700 Hz compensates for head-shadowing, ensuring stable localization.
+
+This means a single Ambisonic recording can play back on anything—from stereo headphones to large dome arrays—without losing its spatial character.
+{{% /note %}}
+
 
 ---
 
@@ -219,32 +234,37 @@ Here is a table that summarizes the key differences between A-format and B-forma
 
 ---
 
-### A to B Conversion
+### A- to B-Format Conversion
 
-- **X** = 0.5((LF – LB) + (RF – RB))  
-- **Y** = 0.5((LF – RB) – (RF – LB))  
-- **Z** = 0.5((LF – LB) + (RB – RF))  
-- **W** = 0.5(LF + LB + RF + RB)
+* **X** = 0.5 × \[(LF – LB) + (RF – RB)]
+* **Y** = 0.5 × \[(LF – RB) – (RF – LB)]
+* **Z** = 0.5 × \[(LF – LB) + (RB – RF)]
+* **W** = 0.5 × (LF + LB + RF + RB)
 
 {{% note %}}
+**Purpose**
+Converts the four raw capsule signals of a tetrahedral Soundfield mic (**A-format**) into the standardized **B-format** components used for Ambisonic processing.
 
-**A-to-B conversion** is the process of transforming the raw signals from an Ambisonic microphone (A-format) into a more practical format (B-format) for further processing and manipulation.
+**Component Roles**
 
-The conversion combines the four signals from the A-format (Left-Front, Right-Front, Left-Back, Right-Back) into four new signals in the B-format, which represent the sound field more efficiently:
+* **W (omni)** – sum of all capsules; captures overall sound pressure.
+* **X (front–back figure-8)** – left–right difference for the forward axis.
+* **Y (left–right figure-8)** – front–back difference for the side axis.
+* **Z (up–down figure-8)** – vertical difference capturing height.
 
-- **W (omnidirectional)**: The sum of all A-format signals, capturing sound pressure from all directions.
-- **X (forward-facing figure-eight)**: The difference between the left and right signals, representing front-back directionality.
-- **Y (sideways-facing figure-eight)**: The difference between front and back signals, representing left-right directionality.
-- **Z (upward-facing figure-eight)**: The difference between upward and downward signals, representing vertical information.
+**Workflow**
 
-The conversion is typically done in software but can also be done with hardware.
+* Typically performed in software plug-ins or DAWs, though hardware encoders exist.
+* After conversion, B-format files can be rotated, mixed, or decoded to any speaker array or to binaural headphones.
 
-### Why Use B-format?
-- **More Efficient**: B-format uses less data, making it easier to store and transmit.
-- **Easier to Manipulate**: B-format simplifies the representation of the sound field, making post-production tasks more intuitive.
-- **Wider Compatibility**: B-format works with most Ambisonic software and hardware.
+**Why B-format Matters**
 
-{{%/ note %}}
+* **Efficient & Flexible:** Stores the sound field independent of playback layout.
+* **Editable:** Allows precise spatial transformations (rotation, tilt) in post.
+* **Compatible:** Accepted by most Ambisonic tools and VR/AR audio engines.
+
+This step is the bridge from *microphone capture* to *fully manipulable 3D sound*.
+{{% /note %}}
 
 ---
 
@@ -296,30 +316,36 @@ The conversion is typically done in software but can also be done with hardware.
 
 ---
 
-### D format - reproduction
 
-- Speaker numbers
-  - Four speakers give adequate surround sound
-  - six provide better immunity against the drawing of transient and sibilant signals towards a particular speaker
-  - eight may be used for full periphony with height.
+
+### D-Format: Decoding for Playback
+
+* **Purpose:** Converts Ambisonic recordings into speaker feeds for a specific layout.
+* **Typical setups:**
+  * **4 speakers** – adequate surround field
+  * **6 speakers** – better control of transients and sibilants
+  * **8 speakers** – full periphony with added height
 
 {{% note %}}
-**D-format Ambisonics**
+**What D-Format Is**
 
-* A format for decoding ambisonic audio signals for a specific speaker configuration.
-* Not a separate ambisonics format, but rather a way of representing ambisonic audio in a way that is optimized for playback on a particular set of speakers.
-* Example: Using a D-format decoder to decode an ambisonic recording into seven channels for a 7.1 surround sound system.
-* Less commonly used than other ambisonics formats, such as B-format, but useful for applications where you need to decode ambisonic audio for a specific speaker configuration.
-* Used in some virtual reality and augmented reality headsets, as well as in some home theater systems.
- 
+* Not a separate recording format—it’s the *decoded output* from B-format tailored to a particular loudspeaker array.
+* Example: A D-format decoder feeding a 7.1 home theater or a VR headset’s multichannel system.
 
-**Benefits:**
-* Allows you to decode ambisonic audio for a specific speaker configuration, which can improve the immersive sound experience.
-* Relatively efficient, so it can be used to transmit and store ambisonic audio without using too much bandwidth or storage space.
+**Use Cases**
 
-**Conclusion:**
-D-format ambisonics is a practical and efficient format that can allow you to enjoy the full immersive sound experience of your ambisonic recording, especially if you need to decode it for a specific speaker configuration.
-{{%/ note %}}
+* Home theater or studio playback where the speaker layout is fixed.
+* Certain VR/AR systems that need pre-decoded channel feeds.
+
+**Advantages**
+
+* Optimizes spatial accuracy for the exact speaker configuration.
+* Efficient to store and transmit once decoding is finalized.
+
+**Key Takeaway**
+Think of D-format as the *last step* of the Ambisonic chain: transforming a flexible B-format master into a ready-to-play speaker mix for a defined environment.
+{{% /note %}}
+
 
 ---
 
@@ -328,9 +354,6 @@ D-format ambisonics is a practical and efficient format that can allow you to en
 ![](Spherical_Harmonics_deg3.png)
 
 {{% note %}}
-Here’s the combined explanation of the image and your notes:
-
----
 
 ### **Higher-Order Ambisonics and Spherical Harmonics**
 
@@ -354,38 +377,78 @@ The image depicts **spherical harmonics** used in **higher-order ambisonics** (H
 
 ---
 
-## Current Developments
+### Current Developments in Ambisonics
 
-- Open Source Output format - [Opus 1.3](https://jmvalin.ca/opus/opus-1.3/)
-- Corporate interest
-  - Google - [Spatial Audio RPC](https://github.com/google/spatial-media/blob/master/docs/spatial-audio-rfc.md)
-  - Youtube - [180 or 360 degree videos](https://support.google.com/youtube/answer/6178631?hl=en-GB) with [spatial audio](https://support.google.com/youtube/answer/6395969)
-  - [Occulus audio](https://developer.oculus.com/documentation/native/audio-intro/)
-  - Microphones - [Sennheiser Ambeo VR Mic](https://en-us.sennheiser.com/microphone-3d-audio-ambeo-vr-mic), [Zoom H3-VR](https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h3-vr-360-audio-recorder/)
-  - BBC Research on [ambisonics](https://www.bbc.co.uk/rd/search?query=Ambisonics&Type=All&=2020)
+* **Open Source**: [Opus 1.3](https://jmvalin.ca/opus/opus-1.3/) codec now supports Ambisonics for efficient, high-quality distribution.
+* **Format Ecosystem**: [Existing formats](https://ambisonics.iem.at/xchange/fileformat/existing-formats) continue to evolve for flexible playback.
+* **Industry Adoption**
+  * Google: [Spatial Audio RFC](https://github.com/google/spatial-media/blob/master/docs/spatial-audio-rfc.md)
+  * YouTube: [180/360° video with spatial audio](https://support.google.com/youtube/answer/6178631?hl=en-GB)
+  * Oculus: [VR spatial audio toolkit](https://developer.oculus.com/documentation/native/audio-intro/)
+  * Hardware: [Sennheiser Ambeo VR](https://en-us.sennheiser.com/microphone-3d-audio-ambeo-vr-mic), [Zoom H3-VR](https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h3-vr-360-audio-recorder/)
+  * Research: Ongoing [BBC R\&D](https://www.bbc.co.uk/rd/search?query=Ambisonics&Type=All&=2020)
 
 {{% note %}}
+**Open Source & Standards**
 
-- Opus 1.3 provides an open-source, high-quality audio codec supporting ambisonics, making spatial audio more accessible for developers and content creators.
-- Google, YouTube, and Oculus are driving the corporate interest in ambisonics, applying it to VR and 360-degree content for immersive audio experiences.
-- Ambisonic microphones like the Sennheiser Ambeo VR and Zoom H3-VR are becoming more widely used in professional audio recording, especially for 360° and VR environments.
-- BBC's research underscores ambisonics' growing relevance in media production, particularly for creating immersive and engaging experiences for audiences.
+* The Opus 1.3 codec brings free, high-quality Ambisonic support, easing distribution for VR, AR, and web streaming.
 
-{{%/ note %}}
+**Industry Momentum**
+
+* Google and YouTube integrate Ambisonics into 360° media workflows.
+* Oculus provides native VR audio support for fully immersive experiences.
+
+**Hardware Growth**
+
+* Affordable microphones like Sennheiser’s Ambeo VR and Zoom H3-VR broaden access for field recordists and indie creators.
+
+**Research & Future**
+
+* BBC R\&D continues to explore higher-order Ambisonics for broadcast and interactive media, signaling strong long-term potential.
+
+Together, these developments show Ambisonics moving from experimental to mainstream, with open standards and commercial platforms driving adoption across gaming, film, and VR/AR.
+{{% /note %}}
+
 
 ---
 
-### Gaming
+### Gaming & Ambisonics
 
-- [Unity](https://docs.unity3d.com/Manual/AmbisonicAudio.html), [Unreal](https://docs.unrealengine.com/5.0/en-US/native-soundfield-ambisonics-rendering-in-unreal-engine/)
-- [Resonance Audio](https://resonance-audio.github.io/resonance-audio/discover/overview.html)
-- [Steam Audio](https://valvesoftware.github.io/steam-audio/#learn-more)
-- Battlefield 1 & Battlefield V - [Dev Talks video](https://www.youtube.com/watch?v=84EDwVHY2BY)
-
+* Game Engines: [Unity](https://docs.unity3d.com/Manual/AmbisonicAudio.html) | [Unreal Engine](https://docs.unrealengine.com/5.0/en-US/native-soundfield-ambisonics-rendering-in-unreal-engine/)
+* Spatial Audio Tools: [Resonance Audio](https://resonance-audio.github.io/resonance-audio/discover/overview.html) | [Steam Audio](https://valvesoftware.github.io/steam-audio/#learn-more)
+* Example in Action: Battlefield 1 & V – [Developer Talk](https://www.youtube.com/watch?v=84EDwVHY2BY)
 
 {{% note %}}
-- **Game Engines**: Unity and Unreal Engine both support native ambisonic audio, allowing developers to seamlessly incorporate spatial sound into interactive experiences. This helps enhance immersion in virtual environments, especially in VR and AR gaming.  
-- **Spatial Audio Tools**: Resonance Audio and Steam Audio are widely used plugins for spatial audio in game development. These tools enable sound designers to create realistic, immersive audio environments by using ambisonic rendering.
-- **Battlefield Series**: Battlefield 1 and V are notable examples of how ambisonics can be used to create a more immersive and strategic gaming experience by allowing players to detect audio cues from their 3D environment.
+**Game Engine Support**
 
-{{%/ note %}}
+* Unity and Unreal both include native Ambisonic decoding, letting developers drop B-format recordings directly into interactive VR/AR environments.
+
+**Spatial Audio Middleware**
+
+* **Resonance Audio** and **Steam Audio** expand Ambisonic workflows with HRTF processing, room modeling, and real-time sound-field rendering.
+
+**Case Study: Battlefield Series**
+
+* DICE used Ambisonics to create a 360° battlefield atmosphere where players can pinpoint distant gunfire or aircraft, improving both immersion and tactical gameplay.
+
+**Key Takeaway**
+Ambisonics gives game audio designers a *future-proof, format-agnostic* path to spatial sound, from VR headsets to large multichannel installations.
+{{% /note %}}
+
+---
+
+### Advanced & Emerging Game Audio
+
+* **Higher-Order Ambisonics in Wwise** – up to **5th order**, with automatic encoding/decoding for dynamic ambiences
+  [Wwise Ambisonics Overview](https://www.audiokinetic.com/products/ambisonics-in-wwise/) |
+  [Dynamic Ambience Workflow](https://www.audiokinetic.com/en/blog/using-ambisonics-for-dynamic-ambiences/)
+* **Cloud / Networked Gaming** – low-latency Ambisonic streaming via the open [Opus 1.3 codec](https://jmvalin.ca/opus/opus-1.3/)
+
+{{% note %}}
+
+* **Wwise HOA** allows designers to achieve extremely fine spatial detail and adapt to any playback setup.
+* **Vision Pro** demonstrates Ambisonics in mixed reality, aligning audio with precise head and room tracking.
+* **Opus 1.3** ensures efficient delivery of Ambisonic streams for cloud gaming and VR.
+* **Research like AudioMiXR** points toward AI-driven, interactive spatial audio that responds to player movement in real time.
+  {{% /note %}}
+

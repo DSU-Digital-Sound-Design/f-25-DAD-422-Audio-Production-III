@@ -102,7 +102,6 @@ author: ""
 
 > Assignment: [Stereo/binaural](../projects/stereo) - Due 10/10/24
 
-<!-- 
 # Week 5 (9/22)
 
 ## Monday
@@ -111,8 +110,9 @@ author: ""
 - Listen to ambisonics recordings in the immersive studio
   - [Ambisonia](https://www.ambisonia.com/) - compositions and longer field recordings
   - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
-- [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) Theory..
+- [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) 
 
+<!-- 
 ## Wednesday
 
 - Demo of Ambisonic Toolkit setup in Reaper
