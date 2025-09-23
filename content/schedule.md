@@ -112,15 +112,19 @@ author: ""
   - [Rode ambisonic recordings](https://library.soundfield.com/) - good for sound effects
 - [How do ambisonics work?](../lectures/week-5/ambisonics-theory/) 
 
-<!-- 
 ## Wednesday
 
-- Demo of Ambisonic Toolkit setup in Reaper
+- [Ambisonics Recording](../lectures/week-5/ambisonics-recording/)
+- Listen to [ATK recording](https://www.ambisonictoolkit.net/download/recordings/) examples
+  - A format - raw microphone signals
+  - B format - Ambisonic encoded signals
 
 ## Friday
 
+<!-- - [ATK Setup in Reaper](../lectures/week-5/atk-setup/) -->
 - Answer questions about the binaural project. 
 
+<!-- 
 # Week 6 (9/29)
 
 ## Monday
