@@ -121,8 +121,7 @@ author: ""
 
 ## Friday
 
-<!-- - [ATK Setup in Reaper](../lectures/week-5/atk-setup/) -->
-- Answer questions about the binaural project. 
+- [ATK Setup in Reaper](../lectures/week-5/atk-setup/)
 
 <!-- 
 # Week 6 (9/29)

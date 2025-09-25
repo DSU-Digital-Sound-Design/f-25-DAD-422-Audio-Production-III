@@ -12,7 +12,7 @@ Ambisonics gives you a way to compose and deliver a full‑sphere soundfield tha
 
 Begin with the ATK example recordings. They’re short (≈30‑second) excerpts in multiple formats—A‑format, B‑format, UHJ, stereo, and even Zoom H2 quad—curated specifically to test encoders, transformers, and decoders. Drop a few into a fresh Reaper session and simply listen; then you’ll have neutral material ready when you start encoding and decoding. ([Ambisonic Toolkit][2])
 
-Pro tip for the first pass: audition a B‑format example through a binaural decode on headphones, then switch to a stereo or UHJ excerpt to hear how different sources and encodings translate. The example pack is linked directly from ATK’s site. ([Ambisonic Toolkit][3])
+Audition a B‑format example through a binaural decode on headphones, then switch to a stereo or UHJ excerpt to hear how different sources and encodings translate. The example pack is linked directly from ATK’s site. ([Ambisonic Toolkit][3])
 
 ---
 
@@ -29,6 +29,7 @@ Conceptually, ATK’s workflow keeps authoring, imaging, and monitoring distinct
 ATK’s current public release for Reaper is Version 1.0 beta 11 (released November 4, 2021). It requires Reaper 5.0 or newer. On macOS, you run an installer that places everything in your home folder; on Windows you unzip an archive and copy the contents into Reaper’s resource path (Options → Show REAPER resource path), then restart. The installers include convolution kernels and matrices—no separate downloads required. After installation, open Reaper’s FX browser and search for “ATK” under JS effects. ([Ambisonic Toolkit][3])
 
 If you want ready‑made material to try the plug‑ins, ATK’s example sound files are linked from the same download page. ([Ambisonic Toolkit][3])
+
 
 ---
 
@@ -52,6 +53,8 @@ ATK’s encoders map common source situations into B‑format. For mono, the cor
 * Omni: an omnidirectional point source for non‑localized energy beds.
 * Spreader: frequency‑dependent rotation to widen a source.
 * Diffuse: randomizes phase to create a gentle, enveloping field. ([Ambisonic Toolkit][4])
+
+Rule of thumb: start Planewave for focused objects, widen with Spreader if needed, switch to Omni for neutral beds, and use Diffuse when you want motionless but spacious texture.
 
 For stereo, use Stereo (two parameterized planewaves) or SuperStereo (classic method), and if you work with legacy UHJ material, ATK includes a UHJ stereo encoder. Example Reaper projects demonstrate these exact cases and match the tutorials. ([Ambisonic Toolkit][6])
 
@@ -85,16 +88,6 @@ Because decoding is separate from authoring and imaging, you can keep multiple d
 
 ---
 
-## A Quick Hands‑On With the Example Files
-
-1. Import one of ATK’s B‑format examples to a four‑channel track, routing it to your B‑format bus. ([Ambisonic Toolkit][2])
-2. Insert Rotate/Tilt/Tumble on the bus and automate a slow yaw sweep; listen for stable localization as the entire field rotates. ([Ambisonic Toolkit][4])
-3. Add a binaural decoder on a decoder track and monitor on headphones; then switch to a UHJ or 5.0 decoder to hear how the same field translates. ([Ambisonic Toolkit][4])
-
-This simple pass demonstrates ATK’s central idea: one authored field, many faithful views. ([Ambisonic Toolkit][1])
-
----
-
 ## Exporting Without Painting Yourself Into a Corner
 
 When it’s time to deliver, render stems from your decoder tracks (stereo/UHJ/binaural/5.0, etc.) while also keeping a clean B‑format master for future re‑decoding. Reaper’s stem‑rendering workflow and track‑based decoders make this straightforward—even at higher channel counts—without re‑wiring the session. ([DXARTS][5])
@@ -115,6 +108,13 @@ ATK’s Reaper tutorials walk you through encoding mono and stereo sources step�
 
 ---
 
+## Optional Tools For Visualization
+
+- Harpex (paid): high‑quality B‑format decoding with helpful soundfield visualization. ([Harpex][7])
+- Matthias Kronlachner’s ambiX/multichannel tools (free): useful complements for routing, analysis, and ambisonic utilities. ([ambiX][8])
+
+---
+
 ## References
 
 * Example recordings (A‑format, B‑format, UHJ, stereo, quad), with notes on using them in Reaper. ([Ambisonic Toolkit][2])
@@ -132,3 +132,5 @@ ATK’s Reaper tutorials walk you through encoding mono and stereo sources step�
 [4]: https://www.ambisonictoolkit.net/documentation/reaper/ "ATK for Reaper"
 [5]: https://dxarts.washington.edu/wiki/ambisonic-mixing-reaper "Ambisonic Mixing in Reaper | DXARTS: Digital Arts & Experimental Media | University of Washington"
 [6]: https://www.ambisonictoolkit.net/documentation/reaper/tutorials/ "Tutorials - Ambisonic Toolkit for Reaper"
+[7]: https://www.harpex.net "Harpex - B-Format Decoder"
+[8]: https://www.matthiaskronlachner.com/?p=2015 "ambiX - Ambisonics Plugin Suite by Matthias Kronlachner"
