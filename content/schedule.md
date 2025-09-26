@@ -123,7 +123,6 @@ author: ""
 
 - [ATK Setup in Reaper](../lectures/week-5/atk-setup/)
 
-<!-- 
 # Week 6 (9/29)
 
 ## Monday
@@ -134,6 +133,7 @@ author: ""
 
 > Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/17/25
 
+<!-- 
 
 ## Wednesday
 

@@ -4,62 +4,86 @@ title: "Project 3: Ambisonics"
 
 ## Project Overview
 
-For this assignment, you have two options to choose from, both involving ambisonic techniques:
+For this assignment, you have two options to choose from, both involving ambisonic techniques. See the quick checklist and due date below to align expectations.
+
+### Requirements at a Glance
+
+- Due: 10/17/25
+- Mix format: First‑order ambisonics (FOA) throughout
+- Automation: At least two meaningful spatial automation moves total
+- Tools: Reaper with Ambisonic Toolkit (ATK)
+- Minimum render to submit: binaural stereo WAV (48 kHz, 24‑bit)
+- Deliverables: render(s), consolidated Reaper project, 2‑paragraph reflection
 
 ### Project A: Original Ambisonic Work
 
-Create an original ambisonic music, sound design, or narrative fiction piece that utilizes ambisonic, stereo, and mono recording techniques. The final piece should be at least one minute in length and can either accompany a visual component or stand alone.
+Create an original 1–3 minute ambisonic music, sound design, or narrative fiction piece. Thoughtfully spatialize sources in FOA, considering front‑to‑back depth, height, and immersion. Your work should include:
 
-* Ambisonic Recording: Use the Zoom H3-VR in Ambisonic mode for one of your recordings.
-* Stereo Recording: Incorporate one stereo recording technique, such as XY, ORTF, or MS.
-* Mono Sources: All other sounds can be mono sources. Thoughtfully spatialize these sounds within the ambisonic field, considering aspects such as front-to-back depth, height, and overall immersion.
-
-Include at least two panning automation moves. Plan these automation moves to support the narrative or emotional arc of your piece. Explore the 3D space by considering the depth, height, and rotation aspects unique to ambisonics.
+- Ambisonic Recording: Use the Zoom H3‑VR in Ambisonic mode for one recording.
+- Stereo Recording: Include one stereo technique (XY/ORTF/MS) and document it.
+- Mono Sources: Allowed; encode to FOA before spatial transforms.
+- Automation: Include at least two meaningful spatial automation moves total. These should support the narrative/arc and be visible as automation lanes.
 
 Use the [Ambisonic Toolkit for Reaper](https://www.ambisonictoolkit.net/download/reaper/) plugins to mix your project.
 
 ### Project B: Multitrack Ambisonic Mixing
 
-Alternatively, mix a session from [Mike Senior's multitrack library](https://www.cambridge-mt.com/ms/mtk/) that includes at least 20 tracks. The focus will be on creatively applying ambisonic mixing techniques to preexisting multitrack recordings.
+Alternatively, mix a session from [Mike Senior's multitrack library](https://www.cambridge-mt.com/ms/mtk/) that includes at least 20 tracks in the source session. You do not need to use all tracks; identify 2–3 focal elements and use spatialization to support them.
 
-* Ambisonic Mix: Take the preexisting stereo or mono tracks from the multitrack session and spatialize them within an ambisonic field.
-* Automation: Include at least two automation moves related to panning or spatial positioning that enhance the narrative or immersive quality of the mix.
+- Ambisonic Mix: Encode stereo/mono items to FOA and spatialize within an ambisonic field.
+- Automation: Include at least two meaningful spatial automation moves total.
+- Performance: Freeze/print heavy FX chains if CPU becomes a problem.
 
-Use the Ambisonic Toolkit plugins to mix the project and document how each tool impacted your creative process.
+Use the Ambisonic Toolkit plugins to mix the project and document how each tool impacted your creative decisions.
 
 ## Spatialization Expectations
 
 “Thoughtful spatialization” means:
 
-* Panning and movement choices are purposeful, not random or distracting.
-* Spatial decisions contribute to immersion, narrative clarity, or creative intent.
-* Depth, height, and rotation are used to enhance rather than overwhelm the listening experience.
+- Panning and movement choices are purposeful, not random or distracting.
+- Spatial decisions contribute to immersion, narrative clarity, or creative intent.
+- Depth, height, and rotation enhance rather than overwhelm the listening experience.
 
 ## Project Setup
 
-For both projects, remember to encode all of your sources to first-order ambisonics B-format. See the documentation for the appropriate plugins for mono, stereo, or ambisonic sources. After encoding, spatialize or pan the sources with an ambisonics transform. Finally, send your sources to a track with a decoder plugin that works for your current listening environment, whether it's binaural, stereo UHJ, or the 7.1 studio.
+For both projects, encode all non‑ambisonic sources to first‑order ambisonics (FOA) B‑format. Then apply ambisonic transforms/panners for spatialization. Finally, decode to your listening environment (binaural, stereo UHJ, or 7.1) on a bus or the master.
+
+FOA format consistency:
+
+- Zoom H3‑VR typically exports AmbiX (ACN/SN3D). ATK tools operate in FuMa (WXYZ) convention.
+- Use an AmbiX↔FuMa converter on FOA tracks as needed so encoders, processors, and decoders all match format and normalization.
+
+Reaper routing reminder:
+
+- FOA tracks carry 4 channels. Place encoders on mono/stereo items → FOA transform/panners → send to a master with a decoder.
+- Put the decoder on the master (or dedicated ambisonic bus), not per‑track.
+- Set master track channel count to 2 for binaural renders, or 8 for 7.1.
 
 ![](https://depts.washington.edu/dxscdoc/Help/Tutorials/atknetwork.png)
 
 ## Rendering
 
-Refer to the image below for proper rendering settings:
-
-![](./render-ambisonics.png)
+Render one binaural (for grading) and one 7.1 version of your mix (for us to listen to in class). 
 
 ## Submission Requirements
 
 Submit the following:
 
-1. Rendered File: An audio or video file of your final piece.
-2. Reaper Project File: A consolidated Reaper project file with all associated WAV files included.
-3. Written Reflection: Write two paragraphs addressing some or all of the following questions that relate to your chosen project:
+1. Render(s): Binaural WAV (48 kHz, 24‑bit) and 7.1 render.
+2. Reaper Project: Use “Save As… → Copy all media into project directory” to consolidate. Zip the folder.
+   - Naming: `lastname_firstname_ambisonics_v1.zip`
+3. Written Reflection: ~250–400 words addressing some or all of the prompts below. Include at least one screenshot of your session routing/automation and, for Project A, a photo of the stereo mic setup.
+   - Stereo Recording Technique: Which technique did you use (XY/ORTF/MS)? What was the source? Include a photo.
+   - Zoom H3‑VR Recording: What did you record and why?
+   - Automation: Which spatial parameters did you automate and why?
+   - Plugin Usage: How did ATK (and any converter) shape your decisions? Be specific.
+   - Challenges & Solutions: What issues arose? How did you solve them?
+   - Creative Process: How does spatialization serve the piece’s intent?
 
-   * Stereo Recording Technique: Describe the stereo microphone technique you used and provide details about your sound source. Include a picture of your stereo microphone setup.
-   * Zoom H3-VR Recording: What did you record with the Zoom H3-VR?
-   * Panning Automation: What parameters did you automate for panning, and why?
-   * Plugin Usage: How did you use the Ambisonic Toolkit plugins in your project? Provide specific details.
-   * Challenges & Solutions: Did you face any difficulties while creating your work? How did you overcome them?
-   * Creative Process: Share any other interesting aspects of your creative process.
+## Common Pitfalls
 
+- Mismatched AmbiX/FuMa order/normalization causing rotated/tilted scenes.
+- Placing decoders on individual tracks instead of the master/bus.
+- Master channel count left at 2 while auditioning 7.1.
+- Skipping FOA encoding for stereo items before spatial transforms.
 
