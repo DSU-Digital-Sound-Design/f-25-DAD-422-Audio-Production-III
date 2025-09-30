@@ -133,15 +133,14 @@ author: ""
 
 > Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/17/25
 
-<!-- 
 
 ## Wednesday
 
-- Listen to binaural projects
 - Two options:
   - (1): Continue with ambisonic mix from last class or get practice setting up another mix.
   - (2): Start a new project with ambisonic recordings from the zoom H3-VR. Combine with other recordings we find online and render in ambisonics.
 
+<!-- 
 ## Friday
 
 - Move to **5.1 mixing** and some history of cinema sound.
@@ -160,6 +159,7 @@ author: ""
 ## Friday
 
 
+- Listen to binaural projects
 - Two great videos on Reaper and surround:
   - [An Introduction to Spatial Audio with Matt Glenn (Part 1)](https://www.youtube.com/watch?v=KBLvTttsTaw)
   - [ How to use ReaSurroundPan for Spatial Audio in REAPER (Part 2)](https://www.youtube.com/watch?v=vg28Dok2vqQ)
