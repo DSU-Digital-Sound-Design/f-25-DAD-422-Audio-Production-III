@@ -140,12 +140,12 @@ author: ""
   - (1): Continue with ambisonic mix from last class or get practice setting up another mix.
   - (2): Start a new project with ambisonic recordings from the zoom H3-VR. Combine with other recordings we find online and render in ambisonics.
 
-<!-- 
 ## Friday
 
 - Move to **5.1 mixing** and some history of cinema sound.
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 
+<!-- 
 # Week 7 (10/6)
 
 ## Monday
