@@ -131,7 +131,7 @@ author: ""
 - Any questions about setup of the ambisonic project
 - Do some ambisonic recording with the Zoom H3-VR in the studio and try to mix it in Reaper with the Ambisonic Toolkit.
 
-> Assignment: [Ambisonics](../projects/ambisonics/) - Due 10/17/25
+> Assignment: [Ambsonics](../projects/ambisonics/) - Due 10/17/25
 
 
 ## Wednesday
@@ -145,13 +145,13 @@ author: ""
 - Move to **5.1 mixing** and some history of cinema sound.
 - [Cinema's Hidden Multi-channel history and the origins of digital surround](../lectures/week-6/cinema-sound-history/)
 
-<!-- 
 # Week 7 (10/6)
 
 ## Monday
 
 - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
 
+<!-- 
 ## Wednesday
 
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)

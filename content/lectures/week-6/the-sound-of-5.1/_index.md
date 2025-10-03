@@ -18,36 +18,37 @@ margin = 0.2
 
 ---
 
-## Evolution of Surround Sound: From Dolby Stereo to 5.1
+## Evolution of Surround: From Dolby Stereo to 5.1
 
-- **1990s**: Introduction of 5.1 digital surround sound  
-  - Better **dynamic range** and more channels  
-  - Greater flexibility for spatialization of sound  
-- However, early adopters faced challenges:
-  - Few theaters had DSS (Digital Surround Sound) systems  
-  - Soundtracks still had to be compatible with **Dolby Stereo**
+- 1990s: discrete 5.1 systems displaced matrixed Dolby Stereo in first‑run exhibition.  
+- 7.1 arrived later (2010; Toy Story 3) and expanded surround resolution.   
+
 
 {{% note %}}
-Filmmakers could not fully exploit the new 5.1 capabilities until more theaters upgraded their systems. Compatibility with Dolby Stereo was required, limiting what they could do with the sound.
+Keep this recap tight so we don’t re‑teach last week. Key points: discrete 5.1 unlocked reliable channel separation and headroom compared with Dolby Stereo’s Lt/Rt matrix, while 7.1 (launched widely with Toy Story 3 in 2010) added back surrounds for better 360° motion. 
 {{%/ note %}}
 
 ---
 
-## Surround Sound Today: A New Standard
+## Surround Sound Today
 
-- 5.1 surround sound is the industry standard
-- Many theaters also offer **Dolby Surround 7.1**  
-- **7,000+ Dolby Atmos theaters** exist worldwide, across 100+ countries
+- 5.1 remains a global baseline; many rooms also support 7.1.  
+- Dolby Atmos adoption continues to grow; Dolby reports 8,000+ Atmos screens installed or committed across 137 countries (2024). 
+  - [Dolby press release](https://news.dolby.com/en-WW/236229-dolby-expanding-the-best-way-to-experience-movies-by-making-dolby-vision-and-dolby-atmos-available-to-all-premium-theater-exhibitors)
 
 {{% note %}}
-The standardization of surround sound formats has given filmmakers the freedom to focus on immersive sound design, without worrying about compatibility with older stereo systems.
+Atmos stat: Dolby newsroom notes 8,000+ Atmos screens installed/committed in 137 countries. Use this as a contemporary context line, not as a lecture on Atmos. 
 {{%/ note %}}
 
 ---
 
-### How Does Surround Sound Shape Your Experience?  
+### How Does Surround Sound Shape Your Experience?
 
-> Think about a recent film you watched with surround sound. How did the placement of sounds in different channels (front, rear, or sides) affect your focus or emotional response during key moment
+Think about a recent film you watched in surround. How did front/center anchoring versus side/rear envelopment steer your attention or emotion?
+
+{{% note %}}
+Invite students to name a moment where spatial placement (not just loudness) changed meaning—e.g., off‑screen threats, “over‑the‑shoulder” ambiences, center‑anchored dialogue that resists being pulled left/right by on‑screen motion.
+{{%/ note %}}
 
 ---
 
@@ -58,7 +59,10 @@ The standardization of surround sound formats has given filmmakers the freedom t
   - **Digital surround formats**: Over 100 dB
 
 {{% note %}}
-DSS formats offer a wider dynamic range, allowing soundtracks to include both very loud and very soft sounds, surpassing Dolby SR on both ends. This makes film sound more immersive.
+Evidence you can point to in class:
+
+- Dolby SR (analogue noise reduction from 1980s) is documented as offering up to ~24–25 dB improvement in S/N and effective DR over A‑type (see Dolby Cat. 280 manual and technical summaries).   
+- DCI (Digital Cinema Initiative) audio supports 20/24‑bit PCM (up to 96 kHz); the theoretical DR of 24‑bit is 144 dB, but practical DR is limited by the cinema B‑chain and room. 
 {{%/ note %}}
 
 ---
@@ -76,36 +80,44 @@ DSS’s headroom allows filmmakers to create soundtracks with loud sounds more t
 
 ---
 
-## Challenges with Loudness
+## Challenges With Loudness
 
-### Filmmakers Push the Limits
-
-- **Problem**: Early digital sound mixes were often uncomfortably loud  
-- Sound engineers thought, "The louder, the better."  
-- **Anonymous sound editor**: "A lot of movies are just loud all the time... everything had to be as loud as possible."
+- Early digital era temptation: “louder = better.”  
+- Hours in mix rooms desensitize teams; audiences may perceive “wall‑to‑wall loud” as fatiguing.  
+- Exhibitors respond by turning down playback, complicating translation between mix and auditorium. 
 
 {{% note %}}
-Filmmakers spent long hours in studios and became desensitized to high volume levels, resulting in mixes that audiences found too loud.  
-Theaters began to play films at lower levels to accommodate audience complaints, further complicating the sound design process.
+Replace anecdotal attributions with documented trends:
+- Coverage of reference practices and audience comfort: Cinemontage; survey articles on cinema loudness.   
+- Keep your classroom angle: the craft is about dynamic shape and attention steering, not brute SPL.
 {{%/ note %}}
 
 ---
 
-## **Film Examples: Silence as a Sound Tool**
+## Reference vs. Real‑World Playback
+
+- Mix rooms and certified rooms target the same reference; many multiplexes play below it.  
+- Deliverables often include a near‑field/home version with subtle rebalance (dialog, surrounds, LFE) at lower playback levels.  
+- Goal: preserve narrative dynamics when faders drop.
+
+{{% note %}}
+Standards context: RP 200 defines reference; Dolby and DCI documentation assume playback at reference for full impact. For translation, emphasize contrast shaping (quieter quiets) and spectral clarity over “hotter peaks.” 
+{{%/ note %}}
 
 ---
 
-## Alfred Hitchcock’s *The Birds* (1963)
+## **Film Examples: Silence as a Tool**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M0HjlCowwuM?si=lFqzHXqsgQqlJBXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
+
+## Alfred Hitchcock’s The Birds (1963)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MXAWBB4nKq8?si=DbDnmuvg7kB4FN77" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 {{% note %}}
-- pre-digital surround sound era
-- Hitchcock deliberately excluded a traditional soundtrack, using bird screeches as the score.
-- **Contrast with Silence**: The loudness of the birds makes moments of silence feel more ominous.
-- **Subtle Electronic Hum**: An almost undetectable hum evokes “brooding silence,” intensifying tension.
-- **Key Scene**: When Lydia explores her neighbor’s house, the silence indicates that something is wrong. The discovery of a mutilated corpse is made more horrifying by the absence of sound.
-
+- Pre‑digital era; no conventional orchestral score.  
+- Electronic bird textures and drones created by Oskar Sala on the Mixtur‑Trautonium (with Remi Gassmann; Herrmann credited as sound consultant). 
+- Contrast with silence: loud, synthetic bird swarms make intervening quiet feel ominous; silence becomes narrative signal.
 {{%/ note %}}
 
 ---
@@ -114,13 +126,9 @@ Theaters began to play films at lower levels to accommodate audience complaints,
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qcQouZIPqNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 {{% note %}}
-- **Opening sequence**: Wind and ambient sounds create dread  
-- The juxtaposition of a child's laughter with nuclear devastation intensifies the emotional impact  
-- **Vivian Sobchack**: Wind in science fiction often symbolizes change, upheaval, or mystery.
-
-The wind not only signals destruction but serves as a warning: the future is uncertain, and our actions have consequences.
+- Opening juxtaposes children’s voices/laughter with wind and scorched ambience to create dread; listen for the dynamic “breath” before impacts.  
+- Release history context for you (don’t belabor on slide): T2 circulated with 70 mm six‑track magnetic prints; some prints used Cinema Digital Sound (CDS) 5.1. 
 {{%/ note %}}
 
 ---
@@ -130,6 +138,7 @@ The wind not only signals destruction but serves as a warning: the future is unc
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EWwhQB3TKXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
+
 - The tracking shot from Earth to deep space transitions from sound to silence  
 - Zemeckis avoids artificial sound (like speaker hiss) to emphasize the emptiness of space  
 - This use of DSS’s silence reinforces the vast, mysterious nature of the universe.
@@ -139,9 +148,13 @@ The wind not only signals destruction but serves as a warning: the future is unc
 
 ---
 
-### How Do You Experience Silence in Films?  
+### How Do You Experience Silence?
 
-Does silence in film scenes make you feel calm, anxious, or something else?
+When a scene drops to near‑silence, do you feel calm, unease, or heightened attention? What details become newly audible?
+
+{{% note %}}
+Use this as an in‑class pause: ask for specific textures students noticed only when the mix went sparse.
+{{%/ note %}}
 
 ---
 
@@ -153,13 +166,9 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen></iframe>
 
 {{% note %}}
-
-### Scene Breakdown
-- **Setting**: Theo exits a crowded café in a bleak, dystopian London.
-- **Use of Sound**: The scene opens with minimal background noise, focusing the audience's attention.
-- **Impact**: A sudden bomb blast interrupts the quiet, shocking the audience and establishing the unpredictable, chaotic world.
-
-**Effect**: The absence of music heightens the tension, making the explosion more jarring and setting the film's somber tone.
+Scene breakdown:
+- Minimal score; diegetic news and room tone establish a numbed public.  
+- Theo exits; shortly after, the café explodes. Post‑blast, tinnitus filtering and reduced ambience externalize Theo’s damaged hearing. 
 {{%/ note %}}
 
 ---
@@ -170,31 +179,29 @@ allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RLUhwGLJhsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-- Director Gary Rydstrom uses silence before explosions to amplify their impact  
-- Digital surround sound enhances these moments by allowing for deeper contrasts between quiet and loud sounds.
-
+- Directed by Ron Howard; sound design/re‑recording by Gary Rydstrom and team.   
+- Note the near‑silence before flashover/explosion events—contrast as impact multiplier in a calibrated room.
 {{%/ note %}}
 
 
 ---
 
-## Fahrenheit 9/11 (2004)
+## Recap: Key Concepts
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zAkhdZxgBCE?start=785" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- Dynamic range: wide ceilings enable micro‑ to macro‑contrast.  
+- Headroom: reference calibration leaves room for peaks; impact is shaped, not slammed.   
+- Silence: a designed element that re‑centers attention and meaning.  
+- Translation: mixes must survive below‑reference playback; contrast and spectral clarity matter. 
+
+---
+
+## Optional: Translating Theatrical → Near‑Field (Home/Streaming)
+
+- Smaller rooms and lower playback levels change perception.  
+- Typical near‑field moves: slightly lower LFE, tame busy surrounds, gentle EQ for dialog clarity, contained macro‑dynamics.  
+- Preserve narrative shape even when absolute level drops.
 
 {{% note %}}
-- A brief moment of silence precedes the sound of a plane crashing into the World Trade Center  
-- This use of silence amplifies the emotional impact, leaving the audience waiting in dread.
-
+Anchor this to students’ own deliverables: theatrical 5.1 vs. “home” 5.1. Keep the story beats intact by prioritizing contrast and intelligibility rather than raw loudness.
 {{%/ note %}}
-
-
----
-
-## **Recap Slide: Key Concepts**
-
-- **Dynamic Range**: Expands the range of sounds from quiet to loud  
-- **Headroom**: Allows for louder sounds without distortion  
-- **Silence**: Used strategically to emphasize key moments  
-- **Mixing Challenges**: Finding the balance between loud and soft to match audience expectations
 
