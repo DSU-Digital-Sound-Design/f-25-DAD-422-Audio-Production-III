@@ -151,15 +151,13 @@ author: ""
 
 - [The Sound of 5.1: Aural Aesthetics - dynamic range](../lectures/week-6/the-sound-of-5.1/)
 
-<!-- 
 ## Wednesday
 
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 
+<!-- 
 ## Friday
 
-
-- Listen to binaural projects
 - Two great videos on Reaper and surround:
   - [An Introduction to Spatial Audio with Matt Glenn (Part 1)](https://www.youtube.com/watch?v=KBLvTttsTaw)
   - [ How to use ReaSurroundPan for Spatial Audio in REAPER (Part 2)](https://www.youtube.com/watch?v=vg28Dok2vqQ)
@@ -175,6 +173,7 @@ author: ""
 
 ## Wednesday
 
+- Listen to binaural projects
 - Ambisonics check in day
   - Each student will present their project and discuss their process for about 10 minutes.
   - Students then give feedback and constructive comments for 3 - 4 minutes.
