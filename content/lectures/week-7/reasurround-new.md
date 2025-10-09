@@ -32,21 +32,6 @@ Before mixing, confirm the following setup steps:
 
 ---
 
-## Distributed Sources  
-
-One of the simplest ways to start is to distribute a mono or stereo track evenly across all speakers.  
-
-1. Set both the **track** and the **Master track** to 8 channels (or however many your surround format requires).  
-2. In the track routing window, ensure the **track channels** are set to match.  
-3. Confirm that the master output is set to **multi-channel output**.  
-
-![Multi-channel routing](../output-source.png)  
-*Track routing for multi-channel output in Reaper*  
-
-Now, when you play back any stereo track, you’ll hear it equally across all speakers—a quick way to verify your surround routing.
-
----
-
 ## Adding a Multi-Channel Track  
 
 To send a sound only to certain speakers, assign it to the appropriate output channels.
@@ -55,6 +40,12 @@ To send a sound only to certain speakers, assign it to the appropriate output ch
 - For **7.1**, side surrounds are **5–6**, rear surrounds are **7–8**.  
 
 You can experiment with multi-channel audio files—try [FreeSound’s multichannel library](https://freesound.org/search/?f=channels:6)—to explore how different channel mappings sound.
+
+---
+
+## Direct Routing to Speakers
+
+You can route a mono or stereo track directly to specific speakers by adjusting its channel outputs. For example, to send audio only to the **rear speakers** in a 5.1 setup, route the track to **channels 5 and 6**. 
 
 ---
 

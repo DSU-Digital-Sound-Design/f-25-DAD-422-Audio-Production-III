@@ -155,15 +155,15 @@ author: ""
 
 - [The Sound of 5.1: Aural Aesthetics - discrete channels and complexity](../lectures/week-6/the-sound-of-5.1-complexity/)
 
-<!-- 
 ## Friday
 
 - Two great videos on Reaper and surround:
   - [An Introduction to Spatial Audio with Matt Glenn (Part 1)](https://www.youtube.com/watch?v=KBLvTttsTaw)
   - [ How to use ReaSurroundPan for Spatial Audio in REAPER (Part 2)](https://www.youtube.com/watch?v=vg28Dok2vqQ)
 - Show [ReaSurroundPan](https://dlz.reaper.fm/userguide/ReaperUserGuide723d.pdf#page=186.08)
-- [ReaSurroundPan](../lectures/week-7/reasurround/)
+- [ReaSurroundPan](../lectures/week-7/reasurround-new/)
 
+<!-- 
 # Week 8 (Oct 13)
 
 
