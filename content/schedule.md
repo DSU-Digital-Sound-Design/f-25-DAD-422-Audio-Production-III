@@ -163,7 +163,6 @@ author: ""
 - Show [ReaSurroundPan](https://dlz.reaper.fm/userguide/ReaperUserGuide723d.pdf#page=186.08)
 - [ReaSurroundPan](../lectures/week-7/reasurround-new/)
 
-<!-- 
 # Week 8 (Oct 13)
 
 
@@ -183,6 +182,7 @@ author: ""
     - How well is the automation working? Does it add to the piece?
   - Wrap up with general collaborative problem-solving related to ATK and Reaper.
 
+<!-- 
 ## Friday 
 
 - Listen to Ambisonics mixes in class and talk about your process. 
