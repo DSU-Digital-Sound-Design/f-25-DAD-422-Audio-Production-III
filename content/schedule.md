@@ -182,11 +182,11 @@ author: ""
     - How well is the automation working? Does it add to the piece?
   - Wrap up with general collaborative problem-solving related to ATK and Reaper.
 
-<!-- 
 ## Friday 
 
 - Listen to Ambisonics mixes in class and talk about your process. 
 
+<!-- 
 # Week 9 (Oct 20)
 
 ## Monday
