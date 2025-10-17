@@ -186,7 +186,6 @@ author: ""
 
 - Listen to Ambisonics mixes in class and talk about your process. 
 
-<!-- 
 # Week 9 (Oct 20)
 
 ## Monday
@@ -195,6 +194,7 @@ author: ""
   - This is an option: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
   - Or we can pick a different song. 
 
+<!-- 
 ## Wednesday
 
 **Technical introduction to Dolby Atmos**
