@@ -6,718 +6,320 @@ theme = "serif"
 margin = 0.2
 +++
 
-<!-- Source: MixingInDolbyAtmos-#1HowItWorks(2021-0928) -->
-
-# What is Dolby Atmos?
+# Why Atmos?
 
 {{% note %}}
-What was the point of this new standard? What problems did it try to solve?
+Today I’m framing Atmos as a solution to three old problems:
 
-We'll review some of the history we have already learned through the semester to answer this question, then delve deeply into the technical workings of atmos.
+1. Channel lock-in. Traditional formats (stereo, 5.1, 7.1) bind content to fixed speakers. Atmos decouples *mixing* from *playback* through objects and real-time rendering.
+
+2. Scalability. The same master should travel from cinema to phone without bespoke downmixes. Atmos uses metadata and an adaptive renderer to target anything from 64-speaker dub stages to headphones. ([Dolby Professional][1])
+
+3. Creative intent across devices. Object metadata lets me place and move sounds precisely; the renderer preserves those decisions on different layouts, including binaural. ([Dolby Professional Support][2])
+
+By the end, students should be able to explain beds vs. objects, route a DAW to a renderer, export an ADM master, and evaluate delivery options for cinema, streaming, broadcast, games, automotive, and headphones.
 {{%/ note %}}
 
 ---
 
-<div style="display: flex; justify-content: center; align-items: center; font-size: 60px;">
-    <div style="text-align: center;">
-        <p>Mono</p>
-        <p>&darr;</p>
-        <p style="font-size: 20px;">Single sound source, no spatial dimension</p>
-    </div>
-    <div style="text-align: center;">
-        <p>&rarr;</p>
-    </div>
-    <div style="text-align: center;">
-        <p>Stereo</p>
-        <p>&darr;</p>
-        <p style="font-size: 20px;">Two speakers, phantom source effect</p>
-    </div>
-    <div style="text-align: center;">
-        <p>&rarr;</p>
-    </div>
-    <div style="text-align: center;">
-        <p>Surround</p>
-        <p>&darr;</p>
-        <p style="font-size: 20px;">2D sound field, multiple directions</p>
-    </div>
-    <div style="text-align: center;">
-        <p>&rarr;</p>
-    </div>
-    <div style="text-align: center;">
-        <p>Immersive</p>
-        <p>&darr;</p>
-        <p style="font-size: 20px;">3D sound, including overhead speakers</p>
-    </div>
-</div>
+## From Mono to Immersive
 
-
+* Mono → one source, no spatial field
+* Stereo → phantom imaging between two speakers
+* Surround → 2D ring of speakers at ear height
+* Immersive → adds the vertical dimension (height)
 
 {{% note %}}
-**Evolution of Audio Reproduction Technologies**
-
-*Introduction*
-Sound design has come a long way since its early beginnings, with innovations in audio reproduction technologies transforming the way we experience sound. This journey from mono to immersive audio has reshaped the field of sound design and enriched the auditory experiences we encounter in various media. In this overview, we will explore the key milestones in audio reproduction, from mono to immersive 3D audio.
-
-**Mono - 1D Spot**
-
-- *Historical Context*: In 1876, Alexander Graham Bell made significant strides in audio reproduction with the introduction of mono sound. At this early stage, audio, music, and sound were reproduced using a single speaker, which essentially consisted of a cone without electrical amplification.
-- *Audio Channel*: Mono playback was characterized by its ability to convey only a single audio source through a single audio channel. This meant that the listener experienced sound from a singular point, lacking the spatial dimension that would later revolutionize audio.
-
-**Stereo - 1D Line**
-
-- *Innovation by Alan Blumlein*: The breakthrough into stereo sound, credited to Alan Blumlein in 1930, marked a significant advancement. It introduced the concept of a 1-dimensional sound field where sound could be perceived along a line rather than from a single point.
-- *Phantom Source Phenomenon*: Stereo sound utilized two amplified speakers, allowing listeners to perceive sound sources between and outside the two speakers. This phenomenon, known as the Phantom Source, enriched the immersive quality of audio.
-
-**Surround - 2D**
-
-- *Early Implementations*: While Ray Dolby is often associated with the development of surround sound in the 1970s, earlier implementations can be traced back to the 1940s, exemplified by Disney's "Fantasia." The core idea was to extend sound beyond the front of the listener, incorporating side and back speakers.
-- *2-Dimensional Sound Field*: Despite the term "surround," this technology primarily created a 2-dimensional sound field, enhancing the listener's experience by enveloping them with sound from multiple directions.
-
-**Immersive - 3D**
-
-- *Introduction of the Third Dimension*: Immersive sound, a significant leap forward, introduces a third dimension to the sound field. In addition to surround speakers at ear level, speakers above the listener contribute to the 3-dimensional soundscape.
-- *Immersive Audio or 3D Audio*: This technology, often referred to as Immersive Audio, truly immerses the listener in a 3D sound environment. The listener is surrounded not only horizontally but also vertically, enhancing the realism and depth of the auditory experience.
-
-**Conclusion**
-
-The evolution of audio reproduction technologies, from mono to immersive 3D audio, showcases the remarkable progress in sound design. Each stage has added new dimensions to our perception of sound, providing sound designers with increasingly sophisticated tools to craft immersive auditory experiences in various media forms. Understanding this progression is essential for sound design professionals and students, as it informs the creative possibilities and technical aspects of contemporary sound design practices.
+I’ll remind the class that “surround” historically meant ear-level rings (5.1/7.1). “Immersive” adds height: overhead loudspeakers or their virtualized equivalents. Dolby Atmos is one well-supported immersive ecosystem; you’ll also see Auro-3D, MPEG-H, Sony 360RA, and, more recently, IAMF/Eclipsa (open) and Apple’s ASAF/APAC on their platforms. We’ll circle back to those in “Current Developments.” ([Digital Trends][3])
 {{%/ note %}}
 
 ---
 
-## Gray Area
+## The Gray Areas 
 
-- Mono vs. Stereo
-- Speaker vs. Channel
-- Surround vs. Immersive
-- Immersive Audio
-- Ambisonics
+* Speaker vs. channel
+* Mono vs. stereo (fully correlated stereo is still mono)
+* Surround vs. immersive
+* Ambisonics vs. Atmos
+* Beds vs. objects (we’ll define precisely)
 
 {{% note %}}
-**Understanding Audio Terminology: Mono, Stereo, Surround, and Immersive**
+I’ll clean up vocabulary early:
 
-*Introduction*
-The world of audio is filled with terminology that can sometimes be confusing or misinterpreted. To gain clarity, it's important to understand the distinctions between various terms like mono, stereo, surround, and immersive audio. Let's break down these concepts with bullet points and provide context for each.
-
-**Mono vs. Stereo**
-
-- *Mono vs. Stereo Basics*: Mono typically refers to a single speaker, while stereo implies two speakers. However, the distinction is not solely based on the number of speakers.
-- *Correlation Matters*: Stereo playback can be considered mono if both channels are fully correlated, meaning they play the same signal. In such cases, even though there are two speakers, the audio experience remains mono, lacking spatial separation.
-
-**Speaker vs. Channel**
-
-- *Surround Sound Misconception*: The presence of multiple speakers around the listener does not necessarily mean you are experiencing "Surround Sound." It merely indicates that you are surrounded by speakers.
-- *Super-Mono Scenario*: If numerous speakers around you all reproduce the same signal, it technically results in a mono signal (1 audio channel) emanating from multiple speakers. This is sometimes referred to as "Super-Mono." To achieve genuine surround sound, individual speakers must handle different audio channels.
-
-**Surround vs. Immersive**
-
-- *Clarity in Terminology*: The terms "Surround" and "Immersive" audio can lead to confusion due to differing interpretations. In a technical sense, Immersive Audio surrounds the listener with sound, but it is not the same as "Surround Sound."
-- *Surround Sound Configuration*: Surround Sound typically refers to configurations where all speakers are at ear level, often in setups like 5.1 or 7.1. This creates a 2-dimensional sound field with speakers around the listener.
-
-**Immersive Audio**
-
-- *Diverse Terminology*: The term "Immersive Audio" itself can be perplexing because it encompasses various technologies and meanings. Commonly used terms include Immersive Audio, 3D Audio, 360 Audio, Spatial Audio, and marketing-driven names invented by companies.
-- *Sloppy Terminology*: Some individuals may even use the term "Surround Sound" to describe Immersive Sound, which is imprecise and can lead to misunderstandings.
-
-**Ambisonics**
-
-- *Specialized Recording Format*: Ambisonics is a term often associated with Immersive Audio. It specifically refers to a specialized recording format for full-sphere immersive sound capture. It's a technique used to capture audio in all directions, contributing to the immersive experience.
-
-*Conclusion*
-Understanding the nuances of audio terminology is crucial, especially in the context of teaching sound design to undergraduate students. The distinctions between mono, stereo, surround, and immersive audio not only enrich students' technical knowledge but also enhance their ability to communicate effectively in the field of digital sound design. Clarifying these concepts ensures that students are well-equipped to navigate the ever-evolving landscape of audio technologies.
+• Channels are signals; speakers are transducers.
+• You can be surrounded by many speakers and still be hearing one mono channel (“super-mono”).
+• Ambisonics is a scene-based capture/encode system; Atmos is object-based authoring plus rendering.
+• In Atmos, a “bed” is a conventional multichannel stem (commonly 7.1.2); “objects” are individually positioned sound elements with metadata. ([Dolby Professional Support][4])
 {{%/ note %}}
 
 ---
 
-![](timeline-1.png)
+## What Atmos Actually Is
+
+* Object-based authoring plus a real-time renderer
+* Typical music/post layout: 7.1.2 bed + up to 118 objects
+* Total inputs to the renderer at 48 kHz: 128
+* Renderer adapts to the room or device
+
+<img src="https://blog.soundparticles.com/hs-fs/hubfs/channel-object-audio.png?width=1875&name=channel-object-audio.png" alt="Channel-Object Audio" style="display:block;margin:1.5rem auto 0;max-width:70%;height:auto;">
 
 {{% note %}}
+This is the core fact set I want students to memorize:
 
-### Others:
-- **1940 – Disney's *Fantasia* Released in Surround Sound**:  
-  *Fantasia* introduced Fantasound, an early multi-channel surround sound system for cinema.
+• Atmos projects combine one or more beds with objects.
+• At 48 kHz the renderer accepts 128 inputs in total: at least 10 bed channels (7.1.2) and up to 118 objects; at 96 kHz it’s 64 total. ([Dolby Partner Support][5])
+• The renderer maps that mix to whatever layout is present—64-speaker dub stages, 9.1.6 rooms, 5.1 soundbars, laptops, or headphones—without me hand-authoring separate downmixes. ([Dolby Professional][1])
+{{%/ note %}}
 
-- **1950s – Electronic Music Pioneers Experiment with Immersive Audio**:  
-  Electronic music pioneers explored spatial audio, laying the groundwork for modern immersive sound techniques.
 
-- **1967 – Development of the Ambisonics Microphone**:  
-  The Ambisonics microphone was developed to capture immersive, full-sphere 3D sound.
+---
 
-- **1993 – *Jurassic Park* Released in DTS (5.1 Surround)**:  
-  *Jurassic Park* was one of the first films to use DTS 5.1 surround sound for a more immersive theater experience.
+<img src="object-tracks-and-bed-tracks-routing.png" alt="Object tracks and bed tracks routing" style="display:block;margin:1rem auto 0;max-width:80%;height:auto;">
 
-- **1993 – *Last Action Hero* Released in SDDS (7.1 Surround)**:  
-  *Last Action Hero* premiered in Sony Dynamic Digital Sound (SDDS), featuring 7.1 surround sound for enhanced spatial audio.
+{{% note %}}
+**Speaking Notes**
 
-- **2005 – First Commercial Immersive Audio Format, Auro 3D**:  
-  Auro 3D introduced a new immersive sound format that added height channels to the surround sound experience.
+This diagram comes directly from Apple’s *Logic Pro 11.2 User Guide* and shows how Logic routes Dolby Atmos audio differently depending on whether you’re using *bed* or *object* tracks.
 
-### Dolby’s Timeline:
-- **1965 – Dolby Founded in London**:  
-  Dolby began as a company focusing on noise reduction systems for recording studios.
+**Bed Tracks**
 
-- **1977 – *Star Wars* Released with Dolby Stereo**:  
-  *Star Wars* was the first film to use Dolby Stereo, with an encoded four-channel surround sound format.
+* Act like conventional surround channels—think of them as your fixed speaker mix (L, R, C, LFE, Ls, Rs, Ltm, Rtm).
+* Every bed track feeds into the same multichannel bus called the **surround bed**.
+* You can set that bed to **5.1, 7.1, or 7.1.2** in Project Settings → Audio → Surround Format.
+* The surround panner spreads signals across that multichannel bus before the Dolby Atmos plug-in.
+* Logic supports only **one bed per project**, with up to **7.1.2** width (meaning one overhead stereo pair).
+* Because of that limit, you can’t position sound at the *front or rear* of the ceiling—only at left/right top.
 
-- **1982 – Introduction of Dolby Surround**:  
-  Dolby Surround brought four-channel surround sound to consumer home entertainment systems.
+**Object Tracks**
 
-- **1987 – Introduction of Dolby Pro Logic**:  
-  Dolby Pro Logic allowed home theater systems to decode four-channel surround sound from stereo sources.
+* Each object track bypasses the surround bus and routes directly to the **Dolby Atmos plug-in**.
+* Each object has a **3D Object Panner**, which sends both audio (red arrows) and pan metadata (blue arrows).
+* Up to **118 objects** are available. Each stereo track uses two objects.
+* Surround tracks can’t become objects—only mono or stereo sources.
+* The 3D Object Panner defines X, Y, Z coordinates and motion automation.
+* Logic keeps each object’s signal and metadata discrete all the way to the **ADM BWF master file**, the format delivered to Apple Music for Atmos releases.
+* Note: You cannot route object tracks directly to the LFE channel.
 
-- **1992 – *Batman Returns* Released in Dolby Digital (AC-3, 5.1)**:  
-  *Batman Returns* was the first film to be released with Dolby Digital 5.1 surround sound, enhancing cinematic audio.
+**Summary**
 
-- **2000 – Introduction of Dolby Pro Logic II**:  
-  Dolby Pro Logic II improved on the original by providing a more accurate and versatile surround sound experience.
+* The *bed* represents traditional channel-based audio; *objects* are position-based elements in 3D space.
+* Logic merges both through the Dolby Atmos plug-in on the surround master channel strip, where pre- and post-fader effects can still be inserted.
 
-- **2005 – Dolby TrueHD**:  
-  Dolby TrueHD offered lossless audio with up to 7.1 channels, providing high-fidelity surround sound for home theaters.
+This is a great point to pause and show in Logic how a bed track’s surround panner differs from an object’s 3D Object Panner.
+{{%/ note %}}
 
+
+---
+
+
+**Surround Panner vs. 3D Object Panner in Logic Pro**
+
+
+<img src="bed-vs-object-logic.png" alt="Bed vs Object Tracks in Logic Pro" style="display:block;margin:1rem auto 0;max-width:80%;height:auto;">
+
+{{% note %}}
+**Speaking Notes**
+
+This side-by-side shows how **Logic Pro 11’s** interface distinguishes between *channel-based* and *object-based* spatial control.
+
+**Left – Surround Panner (Bed Track)**
+
+* This is used on *bed* channels—traditional 5.1 / 7.1 / 7.1.2 buses.
+* You’re panning within a fixed loudspeaker ring (L, R, C, Ls, Rs, LFE, Ltm, Rtm).
+* The circular radar view represents azimuth—sounds move left-to-right or front-to-back within that 2-D plane.
+* Height is not available here; any “top” contribution comes from the 7.1.2 bed pair only.
+* Ideal for ambience, reverb returns, and music stems you want anchored to the speaker layout.
+
+**Right – 3D Object Panner (Object Track)**
+
+* Used when a track is routed as a *Dolby Atmos object*.
+* Provides full 3-axis positioning: left/right (X), front/back (Z), and elevation (Y).
+* Includes object *size* and *spread* controls—metadata sent to the renderer in real time.
+* You can automate position or trajectory, enabling smooth motion through the 3-D field.
+* In the Dolby Atmos plug-in, these become individual “object inputs” (up to 118 total).
+
+**Pedagogical focus**
+Demonstrate that the **surround panner is channel-dependent**, while the **3D object panner is spatially absolute**.
+Ask students: *“What creative choices might push you toward an object rather than a bed—clarity, motion, or localization?”*
 {{%/ note %}}
 
 ---
 
-![](timeline-2.png)
+## Atmos Delivery: Two Steps
+
+| **Step**                  | **Format**                                  | **Used By**                                         |
+| ------------------------- | ------------------------------------------- | --------------------------------------------------- |
+| **1. Master**             | ADM BWF (beds + objects + metadata)         | Apple Music, Tidal, Amazon Music                    |
+| **2. Playback Encode**    | DD+ JOC, TrueHD, AC-4 (from ADM)            | Netflix, Disney+, Blu-ray, ATSC 3.0                 |
+
+**Key point:** Submit the **ADM BWF master**. Platforms encode to consumer formats internally.
 
 {{% note %}}
+**Speaker Notes**
 
-### Others:
-- **2015 – MPEG-H Immersive Audio Standard**:  
-  MPEG-H, a new immersive audio standard, was introduced in collaboration with MPEG and Fraunhofer, allowing for more flexible, object-based audio rendering.
+When we release Atmos music, we don't deliver a compressed bitstream — we deliver the *source master*: the **ADM BWF**.
 
-- **2016 – dts X Announced**:  
-  dts X was announced as the immersive version of the popular dts surround sound technology, aimed at providing object-based audio for cinema and home theater.
+**Why ADM BWF?**
 
-- **2019 – Sony Introduces 360 Reality Audio**:  
-  Sony launched 360 Reality Audio, their immersive sound format designed to provide a more spatial audio experience by positioning individual sounds in a 360° sound field.
+* It’s the official Dolby Atmos master format.
+* Contains every bed and object as discrete PCM plus spatial metadata.
+* Apple uses that data to generate their own **Dolby Digital Plus JOC** version optimized for Apple Music’s Spatial Audio.
+* This keeps future compatibility: if Apple updates headphone rendering or playback devices, your mix can be re-rendered from the same master.
 
-### Dolby's Timeline:
-- **2012 – *Brave* Released in Dolby Atmos**:  
-  *Brave* became the first movie to be mixed and released using Dolby Atmos, introducing object-based sound and height channels for a fully immersive experience.
+**What not to send**
 
-- **2014 – Dolby Atmos for Home Entertainment**:  
-  Dolby introduced its Atmos technology to home entertainment systems, allowing consumers to experience cinema-quality immersive sound at home.
+* Never send the *consumer bitstream* (e.g., DD+ JOC, TrueHD). Those are *playback encodes*, not submission assets.
+* Think of DD+ JOC as the “end-user” product Apple generates from your ADM BWF.
 
-- **2017 – Dolby Partners with Netflix**:  
-  Dolby teamed up with Netflix to deliver content in Dolby Atmos on the streaming service, expanding its reach to a broader audience.
+**Example Workflow**
 
-- **2018 – Winter Olympics and FIFA World Cup Broadcast in Dolby Atmos**:  
-  These major international sports events were broadcast with Dolby Atmos, marking a milestone in immersive audio for live broadcasts.
+1. Export your Atmos mix as an **ADM BWF (.wav)** from Logic Pro, Pro Tools, or Nuendo.
+2. Include the **stereo reference master** that matches time and content.
+3. Deliver through your distributor (Apple Music for Artists, Tunecore, DistroKid, etc.) — they upload the ADM to Apple’s servers via iTunes Connect/Transporter.
+4. Apple re-encodes internally into their own DD+ JOC format and generates binaural versions for Spatial Audio playback.
 
-- **2018 – Xbox One Supports Dolby Atmos for Games**:  
-  Xbox One started supporting Dolby Atmos, enhancing the gaming experience with immersive, object-based audio.
+**Other platforms**
 
-- **2019 – Dolby Atmos Music Launched**:  
-  Dolby Atmos Music was launched, partnering with Amazon and Tidal, offering immersive music experiences for listeners.
+* **Tidal / Amazon Music HD:** also request ADM BWF masters (they transcode to DD+ JOC for playback).
+* **Blu-ray / Netflix:** use *encoded bitstreams* (TrueHD or DD+ JOC), created *after* mastering, typically by a post-house.
 
-- **2020 – Avid Play Supports Dolby Atmos**:  
-  Avid Play became the first DIY music distribution service to support Dolby Atmos, enabling independent artists to release their music in this format.
+**Takeaway**
+Always deliver the **ADM BWF master** as your definitive Atmos source — it’s what streaming services expect and what ensures consistent, future-proof rendering across devices.
 
-- **2021 – Lucid Air Equipped with Dolby Atmos**:  
-  The Lucid Air became the first car equipped with a Dolby Atmos sound system, bringing immersive audio to the automotive world.
+{{%/ note %}}
 
-- **2021 – Apple Music Supports Dolby Atmos Music**:  
-  Apple Music introduced support for Dolby Atmos, allowing listeners to experience spatial audio across their devices.
 
+---
+
+## Rendering, Not Downmixing
+
+* Speaker rendering adapts to any layout
+* It’s object-aware, not a blind fold-down
+* Same master serves cinema, home, mobile, and headphones
+
+{{% note %}}
+I’ll emphasize that Atmos rendering isn’t a simple static downmix. It uses the objects’ positions and sizes to compute how much goes to each available speaker at playback time. That’s why the same ADM master can target a 64-speaker cinema or a 7.1.4 living room—and also why headphone binaural can preserve intent. ([Dolby Professional][1])
 {{%/ note %}}
 
 ---
 
-## Key aspects of Dolby Atmos
+## Binaural Rendering (Headphones)
 
-- Workflow
-- Immersive Sound
-- Object-based Format
-- Speaker Rendering
-- Speaker Virtualization
-- Binaural Rendering
-- Single Format Serves It All
-- Dolby Atmos Everywhere
-
----
-
-**Workflow**
-
-<!-- ![](daw.png) ->  ![](renderer.png) ->  ![](panner.png) -> ![](pan-transmission.png) -->
-
-<div style="display: flex; align-items: center; justify-content: center; font-size: 24px;">
-    <div style="text-align: center;">
-        <img src="daw.png" alt="DAW" style="max-width: 250px;">
-        <p>DAW</p>
-    </div>
-    <span>&#8594;</span>
-    <div style="text-align: center;">
-        <img src="renderer.png" alt="Renderer" style="max-width: 250px;">
-        <p>Renderer</p>
-    </div>
-    <span>&#8594;</span>
-    <div style="text-align: center;">
-        <img src="panner.png" alt="Panner" style="max-width: 250px;">
-        <p>Panner</p>
-    </div>
-    <span>&#8594;</span>
-    <div style="text-align: center;">
-        <img src="pan-transmission.png" alt="Pan Transmission" style="max-width: 250px;">
-        <p>Pan Transmission</p>
-    </div>
-</div>
-
-
-
+* Per-object binaural modes: Off, Near, Mid, Far
+* Used for Atmos on headphones (Apple Music, Tidal, etc.)
+* Optional personalized HRTF on Apple devices
 
 {{% note %}}
-**Creating Atmos Mix with Your DAW:**
-
-- **DAW Compatibility**: The good news is that you can utilize your favorite Digital Audio Workstation (DAW) for creating your Dolby Atmos Mix. This means you can continue to use the same editing and signal processing tools you're already familiar with.
-
-**Utilizing the Dolby Atmos Renderer:**
-
-- **Output Routing**: Instead of directing your audio to a traditional 2-channel or multichannel output bus within your DAW, you will route up to 128 audio Dolby Atmos channels to a specialized software application known as the Dolby Atmos Renderer. This step is essential for creating a truly immersive audio experience.
-
-**3D Panning for Positioning:**
-
-- **3D Panner**: On each track within your DAW, you'll utilize either the built-in 3D Panner (if available in your DAW) or the Dolby Atmos Music Panner Plugin. These tools are crucial for precisely positioning each track within the three-dimensional space of the Dolby Atmos soundscape.
-
-**Transmission of Pan Data:**
-
-- **Metadata Transmission**: The positioning information generated by the 3D Panner is not directly embedded into the audio signal itself. Instead, it is transmitted as separate metadata, similar to GPS coordinates, accompanying the audio signal that is routed to the Dolby Atmos Renderer. This metadata ensures that each audio element is correctly placed within the immersive audio environment, allowing for a dynamic and enveloping listening experience.
-
+Binaural is part of the official authoring flow. For each bed channel and object you can set binaural mode to adjust apparent distance. Most streaming headphone experiences respect these metadata. On Apple devices there’s also Personalized Spatial Audio: users scan ear/head geometry for a custom HRTF. I’ll demo both. ([Dolby Professional Support][2])
 {{%/ note %}}
 
 ---
 
-<div style="display: flex; justify-content: center; align-items: center;">
-    <div style="text-align: center;">
-        <img src="object-audio-r.png" alt="Object Audio Renderer (OAR)" style="max-width: 300px;">
-        <p>Object Audio Renderer (OAR)</p>
-    </div>
-    <div style="text-align: center;">
-        <img src="master-file.png" alt="Dolby Atmos Master File" style="max-width: 300px;">
-        <p>Dolby Atmos Master File</p>
-    </div>
-</div>
+## Delivery Formats at a Glance
+
+* Streaming: Dolby Digital Plus JOC (object metadata inside DD+)
+* Disc: Dolby TrueHD with Atmos metadata
+* Broadcast: Dolby AC-4 (ATSC 3.0/NEXTGEN TV)
+* Cinema: SMPTE IAB (Immersive Audio Bitstream) in DCP/IMF
+* Apple TV 4K: Dolby MAT for Atmos to AVR/soundbar
 
 {{% note %}}
-**Dolby Atmos Object Audio Renderer (OAR):**
+Quick mapping:
 
-- *Speaker Configuration*: When working with Dolby Atmos, your studio speakers, including height speakers for a more immersive experience, are connected to the output of the Dolby Atmos Renderer.
-- *Real-time Processing*: The key innovation lies in the Dolby Atmos Renderer software. It processes the 128 audio signals along with their individual pan information in real-time. This processing creates a true 3D sound field, ensuring that audio objects are accurately positioned in space. This 3D audio can be experienced either through the studio's speakers or as a 2-channel headphone mix using Binaural Rendering, which mimics the spatial perception of speakers even when using headphones.
-
-**Dolby Atmos Master File:**
-
-- *Recording the Atmos Mix*: In the context of Dolby Atmos, rather than the traditional practice of "bouncing" the mix to a standard WAV file, you "record" the Atmos Mix to a specialized Dolby Atmos Master File.
-- *Preserving Separation*: The Dolby Atmos Master File retains the crucial separation of the 128 audio signals and their associated panning information. This separation is essential for maintaining the flexibility to make adjustments or record additional content "over" specific sections of the file. Essentially, it allows for ongoing editing and enhancements while preserving the integrity of the original audio signals and spatial data.
-
+• Streaming apps typically use DD+ JOC; the JOC extension carries object info for the renderer. ([Dolby Professional Support][8])
+• Blu-ray/UHD uses TrueHD, often with Atmos metadata embedded. ([Dolby Professional][9])
+• U.S. broadcast via ATSC 3.0 uses AC-4; the spec supports up to 7.1.4 and objects. ([Digital Trends][3])
+• Digital cinema has moved toward SMPTE IAB; Atmos rooms play IAB tracks. Labeling is shifting from “ATMOS” to “IAB” in many workflows. ([registry-page.isdcf.com][10])
+• Apple TV 4K outputs Atmos as Dolby MAT (uncompressed PCM with metadata) over HDMI to a compatible AVR or soundbar. ([Apple Support][11])
 {{%/ note %}}
 
 ---
 
-- Open Master File: ![](open-master.png)
-- Delivery files
+## Where You’ll Hear Atmos Today
+
+* Cinema, streaming originals, and discs
+* Major live sports and events in Atmos
+* Games on Xbox and PS5
+* Automotive systems
+* Music catalogs on Apple Music, Tidal, Amazon Music
 
 {{% note %}}
-**Dolby Atmos Master Files: Unleashing the Full Potential of Immersive Audio**
+Examples to cite in class:
 
-Dolby Atmos Master Files play a pivotal role in delivering immersive audio experiences that captivate audiences in various media forms, from cinema to home entertainment. These master files represent a significant advancement in audio technology, allowing sound professionals to harness the full potential of spatial audio. Let's delve into the world of Dolby Atmos Master Files, exploring their significance, characteristics, and applications.
-
-**Defining Dolby Atmos Master Files**
-
-- *Spatial Audio Mastery*: Dolby Atmos Master Files are specialized audio files meticulously crafted to preserve the intricacies of immersive audio experiences. They encapsulate the spatial dimension, allowing sound objects to move dynamically through a three-dimensional sound field.
-
-**Key Features and Components**
-
-- *Audio Objects*: These master files encapsulate not only audio channels but also individual audio objects. Audio objects are discrete sound elements that can be dynamically positioned and moved within the 3D audio environment. Each object has its own metadata describing its spatial location and motion.
-
-- *Panning Information*: Crucially, Dolby Atmos Master Files retain the panning information for audio objects. This information defines precisely where each sound element should be located within the three-dimensional space.
-
-- *Flexibility and Post-Production*: One of the defining characteristics of Dolby Atmos Master Files is their flexibility. Sound professionals can make adjustments, add new audio objects, or modify the spatial placement of existing ones without compromising audio quality. This flexibility is especially valuable in post-production, where fine-tuning audio for different playback systems and environments is essential.
-
-**Applications**
-
-- *Cinema Soundtracks*: In the realm of cinema, Dolby Atmos Master Files are used to create captivating and immersive soundtracks. The ability to precisely position audio objects in a 3D space enhances the movie-watching experience, immersing viewers in the action and storytelling.
-
-- *Home Entertainment*: Dolby Atmos Master Files have also made their way into home entertainment systems, enabling consumers to enjoy cinematic audio experiences in the comfort of their homes. High-end soundbars, AV receivers, and compatible streaming services support Dolby Atmos playback, bringing the magic of immersive audio to living rooms.
-
-- *Gaming and Virtual Reality*: The gaming industry has embraced Dolby Atmos to provide players with heightened spatial awareness and immersive gameplay experiences. In virtual reality (VR) environments, the use of Dolby Atmos Master Files contributes to a more realistic and engaging audio landscape.
-
-**Conclusion**
-
-Dolby Atmos Master Files represent a paradigm shift in audio production and playback. They empower sound professionals to create immersive and dynamic audio experiences that transcend traditional stereo or multichannel formats. As technology continues to evolve, the role of Dolby Atmos Master Files in shaping the future of audio entertainment remains pivotal, offering audiences an unparalleled auditory journey through the realms of storytelling, gaming, and beyond.{{%/ note %}}
-
----
-
-- Encoded Bitstream Files
-- Consumer Playback
-  ![](consumer-playback.png)
-
-{{% note %}}
-Dolby Atmos Master Files and Dolby Atmos Bitstream Files are distinct components of the Dolby Atmos audio ecosystem, serving different purposes and stages of the audio production and distribution process. Let's explore the key differences between the two:
-
-**Dolby Atmos Bitstream Files:**
-
-1. **Distribution Stage**: Dolby Atmos Bitstream Files are the encoded audio files that are distributed to consumers for playback. They are derived from Dolby Atmos Master Files but are optimized for specific playback systems.
-
-2. **Encoded Format**: Bitstream files are encoded representations of the audio objects and metadata found in Dolby Atmos Master Files. They are compressed to reduce file size and are compatible with various delivery formats, including Blu-ray discs, streaming services, and gaming platforms.
-
-3. **Metadata Preservation**: While bitstream files retain essential metadata for audio object positioning, they may not provide the same level of flexibility as Dolby Atmos Master Files in terms of real-time adjustment and dynamic mixing.
-
-4. **Playback Compatibility**: Bitstream files require a compatible Dolby Atmos playback system for proper decoding and rendering. This includes Dolby Atmos-enabled AV receivers, soundbars, headphones, or dedicated home theater setups.
-
-5. **Consumer Experience**: Consumers can enjoy immersive audio experiences using Dolby Atmos Bitstream Files, as the encoded audio objects are rendered in real-time to match the capabilities of their playback equipment.
-
-In summary, Dolby Atmos Master Files are the source files used during audio production and offer maximum flexibility for sound professionals, while Dolby Atmos Bitstream Files are encoded versions optimized for distribution and playback on compatible systems, providing consumers with immersive and dynamic audio experiences.
+• Comcast carried Super Bowl LIX in Dolby Atmos; Peacock now streams weekly Sunday Night Football in Atmos. ([The Verge][12])
+• Xbox Series X|S has long supported Atmos; PS5 added Atmos output for games in 2023.
+• Automakers like Lucid ship Atmos systems.
+• Apple Music, Amazon Music, and Tidal carry Atmos music catalogs. Spotify still doesn’t offer native spatial/Atmos as of 2025. ([Apple][13])
 {{%/ note %}}
 
 ---
 
-## Three tasks of the Dolby Atmos Renderer
+## DAW Support 
 
-- Mixing
-- Recording
-- Exporting
-
----
-
-![](mixing.png)
+* Pro Tools Studio/Ultimate: integrated Dolby Atmos Renderer (2023.12+)
+* Nuendo: internal Atmos authoring, 9.1.6 support, external renderer optional
+* Logic Pro: built-in Atmos plugin and export workflow
 
 {{% note %}}
-The Dolby Atmos Renderer plays a crucial role in the production and distribution of immersive audio experiences. It performs three key tasks: mixing, recording, and exporting. Let's delve into each of these tasks to understand their significance:
-
-1. **Mixing**:
-   - **Positioning Audio Objects**: One of the primary functions of the Dolby Atmos Renderer is to mix audio objects within a three-dimensional sound field. These audio objects can represent individual sound elements, such as dialogue, music instruments, or environmental sounds.
-   - **Spatial Placement**: The Renderer allows sound engineers to precisely position audio objects in a 3D space. This spatial placement is achieved by leveraging metadata associated with each object, specifying its location and movement within the sound field.
-   - **Immersive Sound**: By mixing audio objects in this way, the Renderer creates a truly immersive audio experience. Sound can come from all directions, including above and below the listener, resulting in a lifelike and engaging auditory environment.
-   - **Real-time Adjustment**: Sound professionals can make real-time adjustments to audio object positions and movements during the mixing process, providing fine control over the spatial aspects of the audio.
-
-
+Pro Tools’ built-in renderer removed the external round-trip; 2024 updates added custom live re-renders. Nuendo 13 supports 9.1.6 channel config and internal authoring, with external renderer connectivity for advanced workflows. Logic Pro has offered a built-in Dolby Atmos plugin since 10.7 with clear bed/object tools. I’ll show all three briefly. ([Avid][6])
 {{%/ note %}}
 
 ---
 
-![](recording.png)
+## Dolby Atmos Composer – Fiedler Audio
+
+* [fiedler-audio.com/dolby-atmos-composer/](https://fiedler-audio.com/dolby-atmos-composer/)
+* “Produce Dolby Atmos content on any DAW”
+* Key features:
+  * Objects & beds routing, export ADM BWF compatible. 
+  * Works in DAWs that do *not* have native multichannel support. 
+  * Version 1.6 introduces OBAM for full 128-channel master bus processing. 
 
 {{% note %}}
-2. **Recording**:
-
-   - **Dolby Atmos Master Files**: Rather than traditional audio "bouncing" or rendering to a standard audio format like WAV, the Dolby Atmos Renderer is used to "record" the audio mix into a specialized format known as a Dolby Atmos Master File.
-
-   - **Preserving Separation**: Dolby Atmos Master Files retain the individual audio objects and their associated metadata. This preservation of separation is crucial for post-production flexibility and ensuring that the 3D audio experience remains intact.
-
-   - **Section Recording**: Sound engineers can record specific sections of the audio mix or extend the master file to accommodate additional content. This flexibility allows for future adjustments and enhancements without the need to recreate the entire mix.
-   - 
-
+* Introduce the tool:
+  “Here’s a workflow alternative to the standard DAW + Dolby Atmos Renderer route. Fiedler Audio’s Dolby Atmos Composer lets you author, monitor, and export Atmos mixes from virtually any DAW.”
+* Why it matters:
+  • Many DAWs (especially in music production) still have limited multichannel routing support. The Composer bridges that gap. ([Sound on Sound][2])
+  • For students working in studios without dedicated Atmos rooms or full rendering chains, this offers a more accessible entry point for immersive mixing.
+* Core workflow explanation:
+  • Use the **Beam** plugin to send track audio + metadata (objects or bed assignments) into the Composer environment. ([Dolby Professional Support][1])
+  • In the Composer interface you select bed vs object roles, layout, monitoring format, and export to ADM BWF for delivery. ([Fiedler Audio][4])
+* Key distinctions:
+  • Full version vs Essential: the “Essential” version offers basic Atmos workflows; full version adds advanced monitoring, 128 channels, OBAM, etc. ([Bedroom Producers Blog][5])
+  • The tool is approved by Dolby Labs, making exports compliant with standard Atmos delivery workflows. ([Fiedler Audio][6])
+* Classroom tie-in:
+  • Ask students: “Given our workflow constraints (e.g., stereo DAW, headphones only), how might Composer change your approach to an immersive project?”
+  • For a practical lab: Have students install the demo version of Composer, route a stereo track via Beam, mark it as object vs bed in Composer, export an ADM BWF, and compare playback in projected stereo vs binaural headphones.
 {{%/ note %}}
 
 ---
 
-![](exporting.png)
+## Current Developments (2024–2025)
+
+* Dolby Atmos Renderer v5.0 released with updated licensing and docs
+* Broadcast/streaming: more live sports in Atmos
+* Open standard push: IAMF and Google/Samsung Eclipsa Audio for YouTube/TVs
+* Apple platform: ASAF/APAC for spatial and positional audio across iOS/tvOS/visionOS
+* Cinema exchange: increased use of SMPTE IAB labeling/workflows
 
 {{% note %}}
+A concise industry briefing for students:
 
-1. **Exporting**:
-
-   - **Delivery Formats**: After the mixing and recording processes, the Dolby Atmos Renderer can export the audio content into various delivery formats suitable for distribution. These formats may include Dolby Atmos bitstream files for Blu-ray discs, streaming platforms, or gaming consoles.
-
-   - **Compatibility**: The exported files are optimized for specific playback systems and are encoded to ensure compatibility with Dolby Atmos-enabled devices. This encoding ensures that the audio objects are rendered correctly in real-time during playback.
-
-   - **Consistency**: Exporting audio content in Dolby Atmos formats maintains consistency with the original immersive audio experience created during mixing. It ensures that consumers can enjoy the same level of immersion and spatial accuracy when playing back the content on compatible systems.
-
-In conclusion, the Dolby Atmos Renderer is a vital tool in the production and distribution of immersive audio content. It handles mixing to create immersive soundscapes, recording to preserve separation and flexibility, and exporting to deliver the content in formats suitable for various playback systems, ultimately enhancing the audio experience for audiences in cinema, home entertainment, gaming, and more.
-
+• Dolby released Atmos Renderer v5.0 with updated distribution and support materials; creators can upgrade from Production/Mastering Suite. ([Dolby Professional Support][14])
+• Live sports: Atmos is becoming table stakes—Super Bowl LIX via Comcast, weekly SNF on Peacock, plus Olympics/other events trend toward object-based delivery. ([The Verge][12])
+• Open standards: the IAMF spec under the AOMedia umbrella underpins Samsung/Google’s new “Eclipsa Audio,” positioned as an Atmos alternative for YouTube and 2025 TVs/soundbars. This is meaningful for students shipping content to open platforms. ([The Verge][15])
+• Apple’s WWDC 2025 quietly introduced ASAF (Apple Spatial Audio Format) and APAC (Apple Positional Audio Codec) for head-tracked immersive on Apple devices and visionOS; not an instant Atmos replacement, but important on Apple platforms. ([TechRadar][16])
+• In cinema, Atmos playback supports SMPTE IAB; many workflows now label tracks “IAB” rather than “ATMOS.” Students should recognize both terms in DCP/IMF deliverables. ([registry-page.isdcf.com][10])
 {{%/ note %}}
 
 ---
 
-## Immersive Sound
+#### Services Snapshot
 
-- *Immersive Sound Format*
-- *Beyond 2-Dimensional Sound*
-- *Sound Emanating from Above*
-- *Surrounded and Immersed*
+* Apple Music, Tidal, Amazon Music: Atmos catalogs
+* Spotify: no native spatial/Atmos as of 2025
 
 {{% note %}}
-**Dolby Atmos: Revolutionizing Immersive Sound**
-
-- *Immersive Sound Format*: Dolby Atmos represents a groundbreaking advancement in audio technology, offering an immersive sound format that transcends traditional audio setups.
-
-- *Beyond 2-Dimensional Sound*: What sets Dolby Atmos apart is its ability to extend sound beyond the confines of a 2-dimensional space. Unlike conventional 5.1 or 7.1 audio configurations that primarily surround the listener with speakers at ear level, Dolby Atmos takes it a step further.
-
-- *Sound Emanating from Above*: In Dolby Atmos setups, sound is not limited to speakers at ear level; it can also emanate from speakers positioned above the listener. This addition of overhead sound sources introduces a third dimension to the auditory experience.
-
-- *Surrounded and Immersed*: This distinctive feature means that listeners are not merely surrounded by sound; they are truly immersed in it. It creates a sensory experience where audio elements can originate from all around and even above, offering a heightened level of realism and immersion.
+Students always ask: “Does Spotify have Atmos?” Not yet, officially. There are OS-level “spatialize stereo” tricks, but those are not true Atmos. This helps them pick targets for capstone releases. ([Apple][13])
 {{%/ note %}}
 
----
-
-## Height Speakers
-
-![](2d-vs-3d.png)
-
----
-
-## How many speakers?
-
-![](speakers.png)
-
-{{% note %}}
-**Dolby Atmos Speaker Configurations: Options for Immersive Sound**
-
-- *Immersive Sound Requires Speaker Immersion*: Achieving an immersive sound experience necessitates being immersed in speakers, where audio surrounds the listener, creating a captivating sensory experience.
-
-- *Traditional Surround Formats*: Conventional surround sound formats typically utilize approximately six to ten speakers, providing a basic level of immersion by positioning speakers in front, on the sides, and in the back of the listener.
-
-- *Dolby Atmos Extends Possibilities*: Dolby Atmos takes immersive audio to the next level by supporting up to 64 separate speaker channels. These speakers can be strategically mounted not only in the typical front, sides, and back locations but also on the ceiling, introducing the crucial overhead dimension.
-
-- *Adaptability with Other Configurations*: Recognizing that not everyone can accommodate 64 speakers, Dolby Atmos offers adaptable configurations and innovative technological solutions. These configurations and "technological tricks" ensure that immersive audio experiences can be enjoyed even with more manageable speaker setups, making the technology accessible to a broader audience.
-{{%/ note %}}
-
----
-
-# Object-based Format
-
----
-
-## Channel-based mixing
-
-![](channel-based-mixing.png)
-
-{{% note %}}
-What we used in the previous month:
-
-**Challenges of Traditional Speaker Representation in Stereo and Surround Formats**
-
-- *Single Channel per Speaker*: In stereo and traditional surround sound formats, each individual speaker is represented by a dedicated channel, which is managed through your output busses.
-
-- *Routing and Mixing Specific to Speakers*: This approach requires routing, panning, and mixing your audio tracks to specific speakers, making it necessary to precisely control the audio distribution across these channels.
-
-- *Lack of Scalability*: Using a single channel per speaker is not scalable, meaning it becomes impractical when dealing with a large number of speakers. Adding more speakers for increased surround resolution adds complexity without making the system easily adaptable to other formats.
-
-- *Limited Flexibility*: Traditional speaker representation lacks flexibility since it does not readily adjust to varying speaker configurations or adapt to different audio formats. This rigidity can be a limitation in optimizing audio experiences.
-{{%/ note %}}
-
----
-
-## Object-based mixing
-
-- *Object-Based Track Assignment*
-- *3D Positioning*
-- *Metadata for Position*
-- *Rendering with Object Audio Renderer*
-- *Mixing to Location, Not Speaker*
-
-{{% note %}}
-**Dolby Atmos: Object-Based Audio Mixing and Playback**
-
-- *Object-Based Track Assignment*: In a Digital Audio Workstation (DAW), audio tracks are assigned to "Objects." This shift from traditional channels to objects is a fundamental aspect of Dolby Atmos audio production.
-
-- *3D Positioning*: The essence of Dolby Atmos lies in the ability to position audio signals precisely within a 3D space. Instead of thinking about directing sound to a specific speaker, audio professionals focus on placing the audio at a specific location in this three-dimensional soundscape.
-
-- *Metadata for Position*: This positional data is crucial and is stored as metadata known as "Object Audio Metadata" within the audio file. It includes information about the object's position and movement in the 3D space.
-
-- *Rendering with Object Audio Renderer*: During playback, the audio rendering process uses this metadata, often referred to as XYZ information, to reproduce the mix on a particular set of speakers. This process, known as "Rendering," is carried out by the "Object Audio Renderer," ensuring that audio objects are placed accurately within the listener's space.
-
-- *Mixing to Location, Not Speaker*: In Dolby Atmos, the fundamental shift is that audio professionals mix to a specific location in the 3D space rather than targeting a particular speaker. This approach allows for a more dynamic and immersive audio experience, as sound objects can move freely throughout the 3D environment, creating a lifelike auditory landscape.
-{{%/ note %}}
-
----
-
-### How Dolby Atmos Handles Object-Based Audio in 3D Space
-
-![](object-based-mixing.png)
-
-{{% note %}}
-
-1. **Tracks (Vocals, Guitars, Drums)**:  
-   Each track represents an audio element (e.g., vocals, guitars, drums) that is part of the overall sound mix. These tracks are treated as individual audio objects.
-
-2. **Panning as Metadata (XYZ Coordinates)**:  
-   The position of each audio object is defined by XYZ coordinates, which represent spatial metadata. These coordinates determine the object’s position in a 3D sound field, allowing the audio to move dynamically within the space.
-
-3. **Object Audio Renderer (OAR)**:  
-   The OAR is responsible for rendering the spatial audio. It takes the audio objects and their positional metadata (XYZ coordinates) and converts them into a spatial audio experience that can be played through multiple speakers in a 3D space.
-
-4. **XYZ Coordinates (3D Space)**:  
-   The XYZ axes represent the 3D space where audio objects are positioned. X refers to horizontal (left-right) movement, Y to vertical (up-down) movement, and Z to depth (front-back), creating a fully immersive sound environment.
-
-5. **Objects**:  
-   Each audio element, like vocals, guitars, and drums, is treated as an independent object. This allows them to be moved freely within the sound field without being tied to a specific speaker channel.
-
-6. **Metadata Handling**:  
-   The metadata (panning and position) for each object is continuously updated, ensuring that the sound moves naturally through the environment according to the listener’s perspective.
-
-7. **Independent Object Manipulation**:  
-   By treating each sound as an object, Dolby Atmos allows for more precise and flexible sound placement compared to traditional channel-based systems, where sounds are fixed to specific speakers.
-
-8. **Multiple Speakers Output**:  
-   The object audio renderer sends the audio signals to multiple speakers arranged around the listener. Dolby Atmos systems can support various speaker configurations, including those with height channels, to enhance the immersive experience.
-
-{{%/ note %}}
-
----
-
-### **Dolby Atmos Speaker Rendering: Expanding Compatibility**
-
-- *Incompatibility of Existing Surround Formats*
-- *Challenge of Adding More Speakers*
-- *Magic of Dolby Atmos: Speaker Rendering*
-
-{{% note %}}
-**Dolby Atmos Speaker Rendering: Expanding Compatibility**
-
-- *Incompatibility of Existing Surround Formats*: Traditional surround formats like 5.1 and 7.1 have a significant limitation – they only deliver their intended experience when played back on a speaker setup that matches the exact configuration in which they were mixed. This constraint restricts their usage to specialized movie theaters and dedicated home theater setups with the necessary space and financial resources.
-
-- *Challenge of Adding More Speakers*: Simply adding more speakers to an immersive sound format would exacerbate the problem. It would still confine the format to movie theaters and make it even less practical for typical home theaters.
-
-- *Magic of Dolby Atmos: Speaker Rendering*: Dolby Atmos introduces a groundbreaking solution known as "Speaker Rendering." This innovation is one of the key ingredients that sets Dolby Atmos apart. It addresses the compatibility issue by dynamically adapting the audio playback to the specific speaker configuration available, whether it's a state-of-the-art movie theater or a modest home theater system. This adaptability ensures that the Dolby Atmos experience remains accessible and enjoyable across a wide range of playback setups.
-{{%/ note %}}
-
----
-
-<img src="speaker-rendering.png" alt="Speaker Rendering Image" style="max-width: 300px; float: left; margin-right: 20px;"></img>
-
-- *Adaptive Speaker Rendering*
-- *Versatile Playback*
-- *Optimizing Smaller Setups*
-- *Accessible in Home Devices*
-- *Intelligent Adaptation*
-
-{{% note %}}
-
-- *Adaptive Speaker Rendering*: Let's assume a movie is mixed on a big dubbing stage with a substantial Dolby Atmos configuration featuring up to 64 speaker channels.
-
-- *Versatile Playback*: When this mix is played back in a big theater equipped with the same 64-speaker setup, it reproduces the audio faithfully. However, when the same mix is played in a smaller multiplex theater with only 20 speakers, Dolby Atmos employs its "rendering" capabilities. This process adapts the audio from 64 speakers to the available 20, ensuring that the immersive experience is maintained. For instance, a signal initially intended for both front and back height speakers is intelligently reconfigured for a single height speaker if necessary.
-
-- *Optimizing Smaller Setups*: Dolby Atmos extends its adaptability further. If the mix is played on an even smaller speaker setup, the system dynamically adjusts to replicate the immersive sound experience as closely as possible on the available speakers.
-
-- *Accessible in Home Devices*: The remarkable "Speaker Rendering" capability is not limited to large theaters. It's seamlessly integrated into any home Dolby Atmos playback device. Whether you have an expensive home theater system, an Audio Video Receiver (AVR) in your living room, or even a computer, tablet, or smartphone, you can enjoy the benefits of this technology.
-
-**Not a Downmix!**
-
-- *Intelligent Adaptation*: The Speaker Rendering process may seem akin to a traditional downmix procedure, but it's far more intelligent and capable. This is because Dolby Atmos operates on an Object-based model, as opposed to the Channel-based approach used in conventional surround formats.
-
-{{%/ note %}}
-
----
-
-## Speaker Virtualization
-
-- Speaker Rendering: Using the panning data to route the audio signal to the speaker layout of the given room.
-- Speaker Virtualization: Alternative to multi-speaker setups
-  - Soundbars - [Samsung HW-Q90R](https://www.dolby.com/experience/sound-bars/hw-q90r/)
-  - Smart Speakers - [Amazon Echo Studio](https://www.amazon.com/Echo-Studio/dp/B07G9Y3ZMC)
-  - Computers
-  - Tablets and smart phones
-  - Binaural Rendering
-
-{{% note %}}
-**Speaker Rendering and Speaker Virtualization**
-
-- *Speaker Rendering*: In Dolby Atmos, speaker rendering involves using panning data to precisely route the audio signal to the speaker layout of the specific room or playback system. This process ensures that audio objects are accurately reproduced and positioned, creating an immersive listening experience tailored to the environment.
-
-- *Speaker Virtualization*: Speaker virtualization is an alternative approach to traditional multi-speaker setups, allowing immersive audio experiences in various playback devices, including:
-  - Soundbars, such as the [Samsung HW-Q90R](https://www.dolby.com/experience/sound-bars/hw-q90r/)
-  - Smart speakers, like the [Amazon Echo Studio](https://www.amazon.com/Echo-Studio/dp/B07G9Y3ZMC)
-  - Computers
-  - Tablets and smartphones
-  - Binaural Rendering
-
-- *Expanding Accessibility*: Speaker virtualization expands the accessibility of Dolby Atmos, making it available on a wide range of consumer devices, from compact soundbars and smart speakers to personal computing devices. It enables users to enjoy immersive audio without the need for elaborate multi-speaker configurations.
-{{%/ note %}}
-
----
-
-#### Single format
-
-![](single-format.png)
-
-{{% note %}}
-
-1. **Dolby Atmos Mixing (Studio Setup)**:  
-   Audio is mixed in a professional studio with a Dolby Atmos setup, where sound engineers create the object-based audio mix that can be adapted to different playback systems.
-
-2. **Dolby Atmos Core**:  
-   The object-based audio mix created in the Dolby Atmos system is flexible and can be re-rendered for different types of playback setups, ensuring compatibility with various formats.
-
-3. **Dedicated Speaker Playback**:  
-   For traditional surround sound systems, the Dolby Atmos mix can be played through configurations like 11.1, 7.1, or 5.1 surround, as well as stereo and binaural setups for headphones.
-
-4. **Speaker Systems**:  
-   The mix is played back through dedicated home theater speaker systems, like an AV receiver with surround speakers, which can support different audio configurations.
-
-5. **Speaker Virtualization**:  
-   Dolby Atmos also supports speaker virtualization, which allows devices like soundbars or smart speakers to simulate surround sound, even without a full speaker setup. This makes immersive audio more accessible to casual listeners.
-
-6. **Binaural Playback for Headphones**:  
-   For listeners using headphones, Dolby Atmos can convert the surround sound mix into a binaural format, providing a 3D audio experience over standard stereo headphones.
-
-7. **Re-Rendering**:  
-   The object-based mix can be re-rendered into different surround formats, such as 11.1, 7.1, 5.1, or stereo, depending on the playback device or environment.
-
-8. **Multi-Platform Output**:  
-   Dolby Atmos is designed to deliver high-quality audio across multiple platforms, including streaming services, physical media, and different playback devices, ensuring that the mix is tailored to the listener’s setup.
-
-{{%/ note %}}
-
----
-
-### Atmos Everywhere?
-
-- Cinema
-- Home Theater
-- Broadcast - sports events etc.
-- Games - binaural rendering, could use head-tracking. competes with Ambisonics
-- Cars - [Lucid Air](https://www.lucidmotors.com/air/connectivity)
-- Music
-- [Live Events](https://www.dolby.com/dolby-live-mgm/)
-
----
-
-## DAW support
-
-- Pro tools - the standard, tightest integration with the Dolby Atmos Renderer app.
-- Nuendo - the first DAW with Dolby Atmos Renderer built-into the DAW.
-- Logic Pro - limited support see Next Week
-- DaVinci, Pyramix
-- Other DAWs - can mix in Dolby Atmos using the Dolby Atmos Music Panner together with the Dolby Atmos Production Suite.
-
----
-
-![](purchase.png)
-
-{{% note %}}
-Immersive Audio: This is the latest battleground that started in 2019 when the streaming service Tidal and Amazon Music offered music mixed in Dolby Atmos on their streaming service. In June 2021, Apple Music raised the bar when they entered the Immersive Audio game with "Spatial Audio with support for Dolby Atmos". Unlike the other services that charge for a premium for Dolby Atmos, Apple made it available to all their 72 million subscribers at no extra cost.
-{{%/ note %}}
-
----
-
-## Choices for streaming Atmos music
-
-- Streaming services offering Dolby Atmos music:
-  - Apple Music
-  - Amazon Music HD
-  - Tidal 
-  - Spotify
-  - YouTube Music
-  - Netflix
-- [More](https://youtube.com/playlist?list=PLC4e6_QLepbQEtBut4QBo4n7f0CiLsLUP&si=xAMBktrewp1GqitQ)
-
-{{% note %}}
-Here are some of the major music streaming services that currently offer Dolby Atmos music streaming:
-
-- Apple Music - Apple Music has offered Dolby Atmos music streaming since June 2021. The Atmos catalog contains thousands of songs encoded in Dolby Atmos. It requires a compatible device.
-
-- Amazon Music HD - Amazon Music HD provides access to songs available in Dolby Atmos through their 3D audio catalog. An Amazon Music HD subscription is required.
-
-- Tidal HiFi - Tidal has a growing library of tracks in Dolby Atmos through its Tidal Masters catalog. It's available to Tidal HiFi subscribers.
-
-- Spotify - Spotify launched Spotify Premium users access to a selection of Dolby Atmos music content in June 2022. The Atmos experience is limited to certain content and devices. 
-
-- YouTube Music - YouTube Music provides a limited collection of songs available in Dolby Atmos for premium subscribers. Atmos playback requires compatible devices.
-
-- Netflix - The Netflix app allows streaming select Dolby Atmos content like films and live performances for users with Dolby Atmos enabled devices.
-
-- Windows Media Player - The Windows 11 Media Player app can play Dolby Atmos music files on compatible PCs through the Dolby Access app.
-
-So in summary, Apple Music, Amazon Music HD, Tidal, Spotify, YouTube Music and Netflix are the major streaming services expanding their libraries with Dolby Atmos music content. Device and subscription compatibility is required.
-{{%/ note %}}

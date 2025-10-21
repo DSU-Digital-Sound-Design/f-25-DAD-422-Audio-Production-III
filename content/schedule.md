@@ -194,7 +194,6 @@ author: ""
   - This is an option: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
   - Or we can pick a different song. 
 
-<!-- 
 ## Wednesday
 
 **Technical introduction to Dolby Atmos**
@@ -203,6 +202,7 @@ author: ""
 - [What is Dolby Atmos](../lectures/week-8/what-is-dolby-atmos/)
 
 
+<!-- 
 ## Friday
 
 
