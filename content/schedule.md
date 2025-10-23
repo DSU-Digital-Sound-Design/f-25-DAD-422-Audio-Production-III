@@ -206,50 +206,117 @@ author: ""
 
 
 - [Atmos with Logic X](../lectures/week-9/atmos-logic/)
+- Start mixing a song in Atmos using Logic Pro X.
 
-
-<!-- 
 # Week 10 (Oct 27)
 
 ## Monday
 
-- Start Mixing Aiguille Rouge 
+- Continue mixing the song 
 
-> Homework: Finish this mix on your own and submit to D2L. Review this video ([Getting Started with Dolby Atmos in Logic Pro - YouTube](https://www.youtube.com/watch?v=SU459dSa_a8)) for advice on how to use the Atmos functionality of Logic X. 
+## Wednesday
+
 - Show Lambs Movie project
   - [Download](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=xhLWbK)
-- Show 5.1 movie examples  
 - Talk about next project
   - Atmos mix of song 
   - Atmos mix of Lambs Movie project
 
 > Project [Atmos](../projects/atmos) - Due 11/14/25
 
-## Wednesday
+## Friday 
+
+### Focus: Commercial & Hybrid Systems  
+Explore full-featured or industry-standard spatial mixing software—compare interfaces, rendering algorithms, and export pipelines.  
+
+**Examples**  
+- Fielder Audio (360pan suite, Dolby Atmos tools)  
+- EAR Production Suite (BBC R&D / IRT)
+
+**Discussion Prompts**  
+- What distinguishes object-based from ambisonic rendering?  
+- How do these tools visualize spatial fields?  
+- What are the implications for film/game vs installation work?
+
+**Hands-On**  
+Render a short (10–20 s) multi-source spatial scene using Fielder or EAR and document workflow steps.
+
+# Week 11 (Nov 3)
+
+## Monday 
+
+### Focus: Particle-Based and Generative Systems  
+Examine systems that use emergent behaviors or particle logic for immersive design.  
+
+**Examples**  
+- Sound Particles (3D particle-based spatial engine)  
+- Compare with manual DAW automation or ambisonic trajectories.
+
+**Discussion Prompts**  
+- How does a particle-based workflow differ conceptually from traditional mixing?  
+- How can generative systems model ecological or crowd-based sound phenomena?  
+- What creative uses emerge in games, installations, or ambient soundscapes?
+
+**Hands-On**  
+Design a short swarm or field of sound sources in Sound Particles; export a stereo or binaural render.
 
 
-# Week 11 
+## Wednesday 
 
+### Focus: Open-Source & Academic Frameworks  
+Explore community-built systems that emphasize algorithmic transparency and flexibility.  
+
+**Examples**  
+- 2nd-Order Ambisonics with SPARTA (and Spatial Audio Framework)  
+- IEM Plugin Suite (optional supplement)
+
+**Discussion Prompts**  
+- Compare ambisonic orders and decoding quality.  
+- How do VBAP, DBAP, and HOA differ perceptually?  
+- Discuss trade-offs between open development and commercial polish.
+
+**Hands-On**  
+Use SPARTA or IEM plugins to encode and decode a 4-source ambisonic scene.  
+Render both binaural and multichannel outputs for comparison.
+
+
+## Friday 
+
+### Focus: Spatialization Servers & Real-Time Control  
+Investigate real-time engines that separate spatialization from authoring.  
+
+**Examples**  
+- SpatGRIS (2D/3D spatialization server, OSC-controlled)  
+- SoundScape Renderer (SSR) – http://spatialaudio.net/ssr/
+
+**Discussion Prompts**  
+- How does routing audio through an external spatialization server change workflow?  
+- Explore advantages for installations, performances, or mobile playback.  
+- Compare SpatGRIS and SSR in speaker layout flexibility.
+
+**Hands-On**  
+Create a small multichannel session in SpatGRIS or SSR, spatialize 3–5 sources, and route via OSC.
+
+
+# Week 12
 
 ## Monday
 
-- In class Atmos mixing to learn the basics
-  - We'll go through he project instructions and do a basic mix in class.
+### Focus: Authoring, Sequencing, and Integration  
+Use creative sequencing environments to structure spatial trajectories and integrate multiple systems.
 
-## Wednesday
+**Examples**  
+- Ossia Score (intermedia sequencer with spatial modules)  
+- Soundscaper-OSC (optional for interactive or locative work)
 
-- In class Atmos mixing to learn the basics
-  - We'll go through he project instructions and do a basic mix in class.
+**Discussion Prompts**  
+- How does temporal control differ from DAW automation?  
+- Discuss how these systems could drive SpatGRIS, SSR, or SPARTA via OSC.  
+- How might they support ecoacoustic or participatory projects?
 
-## Friday
-
-- [Atmos Movies](../lectures/week-11/atmos-movies/)
-
-# Week 12 
-
-## Monday
-
-- [Atmos Movie Examples](../lectures/week-11/atmos-movie-examples/)
+**Hands-On**  
+Compose a short (20–30 s) spatial sequence in Ossia Score, controlling either SpatGRIS or SSR in real time.  
+Document signal flow and export a render or live performance recording.
 
 ## Wednesday
 

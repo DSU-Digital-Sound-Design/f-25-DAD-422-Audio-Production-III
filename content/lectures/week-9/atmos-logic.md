@@ -10,8 +10,9 @@ In Logic, the bed is a 7.1.2 bus and any channel set to 3D Object becomes a disc
 
 ## Setup in Logic Pro
 
-- Project Settings → Audio → Spatial Audio → Enable Dolby Atmos.
-- Renderer: Built-in Dolby Atmos.
+- File → Project Settings → Audio
+- Sample Rate: 48kHz (standard for video/film)
+- Spatial Audio: Dolby Atmos
 - Bed format: 7.1.2. Monitoring format should match your room (e.g., 7.1, 7.1.4) or Binaural on headphones.
 - On each track, choose the panner you need:
   - Surround Panner = feeds the bed.
