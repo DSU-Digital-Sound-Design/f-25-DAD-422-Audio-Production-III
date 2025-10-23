@@ -202,20 +202,20 @@ author: ""
 - [What is Dolby Atmos](../lectures/week-8/what-is-dolby-atmos/)
 
 
-<!-- 
 ## Friday
 
 
 - [Atmos with Logic X](../lectures/week-9/atmos-logic/)
-- Start Mixing Aiguille Rouge 
-
-> Homework: Finish this mix on your own and submit to D2L. Review this video ([Getting Started with Dolby Atmos in Logic Pro - YouTube](https://www.youtube.com/watch?v=SU459dSa_a8)) for advice on how to use the Atmos functionality of Logic X. 
 
 
+<!-- 
 # Week 10 (Oct 27)
 
 ## Monday
 
+- Start Mixing Aiguille Rouge 
+
+> Homework: Finish this mix on your own and submit to D2L. Review this video ([Getting Started with Dolby Atmos in Logic Pro - YouTube](https://www.youtube.com/watch?v=SU459dSa_a8)) for advice on how to use the Atmos functionality of Logic X. 
 - Show Lambs Movie project
   - [Download](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=xhLWbK)
 - Show 5.1 movie examples  

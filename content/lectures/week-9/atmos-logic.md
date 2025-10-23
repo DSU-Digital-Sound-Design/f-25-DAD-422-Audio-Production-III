@@ -1,12 +1,23 @@
 ---
-title: "Dolby Atmos with Logic X"
+title: "Dolby Atmos with Logic Pro"
 ---
 
-## Implementation
+## Overview
 
-While Protools uses the standalone atmos renderer that we saw last week Logic uses a built in render. This is more convenient, but has drawbacks for the more professional user.
+Logic Pro includes a built-in Dolby Atmos renderer, so you can author, monitor, and bounce ADM without a separate app. Pro Tools also now includes an integrated renderer (in addition to workflows that use the external Dolby Atmos Renderer), so the main difference is workflow, not capability.
 
-# Channel Routing
+In Logic, the bed is a 7.1.2 bus and any channel set to 3D Object becomes a discrete object. Atmos supports up to 128 total channels: the 10-channel bed (7.1.2) plus up to 118 objects.
+
+## Setup in Logic Pro
+
+- Project Settings → Audio → Spatial Audio → Enable Dolby Atmos.
+- Renderer: Built-in Dolby Atmos.
+- Bed format: 7.1.2. Monitoring format should match your room (e.g., 7.1, 7.1.4) or Binaural on headphones.
+- On each track, choose the panner you need:
+  - Surround Panner = feeds the bed.
+  - 3D Object Panner = routes as an object (with per-object binaural render modes: Near, Mid, Far).
+
+## Channel Routing
 
 ## Mono Components vs. Stereo Components
 
@@ -24,7 +35,7 @@ These menus are dynamic and change depending on what audio interface you're conn
 
 ![](../surround-format.png)
 
-Changing the format here will change what each plugin can do. See the surround panner when changing surround formats, the speaker count changes.
+Changing the format here affects what each plugin and panner can do. When you set the project to a surround format (e.g., 7.1.2), the Surround Panner updates its speaker layout to match.
 
 ## I/O Assignments (Output/Speakers)
 
@@ -32,27 +43,33 @@ Changing the format here will change what each plugin can do. See the surround p
 
 ## Master Channel Strip
 
-Changing one track to surround mode updates your master channel strip.
+Enabling Atmos and switching tracks to surround/object updates the master channel strip and inserts the Dolby Atmos controls.
 
 ![](../surround-mode.png)
 
-In music mixing with Dolby Atmos, bed tracks and object tracks play essential roles in creating a three-dimensional and immersive audio experience for the listener. Here's how they are used in music production:
+## Beds vs. Objects (Music Mixing)
 
-## **Bed Tracks in Music Mixing:**
+Both bed and object tracks shape the 3D mix. Typical use in music:
 
-1. **Foundation and Atmosphere:** Bed tracks in music mixing serve as the foundation of the audio mix, much like in other audio productions. They provide the continuous background ambiance and atmosphere for the music. This can include elements like the main instrumentals, background vocals, and any ambient sounds that contribute to the mood and sonic environment of the song.
+### Bed tracks (7.1.2)
 
-2. **Stability and Consistency:** Bed tracks help maintain stability and consistency in the audio mix. They provide a stable backdrop for the music, ensuring that the listener has a sense of space and context throughout the song.
+- Foundation and stability for the mix; great for elements that should downmix predictably.
+- Use the Surround Panner to place bed elements in the 7.1.2 field.
+- Common bed candidates: drums, bass, main keys, pads, background vocals, FX beds.
 
-3. **Enhanced Spatialization:** While bed tracks are often more static than object tracks, they can still benefit from spatialization in Dolby Atmos. This means that even within the bed, individual elements can be positioned in three-dimensional space to create a more immersive listening experience. For example, you can position the lead vocals in front of the listener and the background vocals in the rear, creating a spatial separation that enhances the depth of the mix.
+### Object tracks
 
-**Object Tracks in Music Mixing:**
+- Discrete position and movement anywhere in 3D space via the 3D Object Panner.
+- Per-object binaural distance (Near/Mid/Far) for better headphone translation.
+- Useful for lead elements, featured instruments, ad-libs, ear-candy, and moments that move.
 
-1. **Dynamic Instrument Placement:** Object tracks in music mixing are particularly useful for dynamic instrument placement. Musicians and producers can use object tracks to position specific instruments or vocals in precise locations within the 3D sound space. This dynamic positioning can create a unique and immersive musical experience.
+Notes
 
-2. **Movement and Effects:** Object tracks can also be employed for creating movement and effects within the music. For example, you can make a guitar solo move around the listener, or you can use spatial effects like panning, auto-panning, and audio movement to add depth and excitement to the mix.
+- Keep critical anchors (kick, bass, lead vocal) either in the bed or as carefully managed objects to ensure downmixs remain solid.
+- The bed is fixed at 7.1.2; any height speakers beyond that are addressed with objects.
+- Total budget: 128 channels max (10 bed + up to 118 objects).
 
-3. **Enhanced Creativity:** Object tracks offer musicians and producers a new level of creativity in mixing. They can experiment with spatialization to emphasize certain musical elements, create unique soundscapes, or even tell a spatial audio story within the music itself.
+## Bounce and Delivery
 
-4. **Interaction with the Listener:** By using object tracks effectively, musicians can interact with the listener in novel ways. For instance, a musical element could start in one position and gradually move to another, drawing the listener's attention and enhancing the emotional impact of the music.
-
+- File → Bounce → Project or Section → Dolby Atmos ADM BWF for delivery.
+- Optionally also bounce a stereo downmix for reference. The renderer’s downmix may differ from a dedicated stereo mix.
