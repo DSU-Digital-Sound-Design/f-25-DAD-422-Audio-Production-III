@@ -204,14 +204,14 @@ author: ""
 
 ## Friday
 
-
-- [Atmos with Logic X](../lectures/week-9/atmos-logic/)
-- Start mixing a song in Atmos using Logic Pro X.
+- [Listening to Atmos from Apple Music](../lectures/week-9/atmos-apple-music/)
 
 # Week 10 (Oct 27)
 
 ## Monday
 
+- [Atmos with Logic X](../lectures/week-9/atmos-logic/)
+- Start mixing a song in Atmos using Logic Pro X.
 - Continue mixing the song 
 
 ## Wednesday
