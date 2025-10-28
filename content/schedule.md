@@ -216,17 +216,18 @@ author: ""
 
 ## Wednesday
 
-- Show Lambs Movie project
-  - [Download](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=xhLWbK)
-- Talk about next project
-  - Atmos mix of song 
-  - Atmos mix of Lambs Movie project
+- Continue mixing the song in Atmos using Logic Pro X.
 
 > Project [Atmos](../projects/atmos) - Due 11/14/25
 
 ## Friday 
 
-### Focus: Commercial & Hybrid Systems  
+- Show Lambs Movie project
+  - [Download](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=xhLWbK)
+- Talk about next project
+  - Atmos mix of song 
+  - Atmos mix of Lambs Movie project
+<!-- ### Focus: Commercial & Hybrid Systems  
 Explore full-featured or industry-standard spatial mixing software—compare interfaces, rendering algorithms, and export pipelines.  
 
 **Examples**  
@@ -239,7 +240,7 @@ Explore full-featured or industry-standard spatial mixing software—compare int
 - What are the implications for film/game vs installation work?
 
 **Hands-On**  
-Render a short (10–20 s) multi-source spatial scene using Fielder or EAR and document workflow steps.
+Render a short (10–20 s) multi-source spatial scene using Fielder or EAR and document workflow steps. -->
 
 # Week 11 (Nov 3)
 
