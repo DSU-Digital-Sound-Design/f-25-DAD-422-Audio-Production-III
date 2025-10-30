@@ -227,6 +227,7 @@ author: ""
 - Talk about next project
   - Atmos mix of song 
   - Atmos mix of Lambs Movie project
+  
 <!-- ### Focus: Commercial & Hybrid Systems  
 Explore full-featured or industry-standard spatial mixing software—compare interfaces, rendering algorithms, and export pipelines.  
 

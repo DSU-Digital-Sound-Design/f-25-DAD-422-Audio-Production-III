@@ -7,6 +7,7 @@ title: "Atmos Mix"
 For this project, you will create a Dolby Atmos mix in Logic Pro X. You have two options for source material:
 
 1. [Aiguille Rouge – Bebe Grand](https://cambridge-mt.com/ms/mtk/#BabeGrand)
+   1. Or pick a similarly difficult multitrack of your choice.
 2. [The Film Lambs](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=NOo8Rt)
 
 
@@ -34,26 +35,17 @@ By completing this project, you will:
 ### Session Configuration
 
 1. **Set Project Audio Format**
-
    * Go to `Preferences -> Audio` and set I/O to **24-bit, 48 kHz, 24 fps**.
-
 2. **Enable Spatial Audio**
-
    * Navigate to `Project Settings -> Audio -> General`.
    * Under “Spatial Audio,” select **Dolby Atmos**.
    * Set “Surround Format” to **7.1.2**.
-
 3. **Bed Tracks**
-
    * Use the Surround Panner for static, ambient, or foundational elements.
-
 4. **Object Tracks**
-
    * Use the 3D Object Panner for moving elements or those requiring strong locative presence.
    * Automate movement to support creative goals.
-
 5. **Monitoring**
-
    * Monitor in **7.1.4** via the Dolby Atmos Renderer plugin.
 
 ## Mixing Guidelines
@@ -69,7 +61,6 @@ Submit the following:
 1. Logic Pro X project folder with all media included.
 2. ADM BWF export of your final mix.
 3. Written reflection (1–2 paragraphs) addressing:
-
    * Your approach to bed vs. object allocation.
    * The reasoning behind your spatial automation choices.
    * Any technical challenges and how you solved them.
