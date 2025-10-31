@@ -223,6 +223,7 @@ author: ""
 ## Friday 
 
 - Show Lambs Movie project
+  - Do 7.1 mix in Reaper 
   - [Download](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=xhLWbK)
 - Talk about next project
   - Atmos mix of song 
