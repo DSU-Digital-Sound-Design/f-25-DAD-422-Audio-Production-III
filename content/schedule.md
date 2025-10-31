@@ -228,25 +228,21 @@ author: ""
 - Talk about next project
   - Atmos mix of song 
   - Atmos mix of Lambs Movie project
-  
-<!-- ### Focus: Commercial & Hybrid Systems  
-Explore full-featured or industry-standard spatial mixing software—compare interfaces, rendering algorithms, and export pipelines.  
-
-**Examples**  
-- Fielder Audio (360pan suite, Dolby Atmos tools)  
-- EAR Production Suite (BBC R&D / IRT)
-
-**Discussion Prompts**  
-- What distinguishes object-based from ambisonic rendering?  
-- How do these tools visualize spatial fields?  
-- What are the implications for film/game vs installation work?
-
-**Hands-On**  
-Render a short (10–20 s) multi-source spatial scene using Fielder or EAR and document workflow steps. -->
 
 # Week 11 (Nov 3)
 
 ## Monday 
+  
+### Focus: Commercial & Hybrid Systems  
+Explore full-featured or industry-standard spatial mixing software—compare interfaces, rendering algorithms, and export pipelines.  
+
+**Examples**  
+- Fielder Audio (360pan suite, Dolby Atmos tools) 
+  - [Dolby Atmos Composer Essential](https://fiedler-audio.com/dolby-atmos-composer-essential/) 
+- [EAR Production Suite (BBC R&D / IRT)](https://ear-production-suite.ebu.io/)
+
+
+## Wednesday 
 
 ### Focus: Particle-Based and Generative Systems  
 Examine systems that use emergent behaviors or particle logic for immersive design.  
@@ -262,10 +258,6 @@ Examine systems that use emergent behaviors or particle logic for immersive desi
 
 **Hands-On**  
 Design a short swarm or field of sound sources in Sound Particles; export a stereo or binaural render.
-
-
-## Wednesday 
-
 ### Focus: Open-Source & Academic Frameworks  
 Explore community-built systems that emphasize algorithmic transparency and flexibility.  
 
