@@ -244,20 +244,12 @@ Explore full-featured or industry-standard spatial mixing software—compare int
 
 ## Wednesday 
 
-### Focus: Particle-Based and Generative Systems  
-Examine systems that use emergent behaviors or particle logic for immersive design.  
+- [Sound Partiicles](https://soundparticles.com/) - 3D audio software for immersive sound design and mixing.
 
-**Examples**  
-- Sound Particles (3D particle-based spatial engine)  
-- Compare with manual DAW automation or ambisonic trajectories.
 
-**Discussion Prompts**  
-- How does a particle-based workflow differ conceptually from traditional mixing?  
-- How can generative systems model ecological or crowd-based sound phenomena?  
-- What creative uses emerge in games, installations, or ambient soundscapes?
 
-**Hands-On**  
-Design a short swarm or field of sound sources in Sound Particles; export a stereo or binaural render.
+## Friday 
+
 ### Focus: Open-Source & Academic Frameworks  
 Explore community-built systems that emphasize algorithmic transparency and flexibility.  
 
@@ -273,9 +265,6 @@ Explore community-built systems that emphasize algorithmic transparency and flex
 **Hands-On**  
 Use SPARTA or IEM plugins to encode and decode a 4-source ambisonic scene.  
 Render both binaural and multichannel outputs for comparison.
-
-
-## Friday 
 
 ### Focus: Spatialization Servers & Real-Time Control  
 Investigate real-time engines that separate spatialization from authoring.  
