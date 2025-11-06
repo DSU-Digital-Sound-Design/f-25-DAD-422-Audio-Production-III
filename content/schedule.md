@@ -250,37 +250,7 @@ Explore full-featured or industry-standard spatial mixing software—compare int
 
 ## Friday 
 
-### Focus: Open-Source & Academic Frameworks  
-Explore community-built systems that emphasize algorithmic transparency and flexibility.  
-
-**Examples**  
-- 2nd-Order Ambisonics with SPARTA (and Spatial Audio Framework)  
-- IEM Plugin Suite (optional supplement)
-
-**Discussion Prompts**  
-- Compare ambisonic orders and decoding quality.  
-- How do VBAP, DBAP, and HOA differ perceptually?  
-- Discuss trade-offs between open development and commercial polish.
-
-**Hands-On**  
-Use SPARTA or IEM plugins to encode and decode a 4-source ambisonic scene.  
-Render both binaural and multichannel outputs for comparison.
-
-### Focus: Spatialization Servers & Real-Time Control  
-Investigate real-time engines that separate spatialization from authoring.  
-
-**Examples**  
-- SpatGRIS (2D/3D spatialization server, OSC-controlled)  
-- SoundScape Renderer (SSR) – http://spatialaudio.net/ssr/
-
-**Discussion Prompts**  
-- How does routing audio through an external spatialization server change workflow?  
-- Explore advantages for installations, performances, or mobile playback.  
-- Compare SpatGRIS and SSR in speaker layout flexibility.
-
-**Hands-On**  
-Create a small multichannel session in SpatGRIS or SSR, spatialize 3–5 sources, and route via OSC.
-
+- [Advanced Ambisonics and Spatial Audio](../lectures/week-11/advanced-ambisonics/)
 
 # Week 12
 
