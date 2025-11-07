@@ -256,21 +256,7 @@ Explore full-featured or industry-standard spatial mixing software—compare int
 
 ## Monday
 
-### Focus: Authoring, Sequencing, and Integration  
-Use creative sequencing environments to structure spatial trajectories and integrate multiple systems.
-
-**Examples**  
-- Ossia Score (intermedia sequencer with spatial modules)  
-- Soundscaper-OSC (optional for interactive or locative work)
-
-**Discussion Prompts**  
-- How does temporal control differ from DAW automation?  
-- Discuss how these systems could drive SpatGRIS, SSR, or SPARTA via OSC.  
-- How might they support ecoacoustic or participatory projects?
-
-**Hands-On**  
-Compose a short (20–30 s) spatial sequence in Ossia Score, controlling either SpatGRIS or SSR in real time.  
-Document signal flow and export a render or live performance recording.
+- Pick one thing we've learned recently and experiment with it in class. 
 
 ## Wednesday
 
