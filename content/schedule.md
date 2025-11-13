@@ -264,7 +264,7 @@ Explore full-featured or industry-standard spatial mixing software—compare int
 
 ## Friday
 
-- Listen to your mixes and/or talk about problems you are having.
+- Listen to your mixes.
 
 > [Final Project Description](../projects/final) - Proposal Due 11/21; Project Due 12/12 - both submitted via D2L
 
@@ -294,11 +294,7 @@ Explore full-featured or industry-standard spatial mixing software—compare int
 
 - Final project setup session 
   - Meet in small groups to setup your project and ask questions.
-- Schedule: 
-  - 1:00 - 1:50
-    - Orlando, Reiter, Michael, Hunter
-  - 1:50 - 2:40 
-    - Abbie, Wiley, Mason
+
 
 
 ## Wed–Fri (Nov 26–28)

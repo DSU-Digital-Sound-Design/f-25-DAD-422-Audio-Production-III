@@ -55,8 +55,8 @@ Your proposal is a roadmap for your project. It should help you think through yo
 
 ## Part 2: Final Project (100 points)
 
-**Length:** 3–5 minutes
-**Format:** Ambisonics (B-format) or Dolby Atmos (ADM file)
+**Length:** 3–5 minutes.  
+**Format:** Ambisonics or Dolby Atmos 
 
 **What you can make:**
 
