@@ -275,7 +275,6 @@ Explore full-featured or industry-standard spatial mixing software—compare int
 - Proposal Workshop
   - Come in with specific ideas (concepts, tools, influences) for your final project, we'll discuss them as a class.  
 
-
 ## Wednesday 
 
 - Open session to talk about proposals 
@@ -287,15 +286,12 @@ Explore full-featured or industry-standard spatial mixing software—compare int
   - This is a chance to get feedback and suggestions from the class.
   - We'll also listen to your influences listed in the proposal. 
 
-
 # Week 14 (Nov 24)
 
 ## Monday
 
 - Final project setup session 
   - Meet in small groups to setup your project and ask questions.
-
-
 
 ## Wed–Fri (Nov 26–28)
 
