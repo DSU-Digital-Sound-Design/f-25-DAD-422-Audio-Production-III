@@ -36,18 +36,7 @@ Your proposal is a roadmap for your project. It should help you think through yo
    * What’s the concept or story? What do you want the listener to feel or experience?
    * Who or what inspires your project? (artist, film, soundscape, genre, etc.)
 
-3. **Project Goals**
-
-   * List 3–4 specific things you want to accomplish with this project.
-     * These can be technical (e.g., “successfully record and mix in Ambisonics”) or creative (e.g., “create a soundscape that shifts from calm to chaotic in a smooth spatial transition”).
-   * These goals will be the main reference point for your self-assessment later.
-
-4. **Creative & Technical Plan**
-
-   * What tools, techniques, and workflows will you use?
-   * Include microphones, plugins, virtual instruments, or spatialization methods you expect to try.
-
-5. **Timeline**
+3. **Timeline**
 
    * A simple plan for when you’ll record, edit, mix, and revise.
 
