@@ -10,7 +10,7 @@ You’ll create an immersive audio piece using either **Ambisonics** or **Dolby 
 This is your chance to bring together the skills we’ve explored in class, whether you’re making a musical composition or designing sound for a short film.
 The process has two parts:
 
-1. A proposal (15 points) that lays out your concept, goals, and approach.
+1. A proposal (30 points) that lays out your concept, goals, and approach.
 2. The final project (100 points) that develops your idea into a finished piece.
 
 We’re using an ungrading approach—your work will be evaluated based on how you set goals, work toward them, and reflect on what you’ve learned.
