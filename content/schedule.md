@@ -308,17 +308,11 @@ Explore full-featured or industry-standard spatial mixing software—compare int
 
 ## Wednesday 
 
-- Organized Work Session  
-  - Work on feedback suggestions from Monday. 
-- Schedule: 
-  - 1:00 - 1:50
-    - everyone 
-  - 2 - 4 pm 
-    - Go check out the Undergraduate Research projects in the Science Center Lobby. 
+- Go check out the Undergraduate Research projects in the Science Center Lobby. 
 
 ## Friday 
 
-- All students meet for feedback and sharing progress session. 
+- Remaining students show stuff. 
 
 # Week 16 (Dec 8)
 
