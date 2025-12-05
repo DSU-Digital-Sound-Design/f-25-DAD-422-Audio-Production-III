@@ -312,12 +312,14 @@ Explore full-featured or industry-standard spatial mixing software—compare int
 
 ## Friday 
 
-- Remaining students show stuff. 
-
+- Class canceled because of bad weather. 
+- Use this time to work on your final project.
+  
 # Week 16 (Dec 8)
 
 ## Monday 
 
+- Remaining students show stuff. 
 - Fill out course evaluations
 - ask any final questions or further feedback request before the final exam presentation. 
 
